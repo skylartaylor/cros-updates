@@ -10,11 +10,18 @@ import Paper from '@material-ui/core/Paper';
 const useStyles = makeStyles(theme => ({
   root: {
     width: '100%',
-    marginTop: theme.spacing(3),
+    margin: theme.spacing(3),
     overflowX: 'auto',
   },
   table: {
     minWidth: 650,
+    borderRadius: '20px',    
+  },
+  tableRow: {
+    '&:hover': {
+      background: 'rgb(45, 46, 47)',
+      transition: 'all 0.2s ease-in' 
+    }
   },
 }));
 
@@ -37,11 +44,11 @@ export default function TableView(props) {
         </TableHead>
         <TableBody>
           {data.map(row => (
-            <TableRow key={row.name}>
+            <TableRow key={row.name} className={classes.tableRow}>
               <TableCell component="th" scope="row">
                 {row.name}
               </TableCell>
-              <TableCell>{row.Brand_names}</TableCell>
+              <TableCell className={classes.brandName}>{row.Brand_names.length > 200 ? truncateText(row.Brand_names): row.Brand_names}</TableCell>
               <TableCell align="right">{row.Stable}</TableCell>
               <TableCell align="right">{row.Beta}</TableCell>
               <TableCell align="right">{row.Dev}</TableCell>
