@@ -1,29 +1,26 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
-import MuiDownshift from 'mui-downshift'
+import { makeStyles } from "@material-ui/core/styles"
+import { Box } from "@material-ui/core"
+import DeviceSearch from "../components/DeviceSearch"
 
-import TableView from '../components/TableView'
+const useStyles = makeStyles(theme => ({
+  box: {
+    width: "60%",
+    margin: "30px auto",
+    height: "300px",
+  },
+  header: {
+    textAlign: "center",
+  },
+}))
 
-export const query = graphql`
-  query {
-    allCrosUpdates3Json {
-      nodes {
-        value: name
-      }
-    }
-  }
-`
+export default function Index() {
+  const classes = useStyles()
 
-class Index extends React.Component {
-  render() {
-    var data = this.props.data.allCrosUpdates3Json.nodes
-    console.log(data)
-    return (
-      <>
-        <MuiDownshift  data={data} />
-      </>
-    )
-  }
+  return (
+    <Box className={classes.box}>
+      <h1 className={classes.header}>Find your Chrome OS Device</h1>
+      <DeviceSearch />
+    </Box>
+  )
 }
-
-export default Index

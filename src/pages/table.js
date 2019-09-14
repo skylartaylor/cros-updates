@@ -1,7 +1,7 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 
-import TableView from '../components/TableView'
+import TableView from "../components/TableView"
 
 export const query = graphql`
   query {
@@ -23,7 +23,7 @@ class Index extends React.Component {
     var data = this.props.data.allCrosUpdates3Json.nodes
     return (
       <>
-        <TableView  data={data} />
+        <TableView data={data} />
       </>
     )
   }
