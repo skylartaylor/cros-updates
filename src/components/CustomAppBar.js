@@ -149,7 +149,7 @@ export default function CustomAppBar() {
               <SearchIcon />
             </div>
             <InputBase
-              placeholder="Search…"
+              placeholder="Search Devices"
               classes={{
                 root: classes.inputRoot,
                 input: classes.inputInput,
