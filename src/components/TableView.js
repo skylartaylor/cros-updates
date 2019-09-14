@@ -25,6 +25,10 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
+function truncateText(text) {
+  return text.slice(0, 100) + "...";
+}
+
 export default function TableView(props) {
   const classes = useStyles();
   const data = props.data
