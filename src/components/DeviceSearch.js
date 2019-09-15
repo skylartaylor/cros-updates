@@ -33,8 +33,7 @@ class Search extends Component {
       <MuiDownshift
         items={this.state.filteredItems}
         onStateChange={handleStateChange}
-        // getListItemKey={rowIndex => filteredItems[rowIndex].value}
-        // keyMapper={rowIndex => filteredItems[rowIndex] && filteredItems[rowIndex].label}
+        variant="filled"
         {...this.props}
         inputRef={node => {
           this.input = node
