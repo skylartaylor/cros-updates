@@ -15,7 +15,7 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    'gatsby-plugin-layout',
+    "gatsby-plugin-layout",
     `gatsby-plugin-material-ui`,
     {
       resolve: `gatsby-plugin-manifest`,
@@ -34,7 +34,7 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `./src/data/cros-updates-3.json`,
+        path: `./src/data/cros-updates.json`,
       },
     },
   ],

@@ -1,30 +1,47 @@
 import React from "react"
 import PropTypes from "prop-types"
 
-import CssBaseline from '@material-ui/core/CssBaseline';
-import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
-import { Box } from '@material-ui/core'
+import CssBaseline from "@material-ui/core/CssBaseline"
+import {
+  MuiThemeProvider,
+  createMuiTheme,
+  makeStyles,
+} from "@material-ui/core/styles"
+import { Grid, Box } from "@material-ui/core"
 
-import CustomAppBar from '../components/CustomAppBar'
+import CustomAppBar from "../components/CustomAppBar"
 
 const theme = createMuiTheme({
-    palette: {
-      type: 'dark',
-      primary: { 500: '#FF3C00' },
-    },
-  });
+  palette: {
+    type: "dark",
+    primary: { 500: "#FF3C00" },
+  },
+})
+
+const useStyles = makeStyles(theme => ({
+  base: {
+    height: "100vh",
+    display: "flex",
+  },
+  body: {
+    flexGrow: "1",
+  },
+}))
 
 const Layout = ({ children }) => {
+  const classes = useStyles()
   return (
-    <>
-        <MuiThemeProvider theme={theme}>
-            <CssBaseline />
-            <CustomAppBar />
-            <Box>
-                { children }
-            </Box>
-        </MuiThemeProvider>
-    </>
+    <Grid className={classes.base} direction="column">
+      <MuiThemeProvider theme={theme}>
+        <CssBaseline />
+        <Grid item>
+          <CustomAppBar />
+        </Grid>
+        <Grid item className={classes.body}>
+          {children}
+        </Grid>
+      </MuiThemeProvider>
+    </Grid>
   )
 }
 

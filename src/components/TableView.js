@@ -1,37 +1,36 @@
-import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import Table from '@material-ui/core/Table';
-import TableBody from '@material-ui/core/TableBody';
-import TableCell from '@material-ui/core/TableCell';
-import TableHead from '@material-ui/core/TableHead';
-import TableRow from '@material-ui/core/TableRow';
-import Paper from '@material-ui/core/Paper';
+import React from "react"
+import { makeStyles } from "@material-ui/core/styles"
+import Table from "@material-ui/core/Table"
+import TableBody from "@material-ui/core/TableBody"
+import TableCell from "@material-ui/core/TableCell"
+import TableHead from "@material-ui/core/TableHead"
+import TableRow from "@material-ui/core/TableRow"
+import Paper from "@material-ui/core/Paper"
 
 const useStyles = makeStyles(theme => ({
   root: {
-    width: '100%',
-    marginTop: theme.spacing(3),
-    overflowX: 'auto',
+    width: "100%",
+    padding: theme.spacing(3),
+    overflowX: "auto",
   },
   table: {
     minWidth: 650,
+    borderRadius: "20px",
   },
-}));
+  tableRow: {
+    "&:hover": {
+      background: "rgb(45, 46, 47)",
+      transition: "all 0.2s ease-in",
+    },
+  },
+}))
 
-function createData(name, calories, fat, carbs, protein) {
-  return { name, calories, fat, carbs, protein };
+function truncateText(text) {
+  return text.slice(0, 100) + "..."
 }
 
-const rows = [
-  createData('Frozen yoghurt', 159, 6.0, 24, 4.0),
-  createData('Ice cream sandwich', 237, 9.0, 37, 4.3),
-  createData('Eclair', 262, 16.0, 24, 6.0),
-  createData('Cupcake', 305, 3.7, 67, 4.3),
-  createData('Gingerbread', 356, 16.0, 49, 3.9),
-];
-
 export default function TableView(props) {
-  const classes = useStyles();
+  const classes = useStyles()
   const data = props.data
   console.log(data)
   return (
@@ -49,11 +48,15 @@ export default function TableView(props) {
         </TableHead>
         <TableBody>
           {data.map(row => (
-            <TableRow key={row.name}>
+            <TableRow key={row.name} className={classes.tableRow}>
               <TableCell component="th" scope="row">
-                {row.name}
+                {row.Codename}
               </TableCell>
-              <TableCell>{row.Brand_names}</TableCell>
+              <TableCell className={classes.brandName}>
+                {row.Brand_names.length > 200
+                  ? truncateText(row.Brand_names)
+                  : row.Brand_names}
+              </TableCell>
               <TableCell align="right">{row.Stable}</TableCell>
               <TableCell align="right">{row.Beta}</TableCell>
               <TableCell align="right">{row.Dev}</TableCell>
@@ -63,5 +66,5 @@ export default function TableView(props) {
         </TableBody>
       </Table>
     </Paper>
-  );
+  )
 }
