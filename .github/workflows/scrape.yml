@@ -1,0 +1,23 @@
+name: Node CI
+
+on:
+  schedule:
+  - cron: '*/30 * * * *'
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Use Node.js 12.x
+      uses: actions/setup-node@v1
+      with:
+        node-version: '12.x'
+    - name: npm install, run scrape
+      run: |
+        npm install
+        npm run scrape
+      env:
+        CI: true
