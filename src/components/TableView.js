@@ -50,7 +50,7 @@ export default function TableView(props) {
           {data.map(row => (
             <TableRow key={row.name} className={classes.tableRow}>
               <TableCell component="th" scope="row">
-                {row.name}
+                {row.Codename}
               </TableCell>
               <TableCell className={classes.brandName}>
                 {row.Brand_names.length > 200

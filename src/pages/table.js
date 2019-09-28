@@ -4,15 +4,15 @@ import { graphql } from "gatsby"
 import TableView from "../components/TableView"
 
 export const query = graphql`
-  query {
-    allCrosUpdates3Json {
+  query MyQuery {
+    allCrosUpdatesJson(filter: { Brand_names: { ne: null } }) {
       nodes {
-        name
+        Codename
         Brand_names
-        Stable
-        Beta
-        Dev
         Canary
+        Dev
+        Beta
+        Stable
       }
     }
   }
@@ -20,7 +20,7 @@ export const query = graphql`
 
 class Index extends React.Component {
   render() {
-    var data = this.props.data.allCrosUpdates3Json.nodes
+    var data = this.props.data.allCrosUpdatesJson.nodes
     return (
       <>
         <TableView data={data} />

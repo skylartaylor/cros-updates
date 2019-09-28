@@ -19,11 +19,13 @@
     "gatsby-source-filesystem": "^2.1.22",
     "gatsby-transformer-json": "^2.2.8",
     "gatsby-transformer-sharp": "^2.2.14",
+    "json2csv": "^4.5.3",
     "mui-downshift": "^1.4.1",
     "prop-types": "^15.7.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-helmet": "^5.2.1"
+    "react-helmet": "^5.2.1",
+    "tabletojson": "^1.0.4"
   },
   "devDependencies": {
     "prettier": "^1.18.2"
@@ -38,7 +40,8 @@
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \""
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \"",
+    "scrape": "node scripts/scrape.js"
   },
   "repository": {
     "type": "git",

@@ -9,15 +9,13 @@ class Search extends Component {
   }
 
   state = {
-    filteredItems: this.props.data.allCrosUpdates3Json.nodes,
+    filteredItems: this.props.data.allCrosUpdatesJson.nodes,
   }
 
   render() {
     const { filteredItems } = this.state
-    const items = this.props.data.allCrosUpdates3Json.nodes
-
+    const items = this.props.data.allCrosUpdatesJson.nodes
     const handleStateChange = changes => {
-      console.log(changes)
       if (typeof changes.inputValue === "string") {
         const filteredItems = items.filter(item =>
           item.label.toLowerCase().includes(changes.inputValue.toLowerCase())
@@ -51,9 +49,9 @@ export default props => (
   <StaticQuery
     query={graphql`
       query {
-        allCrosUpdates3Json {
+        allCrosUpdatesJson(filter: { Brand_names: { ne: null } }) {
           nodes {
-            value: name
+            value: Codename
             label: Brand_names
           }
         }
