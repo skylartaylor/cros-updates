@@ -24,7 +24,8 @@ jobs:
         env:
           CI: true
           myToken: ${{ secrets.GITHUB_TOKEN }}
-      - name: GitHub Push
-        uses: ad-m/github-push-action@v.0.4.0
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit changes
+        uses: elstudio/actions-js-build/commit@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PUSH_BRANCH: "master"
