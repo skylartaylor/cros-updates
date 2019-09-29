@@ -3,6 +3,9 @@ name: Scrape cros-updates-serving
 on:
   schedule:
     - cron: "*/15 * * * *"
+  push:
+    paths:
+      - ".github/*"
 
 jobs:
   build:
