@@ -16,7 +16,7 @@ jobs:
           node-version: "12.x"
       - name: Scraping
         run: |
-          npm install
+          npm install tabletojson json2csv
           npm run scrape
         env:
           CI: true
