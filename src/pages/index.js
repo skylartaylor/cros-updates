@@ -30,6 +30,9 @@ export default function Index() {
       <Grid item className={classes.item}>
         <Card>
           <CardContent>
+            <h3 className={classes.header}>
+              This website is *extremely broken* and under construction!
+            </h3>
             <h1 className={classes.header}>Find your Chrome OS Device</h1>
             <DeviceSearch />
           </CardContent>
