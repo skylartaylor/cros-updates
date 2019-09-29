@@ -4,12 +4,9 @@ const { Parser } = require("json2csv")
 
 var url = "https://cros-updates-serving.appspot.com/"
 
-tabletojson.convertUrl(url, function(tablesAsJson) {
-  var datamap = {}
-  tablesAsJson[0].forEach(element => {
-    datamap[element.Codename] = element
-  })
-
+tabletojson.convertUrl(url, { stripHtmlFromCells: false }, function(
+  tablesAsJson
+) {
   fs.writeFile(
     "./src/data/cros-updates.json",
     JSON.stringify(tablesAsJson[0], null, 4),

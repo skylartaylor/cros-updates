@@ -39,7 +39,7 @@ export default function TableView(props) {
         <TableHead>
           <TableRow>
             <TableCell>Board Name</TableCell>
-            <TableCell>Devices</TableCell>
+            <TableCell>Device Name(s)</TableCell>
             <TableCell align="right">Stable</TableCell>
             <TableCell align="right">Beta</TableCell>
             <TableCell align="right">Dev</TableCell>
@@ -50,17 +50,25 @@ export default function TableView(props) {
           {data.map(row => (
             <TableRow key={row.name} className={classes.tableRow}>
               <TableCell component="th" scope="row">
-                {row.Codename}
+                <div dangerouslySetInnerHTML={{ __html: row.Codename }}></div>
               </TableCell>
               <TableCell className={classes.brandName}>
                 {row.Brand_names.length > 200
                   ? truncateText(row.Brand_names)
                   : row.Brand_names}
               </TableCell>
-              <TableCell align="right">{row.Stable}</TableCell>
-              <TableCell align="right">{row.Beta}</TableCell>
-              <TableCell align="right">{row.Dev}</TableCell>
-              <TableCell align="right">{row.Canary}</TableCell>
+              <TableCell align="right">
+                <div dangerouslySetInnerHTML={{ __html: row.Stable }}></div>
+              </TableCell>
+              <TableCell align="right">
+                <div dangerouslySetInnerHTML={{ __html: row.Beta }}></div>
+              </TableCell>
+              <TableCell align="right">
+                <div dangerouslySetInnerHTML={{ __html: row.Dev }}></div>
+              </TableCell>
+              <TableCell align="right">
+                <div dangerouslySetInnerHTML={{ __html: row.Canary }}></div>
+              </TableCell>
             </TableRow>
           ))}
         </TableBody>
