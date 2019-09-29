@@ -14,10 +14,14 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: "12.x"
-      - name: npm install, run scrape
+      - name: Scraping
         run: |
           npm install
           npm run scrape
         env:
           CI: true
-          myToken: ${{ secrets.GITHUB_TOKEN }
+          myToken: ${{ secrets.GITHUB_TOKEN }}
+      - name: GitHub Push
+        uses: ad-m/github-push-action@v.0.4.0
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
