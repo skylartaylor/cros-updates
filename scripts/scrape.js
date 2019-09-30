@@ -19,8 +19,15 @@ tabletojson.convertUrl(url, { stripHtmlFromCells: false }, function(
     if (err) throw err
   })
 
+  const csvdata = data.map(item => {
+    Object.keys(item).forEach(function(key) {
+      item[key] = item[key].replace("<br>", "\\n")
+    })
+    return item
+  })
+
   const json2csvParser = new Parser()
-  const csv = json2csvParser.parse(data)
+  const csv = json2csvParser.parse(csvdata)
 
   fs.writeFile("./src/data/cros-updates.csv", csv, err => {
     if (err) throw err
