@@ -21,7 +21,7 @@
     "gatsby-source-filesystem": "^2.1.22",
     "gatsby-transformer-json": "^2.2.8",
     "gatsby-transformer-sharp": "^2.2.14",
-    "json2csv": "^4.5.3",
+    "json2csv": "^4.5.4",
     "mui-downshift": "^1.4.1",
     "prop-types": "^15.7.2",
     "react": "^16.9.0",
