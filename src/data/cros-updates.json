@@ -13,6 +13,19 @@
         "Brand names": "Dell Chromebook 13 (3380)"
     },
     {
+        "Codename": "atlas",
+        "Pinned 74": "no update",
+        "Pinned 75": "12105.105.0<br>75.0.3770.149",
+        "Pinned 76": "12239.92.0<br>76.0.3809.136",
+        "Pinned 77": "12371.75.7<br>77.0.3865.105",
+        "Stable": "12371.75.7<br>77.0.3865.105",
+        "Beta": "12499.46.0<br>78.0.3904.81",
+        "Dev": "12607.9.0<br>79.0.3945.13",
+        "Canary": "12635.0.0<br>80.0.3951.3",
+        "Recovery": "no update",
+        "Brand names": "Google Pixelbook Go"
+    },
+    {
         "Codename": "banjo",
         "Pinned 74": "11895.118.0<br>74.0.3729.159",
         "Pinned 75": "12105.100.0<br>75.0.3770.144",
@@ -897,7 +910,7 @@
         "Brand names": "Acer Chromebook 15 (CB5-571, C910)"
     },
     {
-        "Codename": "AUE Devices - No recent updates for butterfly, daisy, daisy-spring, link, lumpy, parrot-ivb, stout, stumpy, x86-alex, x86-mario, x86-zgb"
+        "Codename": "AUE Devices - No recent updates for butterfly, daisy, daisy-spring, link, lumpy, parrot-ivb, stout, stumpy, x86-alex-he, x86-mario, x86-zgb"
     },
     {
         "Codename": "big",
@@ -939,7 +952,7 @@
         "Brand names": "Lenovo N20 Chromebook"
     },
     {
-        "Codename": "falco-li",
+        "Codename": "falco",
         "Pinned 74": "11895.118.0<br>74.0.3729.159",
         "Pinned 75": "12105.100.0<br>75.0.3770.144",
         "Pinned 76": "12239.92.0<br>76.0.3809.136",
