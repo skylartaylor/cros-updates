@@ -22,7 +22,7 @@
         "Beta": "12499.46.0<br>78.0.3904.81",
         "Dev": "12607.9.0<br>79.0.3945.13",
         "Canary": "12638.0.0<br>80.0.3951.3",
-        "Recovery": "no update",
+        "Recovery": "<a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12105.105.0_atlas_recovery_stable-channel_mp.bin.zip\">75</a>",
         "Brand names": "Google Pixelbook Go"
     },
     {
@@ -178,7 +178,7 @@
         "Beta": "12499.46.0<br>78.0.3904.81",
         "Dev": "12607.9.0<br>79.0.3945.13",
         "Canary": "12638.0.0<br>80.0.3951.3",
-        "Recovery": "<a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_10452.99.0_edgar_recovery_stable-channel_mp-v2.bin.zip\">66</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_10575.58.0_edgar_recovery_stable-channel_mp-v2.bin.zip\">67</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_10718.88.2_edgar_recovery_stable-channel_mp-v2.bin.zip\">68</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_10895.56.0_edgar_recovery_stable-channel_mp-v2.bin.zip\">69</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_11021.81.0_edgar_recovery_stable-channel_mp-v2.bin.zip\">70</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_11151.113.0_edgar_recovery_stable-channel_mp-v2.bin.zip\">71</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_11316.165.0_edgar_recovery_stable-channel_mp-v2.bin.zip\">72</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_11647.104.0_edgar_recovery_stable-channel_mp-v2.bin.zip\">73</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_11895.118.0_edgar_recovery_stable-channel_mp-v2.bin.zip\">74</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12105.100.0_edgar_recovery_stable-channel_mp-v2.bin.zip\">75</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12239.92.1_edgar_recovery_stable-channel_mp-v2.bin.zip\">76</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12371.75.0_edgar_recovery_stable-channel_mp-v2.bin.zip\">77</a>",
+        "Recovery": "<a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_10452.99.0_edgar_recovery_stable-channel_mp-v2.bin.zip\">66</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_10575.58.0_edgar_recovery_stable-channel_mp-v2.bin.zip\">67</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_10718.88.2_edgar_recovery_stable-channel_mp-v2.bin.zip\">68</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_10895.56.0_edgar_recovery_stable-channel_mp-v2.bin.zip\">69</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_11021.81.0_edgar_recovery_stable-channel_mp-v2.bin.zip\">70</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_11151.113.0_edgar_recovery_stable-channel_mp-v2.bin.zip\">71</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_11316.165.0_edgar_recovery_stable-channel_mp-v2.bin.zip\">72</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_11647.104.0_edgar_recovery_stable-channel_mp-v2.bin.zip\">73</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_11895.118.0_edgar_recovery_stable-channel_mp-v2.bin.zip\">74</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12105.100.0_edgar_recovery_stable-channel_mp-v2.bin.zip\">75</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12239.67.0_edgar_recovery_stable-channel_mp-v2.bin.zip\">76</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12371.75.0_edgar_recovery_stable-channel_mp-v2.bin.zip\">77</a>",
         "Brand names": "Acer Chromebook 14 (CB3-431)"
     },
     {
@@ -910,7 +910,7 @@
         "Brand names": "Acer Chromebook 15 (CB5-571, C910)"
     },
     {
-        "Codename": "AUE Devices - No recent updates for butterfly, daisy, daisy-spring, link, lumpy, parrot-ivb, stout, stumpy, x86-alex-he, x86-mario, x86-zgb"
+        "Codename": "AUE Devices - No recent updates for butterfly, daisy, daisy-spring, link, lumpy, parrot, stout, stumpy, x86-alex-he, x86-mario, x86-zgb-he"
     },
     {
         "Codename": "big",
