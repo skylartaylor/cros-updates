@@ -28,7 +28,7 @@
     "react-dom": "^16.9.0",
     "react-helmet": "^5.2.1",
     "string-strip-html": "^4.3.0",
-    "tabletojson": "^1.0.4"
+    "tabletojson": "^1.1.0"
   },
   "devDependencies": {
     "prettier": "^1.18.2"
