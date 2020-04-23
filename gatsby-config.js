@@ -37,5 +37,9 @@ module.exports = {
         path: `./src/data/cros-updates.json`,
       },
     },
+    {
+      resolve: `gatsby-plugin-create-client-paths`,
+      options: { prefixes: [`/device/*`] },
+    },
   ],
 }
