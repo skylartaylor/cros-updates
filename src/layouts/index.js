@@ -31,7 +31,7 @@ const useStyles = makeStyles(theme => ({
 const Layout = ({ children }) => {
   const classes = useStyles()
   return (
-    <Grid className={classes.base} direction="column">
+    <Grid className={classes.base} direction="column" container>
       <MuiThemeProvider theme={theme}>
         <CssBaseline />
         <Grid item>

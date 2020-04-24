@@ -13,12 +13,8 @@ const useStyles = makeStyles({
 
 export default function Device(props) {
   const classes = useStyles()
-  var deviceList = props.deviceList
-  var urlDevice = props.boardName
 
-  var selectedDevice = deviceList.filter(function (device) {
-    return device.Codename === urlDevice
-  })[0]
+  var selectedDevice = props.pageContext
 
   function splitVersion(versionstring) {
     var values = versionstring.split("<br>")
@@ -30,7 +26,7 @@ export default function Device(props) {
 
   var formattedDevice = {
     Codename: selectedDevice.Codename,
-    Brand_names: selectedDevice.Brand_names,
+    Brand_names: selectedDevice["Brand names"],
     Stable: splitVersion(selectedDevice.Stable),
     Beta: splitVersion(selectedDevice.Beta),
     Dev: splitVersion(selectedDevice.Dev),
@@ -44,8 +40,8 @@ export default function Device(props) {
       justify="center"
     >
       <Grid item>
-        <h1>{selectedDevice.Brand_names}</h1>
-        <p>{selectedDevice.Codename}</p>
+        <h1>{formattedDevice.Brand_names}</h1>
+        <p>{formattedDevice.Codename}</p>
         <DeviceVersions device={formattedDevice} />
       </Grid>
     </Grid>

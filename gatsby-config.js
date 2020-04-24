@@ -16,7 +16,13 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     "gatsby-plugin-layout",
-    `gatsby-plugin-material-ui`,
+    {
+      resolve: 'gatsby-plugin-material-ui',
+      options: {
+        disableAutoprefixing: true,
+        disableMinification: true,
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -36,10 +42,6 @@ module.exports = {
       options: {
         path: `./src/data/cros-updates.json`,
       },
-    },
-    {
-      resolve: `gatsby-plugin-create-client-paths`,
-      options: { prefixes: [`/device/*`] },
     },
     'gatsby-plugin-netlify',
   ],
