@@ -8,7 +8,23 @@ import DeviceVersions from './DeviceVersions'
 const useStyles = makeStyles({
   grid: {
     height: "100%",
+    width: "100%",
+    marginTop: "50px",
   },
+  deviceInfo: {
+    fontSize: "1.2em",
+    '& h1': {
+      textAlign: "center",
+      margin: 0,
+      padding: 0,
+    },
+    '& p': {
+      textAlign: "center",
+      fontStyle: "italic",
+      margin: "0 0 50px 0",
+      padding: 0,
+    }
+  }
 })
 
 export default function Device(props) {
@@ -36,12 +52,14 @@ export default function Device(props) {
     <Grid
       container
       className={classes.grid}
-      alignContent="center"
+//      alignContent="center"
       justify="center"
     >
       <Grid item>
-        <h1>{formattedDevice.Brand_names}</h1>
-        <p>{formattedDevice.Codename}</p>
+        <div className={classes.deviceInfo}>
+          <h1>{formattedDevice.Brand_names}</h1>
+          <p>board: {formattedDevice.Codename}</p>
+        </div>
         <DeviceVersions device={formattedDevice} />
       </Grid>
     </Grid>

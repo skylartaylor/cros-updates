@@ -6,7 +6,7 @@ import DeviceSearch from "../components/DeviceSearch"
 const useStyles = makeStyles(theme => ({
   grid: {
     padding: theme.spacing(3),
-    height: "100%",
+    height: "auto"
   },
   header: {
     textAlign: "center",

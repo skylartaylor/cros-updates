@@ -1,57 +1,50 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "gatsby-starter-material-ui",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "A simple starter to get up and developing quickly with Gatsby and Material UI",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Dominic Abela <djmabela@gmail.com>",
   "dependencies": {
-    "@actions/core": "^1.2.3",
-    "@actions/github": "^1.1.0",
-    "@material-ui/core": "^4.9.11",
-    "@material-ui/icons": "^4.9.1",
-    "@material-ui/styles": "^4.9.10",
-    "gatsby": "^2.20.29",
-    "gatsby-image": "^2.3.4",
-    "gatsby-plugin-layout": "^1.2.3",
-    "gatsby-plugin-manifest": "^2.3.6",
-    "gatsby-plugin-material-ui": "^2.1.6",
-    "gatsby-plugin-netlify": "^2.2.3",
-    "gatsby-plugin-offline": "^2.2.10",
-    "gatsby-plugin-react-helmet": "^3.2.4",
-    "gatsby-plugin-sharp": "^2.5.6",
-    "gatsby-source-filesystem": "^2.2.4",
-    "gatsby-transformer-json": "^2.3.3",
-    "gatsby-transformer-sharp": "^2.4.6",
-    "json2csv": "^4.5.4",
+    "@material-ui/core": "^4.0.1",
+    "@material-ui/icons": "^4.2.0",
+    "@material-ui/styles": "^4.0.1",
+    "gatsby": "^2.7.5",
+    "gatsby-image": "^2.1.2",
+    "gatsby-plugin-layout": "^1.2.4",
+    "gatsby-plugin-manifest": "^2.1.1",
+    "gatsby-plugin-material-ui": "^2.0.1",
+    "gatsby-plugin-netlify": "^2.2.4",
+    "gatsby-plugin-offline": "^2.1.1",
+    "gatsby-plugin-react-helmet": "^3.0.12",
+    "gatsby-source-filesystem": "^2.0.37",
+    "gatsby-transformer-json": "^2.3.4",
     "mui-downshift": "^1.4.1",
     "prop-types": "^15.7.2",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1",
-    "string-strip-html": "^4.3.22",
-    "tabletojson": "^1.2.0"
+    "typeface-roboto": "0.0.54"
   },
   "devDependencies": {
-    "prettier": "^1.19.1"
+    "prettier": "^1.18.2"
   },
   "keywords": [
     "gatsby"
   ],
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
+    "build": "gatsby build && gatsby serve",
     "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \"",
-    "scrape": "node scripts/scrape.js"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/dominicabela/gatsby-starter-material-ui"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/dominicabela/gatsby-starter-material-ui/issues"
   }
 }

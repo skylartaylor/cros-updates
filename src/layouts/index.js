@@ -20,7 +20,6 @@ const theme = createMuiTheme({
 
 const useStyles = makeStyles(theme => ({
   base: {
-    height: "100vh",
     display: "flex",
   },
   body: {
