@@ -4,19 +4,26 @@ import AppBar from "@material-ui/core/AppBar"
 import Toolbar from "@material-ui/core/Toolbar"
 import IconButton from "@material-ui/core/IconButton"
 import Typography from "@material-ui/core/Typography"
-import InputBase from "@material-ui/core/InputBase"
-import Badge from "@material-ui/core/Badge"
 import MenuItem from "@material-ui/core/MenuItem"
 import Menu from "@material-ui/core/Menu"
 import MenuIcon from "@material-ui/icons/Menu"
-import SearchIcon from "@material-ui/icons/Search"
+import { Link } from "gatsby"
 
 const useStyles = makeStyles(theme => ({
   menuButton: {
     marginRight: theme.spacing(2),
   },
+  link: {
+    textDecoration: "none",
+  },
   title: {
     display: "block",
+    textDecoration: "none",
+    color: "#FFFFFF",
+    fontWeight: "400",
+    '&:hover': {
+      opacity: "0.8",
+    },
   },
   search: {
     position: "relative",
@@ -133,22 +140,11 @@ export default function CustomAppBar() {
           >
             <MenuIcon />
           </IconButton>
-          <Typography className={classes.title} variant="h6" noWrap>
-            Chrome OS Updates
-          </Typography>
-          <div className={classes.search}>
-            <div className={classes.searchIcon}>
-              <SearchIcon />
-            </div>
-            <InputBase
-              placeholder="Search Devices"
-              classes={{
-                root: classes.inputRoot,
-                input: classes.inputInput,
-              }}
-              inputProps={{ "aria-label": "search" }}
-            />
-          </div>
+          <Link to="/" className={classes.link}>
+            <Typography className={classes.title} variant="h6" noWrap>
+              Chrome OS Updates
+            </Typography>
+          </Link>
           <div className={classes.grow} />
         </Toolbar>
       </AppBar>

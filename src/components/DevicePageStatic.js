@@ -1,7 +1,6 @@
 import React from "react"
 import { makeStyles } from "@material-ui/core/styles"
-import { Grid, Card, CardContent } from "@material-ui/core"
-import { graphql } from "gatsby"
+import { Grid } from "@material-ui/core"
 
 import DeviceVersions from './DeviceVersions'
 

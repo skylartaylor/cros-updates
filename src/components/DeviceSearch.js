@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import MuiDownshift from "mui-downshift"
 import PropTypes from "prop-types"
-import { StaticQuery, graphql } from "gatsby"
+import { StaticQuery, graphql, navigate } from "gatsby"
 
 class Search extends Component {
   static defaultProps = {
@@ -15,15 +15,22 @@ class Search extends Component {
   render() {
     const { filteredItems } = this.state
     const items = this.props.data.allCrosUpdatesJson.nodes
+
     const handleStateChange = changes => {
+
       if (typeof changes.inputValue === "string") {
         const filteredItems = items.filter(item =>
           item.label.toLowerCase().includes(changes.inputValue.toLowerCase())
         )
         this.setState({ filteredItems })
       }
+
       if (this.input && this.props.blurOnSelect) {
         this.input.blur()
+      }
+
+      if (changes.type === "__autocomplete_click_item__" || changes.type === "__autocomplete_keydown_enter__" || changes.type === 6 || changes.type === 7) {
+        navigate("/device/" + changes.selectedItem.value)
       }
     }
 

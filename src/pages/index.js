@@ -10,30 +10,37 @@ const useStyles = makeStyles(theme => ({
   },
   header: {
     textAlign: "center",
+    '& h1': {
+      margin: "15px 0px 5px 0px",
+    },
+    '& h3': {
+      fontWeight: "300",
+      fontStyle: "italic",
+      fontSize: "0.95em",
+      margin: "0px 0px 30px 0px",
+    },
   },
   item: {
     minWidth: "60%",
   },
 }))
 
-export default function Index() {
+export default function Index(props) {
   const classes = useStyles()
-
   return (
     <Grid
       container
       className={classes.grid}
       alignContent="center"
       justify="center"
-      flexGrow={1}
     >
       <Grid item className={classes.item}>
         <Card>
-          <CardContent>
-            <h3 className={classes.header}>
-              This website is *extremely broken* and under construction!
+          <CardContent className={classes.header}>
+            <h1>Find your Chrome OS Device</h1>
+            <h3>
+              This website is *reasonably broken* and under construction!
             </h3>
-            <h1 className={classes.header}>Find your Chrome OS Device</h1>
             <DeviceSearch />
           </CardContent>
         </Card>
