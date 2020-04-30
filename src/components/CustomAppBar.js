@@ -1,155 +1,121 @@
-import React from "react"
-import { fade, makeStyles } from "@material-ui/core/styles"
-import AppBar from "@material-ui/core/AppBar"
-import Toolbar from "@material-ui/core/Toolbar"
-import IconButton from "@material-ui/core/IconButton"
-import Typography from "@material-ui/core/Typography"
-import MenuItem from "@material-ui/core/MenuItem"
-import Menu from "@material-ui/core/Menu"
-import MenuIcon from "@material-ui/icons/Menu"
-import { Link } from "gatsby"
+import React from 'react';
+import PropTypes from 'prop-types';
+import { withStyles } from '@material-ui/core/styles';
 
-const useStyles = makeStyles(theme => ({
+import { AppBar, Toolbar, Typography, IconButton, Drawer, List, ListItem, ListItemIcon, ListItemText } from "@material-ui/core"
+import CancelIcon from '@material-ui/icons/Cancel'
+import MenuIcon from '@material-ui/icons/Menu'
+import HomeIcon from '@material-ui/icons/Home'
+import TableChartIcon from '@material-ui/icons/TableChart'
+import { Link as RouterLink} from "gatsby"
+
+const styles = {
+  root: {
+    width: '100%',
+  },
+  flex: {
+    flex: 1,
+  },
   menuButton: {
-    marginRight: theme.spacing(2),
+    marginLeft: -12,
+    marginRight: 20,
+  },
+  drawerHeader: {
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'flex-start',
+    padding: '10px 8px',
+  },
+  drawerPaper: {
+    minWidth: "300px"
   },
   link: {
     textDecoration: "none",
-  },
-  title: {
-    display: "block",
-    textDecoration: "none",
-    color: "#FFFFFF",
-    fontWeight: "400",
-    '&:hover': {
-      opacity: "0.8",
+    '& h6:hover': {
+      opacity: "0.5",
     },
   },
-  search: {
-    position: "relative",
-    borderRadius: theme.shape.borderRadius,
-    backgroundColor: fade(theme.palette.common.white, 0.15),
-    "&:hover": {
-      backgroundColor: fade(theme.palette.common.white, 0.25),
-    },
-    marginRight: theme.spacing(2),
-    marginLeft: 0,
-    width: "100%",
-    [theme.breakpoints.up("sm")]: {
-      marginLeft: theme.spacing(3),
-      width: "auto",
-    },
-  },
-  searchIcon: {
-    width: theme.spacing(7),
-    height: "100%",
-    position: "absolute",
-    pointerEvents: "none",
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-  inputRoot: {
-    color: "inherit",
-  },
-  inputInput: {
-    padding: theme.spacing(1, 1, 1, 7),
-    transition: theme.transitions.create("width"),
-    width: "100%",
-    [theme.breakpoints.up("md")]: {
-      width: 200,
-    },
-  },
-  sectionDesktop: {
-    display: "none",
-    [theme.breakpoints.up("md")]: {
-      display: "flex",
-    },
-  },
-  sectionMobile: {
-    display: "flex",
-    [theme.breakpoints.up("md")]: {
-      display: "none",
-    },
-  },
-}))
+};
 
-export default function CustomAppBar() {
-  const classes = useStyles()
-  const [anchorEl, setAnchorEl] = React.useState(null)
-  const [mobileMoreAnchorEl, setMobileMoreAnchorEl] = React.useState(null)
+function ListItemLink(props) {
+  const { icon, primary, to, onClick } = props;
 
-  const isMenuOpen = Boolean(anchorEl)
-  const isMobileMenuOpen = Boolean(mobileMoreAnchorEl)
-
-  function handleProfileMenuOpen(event) {
-    setAnchorEl(event.currentTarget)
-  }
-
-  function handleMobileMenuClose() {
-    setMobileMoreAnchorEl(null)
-  }
-
-  function handleMenuClose() {
-    setAnchorEl(null)
-    handleMobileMenuClose()
-  }
-
-  function handleMobileMenuOpen(event) {
-    setMobileMoreAnchorEl(event.currentTarget)
-  }
-
-  const menuId = "primary-search-account-menu"
-  const renderMenu = (
-    <Menu
-      anchorEl={anchorEl}
-      anchorOrigin={{ vertical: "top", horizontal: "right" }}
-      id={menuId}
-      keepMounted
-      transformOrigin={{ vertical: "top", horizontal: "right" }}
-      open={isMenuOpen}
-      onClose={handleMenuClose}
-    >
-      <MenuItem onClick={handleMenuClose}>Profile</MenuItem>
-      <MenuItem onClick={handleMenuClose}>My account</MenuItem>
-    </Menu>
-  )
-
-  const mobileMenuId = "primary-search-account-menu-mobile"
-  const renderMobileMenu = (
-    <Menu
-      anchorEl={mobileMoreAnchorEl}
-      anchorOrigin={{ vertical: "top", horizontal: "right" }}
-      id={mobileMenuId}
-      keepMounted
-      transformOrigin={{ vertical: "top", horizontal: "right" }}
-      open={isMobileMenuOpen}
-      onClose={handleMobileMenuClose}
-    ></Menu>
-  )
+  const renderLink = React.useMemo(
+    () => React.forwardRef((itemProps, ref) => <RouterLink to={to} ref={ref} {...itemProps} onClick={onClick} />),
+    [to, onClick],
+  );
 
   return (
-    <div className={classes.grow}>
-      <AppBar position="static">
-        <Toolbar>
-          <IconButton
-            edge="start"
-            className={classes.menuButton}
-            color="inherit"
-            aria-label="open drawer"
-          >
-            <MenuIcon />
-          </IconButton>
-          <Link to="/" className={classes.link}>
-            <Typography className={classes.title} variant="h6" noWrap>
-              Chrome OS Updates
-            </Typography>
-          </Link>
-          <div className={classes.grow} />
-        </Toolbar>
-      </AppBar>
-      {renderMobileMenu}
-      {renderMenu}
-    </div>
-  )
+    <li>
+      <ListItem button component={renderLink}>
+        {icon ? <ListItemIcon>{icon}</ListItemIcon> : null}
+        <ListItemText primary={primary} />
+      </ListItem>
+    </li>
+  );
 }
+
+ListItemLink.propTypes = {
+  icon: PropTypes.element,
+  primary: PropTypes.string.isRequired,
+  to: PropTypes.string.isRequired,
+  onClick: PropTypes.func,
+};
+
+class CustomAppBar extends React.Component {
+  state = { drawerIsOpen: false }
+
+  handleDrawerOpen = () => {
+    this.setState({ drawerIsOpen: true });
+  };
+
+  handleDrawerClose = () => {
+    this.setState({ drawerIsOpen: false });
+  };
+
+  render() {
+    const { classes } = this.props;
+
+    return (
+      <div className={classes.root}>
+        <AppBar position="static">
+          <Toolbar>
+            <IconButton onClick={this.handleDrawerOpen} className={classes.menuButton} color="inherit" aria-label="Menu">
+              <MenuIcon />
+            </IconButton>
+            <RouterLink to ="/" className={classes.link}>
+              <Typography variant="h6" className={classes.flex}>
+                Chrome OS Updates
+              </Typography>
+            </RouterLink>
+          </Toolbar>
+        </AppBar>
+        <Drawer
+          variant="persistent"
+          classes={{
+            paper: classes.drawerPaper,
+          }}
+          open={this.state.drawerIsOpen}
+        >
+          <div className={classes.drawerHeader}>
+            <IconButton onClick={this.handleDrawerClose}>
+              <CancelIcon />
+            </IconButton>
+          </div>
+          <div className={classes.drawerInner}>
+            <List>
+              <ListItemLink to="/" primary="Home" icon={<HomeIcon />} onClick={this.handleDrawerClose}/>
+              <ListItemLink to="/table" primary="Table" icon={<TableChartIcon />} onClick={this.handleDrawerClose}/>
+            </List>
+          </div>
+        </Drawer>
+      </div>
+    );
+  }
+}
+
+CustomAppBar.propTypes = {
+  classes: PropTypes.object.isRequired,
+};
+
+export default withStyles(styles)(CustomAppBar);

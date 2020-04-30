@@ -21,9 +21,9 @@ const theme = createMuiTheme({
 const useStyles = makeStyles(theme => ({
   base: {
     display: "flex",
-  },
-  body: {
-    flexGrow: "1",
+    '& a': {
+      color: "#FFFFFF",
+    },
   },
 }))
 
@@ -36,7 +36,7 @@ const Layout = ({ children }) => {
         <Grid item>
           <CustomAppBar />
         </Grid>
-        <Grid item className={classes.body}>
+        <Grid item>
           {children}
         </Grid>
       </MuiThemeProvider>

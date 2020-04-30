@@ -32,7 +32,6 @@ function truncateText(text) {
 export default function TableView(props) {
   const classes = useStyles()
   const data = props.data
-  console.log(data)
   return (
     <Paper className={classes.root}>
       <Table className={classes.table}>
