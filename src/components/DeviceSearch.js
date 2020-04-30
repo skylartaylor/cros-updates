@@ -13,7 +13,6 @@ class Search extends Component {
   }
 
   render() {
-    const { filteredItems } = this.state
     const items = this.props.data.allCrosUpdatesJson.nodes
 
     const handleStateChange = changes => {
