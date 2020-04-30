@@ -1,49 +1,25 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby Material UI Starter
-</h1>
+# Chrome OS Updates [![Netlify Status](https://api.netlify.com/api/v1/badges/f7f707c6-715d-41d6-9fa8-343f1093f70c/deploy-status)](https://app.netlify.com/sites/cros-updates/deploys)
+This respository hosts https://cros.tech, a website I'm building to replace the well-known [cros-updates-serving](https://cros-updates-serving.appspot.com) appspot app. This repository consists of two parts:
 
-This starter includes [Material UI](https://material-ui.com/) boilerplate and configuration files along with the standard Gatsby configuration files. It provides a starting point for developing Gatsby apps with Material UI. 
+### Web Scraping Script
 
-View the demo app [here](https://material-ui-starter.netlify.com/).
+Located in `/scripts` is a node script that Github Actions runs every 15 minutes to scrape [cros-updates-serving](https://cros-updates-serving.appspot.com) for its data. If you know a better place to source board-specific Chrome OS version data, please open an issue.
 
-## Features
+### Static Web App
 
-- Material UI Framework
-- Roboto Typeface (self hosted)
-- SEO
-- Offline Support
-- Based on Gatsby Default Starter
+The rest of the repository is a [Gatsby](https://gatsbyjs.org)-based web application to display version data in a more user-friendly way. Pages are rendered statically by [Netlify](https://netlify.com) upon push to `master`. There are plans to move the website build process to Github Actions in order to save money on Netlify build minutes.
 
-## Quick start
+_____
 
-1.  **Create a Gatsby site.**
+### Reporting Issues
 
-    Use the Gatsby CLI to create a new site, specifying the default starter.
+If you run into an issue with the website, please [open an issue](https://github.com/skylartaylor/cros-updates/issues/new) on the repository and provide as much information as you can about the problem. If you could provide at least your device type and OS / Browser version, that'd be great.
 
-    ```sh
-    # create a new Gatsby site using the Material UI starter
-    gatsby new <project-name> https://github.com/dominicabela/gatsby-starter-material-ui
-    ```
+_____
 
-2.  **Start developing.**
+#### Other Considerations
 
-    Navigate into your new site’s directory and start it up.
+Since version data is stored as JSON in Git, this repository can be used as an archive of the last ~7 months of Chrome OS Version data. I've yet to figure out how to use that productively, but I'm sure there's things you could do. If you have ideas or want to contribute something, feel free!
 
-    ```sh
-    cd <project-name>
-    gatsby develop
-    ```
-
-3.  **Open the source code and start editing!**
-
-    Your site is now running at `http://localhost:8000`!
-
-    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
-
-    Open the `<project-name>` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
+Also, I'm not an excellent developer by any means. This has been cobbled together over quite some time with lots of tutorials and trial and error. If you notice an error or best practice not being followed and have the time, I'd love if you could [open an issue](https://github.com/skylartaylor/cros-updates/issues/new) with your feedback. Thank you in advance!
 
