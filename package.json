@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-material-ui",
+  "name": "cros-updates",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby and Material UI",
+  "description": "Chrome OS Version Updates",
   "version": "0.1.0",
-  "author": "Dominic Abela <djmabela@gmail.com>",
+  "author": "Skylar Taylor-Barrick <hi@skylar.cc>",
   "dependencies": {
     "@material-ui/core": "^4.0.1",
     "@material-ui/icons": "^4.2.0",

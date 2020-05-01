@@ -22,4 +22,3 @@ _____
 Since version data is stored as JSON in Git, this repository can be used as an archive of the last ~7 months of Chrome OS Version data. I've yet to figure out how to use that productively, but I'm sure there's things you could do. If you have ideas or want to contribute something, feel free!
 
 Also, I'm not an excellent developer by any means. This has been cobbled together over quite some time with lots of tutorials and trial and error. If you notice an error or best practice not being followed and have the time, I'd love if you could [open an issue](https://github.com/skylartaylor/cros-updates/issues/new) with your feedback. Thank you in advance!
-
