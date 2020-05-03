@@ -18,7 +18,7 @@ export const query = graphql`
   }
 `
 
-class Index extends React.Component {
+class Table extends React.Component {
   render() {
     var data = this.props.data.allCrosUpdatesJson.nodes
     return (
@@ -29,4 +29,4 @@ class Index extends React.Component {
   }
 }
 
-export default Index
+export default Table

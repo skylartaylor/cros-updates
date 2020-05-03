@@ -6,6 +6,7 @@ import TableCell from "@material-ui/core/TableCell"
 import TableHead from "@material-ui/core/TableHead"
 import TableRow from "@material-ui/core/TableRow"
 import Paper from "@material-ui/core/Paper"
+import { navigate } from "gatsby"
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -21,6 +22,7 @@ const useStyles = makeStyles(theme => ({
     "&:hover": {
       background: "rgb(45, 46, 47)",
       transition: "all 0.2s ease-in",
+      cursor: "pointer",
     },
   },
 }))
@@ -34,7 +36,7 @@ export default function TableView(props) {
   const data = props.data
   return (
     <Paper className={classes.root}>
-      <Table className={classes.table}>
+      <Table className={classes.table} stickyHeader>
         <TableHead>
           <TableRow>
             <TableCell>Board Name</TableCell>
@@ -47,7 +49,7 @@ export default function TableView(props) {
         </TableHead>
         <TableBody>
           {data.map(row => (
-            <TableRow key={row.name} className={classes.tableRow}>
+            <TableRow key={row.name} className={classes.tableRow} onClick={() => navigate("/device/" + row.Codename)}>
               <TableCell component="th" scope="row">
                 <div dangerouslySetInnerHTML={{ __html: row.Codename }}></div>
               </TableCell>
