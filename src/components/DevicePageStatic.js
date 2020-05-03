@@ -12,8 +12,12 @@ const useStyles = makeStyles({
   },
   deviceInfo: {
     fontSize: "1.2em",
+    alignItems: "center",
+    display: "flex",
+    flexDirection: "column",
     '& h1': {
       textAlign: "center",
+      maxWidth: "80%",
       margin: 0,
       padding: 0,
     },
@@ -56,7 +60,7 @@ export default function Device(props) {
     >
       <Grid item>
         <div className={classes.deviceInfo}>
-          <h1>{formattedDevice.Brand_names}</h1>
+          <h1 dangerouslySetInnerHTML={{ __html: formattedDevice.Brand_names }}></h1>
           <p>board: {formattedDevice.Codename}</p>
         </div>
         <DeviceVersions device={formattedDevice} />
