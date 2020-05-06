@@ -8,6 +8,7 @@ import {
   makeStyles,
 } from "@material-ui/core/styles"
 import { Grid } from "@material-ui/core"
+import { Helmet } from 'react-helmet'
 
 import CustomAppBar from "../components/CustomAppBar"
 
@@ -31,6 +32,9 @@ const Layout = ({ children }) => {
   const classes = useStyles()
   return (
     <Grid className={classes.base} direction="column" container>
+      <Helmet>
+        <title>Chrome OS Updates</title>
+      </Helmet>
       <MuiThemeProvider theme={theme}>
         <CssBaseline />
         <Grid item>
