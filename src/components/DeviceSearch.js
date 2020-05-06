@@ -14,6 +14,7 @@ class Search extends Component {
 
 
   render() {
+    const deviceNames = this.props.data.allCrosUpdatesJson.nodes.sort((a, b) => a.label.localeCompare(b.label))
     const boardNames = this.props.data.allCrosUpdatesJson.nodes.map( (device) => {
       return {
         value: device.value,
@@ -21,7 +22,7 @@ class Search extends Component {
       } 
     })
 
-    const items = this.props.data.allCrosUpdatesJson.nodes.sort((a, b) => a.label.localeCompare(b.label)).concat(boardNames)
+    const items = deviceNames.concat(boardNames)
     const handleStateChange = changes => {
 
       if (typeof changes.inputValue === "string") {
