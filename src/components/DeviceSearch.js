@@ -50,6 +50,9 @@ class Search extends Component {
         inputRef={node => {
           this.input = node
         }}
+        getInputProps={() => ({
+          label: 'Enter a Chrome OS Device or Board',
+        })}
       />
     )
   }

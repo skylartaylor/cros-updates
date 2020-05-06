@@ -11,13 +11,13 @@ const useStyles = makeStyles(theme => ({
   header: {
     textAlign: "center",
     '& h1': {
-      margin: "15px 0px 5px 0px",
+      margin: "15px 0px 20px 0px",
     },
     '& h3': {
       fontWeight: "300",
       fontStyle: "italic",
       fontSize: "0.95em",
-      margin: "0px 0px 30px 0px",
+      margin: "20px 0px 0px 0px",
     },
   },
   item: {
@@ -38,10 +38,10 @@ export default function Index(props) {
         <Card>
           <CardContent className={classes.header}>
             <h1>Find your Chrome OS Device</h1>
-            <h3>
-              This website is *reasonably broken* and under construction!
-            </h3>
             <DeviceSearch />
+            <h3>
+              Experiencing issues or have a feature request? <a href="https://github.com/skylartaylor/cros-updates/" target="_blank">Report it on Github!</a>
+            </h3>
           </CardContent>
         </Card>
       </Grid>
