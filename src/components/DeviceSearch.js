@@ -12,9 +12,16 @@ class Search extends Component {
     filteredItems: this.props.data.allCrosUpdatesJson.nodes,
   }
 
-  render() {
-    const items = this.props.data.allCrosUpdatesJson.nodes
 
+  render() {
+    const boardNames = this.props.data.allCrosUpdatesJson.nodes.map( (device) => {
+      return {
+        value: device.value,
+        label: "board: " + device.value,
+      } 
+    })
+
+    const items = this.props.data.allCrosUpdatesJson.nodes.sort((a, b) => a.label.localeCompare(b.label)).concat(boardNames)
     const handleStateChange = changes => {
 
       if (typeof changes.inputValue === "string") {
