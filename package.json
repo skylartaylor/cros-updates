@@ -27,7 +27,8 @@
     "request": "^2.88.2",
     "string-strip-html": "^4.4.0",
     "tabletojson": "^1.2.0",
-    "typeface-roboto": "0.0.54"
+    "typeface-roboto": "0.0.54",
+    "xmldom": "^0.3.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",

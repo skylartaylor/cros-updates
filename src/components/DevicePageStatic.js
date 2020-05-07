@@ -1,8 +1,10 @@
 import React from "react"
 import { makeStyles } from "@material-ui/core/styles"
-import { Grid } from "@material-ui/core"
+import { Grid, ExpansionPanel, ExpansionPanelSummary, ExpansionPanelDetails, Typography } from "@material-ui/core"
+import ExpandMoreIcon from '@material-ui/icons/ExpandMore'
 
 import DeviceVersions from './DeviceVersions'
+import RecoveryPanel from './RecoveryPanel'
 
 const useStyles = makeStyles({
   grid: {
@@ -15,6 +17,7 @@ const useStyles = makeStyles({
     alignItems: "center",
     display: "flex",
     flexDirection: "column",
+    width: "90%",
     '& h1': {
       textAlign: "center",
       maxWidth: "80%",
@@ -26,8 +29,8 @@ const useStyles = makeStyles({
       fontStyle: "italic",
       margin: "0 0 50px 0",
       padding: 0,
-    }
-  }
+    },
+  },
 })
 
 export default function Device(props) {
@@ -50,6 +53,7 @@ export default function Device(props) {
     Beta: splitVersion(selectedDevice.Beta),
     Dev: splitVersion(selectedDevice.Dev),
     Canary: splitVersion(selectedDevice.Canary),
+    Recovery: selectedDevice.Recovery,
   }
   return (
     <Grid
@@ -58,13 +62,12 @@ export default function Device(props) {
 //      alignContent="center"
       justify="center"
     >
-      <Grid item>
         <div className={classes.deviceInfo}>
           <h1 dangerouslySetInnerHTML={{ __html: formattedDevice.Brand_names }}></h1>
           <p>board: {formattedDevice.Codename}</p>
         </div>
         <DeviceVersions device={formattedDevice} />
-      </Grid>
+        <RecoveryPanel device={formattedDevice} />
     </Grid>
   )
 }
