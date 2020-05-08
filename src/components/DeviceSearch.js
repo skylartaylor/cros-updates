@@ -8,28 +8,58 @@ class Search extends Component {
     blurOnSelect: false,
   }
 
-  state = {
-    filteredItems: this.props.data.allCrosUpdatesJson.nodes,
+  state = {}
+
+  static getDerivedStateFromProps(props, state) {
+
+    if (state.filtered === true) {
+      return state
+    } else {
+      var splitDevices = []
+      const deviceSplit = props.data.allCrosUpdatesJson.nodes.forEach(device => {
+        var splitDevice = device.label.split(/,(?![^\(\[]*[\]\)])/).forEach(deviceName => {
+          var deviceName = deviceName.trim()
+          if (deviceName !== "" && deviceName !== "N/A" && deviceName !== "100e 2nd Gen AMD" && deviceName !== "300e 2nd Gen AMD") {
+            splitDevices.push({
+                value: device.value,
+                label: deviceName
+              })
+          }
+        })
+      })
+  
+      const deviceNames = splitDevices.sort((a, b) => a.label.localeCompare(b.label))
+  
+      const boardNames = props.data.allCrosUpdatesJson.nodes.map( (device) => {
+        return {
+          value: device.value,
+          label: "board: " + device.value,
+        } 
+      })
+  
+      var initialItems = deviceNames.concat(boardNames)
+      
+      return {
+        items: initialItems,
+        filteredItems: initialItems,
+        filtered: false,
+      }
+    }
   }
 
-
   render() {
-    const deviceNames = this.props.data.allCrosUpdatesJson.nodes.sort((a, b) => a.label.localeCompare(b.label))
-    const boardNames = this.props.data.allCrosUpdatesJson.nodes.map( (device) => {
-      return {
-        value: device.value,
-        label: "board: " + device.value,
-      } 
-    })
 
-    const items = deviceNames.concat(boardNames)
     const handleStateChange = changes => {
 
       if (typeof changes.inputValue === "string") {
-        const filteredItems = items.filter(item =>
+        const filterItems = this.state.items.filter(item =>
           item.label.toLowerCase().includes(changes.inputValue.toLowerCase())
         )
-        this.setState({ filteredItems })
+        this.setState({ 
+          ...this.state,
+          filteredItems: filterItems,
+          filtered: true, 
+        })
       }
 
       if (this.input && this.props.blurOnSelect) {
@@ -37,7 +67,8 @@ class Search extends Component {
       }
 
       if (changes.type === "__autocomplete_click_item__" || changes.type === "__autocomplete_keydown_enter__" || changes.type === 6 || changes.type === 7) {
-        navigate("/device/" + changes.selectedItem.value)
+        var url = "/device/" + changes.selectedItem.value
+        navigate( url, { state: { deviceName: changes.selectedItem.label}})
       }
     }
 

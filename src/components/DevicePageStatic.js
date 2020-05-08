@@ -46,6 +46,12 @@ export default function Device(props) {
     }
   }
 
+  // broken code to render only selected device name. works in dev but not prod (hydration issue)
+  //var deviceName = (props.location.state === undefined || props.location.state === null || !props.location.state.deviceName.includes("device: ")) 
+  //  ? selectedDevice["Brand names"] 
+  //  : props.location.state.deviceName
+
+  
   var formattedDevice = {
     Codename: selectedDevice.Codename,
     Brand_names: selectedDevice["Brand names"],
@@ -63,7 +69,10 @@ export default function Device(props) {
       justify="center"
     >
         <div className={classes.deviceInfo}>
-          <h1 dangerouslySetInnerHTML={{ __html: formattedDevice.Brand_names }}></h1>
+          <h1 
+            dangerouslySetInnerHTML={{ __html: formattedDevice.Brand_names }} 
+            style={{ fontSize: ((formattedDevice.Brand_names.length > 50) ? "1.5em" : "2em")}}
+            ></h1>
           <p>board: {formattedDevice.Codename}</p>
         </div>
         <DeviceVersions device={formattedDevice} />
