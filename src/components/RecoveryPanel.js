@@ -9,6 +9,9 @@ const useStyles = makeStyles({
       maxWidth: "60%",
       minWidth: "40%",
       margin: "30px 0",
+      '& h3': {
+        textAlign: "center",
+      },
     },
     recoveryLinks: {
       '& a': {
@@ -16,7 +19,7 @@ const useStyles = makeStyles({
         padding: "5px 10px",
         border: "2px solid white",
         borderRadius: "5px",
-      }
+      },
     },
     button: {
       color: "#333",
@@ -47,7 +50,6 @@ const useStyles = makeStyles({
       Brand_names: selectedDevice["Brand names"],
       Recovery: selectedDevice.Recovery,
     }
-
     return (
         <ExpansionPanel className={classes.recoveryPanel}>
             <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
@@ -55,6 +57,7 @@ const useStyles = makeStyles({
             </ExpansionPanelSummary>
             <ExpansionPanelDetails>
               <Grid container justify="center">
+                {(formattedDevice.Recovery === "no update") ? <h3>Google's recovery images are currently down. <br />They will return here as soon as they are up again. Sorry for the inconvenience!</h3> : null}
                 {recoveryData.map(recovery => {
                   return (
                     <Button
