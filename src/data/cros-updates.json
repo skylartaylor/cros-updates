@@ -229,7 +229,7 @@
         "Stable": "12871.102.0<br>81.0.4044.141",
         "Beta": "13020.44.0<br>83.0.4103.50",
         "Dev": "13080.0.0<br>84.0.4136.1",
-        "Canary": "13092.0.0<br>84.0.4142.0",
+        "Canary": "13098.0.0<br>84.0.4142.0",
         "Recovery": "no update",
         "Brand names": "Edxis Chromebook, Bobicus Chromebook 11, HEXA Chromebook Pi, Consumer Chromebook"
     },
@@ -346,7 +346,7 @@
         "Stable": "12871.102.0<br>81.0.4044.141",
         "Beta": "13020.44.0<br>83.0.4103.50",
         "Dev": "13080.0.0<br>84.0.4136.1",
-        "Canary": "13091.0.0<br>84.0.4142.0",
+        "Canary": "13098.0.0<br>84.0.4142.0",
         "Recovery": "no update",
         "Brand names": "Haier Chromebook 11 G2"
     },
@@ -359,7 +359,7 @@
         "Stable": "12871.102.0<br>81.0.4044.141",
         "Beta": "13020.44.0<br>83.0.4103.50",
         "Dev": "13080.0.0<br>84.0.4136.1",
-        "Canary": "13092.0.0<br>84.0.4142.0",
+        "Canary": "13098.0.0<br>84.0.4142.0",
         "Recovery": "no update",
         "Brand names": "Medion Chromebook Akoya S2013, True IDC Chromebook 11, Lava Xolo Chromebook, Haier Chromebook 11"
     },
@@ -395,10 +395,10 @@
         "Pinned 79": "12607.82.0<br>79.0.3945.123",
         "Pinned 80": "12739.94.0<br>80.0.3987.137",
         "Pinned 81": "12871.102.0<br>81.0.4044.141",
-        "Stable": "12871.102.0<br>81.0.4044.141",
+        "Stable": "12739.94.0<br>80.0.3987.137",
         "Beta": "13020.44.0<br>83.0.4103.50",
         "Dev": "13080.0.0<br>84.0.4136.1",
-        "Canary": "13092.0.0<br>84.0.4142.0",
+        "Canary": "13098.0.0<br>84.0.4142.0",
         "Recovery": "no update",
         "Brand names": "Dell Chromebook 11 (3180), Dell Chromebook 11 2-in-1 (3189)"
     },
@@ -411,7 +411,7 @@
         "Stable": "12871.102.0<br>81.0.4044.141",
         "Beta": "13020.44.0<br>83.0.4103.50",
         "Dev": "13080.0.0<br>84.0.4136.1",
-        "Canary": "13092.0.0<br>84.0.4142.0",
+        "Canary": "13098.0.0<br>84.0.4142.0",
         "Recovery": "no update",
         "Brand names": "Samsung Chromebook Plus"
     },
@@ -463,7 +463,7 @@
         "Stable": "12871.102.0<br>81.0.4044.141",
         "Beta": "13020.44.0<br>83.0.4103.50",
         "Dev": "13080.0.0<br>84.0.4136.1",
-        "Canary": "13092.0.0<br>84.0.4142.0",
+        "Canary": "13098.0.0<br>84.0.4142.0",
         "Recovery": "no update",
         "Brand names": "Acer Chromebook 14 for Work (CP5-471), Acer Chromebook 11 (C771, C771T)"
     },
@@ -502,7 +502,7 @@
         "Stable": "12871.102.0<br>81.0.4044.141",
         "Beta": "13020.44.0<br>83.0.4103.50",
         "Dev": "13080.0.0<br>84.0.4136.1",
-        "Canary": "13092.0.0<br>84.0.4142.0",
+        "Canary": "13098.0.0<br>84.0.4142.0",
         "Recovery": "no update",
         "Brand names": "Prowise Chromebook Entryline, MEDION Chromebook S2015, PCMerge Chromebook PCM-116E/PCM-116EB, Lumos Education Chromebook, Viglen Chromebook 11, Sector 5 E1 Rugged Chromebook, EduGear Chromebook M, Nexian Chromebook 11.6&quot;, Haier Chromebook 11e"
     },
@@ -593,7 +593,7 @@
         "Stable": "12871.102.0<br>81.0.4044.141",
         "Beta": "13020.44.0<br>83.0.4103.50",
         "Dev": "13080.0.0<br>84.0.4136.1",
-        "Canary": "13091.0.0<br>84.0.4142.0",
+        "Canary": "13098.0.0<br>84.0.4142.0",
         "Recovery": "no update",
         "Brand names": "ASUS Chromebook Flip C214, ASUS Chromebook C204, HP Chromebook x360 12b, HP Chromebook 14a, HP Chromebook x360 14b, Acer Chromebook 315 (CB315), Samsung Chromebook 4, Acer Chromebook 311 (C733, C733U, C733T), Acer Chromebook Spin 511 (R752T, R752TN), Samsung Chromebook 4+, NEC Chromebook Y1, Chromebook 14 G6, Packard Bell Chromebook 314, Chromebook 314 (CB314), Dell Chromebook 3100, Acer Chromebook 311 (CB311), Acer Chromebook Spin 311 (CP311), Dell Chromebook 3100 2-in-1, Lenovo Chromebook C340-11, Lenovo Chromebook S340-14 and Lenovo Chromebook S340-14 Touch, Ideapad Slim 3 Chromebook, HP Chromebook x360 11 G2 EE, HP Chromebook 11 G7 EE, Dell Chromebook 3400, Lenovo 100e Chromebook 2nd Gen, Lenovo 300e/500e Chromebook 2nd Gen, Acer Chromebook 512 (C851, C851T), Acer Chromebook Spin 512 (R851TN), Chromebook 11 G8 EE, Chromebook x360 11 G3 EE"
     },
@@ -697,7 +697,7 @@
         "Stable": "12871.102.0<br>81.0.4044.141",
         "Beta": "13020.44.0<br>83.0.4103.50",
         "Dev": "13066.0.0<br>84.0.4129.0",
-        "Canary": "13091.0.0<br>84.0.4142.0",
+        "Canary": "13098.0.0<br>84.0.4142.0",
         "Recovery": "no update",
         "Brand names": "Acer Chromebox CXI2 / CXV2"
     },
@@ -840,7 +840,7 @@
         "Stable": "12871.102.0<br>81.0.4044.141",
         "Beta": "13020.44.0<br>83.0.4103.50",
         "Dev": "13080.0.0<br>84.0.4136.1",
-        "Canary": "13092.0.0<br>84.0.4142.0",
+        "Canary": "13098.0.0<br>84.0.4142.0",
         "Recovery": "no update",
         "Brand names": "Toshiba Chromebook 2"
     },
@@ -853,7 +853,7 @@
         "Stable": "12871.102.0<br>81.0.4044.141",
         "Beta": "13020.44.0<br>83.0.4103.50",
         "Dev": "13080.0.0<br>84.0.4136.1",
-        "Canary": "13092.0.0<br>84.0.4142.0",
+        "Canary": "13098.0.0<br>84.0.4142.0",
         "Recovery": "no update",
         "Brand names": "ASUS Chromebook C202SA, ASUS Chromebook C300SA / C301SA"
     },
@@ -892,7 +892,7 @@
         "Stable": "12871.102.0<br>81.0.4044.141",
         "Beta": "13020.44.0<br>83.0.4103.50",
         "Dev": "13080.0.0<br>84.0.4136.1",
-        "Canary": "13092.0.0<br>84.0.4142.0",
+        "Canary": "13098.0.0<br>84.0.4142.0",
         "Recovery": "no update",
         "Brand names": "Lenovo ThinkPad 11e 3rd Gen Chromebook"
     },
