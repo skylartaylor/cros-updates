@@ -8,9 +8,9 @@ import RecoveryPanel from './RecoveryPanel'
 
 const useStyles = makeStyles({
   grid: {
-    height: "100%",
     width: "100%",
     marginTop: "50px",
+    alignContent: "flex-start",
   },
   deviceInfo: {
     fontSize: "1.2em",
@@ -65,7 +65,6 @@ export default function Device(props) {
     <Grid
       container
       className={classes.grid}
-//      alignContent="center"
       justify="center"
     >
         <div className={classes.deviceInfo}>

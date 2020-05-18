@@ -6,7 +6,6 @@ import DeviceSearch from "../components/DeviceSearch"
 const useStyles = makeStyles(theme => ({
   grid: {
     padding: theme.spacing(3),
-    height: "auto"
   },
   header: {
     textAlign: "center",
@@ -40,7 +39,7 @@ export default function Index(props) {
             <h1>Find your Chrome OS Device</h1>
             <DeviceSearch />
             <h3>
-              Experiencing issues or have a feature request? <a href="https://github.com/skylartaylor/cros-updates/" target="_blank">Report it on Github!</a>
+              Experiencing issues or have a feature request? <a href="https://github.com/skylartaylor/cros-updates/" target="_blank" rel="noopener noreferrer" >Report it on Github!</a>
             </h3>
           </CardContent>
         </Card>

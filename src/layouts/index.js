@@ -22,10 +22,14 @@ const theme = createMuiTheme({
 const useStyles = makeStyles(theme => ({
   base: {
     display: "flex",
+    minHeight: "100vh",
     '& a': {
       color: "#FFFFFF",
     },
   },
+  contentGrid: {
+    flexGrow: "1",
+  }
 }))
 
 const Layout = ({ children }) => {
@@ -40,7 +44,10 @@ const Layout = ({ children }) => {
         <Grid item>
           <CustomAppBar />
         </Grid>
-        <Grid item>
+        <Grid
+          container
+          className={classes.contentGrid}
+        >
           {children}
         </Grid>
       </MuiThemeProvider>
