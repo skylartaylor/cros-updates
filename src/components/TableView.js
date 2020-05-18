@@ -12,6 +12,7 @@ const useStyles = makeStyles(theme => ({
   root: {
     width: "100%",
     padding: theme.spacing(3),
+    overflow: "scroll",
   },
   table: {
     minWidth: 650,
