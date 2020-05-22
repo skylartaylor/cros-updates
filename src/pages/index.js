@@ -22,6 +22,10 @@ const useStyles = makeStyles(theme => ({
   item: {
     minWidth: "60%",
   },
+  warning: {
+    margin: "-10px 0px 10px 0px !important",
+    color: "#FF3C00",
+  },
 }))
 
 export default function Index(props) {
@@ -37,6 +41,7 @@ export default function Index(props) {
         <Card>
           <CardContent className={classes.header}>
             <h1>Find your Chrome OS Device</h1>
+            <h3 className={classes.warning}>GitHub is currently experiencing issues resulting in version data being out of date.</h3>
             <DeviceSearch />
             <h3>
               Experiencing issues or have a feature request? <a href="https://github.com/skylartaylor/cros-updates/" target="_blank" rel="noopener noreferrer" >Report it on Github!</a>
