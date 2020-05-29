@@ -2,10 +2,22 @@ import React from "react"
 import { makeStyles } from "@material-ui/core/styles"
 import { Grid, Card, CardContent } from "@material-ui/core"
 import DeviceSearch from "../components/DeviceSearch"
+import PinnedDevices from "../components/PinnedDevices"
 
 const useStyles = makeStyles(theme => ({
   grid: {
     padding: theme.spacing(3),
+  },
+  card: {
+    padding: "0 " + theme.spacing(2) + "px",
+    margin: "0 0 15px 0",
+    '& h2': {
+      textAlign: "center",
+      //fontSize: "1.2em",
+      fontWeight: "400",
+      //textTransform: "uppercase",
+      //letterSpacing: "0.2em",
+    },
   },
   header: {
     textAlign: "center",
@@ -30,6 +42,7 @@ const useStyles = makeStyles(theme => ({
 
 export default function Index(props) {
   const classes = useStyles()
+
   return (
     <Grid
       container
@@ -38,15 +51,16 @@ export default function Index(props) {
       justify="center"
     >
       <Grid item className={classes.item}>
-        <Card>
+        <Card className={classes.card}>
           <CardContent className={classes.header}>
             <h1>Find your Chrome OS Device</h1>
             {/*<h3 className={classes.warning}>GitHub is currently experiencing issues resulting in version data being out of date.</h3>*/}
             <DeviceSearch />
-            <h3>
-              Experiencing issues or have a feature request? <a href="https://github.com/skylartaylor/cros-updates/" target="_blank" rel="noopener noreferrer" >Report it on Github!</a>
-            </h3>
           </CardContent>
+        </Card>
+        <Card className={classes.card}>
+          <h2>Pinned Devices:</h2>
+          <PinnedDevices />
         </Card>
       </Grid>
     </Grid>
