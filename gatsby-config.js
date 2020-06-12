@@ -43,17 +43,5 @@ module.exports = {
     },
     'gatsby-plugin-netlify',
     'gatsby-plugin-react-helmet',
-    {
-      resolve: 'gatsby-plugin-fathom',
-      options: {
-        // Unique site id
-        siteId: 'DDJXBOIX',
-        // Domain whitelist
-        whitelistHostnames: [
-          'cros.tech',
-          'www.cros.tech',
-        ]
-      }
-    },
   ],
 }
