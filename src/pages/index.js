@@ -3,6 +3,7 @@ import { makeStyles } from "@material-ui/core/styles"
 import { Grid, Card, CardContent } from "@material-ui/core"
 import DeviceSearch from "../components/DeviceSearch"
 import PinnedDevices from "../components/PinnedDevices"
+import clsx from 'clsx'
 
 const useStyles = makeStyles(theme => ({
   grid: {
@@ -11,13 +12,6 @@ const useStyles = makeStyles(theme => ({
   card: {
     padding: "0 " + theme.spacing(2) + "px",
     margin: "0 0 15px 0",
-    '& h2': {
-      textAlign: "center",
-      //fontSize: "1.2em",
-      fontWeight: "400",
-      //textTransform: "uppercase",
-      //letterSpacing: "0.2em",
-    },
   },
   header: {
     textAlign: "center",
@@ -37,6 +31,16 @@ const useStyles = makeStyles(theme => ({
   warning: {
     margin: "-10px 0px 10px 0px !important",
     color: "#FF3C00",
+  },
+  pinnedDevices: {
+    minHeight: "306px",
+    '& h3': {
+      textAlign: "center",
+      //fontSize: "1.2em",
+      fontWeight: "400",
+      //textTransform: "uppercase",
+      //letterSpacing: "0.2em",
+    },
   },
 }))
 
@@ -58,8 +62,8 @@ export default function Index(props) {
             <DeviceSearch />
           </CardContent>
         </Card>
-        <Card className={classes.card}>
-          <h2>Pinned Devices:</h2>
+        <Card className={clsx(classes.card && classes.pinnedDevices)}>
+          <h3>Pinned Devices:</h3>
           <PinnedDevices />
         </Card>
       </Grid>
