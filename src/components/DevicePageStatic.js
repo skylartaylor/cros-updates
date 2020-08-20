@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect, useState } from "react"
 import { makeStyles } from "@material-ui/core/styles"
 import { Grid, ExpansionPanel, ExpansionPanelSummary, ExpansionPanelDetails, Typography } from "@material-ui/core"
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore'
@@ -46,15 +46,24 @@ export default function Device(props) {
     }
   }
 
-  // broken code to render only selected device name. works in dev but not prod (hydration issue)
-  //var deviceName = (props.location.state === undefined || props.location.state === null || !props.location.state.deviceName.includes("device: ")) 
-  //  ? selectedDevice["Brand names"] 
-  //  : props.location.state.deviceName
+  const [ deviceName, setDeviceName ] = useState("")
 
+  useEffect(() => {
+    if ( props.location.state !== undefined && props.location.state !== null && props.location.state.deviceName !== undefined) {
+      if ( props.location.state.deviceName.includes("board: ") ) {
+        setDeviceName(selectedDevice["Brand names"])
+      } else {
+        setDeviceName(props.location.state.deviceName)
+      }
+    } else {
+      setDeviceName(selectedDevice["Brand names"])
+    }
+
+  }, [])
   
   var formattedDevice = {
     Codename: selectedDevice.Codename,
-    Brand_names: selectedDevice["Brand names"],
+    Brand_names: deviceName,
     Stable: splitVersion(selectedDevice.Stable),
     Beta: splitVersion(selectedDevice.Beta),
     Dev: splitVersion(selectedDevice.Dev),
@@ -68,10 +77,7 @@ export default function Device(props) {
       justify="center"
     >
         <div className={classes.deviceInfo}>
-          <h1 
-            dangerouslySetInnerHTML={{ __html: formattedDevice.Brand_names }} 
-            style={{ fontSize: ((formattedDevice.Brand_names.length > 50) ? "1.5em" : "2em")}}
-            ></h1>
+            <h1 style={{ fontSize: ((deviceName.length > 50) ? "1.5em" : "2em")}} >{deviceName}</h1>
           <p>board: {formattedDevice.Codename}</p>
         </div>
         <DeviceVersions device={formattedDevice} />
