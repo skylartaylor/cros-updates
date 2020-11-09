@@ -217,7 +217,7 @@
         "Pinned 85": "13310.93.0<br>85.0.4183.133",
         "Pinned 86": "13421.89.0<br>86.0.4240.183",
         "Stable": "13421.89.0<br>86.0.4240.183",
-        "Beta": "13505.27.0<br>87.0.4280.38",
+        "Beta": "13505.33.0<br>87.0.4280.47",
         "Dev": "13443.0.0<br>87.0.4247.0",
         "Canary": "13585.0.0<br>88.0.4316.0",
         "Recovery": "<a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_11316.165.0_elm_recovery_stable-channel_mp-v2.bin.zip\">72</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_11647.154.0_elm_recovery_stable-channel_mp-v2.bin.zip\">73</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_11895.118.0_elm_recovery_stable-channel_mp-v2.bin.zip\">74</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12105.100.0_elm_recovery_stable-channel_mp-v2.bin.zip\">75</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12239.92.0_elm_recovery_stable-channel_mp-v2.bin.zip\">76</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12371.75.0_elm_recovery_stable-channel_mp-v2.bin.zip\">77</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12499.66.0_elm_recovery_stable-channel_mp-v2.bin.zip\">78</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_elm_recovery_stable-channel_mp-v2.bin.zip\">79</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12739.94.0_elm_recovery_stable-channel_mp-v2.bin.zip\">80</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12871.102.0_elm_recovery_stable-channel_mp-v2.bin.zip\">81</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_elm_recovery_stable-channel_mp-v2.bin.zip\">83</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13310.93.0_elm_recovery_stable-channel_mp-v2.bin.zip\">85</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13421.73.0_elm_recovery_stable-channel_mp-v2.bin.zip\">86</a>",
@@ -938,7 +938,7 @@
         "Brand names": "Acer Chromebook 15 (CB5-571, C910)"
     },
     {
-        "Codename": "AUE Devices - No recent updates for alex, big, blaze, butterfly, clapper, daisy, falco, glimmer, leon, link, lumpy, mario, mccloud, panther, parrot, peppy, pi, pit, quawks, skate, spring, squawks, stout, stumpy, tricky, wolf, x86-zgb-he, zako"
+        "Codename": "AUE Devices - No recent updates for alex, big, blaze, butterfly, clapper, daisy, falco-li, glimmer, leon, link, lumpy, mario, mccloud, panther, parrot, peppy, pi, pit, quawks, skate, spring, squawks, stout, stumpy, tricky, wolf, x86-zgb-he, zako"
     },
     {
         "Codename": "big",
@@ -1011,7 +1011,7 @@
         "Brand names": "Samsung Chromebook - XE303"
     },
     {
-        "Codename": "falco",
+        "Codename": "falco-li",
         "Pinned 81": "no update",
         "Pinned 83": "no update",
         "Pinned 84": "no update",
