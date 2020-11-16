@@ -19,7 +19,7 @@
     "gatsby-plugin-react-helmet": "^3.3.2",
     "gatsby-source-filesystem": "^2.3.8",
     "gatsby-transformer-json": "^2.4.3",
-    "json2csv": "^5.0.4",
+    "json2csv": "^5.0.5",
     "mui-downshift": "^1.4.1",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
