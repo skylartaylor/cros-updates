@@ -220,7 +220,7 @@
         "Beta": "13597.15.0<br>88.0.4324.22",
         "Dev": "13638.0.0<br>89.0.4342.0",
         "Canary": "13642.0.0<br>89.0.4343.0",
-        "Recovery": "<a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_11647.154.0_elm_recovery_stable-channel_mp-v2.bin.zip\">73</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_11895.118.0_elm_recovery_stable-channel_mp-v2.bin.zip\">74</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12105.100.0_elm_recovery_stable-channel_mp-v2.bin.zip\">75</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12239.92.0_elm_recovery_stable-channel_mp-v2.bin.zip\">76</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12371.75.0_elm_recovery_stable-channel_mp-v2.bin.zip\">77</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12499.66.0_elm_recovery_stable-channel_mp-v2.bin.zip\">78</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_elm_recovery_stable-channel_mp-v2.bin.zip\">79</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12739.94.0_elm_recovery_stable-channel_mp-v2.bin.zip\">80</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12871.102.0_elm_recovery_stable-channel_mp-v2.bin.zip\">81</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_elm_recovery_stable-channel_mp-v2.bin.zip\">83</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13310.93.0_elm_recovery_stable-channel_mp-v2.bin.zip\">85</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13421.99.0_elm_recovery_stable-channel_mp-v2.bin.zip\">86</a>",
+        "Recovery": "<a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_11647.154.0_elm_recovery_stable-channel_mp-v2.bin.zip\">73</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_11895.118.0_elm_recovery_stable-channel_mp-v2.bin.zip\">74</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12105.100.0_elm_recovery_stable-channel_mp-v2.bin.zip\">75</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12239.92.0_elm_recovery_stable-channel_mp-v2.bin.zip\">76</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12371.75.0_elm_recovery_stable-channel_mp-v2.bin.zip\">77</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12499.66.0_elm_recovery_stable-channel_mp-v2.bin.zip\">78</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_elm_recovery_stable-channel_mp-v2.bin.zip\">79</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12739.111.0_elm_recovery_stable-channel_mp-v2.bin.zip\">80</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12871.102.0_elm_recovery_stable-channel_mp-v2.bin.zip\">81</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_elm_recovery_stable-channel_mp-v2.bin.zip\">83</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13310.93.0_elm_recovery_stable-channel_mp-v2.bin.zip\">85</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13421.99.0_elm_recovery_stable-channel_mp-v2.bin.zip\">86</a>",
         "Brand names": "Acer Chromebook R13 (CB5-312T)"
     },
     {
@@ -613,7 +613,7 @@
         "Dev": "13638.0.0<br>89.0.4342.0",
         "Canary": "13642.0.0<br>89.0.4343.0",
         "Recovery": "<a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13421.99.0_puff_recovery_stable-channel_mp-v6.bin.zip\">86</a>",
-        "Brand names": "ASUS Chromebox 4, Acer Chromebox CXI4, HP Chromebox G3"
+        "Brand names": "ASUS Chromebox 4, ASUS Fanless Chromebox, Acer Chromebox CXI4, HP Chromebox G3"
     },
     {
         "Codename": "pyro",
@@ -952,7 +952,7 @@
         "Brand names": "Lenovo ThinkPad C13 Yoga Chromebook / Lenovo ThinkPad C13 Yoga Chromebook Enterprise"
     },
     {
-        "Codename": "AUE Devices - No recent updates for alex, big, blaze, butterfly, clapper, daisy, falco, glimmer, jerry, leon, link, lumpy, mario, mccloud, mighty, monroe, panther, parrot, peppy, pi, pit, quawks, skate, speedy, spring, squawks, stout, stumpy, tricky, wolf, zako, zgb"
+        "Codename": "AUE Devices - No recent updates for big, blaze, butterfly, clapper, daisy, falco, glimmer, jerry, leon, link, lumpy, mario, mccloud, mighty, monroe, panther, parrot, peppy, pi, pit, quawks, skate, speedy, spring, squawks, stout, stumpy, tricky, wolf, x86-alex-he, x86-zgb-he, zako"
     },
     {
         "Codename": "jaq",
