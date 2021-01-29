@@ -402,8 +402,8 @@
         "Beta": "13729.8.0<br>89.0.4389.16",
         "Dev": "13754.0.0<br>90.0.4400.0",
         "Canary": "13756.0.0<br>90.0.4400.0",
-        "Recovery": "<a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_jacuzzi_recovery_stable-channel_mp-v2.bin.zip\">83</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13099.110.0_jacuzzi_recovery_stable-channel_mp-v3.bin.zip\">84</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13310.93.0_jacuzzi_recovery_stable-channel_mp-v3.bin.zip\">85</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13421.99.0_jacuzzi_recovery_stable-channel_mp-v4.bin.zip\">86</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13505.111.0_jacuzzi_recovery_stable-channel_mp-v6.bin.zip\">87</a>",
-        "Brand names": "Acer Chromebook Spin 311 (CP311-3H), HP Chromebook 11a, Acer Chromebook 311"
+        "Recovery": "no update",
+        "Brand names": "HP Chromebook x360 11MK G3 EE, Acer Chromebook Spin 311 (CP311-3H), HP Chromebook 11a, Acer Chromebook 311"
     },
     {
         "Codename": "kalista",
@@ -952,7 +952,7 @@
         "Brand names": "HP Pro c645 Chromebook Enterprise, Acer Chromebook Spin 514  (CP514-1H, CP514-1W, CP514-1WH, CP514-1HH), Lenovo ThinkPad C13 Yoga Chromebook / Lenovo ThinkPad C13 Yoga Chromebook Enterprise"
     },
     {
-        "Codename": "AUE Devices - No recent updates for alex, big, blaze, butterfly, clapper, daisy, falco-li, glimmer, jaq, jerry, kitty, leon, link, lumpy, mario, mccloud, mighty, minnie, monroe, panther, parrot, peppy, pi, pit, quawks, skate, speedy, spring, squawks, stout, stumpy, tricky, wolf, zako, zgb"
+        "Codename": "AUE Devices - No recent updates for alex, big, blaze, butterfly, clapper, daisy, falco-li, glimmer, jaq, jerry, kitty, leon, link, lumpy, mario, mccloud, mighty, minnie, monroe, panther, parrot, peppy, pi, pit, quawks, skate, speedy, spring, squawks, stout, stumpy, tricky, wolf, x86-zgb-he, zako"
     },
     {
         "Codename": "mickey",
