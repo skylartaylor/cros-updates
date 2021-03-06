@@ -182,6 +182,20 @@
         "Brand names": "Acer Chromebook R11 (CB5-132T, C738T)"
     },
     {
+        "Codename": "dedede",
+        "Pinned 84": "no update",
+        "Pinned 85": "no update",
+        "Pinned 86": "no update",
+        "Pinned 87": "13505.111.0<br>87.0.4280.152",
+        "Pinned 88": "13597.105.0<br>88.0.4324.208",
+        "Stable": "13597.105.0<br>88.0.4324.208",
+        "Beta": "13729.41.0<br>89.0.4389.76",
+        "Dev": "13729.29.0<br>89.0.4389.57",
+        "Canary": "13830.0.0<br>91.0.4435.0",
+        "Recovery": "no update",
+        "Brand names": "HP Chromebook 11 G9 EE, HP Chromebook 14 G7"
+    },
+    {
         "Codename": "drallion",
         "Pinned 84": "13099.102.0<br>84.0.4147.127",
         "Pinned 85": "13310.76.0<br>85.0.4183.108",
@@ -966,7 +980,7 @@
         "Brand names": "HP Pro c645 Chromebook Enterprise, Acer Chromebook Spin 514  (CP514-1H, CP514-1W, CP514-1WH, CP514-1HH), Lenovo ThinkPad C13 Yoga Chromebook / Lenovo ThinkPad C13 Yoga Chromebook Enterprise"
     },
     {
-        "Codename": "AUE Devices - No recent updates for alex, big, blaze, butterfly, clapper, daisy, falco-li, glimmer, jaq, jerry, kitty, leon, link, lumpy, mario, mccloud, mighty, minnie, monroe, panther, parrot, peppy, pi, pit, quawks, skate, speedy, spring, squawks, stout, stumpy, tricky, wolf, x86-zgb-he, zako"
+        "Codename": "AUE Devices - No recent updates for big, blaze, butterfly, clapper, daisy, falco, glimmer, jaq, jerry, kitty, leon, link, lumpy, mario, mccloud, mighty, minnie, monroe, panther, parrot, peppy, pi, pit, quawks, skate, speedy, spring, squawks, stout, stumpy, tricky, wolf, x86-alex-he, zako, zgb"
     },
     {
         "Codename": "mickey",
