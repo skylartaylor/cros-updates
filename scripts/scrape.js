@@ -1,4 +1,4 @@
-var tabletojson = require("tabletojson")
+var tabletojson = require("tabletojson").Tabletojson
 const fs = require("fs")
 const { Parser } = require("json2csv")
 const stripHtml = require("string-strip-html")

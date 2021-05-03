@@ -19,6 +19,7 @@
     "gatsby-plugin-react-helmet": "^3.3.2",
     "gatsby-source-filesystem": "^2.3.8",
     "gatsby-transformer-json": "^2.4.3",
+    "got": "^11.8.2",
     "json2csv": "^5.0.6",
     "mui-downshift": "^1.4.1",
     "prop-types": "^15.7.2",
@@ -27,7 +28,7 @@
     "react-helmet": "^5.2.1",
     "request": "^2.88.2",
     "string-strip-html": "^4.4.7",
-    "tabletojson": "^1.2.0",
+    "tabletojson": "^2.0.6",
     "typeface-roboto": "0.0.54",
     "xmldom": "^0.5.0"
   },
