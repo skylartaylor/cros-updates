@@ -823,7 +823,7 @@
         "Dev": "14010.0.0<br>93.0.4530.0",
         "Canary": "14020.0.0<br>93.0.4535.0",
         "Recovery": "<a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13816.82.0_volteer_recovery_stable-channel_mp-v6.bin.zip\">90</a>",
-        "Brand names": "ASUS Chromebook CX5500FEA, HP Chromebook x360 14c, HP Pro c640 G2 Chromebook, IdeaPad Flex 5i Chromebook, Acer Chromebook Spin 713 (CP713-3W)"
+        "Brand names": "ASUS Chromebook CX5500FEA, CX9400CEA, HP Chromebook x360 14c, HP Pro c640 G2 Chromebook, IdeaPad Flex 5i Chromebook, Acer Chromebook Spin 713 (CP713-3W)"
     },
     {
         "Codename": "winky",
@@ -865,10 +865,10 @@
         "Dev": "14021.0.0<br>93.0.4535.0",
         "Canary": "14023.0.0<br>93.0.4536.0",
         "Recovery": "<a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13505.73.0_zork_recovery_stable-channel_mp-v4.bin.zip\">87</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13597.105.0_zork_recovery_stable-channel_mp-v4.bin.zip\">88</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13729.56.0_zork_recovery_stable-channel_mp-v5.bin.zip\">89</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13816.82.0_zork_recovery_stable-channel_mp-v7.bin.zip\">90</a>",
-        "Brand names": "HP Pro c645 Chromebook Enterprise, HP Chromebook 14a, Acer Chromebook Spin 514  (CP514-1H, CP514-1W, CP514-1WH, CP514-1HH), Lenovo ThinkPad C13 Yoga Chromebook / Lenovo ThinkPad C13 Yoga Chromebook Enterprise, ASUS Chromebook Flip CM5"
+        "Brand names": "HP Pro c645 Chromebook Enterprise, HP Chromebook 14a, Acer Chromebook Spin 514  (CP514-1H, CP514-1W, CP514-1WH, CP514-1HH), Lenovo ThinkPad C13 Yoga Chromebook / Lenovo ThinkPad C13 Yoga Chromebook Enterprise, Lenovo 100e Chromebook Gen 3, Lenovo 14e Chromebook Gen 2, Lenovo 300e Chromebook Gen 3, ASUS Chromebook Flip CM5"
     },
     {
-        "Codename": "AUE Devices - No recent updates for alex, big, blaze, butterfly, clapper, daisy, falco-li, glimmer, jaq, jerry, kitty, leon, link, lumpy, mario, mccloud, mickey, mighty, minnie, monroe, panther, parrot, peppy, pi, pit, quawks, skate, speedy, spring, squawks, stout, stumpy, tricky, wolf, zako, zgb"
+        "Codename": "AUE Devices - No recent updates for big, blaze, butterfly, clapper, daisy, falco-li, glimmer, jaq, jerry, kitty, leon, link, lumpy, mario, mccloud, mickey, mighty, minnie, monroe, panther, parrot, peppy, pi, pit, quawks, skate, speedy, spring, squawks, stout, stumpy, tricky, wolf, x86-alex-he, x86-zgb-he, zako"
     },
     {
         "Codename": "buddy",
