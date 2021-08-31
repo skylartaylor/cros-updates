@@ -742,6 +742,20 @@
         "Brand names": "HP Chromebook x2"
     },
     {
+        "Codename": "strongbad",
+        "Pinned 88": "no update",
+        "Pinned 89": "no update",
+        "Pinned 90": "no update",
+        "Pinned 91": "13904.55.0<br>91.0.4472.102",
+        "Pinned 92": "13982.69.2<br>92.0.4515.130",
+        "Stable": "13982.69.2<br>92.0.4515.130",
+        "Beta": "14092.42.0<br>93.0.4577.60",
+        "Dev": "14150.12.0<br>94.0.4606.18",
+        "Canary": "14188.0.0<br>95.0.4626.0",
+        "Recovery": "no update",
+        "Brand names": "HP Chromebook x2 11c"
+    },
+    {
         "Codename": "sumo",
         "Pinned 88": "13597.105.0<br>88.0.4324.208",
         "Pinned 89": "13729.84.0<br>89.0.4389.130",
@@ -882,7 +896,7 @@
         "Brand names": "HP Pro c645 Chromebook Enterprise, HP Chromebook 14a, Acer Chromebook Spin 514  (CP514-1H, CP514-1W, CP514-1WH, CP514-1HH), HP Chromebook x360 14a, ASUS Chromebook Flip CM1, Lenovo ThinkPad C13 Yoga Chromebook / Lenovo ThinkPad C13 Yoga Chromebook Enterprise, NEC Chromebook Y1 Gen3A, Lenovo 100e Chromebook Gen 3, Lenovo 14e Chromebook Gen 2, Lenovo 300e Chromebook Gen 3, ASUS Chromebook Flip CM5"
     },
     {
-        "Codename": "AUE Devices - No recent updates for alex, big, blaze, butterfly, clapper, daisy, falco-li, glimmer, jaq, jerry, kitty, leon, link, lumpy, mario, mccloud, mickey, mighty, minnie, monroe, panther, parrot, peppy, pi, pit, quawks, skate, speedy, spring, squawks, stout, stumpy, tricky, wolf, zako, zgb"
+        "Codename": "AUE Devices - No recent updates for big, blaze, butterfly, clapper, daisy, falco-li, glimmer, jaq, jerry, kitty, leon, link, lumpy, mario, mccloud, mickey, mighty, minnie, monroe, panther, parrot, peppy, pi, pit, quawks, skate, speedy, spring, squawks, stout, stumpy, tricky, wolf, x86-alex-he, zako, zgb"
     },
     {
         "Codename": "buddy",
