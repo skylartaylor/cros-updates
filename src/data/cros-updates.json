@@ -728,7 +728,7 @@
         "Brand names": "HP Pro c645 Chromebook Enterprise, HP Chromebook 14a, Acer Chromebook Spin 514  (CP514-1H, CP514-1W, CP514-1WH, CP514-1HH), HP Chromebook x360 14a, ASUS Chromebook Flip CM1, Lenovo ThinkPad C13 Yoga Chromebook / Lenovo ThinkPad C13 Yoga Chromebook Enterprise, NEC Chromebook Y1 Gen3A, Lenovo 100e Chromebook Gen 3, Lenovo 14e Chromebook Gen 2, Lenovo 300e Chromebook Gen 3, ASUS Chromebook Flip CM5"
     },
     {
-        "Codename": "AUE Devices - No recent updates for big, blaze, butterfly, daisy, falco-li, jaq, jerry, kitty, leon, link, lumpy, mario, mccloud, mickey, mighty, minnie, monroe, panther, parrot-ivb, peppy, pi, pit, skate, speedy, spring, stout, stumpy, tricky, wolf, x86-alex-he, x86-zgb-he, zako"
+        "Codename": "AUE Devices - No recent updates for big, blaze, buddy, butterfly, daisy, falco, gandof, guado, jaq, jerry, kitty, leon, link, lulu, lumpy, mario, mccloud, mickey, mighty, minnie, monroe, paine, panther, parrot-ivb, peppy, pi, pit, rikku, samus, skate, speedy, spring, stout, stumpy, tidus, tricky, wolf, x86-alex-he, x86-zgb-he, yuna, zako"
     },
     {
         "Codename": "banjo",
@@ -743,20 +743,6 @@
         "Canary": "no update",
         "Recovery": "<a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12871.102.0_banjo_recovery_stable-channel_mp-v2.bin.zip\">81</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_banjo_recovery_stable-channel_mp-v2.bin.zip\">83</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13310.93.0_banjo_recovery_stable-channel_mp-v2.bin.zip\">85</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13421.99.0_banjo_recovery_stable-channel_mp-v2.bin.zip\">86</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13505.73.0_banjo_recovery_stable-channel_mp-v2.bin.zip\">87</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13597.105.0_banjo_recovery_stable-channel_mp-v2.bin.zip\">88</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13816.82.0_banjo_recovery_stable-channel_mp-v2.bin.zip\">90</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13904.55.0_banjo_recovery_stable-channel_mp-v2.bin.zip\">91</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13982.88.0_banjo_recovery_stable-channel_mp-v2.bin.zip\">92</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14092.77.0_banjo_recovery_stable-channel_mp-v2.bin.zip\">93</a>",
         "Brand names": "Acer Chromebook 15 (CB3-531)"
-    },
-    {
-        "Codename": "buddy",
-        "Pinned 90": "13816.55.0<br>90.0.4430.86",
-        "Pinned 91": "13904.97.0<br>91.0.4472.167",
-        "Pinned 92": "no update",
-        "Pinned 93": "no update",
-        "Pinned 94": "no update",
-        "Stable": "13904.97.0<br>91.0.4472.167",
-        "Beta": "13904.41.0<br>91.0.4472.81",
-        "Dev": "13904.4.0<br>91.0.4472.10",
-        "Canary": "no update",
-        "Recovery": "<a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12871.102.0_buddy_recovery_stable-channel_mp-v2.bin.zip\">81</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.82.0_buddy_recovery_stable-channel_mp-v2.bin.zip\">83</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13099.102.0_buddy_recovery_stable-channel_mp-v2.bin.zip\">84</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13421.99.0_buddy_recovery_stable-channel_mp-v2.bin.zip\">86</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13505.73.0_buddy_recovery_stable-channel_mp-v2.bin.zip\">87</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13597.105.0_buddy_recovery_stable-channel_mp-v2.bin.zip\">88</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13816.82.0_buddy_recovery_stable-channel_mp-v2.bin.zip\">90</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13904.77.0_buddy_recovery_stable-channel_mp-v2.bin.zip\">91</a>",
-        "Brand names": "Acer Chromebase 24"
     },
     {
         "Codename": "candy",
@@ -815,20 +801,6 @@
         "Brand names": "Edxis Chromebook, Bobicus Chromebook 11, HEXA Chromebook Pi, Consumer Chromebook"
     },
     {
-        "Codename": "gandof",
-        "Pinned 90": "13816.82.0<br>90.0.4430.218",
-        "Pinned 91": "13904.97.0<br>91.0.4472.167",
-        "Pinned 92": "no update",
-        "Pinned 93": "no update",
-        "Pinned 94": "no update",
-        "Stable": "13904.97.0<br>91.0.4472.167",
-        "Beta": "13904.41.0<br>91.0.4472.81",
-        "Dev": "13904.4.0<br>91.0.4472.10",
-        "Canary": "no update",
-        "Recovery": "<a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12871.102.0_gandof_recovery_stable-channel_mp-v2.bin.zip\">81</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_gandof_recovery_stable-channel_mp-v2.bin.zip\">83</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13099.110.0_gandof_recovery_stable-channel_mp-v2.bin.zip\">84</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13310.93.0_gandof_recovery_stable-channel_mp-v2.bin.zip\">85</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13421.99.0_gandof_recovery_stable-channel_mp-v2.bin.zip\">86</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13505.73.0_gandof_recovery_stable-channel_mp-v2.bin.zip\">87</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13597.105.0_gandof_recovery_stable-channel_mp-v2.bin.zip\">88</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13816.82.0_gandof_recovery_stable-channel_mp-v2.bin.zip\">90</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13904.77.0_gandof_recovery_stable-channel_mp-v2.bin.zip\">91</a>",
-        "Brand names": "Toshiba Chromebook 2 (2015 Edition)"
-    },
-    {
         "Codename": "glimmer",
         "Pinned 90": "no update",
         "Pinned 91": "no update",
@@ -855,20 +827,6 @@
         "Canary": "no update",
         "Recovery": "<a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12871.102.0_gnawty_recovery_stable-channel_mp-v3.bin.zip\">81</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_gnawty_recovery_stable-channel_mp-v3.bin.zip\">83</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13310.93.0_gnawty_recovery_stable-channel_mp-v3.bin.zip\">85</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13421.99.0_gnawty_recovery_stable-channel_mp-v3.bin.zip\">86</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13505.73.0_gnawty_recovery_stable-channel_mp-v3.bin.zip\">87</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13597.105.0_gnawty_recovery_stable-channel_mp-v3.bin.zip\">88</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13816.82.0_gnawty_recovery_stable-channel_mp-v3.bin.zip\">90</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13904.55.0_gnawty_recovery_stable-channel_mp-v3.bin.zip\">91</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13982.88.0_gnawty_recovery_stable-channel_mp-v3.bin.zip\">92</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14092.77.0_gnawty_recovery_stable-channel_mp-v3.bin.zip\">93</a>",
         "Brand names": "Acer Chromebook 11 (CB3-111, C730, C730E), Acer Chromebook 11 (CB3-131, C735)"
-    },
-    {
-        "Codename": "guado",
-        "Pinned 90": "13816.55.0<br>90.0.4430.86",
-        "Pinned 91": "no update",
-        "Pinned 92": "no update",
-        "Pinned 93": "no update",
-        "Pinned 94": "no update",
-        "Stable": "13816.55.0<br>90.0.4430.86",
-        "Beta": "13816.47.0<br>90.0.4430.73",
-        "Dev": "13870.0.0<br>91.0.4456.0",
-        "Canary": "13884.0.0<br>91.0.4461.0",
-        "Recovery": "<a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12871.102.0_guado_recovery_stable-channel_mp-v2.bin.zip\">81</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_guado_recovery_stable-channel_mp-v2.bin.zip\">83</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13310.93.0_guado_recovery_stable-channel_mp-v2.bin.zip\">85</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13421.99.0_guado_recovery_stable-channel_mp-v2.bin.zip\">86</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13505.73.0_guado_recovery_stable-channel_mp-v2.bin.zip\">87</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13729.56.0_guado_recovery_stable-channel_mp-v2.bin.zip\">89</a>",
-        "Brand names": "ASUS Chromebox 2 (CN62)"
     },
     {
         "Codename": "heli",
@@ -899,20 +857,6 @@
         "Brand names": "HP Chromebook 11 2100-2199 / HP Chromebook 11 G3, HP Chromebook 11 G3/G4/G4 EE, HP Chromebook 14 G4"
     },
     {
-        "Codename": "lulu",
-        "Pinned 90": "13816.82.0<br>90.0.4430.218",
-        "Pinned 91": "13904.97.0<br>91.0.4472.167",
-        "Pinned 92": "no update",
-        "Pinned 93": "no update",
-        "Pinned 94": "no update",
-        "Stable": "13904.97.0<br>91.0.4472.167",
-        "Beta": "13904.41.0<br>91.0.4472.81",
-        "Dev": "13904.4.0<br>91.0.4472.10",
-        "Canary": "no update",
-        "Recovery": "<a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12871.102.0_lulu_recovery_stable-channel_mp-v2.bin.zip\">81</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_lulu_recovery_stable-channel_mp-v2.bin.zip\">83</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13099.110.0_lulu_recovery_stable-channel_mp-v2.bin.zip\">84</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13310.93.0_lulu_recovery_stable-channel_mp-v2.bin.zip\">85</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13421.99.0_lulu_recovery_stable-channel_mp-v2.bin.zip\">86</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13505.73.0_lulu_recovery_stable-channel_mp-v2.bin.zip\">87</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13597.105.0_lulu_recovery_stable-channel_mp-v2.bin.zip\">88</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13816.82.0_lulu_recovery_stable-channel_mp-v2.bin.zip\">90</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13904.77.0_lulu_recovery_stable-channel_mp-v2.bin.zip\">91</a>",
-        "Brand names": "Dell Chromebook 13 (7310)"
-    },
-    {
         "Codename": "ninja",
         "Pinned 90": "13816.82.0<br>90.0.4430.218",
         "Pinned 91": "13904.97.0<br>91.0.4472.167",
@@ -941,20 +885,6 @@
         "Brand names": "Lenovo 100S Chromebook"
     },
     {
-        "Codename": "paine",
-        "Pinned 90": "13816.82.0<br>90.0.4430.218",
-        "Pinned 91": "13904.97.0<br>91.0.4472.167",
-        "Pinned 92": "no update",
-        "Pinned 93": "no update",
-        "Pinned 94": "no update",
-        "Stable": "13904.97.0<br>91.0.4472.167",
-        "Beta": "13904.41.0<br>91.0.4472.81",
-        "Dev": "no update",
-        "Canary": "no update",
-        "Recovery": "<a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12871.102.0_auron-paine_recovery_stable-channel_paine-mp-v2.bin.zip\">81</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.82.0_auron-paine_recovery_stable-channel_paine-mp-v2.bin.zip\">83</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13099.110.0_auron-paine_recovery_stable-channel_paine-mp-v2.bin.zip\">84</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13310.93.0_auron-paine_recovery_stable-channel_paine-mp-v2.bin.zip\">85</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13421.99.0_auron-paine_recovery_stable-channel_paine-mp-v2.bin.zip\">86</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13505.73.0_auron-paine_recovery_stable-channel_paine-mp-v2.bin.zip\">87</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13597.105.0_auron-paine_recovery_stable-channel_paine-mp-v2.bin.zip\">88</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13816.82.0_auron-paine_recovery_stable-channel_paine-mp-v2.bin.zip\">90</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13904.77.0_auron-paine_recovery_stable-channel_paine-mp-v2.bin.zip\">91</a>",
-        "Brand names": "Acer Chromebook 11 (C740)"
-    },
-    {
         "Codename": "quawks",
         "Pinned 90": "no update",
         "Pinned 91": "no update",
@@ -967,34 +897,6 @@
         "Canary": "no update",
         "Recovery": "<a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12239.92.0_quawks_recovery_stable-channel_mp-v3.bin.zip\">None</a>",
         "Brand names": "ASUS Chromebook C300"
-    },
-    {
-        "Codename": "rikku",
-        "Pinned 90": "13816.55.0<br>90.0.4430.86",
-        "Pinned 91": "no update",
-        "Pinned 92": "no update",
-        "Pinned 93": "no update",
-        "Pinned 94": "no update",
-        "Stable": "13816.82.0<br>90.0.4430.218",
-        "Beta": "13816.34.0<br>90.0.4430.51",
-        "Dev": "13904.4.0<br>91.0.4472.10",
-        "Canary": "13870.0.0<br>91.0.4456.0",
-        "Recovery": "<a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12871.102.0_rikku_recovery_stable-channel_mp-v2.bin.zip\">81</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_rikku_recovery_stable-channel_mp-v2.bin.zip\">83</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13310.93.0_rikku_recovery_stable-channel_mp-v2.bin.zip\">85</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13421.99.0_rikku_recovery_stable-channel_mp-v2.bin.zip\">86</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13505.73.0_rikku_recovery_stable-channel_mp-v2.bin.zip\">87</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13816.82.0_rikku_recovery_stable-channel_mp-v2.bin.zip\">90</a>",
-        "Brand names": "Acer Chromebox CXI2 / CXV2"
-    },
-    {
-        "Codename": "samus",
-        "Pinned 90": "13816.82.0<br>90.0.4430.218",
-        "Pinned 91": "13904.97.0<br>91.0.4472.167",
-        "Pinned 92": "no update",
-        "Pinned 93": "no update",
-        "Pinned 94": "no update",
-        "Stable": "13904.97.0<br>91.0.4472.167",
-        "Beta": "13904.41.0<br>91.0.4472.81",
-        "Dev": "13904.4.0<br>91.0.4472.10",
-        "Canary": "no update",
-        "Recovery": "<a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12871.102.0_samus_recovery_stable-channel_mp-v3.bin.zip\">81</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_samus_recovery_stable-channel_mp-v3.bin.zip\">83</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13099.110.0_samus_recovery_stable-channel_mp-v3.bin.zip\">84</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13310.93.0_samus_recovery_stable-channel_mp-v3.bin.zip\">85</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13421.99.0_samus_recovery_stable-channel_mp-v3.bin.zip\">86</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13505.73.0_samus_recovery_stable-channel_mp-v3.bin.zip\">87</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13597.105.0_samus_recovery_stable-channel_mp-v3.bin.zip\">88</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13816.82.0_samus_recovery_stable-channel_mp-v3.bin.zip\">90</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13904.77.0_samus_recovery_stable-channel_mp-v3.bin.zip\">91</a>",
-        "Brand names": "Google Chromebook Pixel (2015)"
     },
     {
         "Codename": "squawks",
@@ -1039,20 +941,6 @@
         "Brand names": "Toshiba Chromebook 2"
     },
     {
-        "Codename": "tidus",
-        "Pinned 90": "13816.82.0<br>90.0.4430.218",
-        "Pinned 91": "13904.97.0<br>91.0.4472.167",
-        "Pinned 92": "no update",
-        "Pinned 93": "no update",
-        "Pinned 94": "no update",
-        "Stable": "13904.97.0<br>91.0.4472.167",
-        "Beta": "13904.37.0<br>91.0.4472.66",
-        "Dev": "13904.4.0<br>91.0.4472.10",
-        "Canary": "no update",
-        "Recovery": "<a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12871.102.0_tidus_recovery_stable-channel_mp-v2.bin.zip\">81</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_tidus_recovery_stable-channel_mp-v2.bin.zip\">83</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13310.93.0_tidus_recovery_stable-channel_mp-v2.bin.zip\">85</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13421.99.0_tidus_recovery_stable-channel_mp-v2.bin.zip\">86</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13505.73.0_tidus_recovery_stable-channel_mp-v2.bin.zip\">87</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13816.82.0_tidus_recovery_stable-channel_mp-v2.bin.zip\">90</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13904.97.0_tidus_recovery_stable-channel_mp-v2.bin.zip\">91</a>",
-        "Brand names": "Lenovo ThinkCentre Chromebox"
-    },
-    {
         "Codename": "winky",
         "Pinned 90": "13816.82.0<br>90.0.4430.218",
         "Pinned 91": "13904.77.0<br>91.0.4472.147",
@@ -1065,19 +953,5 @@
         "Canary": "no update",
         "Recovery": "<a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12871.102.0_winky_recovery_stable-channel_mp-v2.bin.zip\">81</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_winky_recovery_stable-channel_mp-v2.bin.zip\">83</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13310.93.0_winky_recovery_stable-channel_mp-v2.bin.zip\">85</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13421.99.0_winky_recovery_stable-channel_mp-v2.bin.zip\">86</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13505.73.0_winky_recovery_stable-channel_mp-v2.bin.zip\">87</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13816.82.0_winky_recovery_stable-channel_mp-v2.bin.zip\">90</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13904.55.0_winky_recovery_stable-channel_mp-v2.bin.zip\">91</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13982.88.0_winky_recovery_stable-channel_mp-v2.bin.zip\">92</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14092.77.0_winky_recovery_stable-channel_mp-v2.bin.zip\">93</a>",
         "Brand names": "Samsung Chromebook 2 11\" - XE500C12"
-    },
-    {
-        "Codename": "yuna",
-        "Pinned 90": "13816.82.0<br>90.0.4430.218",
-        "Pinned 91": "13904.97.0<br>91.0.4472.167",
-        "Pinned 92": "no update",
-        "Pinned 93": "no update",
-        "Pinned 94": "no update",
-        "Stable": "13904.97.0<br>91.0.4472.167",
-        "Beta": "13904.41.0<br>91.0.4472.81",
-        "Dev": "13904.4.0<br>91.0.4472.10",
-        "Canary": "no update",
-        "Recovery": "<a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12871.102.0_auron-yuna_recovery_stable-channel_yuna-mp-v2.bin.zip\">81</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.82.0_auron-yuna_recovery_stable-channel_yuna-mp-v2.bin.zip\">83</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13099.110.0_auron-yuna_recovery_stable-channel_yuna-mp-v2.bin.zip\">84</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13421.99.0_auron-yuna_recovery_stable-channel_yuna-mp-v2.bin.zip\">86</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13505.73.0_auron-yuna_recovery_stable-channel_yuna-mp-v2.bin.zip\">87</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13597.105.0_auron-yuna_recovery_stable-channel_yuna-mp-v2.bin.zip\">88</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13816.82.0_auron-yuna_recovery_stable-channel_yuna-mp-v2.bin.zip\">90</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13904.77.0_auron-yuna_recovery_stable-channel_yuna-mp-v2.bin.zip\">91</a>",
-        "Brand names": "Acer Chromebook 15 (CB5-571, C910)"
     }
 ]
