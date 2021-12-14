@@ -9,7 +9,7 @@
         "Stable": "14150.87.0<br>94.0.4606.124",
         "Beta": "14324.33.0<br>97.0.4692.44",
         "Dev": "14388.1.0<br>98.0.4758.0",
-        "Canary": "14395.0.0<br>99.0.4759.0",
+        "Canary": "14397.0.0<br>99.0.4761.0",
         "Recovery": "<a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_asuka_recovery_stable-channel_mp.bin.zip\">83</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13310.93.0_asuka_recovery_stable-channel_mp.bin.zip\">85</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13421.99.0_asuka_recovery_stable-channel_mp.bin.zip\">86</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13505.73.0_asuka_recovery_stable-channel_mp.bin.zip\">87</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13597.105.0_asuka_recovery_stable-channel_mp.bin.zip\">88</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13816.82.0_asuka_recovery_stable-channel_mp.bin.zip\">90</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13904.55.0_asuka_recovery_stable-channel_mp.bin.zip\">91</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13982.88.0_asuka_recovery_stable-channel_mp.bin.zip\">92</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14092.77.0_asuka_recovery_stable-channel_mp.bin.zip\">93</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14150.87.0_asuka_recovery_stable-channel_mp.bin.zip\">94</a>",
         "Brand names": "Dell Chromebook 13 (3380)"
     },
@@ -33,8 +33,8 @@
         "Pinned 92": "13982.88.0<br>92.0.4515.162",
         "Pinned 93": "14092.77.0<br>93.0.4577.107",
         "Pinned 94": "14150.87.0<br>94.0.4606.124",
-        "Pinned 96": "no update",
-        "Stable": "14150.87.0<br>94.0.4606.124",
+        "Pinned 96": "14268.67.0<br>96.0.4664.111",
+        "Stable": "14268.67.0<br>96.0.4664.111",
         "Beta": "14324.33.0<br>97.0.4692.44",
         "Dev": "14388.1.0<br>98.0.4758.0",
         "Canary": "14397.0.0<br>99.0.4761.0",
@@ -499,7 +499,7 @@
         "Stable": "14150.74.0<br>94.0.4606.114",
         "Beta": "14324.33.0<br>97.0.4692.44",
         "Dev": "14388.1.0<br>98.0.4758.0",
-        "Canary": "14395.0.0<br>99.0.4759.0",
+        "Canary": "14397.0.0<br>99.0.4761.0",
         "Recovery": "<a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_reks_recovery_stable-channel_mp-v4.bin.zip\">83</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13099.110.0_reks_recovery_stable-channel_mp-v4.bin.zip\">84</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13310.93.0_reks_recovery_stable-channel_mp-v4.bin.zip\">85</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13421.99.0_reks_recovery_stable-channel_mp-v4.bin.zip\">86</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13505.73.0_reks_recovery_stable-channel_mp-v4.bin.zip\">87</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13597.105.0_reks_recovery_stable-channel_mp-v4.bin.zip\">88</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13816.82.0_reks_recovery_stable-channel_mp-v4.bin.zip\">90</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13904.55.0_reks_recovery_stable-channel_mp-v4.bin.zip\">91</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13982.88.0_reks_recovery_stable-channel_mp-v4.bin.zip\">92</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14092.77.0_reks_recovery_stable-channel_mp-v4.bin.zip\">93</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14150.74.0_reks_recovery_stable-channel_mp-v4.bin.zip\">94</a>",
         "Brand names": "Lenovo N23 Chromebook, Lenovo N23 Chromebook (Touch), Lenovo N42 Chromebook, Lenovo N22 Chromebook"
     },
@@ -569,7 +569,7 @@
         "Stable": "14150.87.0<br>94.0.4606.124",
         "Beta": "14324.33.0<br>97.0.4692.44",
         "Dev": "14388.1.0<br>98.0.4758.0",
-        "Canary": "14395.0.0<br>99.0.4759.0",
+        "Canary": "14397.0.0<br>99.0.4761.0",
         "Recovery": "<a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_sentry_recovery_stable-channel_mp.bin.zip\">83</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13099.110.0_sentry_recovery_stable-channel_mp.bin.zip\">84</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13310.93.0_sentry_recovery_stable-channel_mp.bin.zip\">85</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13421.99.0_sentry_recovery_stable-channel_mp.bin.zip\">86</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13505.73.0_sentry_recovery_stable-channel_mp.bin.zip\">87</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13597.105.0_sentry_recovery_stable-channel_mp.bin.zip\">88</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13816.82.0_sentry_recovery_stable-channel_mp.bin.zip\">90</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13904.55.0_sentry_recovery_stable-channel_mp.bin.zip\">91</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13982.88.0_sentry_recovery_stable-channel_mp.bin.zip\">92</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14092.77.0_sentry_recovery_stable-channel_mp.bin.zip\">93</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14150.87.0_sentry_recovery_stable-channel_mp.bin.zip\">94</a>",
         "Brand names": "Lenovo ThinkPad 13"
     },
@@ -695,7 +695,7 @@
         "Stable": "no update",
         "Beta": "14092.46.0<br>93.0.4577.69",
         "Dev": "no update",
-        "Canary": "14395.0.0<br>99.0.4759.0",
+        "Canary": "14397.0.0<br>99.0.4761.0",
         "Recovery": "<a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13816.82.0_volteer_recovery_stable-channel_mp-v6.bin.zip\">90</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13904.55.0_volteer_recovery_stable-channel_mp-v6.bin.zip\">91</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13982.88.0_volteer_recovery_stable-channel_mp-v6.bin.zip\">92</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14092.77.0_volteer_recovery_stable-channel_mp-v8.bin.zip\">93</a> <a href=\"https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14150.87.0_volteer_recovery_stable-channel_mp-v8.bin.zip\">94</a>",
         "Brand names": "FMV Chromebook 14F, FMV Chromebook WM1/F3, ASUS Chromebook Flip CX3, ASUS Chromebook Flip CX5 (CX5400), ASUS Chromebook Flip CX5 (CX5500), ASUS Chromebook CX9 (CX9400), HP Chromebook x360 14c, HP Pro c640 G2 Chromebook, IdeaPad Flex 5i Chromebook (13\", 6), Lenovo Slim 5 Chromebook, Lenovo 5i-14 Chromebook, Acer Chromebook Spin 514 (CP514-2H), Acer Chromebook 515 (CB515-1W/CB515-1WT), Acer Chromebook 514 (CB514-1W/CB514-1WT), Acer Chromebook Spin 713 (CP713-3W)"
     },
