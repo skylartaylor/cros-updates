@@ -1,35 +1,102 @@
-var tabletojson = require("tabletojson").Tabletojson
+const fetch = require("node-fetch")
 const fs = require("fs")
 const { Parser } = require("json2csv")
-const stripHtml = require("string-strip-html")
 
-var url = "https://chromiumdash.appspot.com/serving-builds?deviceCategory=Chrome%20OS"
+let url = "https://chromiumdash.appspot.com/cros/fetch_serving_builds"
+let settings = { method: "Get" }
 
-tabletojson.convertUrl(url, { stripHtmlFromCells: false }, function(
-  tablesAsJson
-) {
-  var data = tablesAsJson[0].map(item => {
-    item.Codename = stripHtml(item.Codename)
-    return item
-  })
+fetch(url, settings)
+    .then(res => res.json())
+    .then((json) => {
 
-  var json = JSON.stringify(data, null, 4)
+        let data=json.builds
+        let crosUpdatesData = []
 
-  fs.writeFile("./src/data/cros-updates-new.json", json, err => {
-    if (err) throw err
-  })
+        function formatVersionString(version) {
+            if (version === undefined) {
+                return "No Update"
+            } else {
+                return version.version + "<br>" + version.chromeVersion
+            }
+        }
 
-  const csvdata = data.map(item => {
-    Object.keys(item).forEach(function(key) {
-      item[key] = item[key].replace("<br>", "\\n")
+        function formatBoardObject(board, name) {
+
+            let boardObject = {
+                "Codename": name,
+                "Stable": formatVersionString(board.servingStable),
+                "Beta": formatVersionString(board.servingBeta),
+                "Dev": formatVersionString(board.servingDev),
+                "Canary": formatVersionString(board.servingCanary),
+                "Recovery": board.pushRecoveries,
+                "Brand names": board.brandNames.join(', '),
+                "isAue": board.isAue,
+            }
+            return boardObject
+        }
+
+        Object.keys(data).forEach(boardName => {
+            let board = data[boardName]
+
+            //checking for codename with sub-boards (no channel info on main device obj)
+            if (board.servingStable === undefined) {
+                // grab version data from first sub-board and mainboard, push to array
+                let mainBoardVersions = Object.values(board.models)[0]
+                mainBoardVersions.pushRecoveries = board.pushRecoveries
+                mainBoardVersions.subboard = false
+                crosUpdatesData.push(formatBoardObject(mainBoardVersions, boardName))
+
+                //iterate over sub-boards and push to array
+                Object.keys(board.models).forEach(modelName => {
+                    model = board.models[modelName]
+                    model.pushRecoveries = board.pushRecoveries
+                    model.subboard = true
+                    //don't push if sub-board and mainboard name are the same
+                    if (modelName !== boardName) {
+                        crosUpdatesData.push(formatBoardObject(model, modelName))
+                            }
+                        })
+                    } else {
+                        //for boards with no sub-boards, just push data to array
+                        board.subboard = false
+                        crosUpdatesData.push(formatBoardObject(board, boardName))
+                    }
+
+                })
+                //write JSON to file
+                fs.writeFile('./src/data/cros-updates.json', JSON.stringify(crosUpdatesData), err => {
+                    if (err) {
+                        console.error(err)
+                        return
+                    }
+                })
+                //convert data to CSV format for Discord Bot
+                const legacycsv = []
+
+                crosUpdatesData.map( item => {
+                    let csvDevice = {
+                        "Codename": item.Codename,
+                        "Pinned 93": "NA",
+                        "Pinned 94": "NA",
+                        "Pinned 96": "NA",
+                        "Pinned 97": "NA",
+                        "Pinned 98": "NA",
+                        "Stable": item.Stable.replace('<br>', "\\n"),
+                        "Beta": item.Beta.replace('<br>', "\\n"),
+                        "Dev": item.Dev.replace('<br>', "\\n"),
+                        "Canary": item.Canary.replace('<br>', "\\n"),
+                        "Recovery": "NA",
+                        "Brand names": item['Brand names']
+                    }
+                    legacycsv.push(csvDevice)
+                })
+
+                const json2csvParser = new Parser()
+                const csv = json2csvParser.parse(legacycsv)
+
+                //write CSV to file
+                fs.writeFile("./src/data/cros-updates.csv", csv, err => {
+                if (err) throw err
+                })
+
     })
-    return item
-  })
-
-  const json2csvParser = new Parser()
-  const csv = json2csvParser.parse(csvdata)
-
-  fs.writeFile("./src/data/cros-updates-new.csv", csv, err => {
-    if (err) throw err
-  })
-})
