@@ -31,19 +31,7 @@ const useStyles = makeStyles({
     const classes = useStyles()
   
     var selectedDevice = props.device
-    
-    var recoveryData = []
-    var recoveryParsedHTML = new DOMParser().parseFromString(selectedDevice.Recovery).childNodes
-    var recoveryDataParser = Object.keys(recoveryParsedHTML).forEach(element => {
-      var parsedElement = recoveryParsedHTML[element]
-      if (typeof parsedElement === "object" && parsedElement.attributes !== null) {
-        var recoveryObject = {
-          version: recoveryParsedHTML[element].childNodes[0].data,
-          url: recoveryParsedHTML[element].attributes[0].nodeValue,
-        }
-        recoveryData.push(recoveryObject)
-      }
-    })
+    var recoveryData = Object.entries(selectedDevice.Recovery)
 
     var formattedDevice = {
       Codename: selectedDevice.Codename,
@@ -61,13 +49,13 @@ const useStyles = makeStyles({
                 {recoveryData.map(recovery => {
                   return (
                     <Button
-                      key={recovery.version}
-                      href={recovery.url}
+                      key={recovery[0]}
+                      href={recovery[1]}
                       color="primary"
                       variant="contained"
                       className={classes.button}
                     >
-                      {recovery.version}
+                      {recovery[0]}
                     </Button>
                   )
                 })}
