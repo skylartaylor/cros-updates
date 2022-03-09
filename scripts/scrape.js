@@ -57,6 +57,13 @@ fetch(url, settings)
                             }
                         })
                     } else {
+                        //(hopefully) temporary fix for issue with bob board
+                        if (boardName === "bob") {
+                            board.servingBeta = board.models.bob.servingBeta
+                            board.servingDev = board.models.bob.servingDev
+                            board.servingCanary = board.models.bob.servingCanary
+                            console.log("hi i'm bob" + JSON.stringify(board))
+                        }
                         //for boards with no sub-boards, just push data to array
                         board.subboard = false
                         crosUpdatesData.push(formatBoardObject(board, boardName))
@@ -64,7 +71,7 @@ fetch(url, settings)
 
                 })
                 //write JSON to file
-                fs.writeFile('./src/data/cros-updates.json', JSON.stringify(crosUpdatesData), err => {
+                fs.writeFile('./src/data/cros-updates.json', JSON.stringify(crosUpdatesData, null, 2), err => {
                     if (err) {
                         console.error(err)
                         return
