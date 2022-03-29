@@ -3,7 +3,7 @@
     "Codename": "asuka",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_asuka_recovery_stable-channel_mp.bin.zip",
@@ -65,7 +65,7 @@
     "Codename": "spherion",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "92": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13982.88.0_asurada_recovery_stable-channel_mp-v2.bin.zip",
@@ -82,7 +82,7 @@
     "Codename": "atlas",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_atlas_recovery_stable-channel_mp.bin.zip",
@@ -336,7 +336,7 @@
     "Codename": "caroline",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_caroline_recovery_stable-channel_mp.bin.zip",
@@ -392,7 +392,7 @@
     "Codename": "celes",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.81.0_celes_recovery_stable-channel_mp-v2.bin.zip",
@@ -420,7 +420,7 @@
     "Codename": "chell",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.58.0_chell_recovery_stable-channel_mp.bin.zip",
@@ -480,7 +480,7 @@
     "Codename": "coral",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_coral_recovery_stable-channel_mp-v17.bin.zip",
@@ -507,7 +507,7 @@
     "Codename": "astronaut",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_coral_recovery_stable-channel_mp-v17.bin.zip",
@@ -534,7 +534,7 @@
     "Codename": "babymega",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_coral_recovery_stable-channel_mp-v17.bin.zip",
@@ -561,7 +561,7 @@
     "Codename": "babytiger",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_coral_recovery_stable-channel_mp-v17.bin.zip",
@@ -588,7 +588,7 @@
     "Codename": "blacktip",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_coral_recovery_stable-channel_mp-v17.bin.zip",
@@ -608,14 +608,14 @@
       "97": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14324.62.0_coral_recovery_stable-channel_mp-v19.bin.zip",
       "98": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14388.61.0_coral_recovery_stable-channel_mp-v19.bin.zip"
     },
-    "Brand names": "Lanix Chromebook C116, Multilaser Chromebook M11C-PC912, CTL chromebook NL7, Edxis Chromebook 11, Positivo Chromebook N2110",
+    "Brand names": "Multilaser Chromebook M11C-PC912, Edxis Chromebook 11, Positivo Chromebook N2110, Lanix Chromebook C116, CTL chromebook NL7",
     "isAue": false
   },
   {
     "Codename": "blacktip360",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_coral_recovery_stable-channel_mp-v17.bin.zip",
@@ -635,14 +635,14 @@
       "97": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14324.62.0_coral_recovery_stable-channel_mp-v19.bin.zip",
       "98": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14388.61.0_coral_recovery_stable-channel_mp-v19.bin.zip"
     },
-    "Brand names": "Lanix Chromebook C116, Multilaser Chromebook M11HC-PC911, CTL Chromebook NL7 / NL7T-360 / NL7TW-360, Viglen Chromebook 360C, Edxis Chromebook X11, Positivo Chromebook N2112",
+    "Brand names": "Viglen Chromebook 360C, Positivo Chromebook N2112, Multilaser Chromebook M11HC-PC911, Lanix Chromebook C116, CTL Chromebook NL7 / NL7T-360 / NL7TW-360, Edxis Chromebook X11",
     "isAue": false
   },
   {
     "Codename": "blacktiplte",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_coral_recovery_stable-channel_mp-v17.bin.zip",
@@ -669,7 +669,7 @@
     "Codename": "blue",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_coral_recovery_stable-channel_mp-v17.bin.zip",
@@ -696,7 +696,7 @@
     "Codename": "bruce",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_coral_recovery_stable-channel_mp-v17.bin.zip",
@@ -723,7 +723,7 @@
     "Codename": "epaulette",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_coral_recovery_stable-channel_mp-v17.bin.zip",
@@ -777,7 +777,7 @@
     "Codename": "nasher",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_coral_recovery_stable-channel_mp-v17.bin.zip",
@@ -804,7 +804,7 @@
     "Codename": "nasher360",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14640.0.0<br>102.0.4966.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_coral_recovery_stable-channel_mp-v17.bin.zip",
@@ -831,7 +831,7 @@
     "Codename": "rabbid",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_coral_recovery_stable-channel_mp-v17.bin.zip",
@@ -851,14 +851,14 @@
       "97": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14324.62.0_coral_recovery_stable-channel_mp-v19.bin.zip",
       "98": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14388.61.0_coral_recovery_stable-channel_mp-v19.bin.zip"
     },
-    "Brand names": "ASUS Chromebook C403, ASUS Chromebook C423, ASUS Chromebook CX1400CNA",
+    "Brand names": "ASUS Chromebook C423, ASUS Chromebook C403, ASUS Chromebook CX1400CNA",
     "isAue": false
   },
   {
     "Codename": "robo",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_coral_recovery_stable-channel_mp-v17.bin.zip",
@@ -885,7 +885,7 @@
     "Codename": "robo360",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_coral_recovery_stable-channel_mp-v17.bin.zip",
@@ -912,7 +912,7 @@
     "Codename": "santa",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_coral_recovery_stable-channel_mp-v17.bin.zip",
@@ -939,7 +939,7 @@
     "Codename": "whitetip",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_coral_recovery_stable-channel_mp-v17.bin.zip",
@@ -959,14 +959,14 @@
       "97": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14324.62.0_coral_recovery_stable-channel_mp-v19.bin.zip",
       "98": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14388.61.0_coral_recovery_stable-channel_mp-v19.bin.zip"
     },
-    "Brand names": "Prowise Chromebook Eduline, Sector 5 E3 Chromebook, PCmerge Chromebook AL116, CTL Chromebook J41 / J41T, Viglen Chromebook 11C",
+    "Brand names": "CTL Chromebook J41 / J41T, PCmerge Chromebook AL116, Prowise Chromebook Eduline, Viglen Chromebook 11C, Sector 5 E3 Chromebook",
     "isAue": false
   },
   {
     "Codename": "cyan",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.81.0_cyan_recovery_stable-channel_mp-v3.bin.zip",
@@ -1085,7 +1085,7 @@
     "Codename": "dedede",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "88": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13597.105.0_dedede_recovery_stable-channel_mp-v3.bin.zip",
@@ -1106,7 +1106,7 @@
     "Codename": "beetley",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "88": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13597.105.0_dedede_recovery_stable-channel_mp-v3.bin.zip",
@@ -1127,7 +1127,7 @@
     "Codename": "blipper",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "88": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13597.105.0_dedede_recovery_stable-channel_mp-v3.bin.zip",
@@ -1148,7 +1148,7 @@
     "Codename": "boten",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "88": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13597.105.0_dedede_recovery_stable-channel_mp-v3.bin.zip",
@@ -1169,7 +1169,7 @@
     "Codename": "bugzzy",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "88": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13597.105.0_dedede_recovery_stable-channel_mp-v3.bin.zip",
@@ -1190,7 +1190,7 @@
     "Codename": "cret",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "88": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13597.105.0_dedede_recovery_stable-channel_mp-v3.bin.zip",
@@ -1232,7 +1232,7 @@
     "Codename": "drawcia",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "88": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13597.105.0_dedede_recovery_stable-channel_mp-v3.bin.zip",
@@ -1253,7 +1253,7 @@
     "Codename": "drawlat",
     "Stable": "14469.41.0<br>99.0.4844.57",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "88": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13597.105.0_dedede_recovery_stable-channel_mp-v3.bin.zip",
@@ -1274,7 +1274,7 @@
     "Codename": "drawman",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "88": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13597.105.0_dedede_recovery_stable-channel_mp-v3.bin.zip",
@@ -1295,7 +1295,7 @@
     "Codename": "drawper",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "88": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13597.105.0_dedede_recovery_stable-channel_mp-v3.bin.zip",
@@ -1316,7 +1316,7 @@
     "Codename": "galith",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "88": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13597.105.0_dedede_recovery_stable-channel_mp-v3.bin.zip",
@@ -1337,7 +1337,7 @@
     "Codename": "gallop",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "88": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13597.105.0_dedede_recovery_stable-channel_mp-v3.bin.zip",
@@ -1358,7 +1358,7 @@
     "Codename": "kracko",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "88": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13597.105.0_dedede_recovery_stable-channel_mp-v3.bin.zip",
@@ -1379,7 +1379,7 @@
     "Codename": "kracko360",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "88": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13597.105.0_dedede_recovery_stable-channel_mp-v3.bin.zip",
@@ -1400,7 +1400,7 @@
     "Codename": "lantis",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "88": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13597.105.0_dedede_recovery_stable-channel_mp-v3.bin.zip",
@@ -1421,7 +1421,7 @@
     "Codename": "madoo",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "88": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13597.105.0_dedede_recovery_stable-channel_mp-v3.bin.zip",
@@ -1442,7 +1442,7 @@
     "Codename": "magister",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "88": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13597.105.0_dedede_recovery_stable-channel_mp-v3.bin.zip",
@@ -1484,7 +1484,7 @@
     "Codename": "maglia",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "88": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13597.105.0_dedede_recovery_stable-channel_mp-v3.bin.zip",
@@ -1505,7 +1505,7 @@
     "Codename": "maglith",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "88": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13597.105.0_dedede_recovery_stable-channel_mp-v3.bin.zip",
@@ -1526,7 +1526,7 @@
     "Codename": "magma",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "88": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13597.105.0_dedede_recovery_stable-channel_mp-v3.bin.zip",
@@ -1547,7 +1547,7 @@
     "Codename": "magolor",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "88": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13597.105.0_dedede_recovery_stable-channel_mp-v3.bin.zip",
@@ -1568,7 +1568,7 @@
     "Codename": "magpie",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "88": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13597.105.0_dedede_recovery_stable-channel_mp-v3.bin.zip",
@@ -1589,7 +1589,7 @@
     "Codename": "metaknight",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "88": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13597.105.0_dedede_recovery_stable-channel_mp-v3.bin.zip",
@@ -1610,7 +1610,7 @@
     "Codename": "pirette",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "88": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13597.105.0_dedede_recovery_stable-channel_mp-v3.bin.zip",
@@ -1631,7 +1631,7 @@
     "Codename": "sasuke",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "88": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13597.105.0_dedede_recovery_stable-channel_mp-v3.bin.zip",
@@ -1652,7 +1652,7 @@
     "Codename": "storo",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "88": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13597.105.0_dedede_recovery_stable-channel_mp-v3.bin.zip",
@@ -1673,7 +1673,7 @@
     "Codename": "storo360",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "88": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13597.105.0_dedede_recovery_stable-channel_mp-v3.bin.zip",
@@ -1718,7 +1718,7 @@
     "Codename": "drallion360",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "84": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13099.102.0_drallion_recovery_stable-channel_mp-v2.bin.zip",
@@ -1742,7 +1742,7 @@
     "Codename": "edgar",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.81.0_edgar_recovery_stable-channel_mp-v2.bin.zip",
@@ -1820,7 +1820,7 @@
       "92": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13982.88.0_enguarde_recovery_stable-channel_mp-v25.bin.zip",
       "93": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14092.77.0_enguarde_recovery_stable-channel_mp-v25.bin.zip"
     },
-    "Brand names": "Education Chromebook, CTL N6 Education Chromebook, eduGear Chromebook R, JP Sa Couto Chromebook, Lenovo N21 Chromebook, RGS Education Chromebook, True IDC Chromebook, ASI Chromebook, Edxis Education Chromebook (NL6), Crambo Chromebook, M&A Chromebook, Videonet Chromebook, Senkatel C1101 Chromebook",
+    "Brand names": "RGS Education Chromebook, JP Sa Couto Chromebook, CTL N6 Education Chromebook, ASI Chromebook, Education Chromebook, Edxis Education Chromebook (NL6), Senkatel C1101 Chromebook, Crambo Chromebook, M&A Chromebook, True IDC Chromebook, Lenovo N21 Chromebook, eduGear Chromebook R, Videonet Chromebook",
     "isAue": true
   },
   {
@@ -1943,7 +1943,7 @@
     "Codename": "fizz",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_fizz_recovery_stable-channel_mp-v12.bin.zip",
@@ -1965,14 +1965,14 @@
       "97": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14324.62.0_fizz_recovery_stable-channel_mp-v13.bin.zip",
       "98": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14388.61.0_fizz_recovery_stable-channel_mp-v13.bin.zip"
     },
-    "Brand names": "Newline Chromebox A10, AOpen Chromebox Commercial 2",
+    "Brand names": "AOpen Chromebox Commercial 2, Newline Chromebox A10",
     "isAue": false
   },
   {
     "Codename": "jax",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_fizz_recovery_stable-channel_mp-v12.bin.zip",
@@ -1994,14 +1994,14 @@
       "97": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14324.62.0_fizz_recovery_stable-channel_mp-v13.bin.zip",
       "98": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14388.61.0_fizz_recovery_stable-channel_mp-v13.bin.zip"
     },
-    "Brand names": "Newline Chromebox A10, AOpen Chromebox Commercial 2",
+    "Brand names": "AOpen Chromebox Commercial 2, Newline Chromebox A10",
     "isAue": false
   },
   {
     "Codename": "kench",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_fizz_recovery_stable-channel_mp-v12.bin.zip",
@@ -2030,7 +2030,7 @@
     "Codename": "sion",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_fizz_recovery_stable-channel_mp-v12.bin.zip",
@@ -2059,7 +2059,7 @@
     "Codename": "teemo",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_fizz_recovery_stable-channel_mp-v12.bin.zip",
@@ -2088,7 +2088,7 @@
     "Codename": "wukong",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_fizz_recovery_stable-channel_mp-v12.bin.zip",
@@ -2110,7 +2110,7 @@
       "97": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14324.62.0_fizz_recovery_stable-channel_mp-v13.bin.zip",
       "98": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14388.61.0_fizz_recovery_stable-channel_mp-v13.bin.zip"
     },
-    "Brand names": "SMART Chromebox G3, CTL Chromebox CBx1, ViewSonic NMP660 Chromebox, OWG, Promethean Chromebox",
+    "Brand names": "SMART Chromebox G3, OWG, CTL Chromebox CBx1, ViewSonic NMP660 Chromebox, Promethean Chromebox",
     "isAue": false
   },
   {
@@ -2199,14 +2199,14 @@
       "92": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13982.88.0_gnawty_recovery_stable-channel_mp-v3.bin.zip",
       "93": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14092.77.0_gnawty_recovery_stable-channel_mp-v3.bin.zip"
     },
-    "Brand names": "Acer Chromebook 11 (CB3-131, C735), Acer Chromebook 11 (CB3-111, C730, C730E)",
+    "Brand names": "Acer Chromebook 11 (CB3-111, C730, C730E), Acer Chromebook 11 (CB3-131, C735)",
     "isAue": true
   },
   {
     "Codename": "grunt",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14624.0.0<br>102.0.4958.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_grunt_recovery_stable-channel_mp-v5.bin.zip",
@@ -2234,7 +2234,7 @@
     "Codename": "aleena",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14624.0.0<br>102.0.4958.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_grunt_recovery_stable-channel_mp-v5.bin.zip",
@@ -2290,7 +2290,7 @@
     "Codename": "careena",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14624.0.0<br>102.0.4958.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_grunt_recovery_stable-channel_mp-v5.bin.zip",
@@ -2318,7 +2318,7 @@
     "Codename": "kasumi",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14624.0.0<br>102.0.4958.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_grunt_recovery_stable-channel_mp-v5.bin.zip",
@@ -2374,7 +2374,7 @@
     "Codename": "liara",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14624.0.0<br>102.0.4958.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_grunt_recovery_stable-channel_mp-v5.bin.zip",
@@ -2402,7 +2402,7 @@
     "Codename": "treeya",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14624.0.0<br>102.0.4958.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_grunt_recovery_stable-channel_mp-v5.bin.zip",
@@ -2423,14 +2423,14 @@
       "97": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14324.62.0_grunt_recovery_stable-channel_mp-v6.bin.zip",
       "98": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14388.61.0_grunt_recovery_stable-channel_mp-v6.bin.zip"
     },
-    "Brand names": "100e Gen 2 AST, IdeaPad 3 Chromebook (11\", 5)",
+    "Brand names": "IdeaPad 3 Chromebook (11\", 5), 100e Gen 2 AST",
     "isAue": false
   },
   {
     "Codename": "treeya360",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14624.0.0<br>102.0.4958.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_grunt_recovery_stable-channel_mp-v5.bin.zip",
@@ -2486,7 +2486,7 @@
     "Codename": "hana",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_hana_recovery_stable-channel_mp-v6.bin.zip",
@@ -2507,14 +2507,14 @@
       "97": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14324.62.0_hana_recovery_stable-channel_mp-v7.bin.zip",
       "98": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14388.61.0_hana_recovery_stable-channel_mp-v7.bin.zip"
     },
-    "Brand names": "Poin2 Chromebook 11C, Lenovo Ideapad C330 Chromebook, Lenovo Ideapad S330 Chromebook, Lenovo 300e Chromebook 2nd Gen MTK, ASUS Chromebook C202XA, Lenovo 300e/N23 Yoga/Flex 11 Chromebook, Lenovo 100e Chromebook 2nd Gen MTK, Prowise Chromebook Eduline / Prowise Chromebook Eduline 360, Poin2 Chromebook 14",
+    "Brand names": "Poin2 Chromebook 11C, Prowise Chromebook Eduline / Prowise Chromebook Eduline 360, Lenovo Ideapad C330 Chromebook, Poin2 Chromebook 14, Lenovo Ideapad S330 Chromebook, ASUS Chromebook C202XA, Lenovo 300e Chromebook 2nd Gen MTK, Lenovo 300e/N23 Yoga/Flex 11 Chromebook, Lenovo 100e Chromebook 2nd Gen MTK",
     "isAue": false
   },
   {
     "Codename": "hatch",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "80": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12739.106.0_hatch_recovery_stable-channel_mp-v4.bin.zip",
@@ -2542,7 +2542,7 @@
     "Codename": "akemi",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "80": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12739.106.0_hatch_recovery_stable-channel_mp-v4.bin.zip",
@@ -2598,7 +2598,7 @@
     "Codename": "dratini",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "80": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12739.106.0_hatch_recovery_stable-channel_mp-v4.bin.zip",
@@ -2626,7 +2626,7 @@
     "Codename": "helios",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "80": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12739.106.0_hatch_recovery_stable-channel_mp-v4.bin.zip",
@@ -2682,7 +2682,7 @@
     "Codename": "kindred",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "80": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12739.106.0_hatch_recovery_stable-channel_mp-v4.bin.zip",
@@ -2710,7 +2710,7 @@
     "Codename": "kled",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "80": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12739.106.0_hatch_recovery_stable-channel_mp-v4.bin.zip",
@@ -2766,7 +2766,7 @@
     "Codename": "nightfury",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "80": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12739.106.0_hatch_recovery_stable-channel_mp-v4.bin.zip",
@@ -2823,7 +2823,7 @@
     "Codename": "jacuzzi",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "83": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_jacuzzi_recovery_stable-channel_mp-v2.bin.zip",
@@ -2849,7 +2849,7 @@
     "Codename": "burnet",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "83": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_jacuzzi_recovery_stable-channel_mp-v2.bin.zip",
@@ -2875,7 +2875,7 @@
     "Codename": "cozmo",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "83": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_jacuzzi_recovery_stable-channel_mp-v2.bin.zip",
@@ -2927,7 +2927,7 @@
     "Codename": "esche",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "83": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_jacuzzi_recovery_stable-channel_mp-v2.bin.zip",
@@ -2979,7 +2979,7 @@
     "Codename": "fennel14",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "83": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_jacuzzi_recovery_stable-channel_mp-v2.bin.zip",
@@ -3005,7 +3005,7 @@
     "Codename": "juniper",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "83": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_jacuzzi_recovery_stable-channel_mp-v2.bin.zip",
@@ -3031,7 +3031,7 @@
     "Codename": "kappa",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "83": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_jacuzzi_recovery_stable-channel_mp-v2.bin.zip",
@@ -3050,14 +3050,14 @@
       "97": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14324.62.0_jacuzzi_recovery_stable-channel_mp-v7.bin.zip",
       "98": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14388.62.0_jacuzzi_recovery_stable-channel_mp-v7.bin.zip"
     },
-    "Brand names": "HP Chromebook 11.6 inch, HP Chromebook 11a na0xxx",
+    "Brand names": "HP Chromebook 11a na0xxx, HP Chromebook 11.6 inch",
     "isAue": false
   },
   {
     "Codename": "kenzo",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "83": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_jacuzzi_recovery_stable-channel_mp-v2.bin.zip",
@@ -3109,7 +3109,7 @@
     "Codename": "pico",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "83": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_jacuzzi_recovery_stable-channel_mp-v2.bin.zip",
@@ -3135,7 +3135,7 @@
     "Codename": "willow",
     "Stable": "14469.58.0<br>99.0.4844.86",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "83": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_jacuzzi_recovery_stable-channel_mp-v2.bin.zip",
@@ -3161,7 +3161,7 @@
     "Codename": "kalista",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_kalista_recovery_stable-channel_mp-v2.bin.zip",
@@ -3189,7 +3189,7 @@
     "Codename": "karma",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_kalista_recovery_stable-channel_mp-v2.bin.zip",
@@ -3217,7 +3217,7 @@
     "Codename": "kefka",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_kefka_recovery_stable-channel_mp.bin.zip",
@@ -3294,14 +3294,14 @@
       "92": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13982.88.0_kip_recovery_stable-channel_mp-v3.bin.zip",
       "93": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14092.77.0_kip_recovery_stable-channel_mp-v3.bin.zip"
     },
-    "Brand names": "HP Chromebook 14 G4, HP Chromebook 11 2100-2199 / HP Chromebook 11 G3, HP Chromebook 11 G3/G4/G4 EE",
+    "Brand names": "HP Chromebook 11 G3/G4/G4 EE, HP Chromebook 11 2100-2199 / HP Chromebook 11 G3, HP Chromebook 14 G4",
     "isAue": true
   },
   {
     "Codename": "kukui",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "80": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12739.111.0_kukui_recovery_stable-channel_mp-v2.bin.zip",
@@ -3329,7 +3329,7 @@
     "Codename": "kakadu",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "80": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12739.111.0_kukui_recovery_stable-channel_mp-v2.bin.zip",
@@ -3357,7 +3357,7 @@
     "Codename": "kodama",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "80": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12739.111.0_kukui_recovery_stable-channel_mp-v2.bin.zip",
@@ -3413,7 +3413,7 @@
     "Codename": "lars",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_lars_recovery_stable-channel_mp.bin.zip",
@@ -3613,7 +3613,7 @@
     "Codename": "nami",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.81.0_nami_recovery_stable-channel_mp-v5.bin.zip",
@@ -3641,7 +3641,7 @@
     "Codename": "akali",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.81.0_nami_recovery_stable-channel_mp-v5.bin.zip",
@@ -3669,7 +3669,7 @@
     "Codename": "akali360",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.81.0_nami_recovery_stable-channel_mp-v5.bin.zip",
@@ -3753,7 +3753,7 @@
     "Codename": "pantheon",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.81.0_nami_recovery_stable-channel_mp-v5.bin.zip",
@@ -3809,7 +3809,7 @@
     "Codename": "syndra",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.81.0_nami_recovery_stable-channel_mp-v5.bin.zip",
@@ -3837,7 +3837,7 @@
     "Codename": "vayne",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.81.0_nami_recovery_stable-channel_mp-v5.bin.zip",
@@ -3865,7 +3865,7 @@
     "Codename": "nautilus",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14640.0.0<br>102.0.4966.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_nautilus_recovery_stable-channel_mp-v2.bin.zip",
@@ -4069,7 +4069,7 @@
     "Codename": "octopus",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14583.0.0<br>101.0.4943.0",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_octopus_recovery_stable-channel_mp-v11.bin.zip",
@@ -4097,7 +4097,7 @@
     "Codename": "ampton",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14583.0.0<br>101.0.4943.0",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_octopus_recovery_stable-channel_mp-v11.bin.zip",
@@ -4125,7 +4125,7 @@
     "Codename": "apel",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14583.0.0<br>101.0.4943.0",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_octopus_recovery_stable-channel_mp-v11.bin.zip",
@@ -4153,7 +4153,7 @@
     "Codename": "apele",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14496.0.0<br>100.0.4863.0",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_octopus_recovery_stable-channel_mp-v11.bin.zip",
@@ -4181,7 +4181,7 @@
     "Codename": "bloog",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14583.0.0<br>101.0.4943.0",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_octopus_recovery_stable-channel_mp-v11.bin.zip",
@@ -4209,7 +4209,7 @@
     "Codename": "blooglet",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14583.0.0<br>101.0.4943.0",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_octopus_recovery_stable-channel_mp-v11.bin.zip",
@@ -4237,7 +4237,7 @@
     "Codename": "blooguard",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14583.0.0<br>101.0.4943.0",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_octopus_recovery_stable-channel_mp-v11.bin.zip",
@@ -4265,7 +4265,7 @@
     "Codename": "blorb",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14583.0.0<br>101.0.4943.0",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_octopus_recovery_stable-channel_mp-v11.bin.zip",
@@ -4293,7 +4293,7 @@
     "Codename": "bluebird",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14583.0.0<br>101.0.4943.0",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14610.0.0<br>102.0.4952.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_octopus_recovery_stable-channel_mp-v11.bin.zip",
@@ -4321,7 +4321,7 @@
     "Codename": "bobba",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14583.0.0<br>101.0.4943.0",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_octopus_recovery_stable-channel_mp-v11.bin.zip",
@@ -4349,7 +4349,7 @@
     "Codename": "bobba360",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14583.0.0<br>101.0.4943.0",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_octopus_recovery_stable-channel_mp-v11.bin.zip",
@@ -4370,14 +4370,14 @@
       "96": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14268.67.0_octopus_recovery_stable-channel_mp-v31.bin.zip",
       "98": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14388.61.0_octopus_recovery_stable-channel_mp-v31.bin.zip"
     },
-    "Brand names": "Acer Chromebook Spin 511 (R752T, R752TN), Acer Chromebook Spin 311 (CP311-2H, CP311-2HN)",
+    "Brand names": "Acer Chromebook Spin 311 (CP311-2H, CP311-2HN), Acer Chromebook Spin 511 (R752T, R752TN)",
     "isAue": false
   },
   {
     "Codename": "casta",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14583.0.0<br>101.0.4943.0",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_octopus_recovery_stable-channel_mp-v11.bin.zip",
@@ -4405,7 +4405,7 @@
     "Codename": "dood",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14583.0.0<br>101.0.4943.0",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_octopus_recovery_stable-channel_mp-v11.bin.zip",
@@ -4433,7 +4433,7 @@
     "Codename": "dorp",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14583.0.0<br>101.0.4943.0",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_octopus_recovery_stable-channel_mp-v11.bin.zip",
@@ -4461,7 +4461,7 @@
     "Codename": "droid",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14583.0.0<br>101.0.4943.0",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_octopus_recovery_stable-channel_mp-v11.bin.zip",
@@ -4482,14 +4482,14 @@
       "96": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14268.67.0_octopus_recovery_stable-channel_mp-v31.bin.zip",
       "98": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14388.61.0_octopus_recovery_stable-channel_mp-v31.bin.zip"
     },
-    "Brand names": "Acer Chromebook 314 (CB314), Packard Bell Chromebook 314 (PCB314), Acer Chromebook 314 (C933L/LT)",
+    "Brand names": "Acer Chromebook 314 (C933L/LT), Acer Chromebook 314 (CB314), Packard Bell Chromebook 314 (PCB314)",
     "isAue": false
   },
   {
     "Codename": "fleex",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14583.0.0<br>101.0.4943.0",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_octopus_recovery_stable-channel_mp-v11.bin.zip",
@@ -4510,14 +4510,14 @@
       "96": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14268.67.0_octopus_recovery_stable-channel_mp-v31.bin.zip",
       "98": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14388.61.0_octopus_recovery_stable-channel_mp-v31.bin.zip"
     },
-    "Brand names": "Dell Chromebook 3100, Dell Chromebook 3100 2-in-1",
+    "Brand names": "Dell Chromebook 3100 2-in-1, Dell Chromebook 3100",
     "isAue": false
   },
   {
     "Codename": "foob",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14583.0.0<br>101.0.4943.0",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_octopus_recovery_stable-channel_mp-v11.bin.zip",
@@ -4545,7 +4545,7 @@
     "Codename": "foob360",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14583.0.0<br>101.0.4943.0",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_octopus_recovery_stable-channel_mp-v11.bin.zip",
@@ -4573,7 +4573,7 @@
     "Codename": "garfour",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14583.0.0<br>101.0.4943.0",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_octopus_recovery_stable-channel_mp-v11.bin.zip",
@@ -4601,7 +4601,7 @@
     "Codename": "garg",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14583.0.0<br>101.0.4943.0",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_octopus_recovery_stable-channel_mp-v11.bin.zip",
@@ -4622,14 +4622,14 @@
       "96": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14268.67.0_octopus_recovery_stable-channel_mp-v31.bin.zip",
       "98": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14388.61.0_octopus_recovery_stable-channel_mp-v31.bin.zip"
     },
-    "Brand names": "Poin2 Chromebook 11A, XO Chromebook, Zyrex Chromebook M432-1/M432-128, Edxis Chromebook 11 (S20-C), Multilaser Chromebook M11C-PC914, Sector 5 E4 LTE Chromebook, WS Chromebook A101, Baicells Chromebook BB01, SPC Chromebook X1 Mini, Axioo Chromebook, Pixart Rxart Chromebook, Positivo Chromebook N2210, JOI Chromebook C100, CTL Chromebook NL71/CT/LTE, EVERCOSS Chromebook CB1, ADVAN Chromebook 116",
+    "Brand names": "Edxis Chromebook 11 (S20-C), Positivo Chromebook N2210, EVERCOSS Chromebook CB1, JOI Chromebook C100, Sector 5 E4 LTE Chromebook, Poin2 Chromebook 11A, ADVAN Chromebook 116, WS Chromebook A101, Zyrex Chromebook M432-1/M432-128, Multilaser Chromebook M11C-PC914, SPC Chromebook X1 Mini, Pixart Rxart Chromebook, Baicells Chromebook BB01, CTL Chromebook NL71/CT/LTE, XO Chromebook, Axioo Chromebook",
     "isAue": false
   },
   {
     "Codename": "garg360",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14583.0.0<br>101.0.4943.0",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_octopus_recovery_stable-channel_mp-v11.bin.zip",
@@ -4650,14 +4650,14 @@
       "96": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14268.67.0_octopus_recovery_stable-channel_mp-v31.bin.zip",
       "98": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14388.61.0_octopus_recovery_stable-channel_mp-v31.bin.zip"
     },
-    "Brand names": "Baicells Chromebook BB01, WS Chromebook A101, Pixart Rxart Chromebook, Zyrex Chromebook 360, CTL Chromebook NL71T/TW/TWB, Ascon Chromebook 11A, Poin2 Chromebook 11A, Edxis Chromebook 11 (S20-X), JOI Chromebook C100, Multilaser Chromebook M11HC-PC915, Axioo Chromebook 360, SPC Chromebook X1 Mini, Positivo Chromebook N2212, ADVAN Chromebook 116, EVERCOSS Chromebook CB1A",
+    "Brand names": "Positivo Chromebook N2212, Zyrex Chromebook 360, ADVAN Chromebook 116, Poin2 Chromebook 11A, Axioo Chromebook 360, Edxis Chromebook 11 (S20-X), Baicells Chromebook BB01, WS Chromebook A101, Multilaser Chromebook M11HC-PC915, JOI Chromebook C100, CTL Chromebook NL71T/TW/TWB, Pixart Rxart Chromebook, Ascon Chromebook 11A, EVERCOSS Chromebook CB1A, SPC Chromebook X1 Mini",
     "isAue": false
   },
   {
     "Codename": "laser14",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14583.0.0<br>101.0.4943.0",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_octopus_recovery_stable-channel_mp-v11.bin.zip",
@@ -4678,7 +4678,7 @@
       "96": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14268.67.0_octopus_recovery_stable-channel_mp-v31.bin.zip",
       "98": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14388.61.0_octopus_recovery_stable-channel_mp-v31.bin.zip"
     },
-    "Brand names": "IdeaPad 3 CB 14IGL05, Lenovo Chromebook S340-14 and Lenovo Chromebook S340-14 Touch",
+    "Brand names": "Lenovo Chromebook S340-14 and Lenovo Chromebook S340-14 Touch, IdeaPad 3 CB 14IGL05",
     "isAue": false
   },
   {
@@ -4713,7 +4713,7 @@
     "Codename": "meep",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14583.0.0<br>101.0.4943.0",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_octopus_recovery_stable-channel_mp-v11.bin.zip",
@@ -4741,7 +4741,7 @@
     "Codename": "mimrock",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14583.0.0<br>101.0.4943.0",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14506.0.0<br>100.0.4870.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_octopus_recovery_stable-channel_mp-v11.bin.zip",
@@ -4769,7 +4769,7 @@
     "Codename": "nospike",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14516.0.0<br>100.0.4880.0",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_octopus_recovery_stable-channel_mp-v11.bin.zip",
@@ -4797,7 +4797,7 @@
     "Codename": "orbatrix",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14583.0.0<br>101.0.4943.0",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_octopus_recovery_stable-channel_mp-v11.bin.zip",
@@ -4825,7 +4825,7 @@
     "Codename": "phaser",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14583.0.0<br>101.0.4943.0",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_octopus_recovery_stable-channel_mp-v11.bin.zip",
@@ -4853,7 +4853,7 @@
     "Codename": "phaser360",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14583.0.0<br>101.0.4943.0",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_octopus_recovery_stable-channel_mp-v11.bin.zip",
@@ -4874,14 +4874,14 @@
       "96": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14268.67.0_octopus_recovery_stable-channel_mp-v31.bin.zip",
       "98": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14388.61.0_octopus_recovery_stable-channel_mp-v31.bin.zip"
     },
-    "Brand names": "IdeaPad Flex 3 CB 11IGL05, NEC Chromebook Y1, Lenovo 300e/500e Chromebook 2nd Gen, Lenovo Chromebook C340-11/300e/500e Chromebook 2nd Gen, NEC Chromebook Y1 Gen 2",
+    "Brand names": "Lenovo 300e/500e Chromebook 2nd Gen, NEC Chromebook Y1, IdeaPad Flex 3 CB 11IGL05, NEC Chromebook Y1 Gen 2, Lenovo Chromebook C340-11/300e/500e Chromebook 2nd Gen",
     "isAue": false
   },
   {
     "Codename": "sparky",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14583.0.0<br>101.0.4943.0",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_octopus_recovery_stable-channel_mp-v11.bin.zip",
@@ -4909,7 +4909,7 @@
     "Codename": "sparky360",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14583.0.0<br>101.0.4943.0",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_octopus_recovery_stable-channel_mp-v11.bin.zip",
@@ -4937,7 +4937,7 @@
     "Codename": "vorticon",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14583.0.0<br>101.0.4943.0",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_octopus_recovery_stable-channel_mp-v11.bin.zip",
@@ -4965,7 +4965,7 @@
     "Codename": "vortininja",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14583.0.0<br>101.0.4943.0",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_octopus_recovery_stable-channel_mp-v11.bin.zip",
@@ -5173,7 +5173,7 @@
     "Codename": "puff",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "86": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13421.99.0_puff_recovery_stable-channel_mp-v6.bin.zip",
@@ -5196,7 +5196,7 @@
     "Codename": "dooly",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "86": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13421.99.0_puff_recovery_stable-channel_mp-v6.bin.zip",
@@ -5219,7 +5219,7 @@
     "Codename": "duffy",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "86": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13421.99.0_puff_recovery_stable-channel_mp-v6.bin.zip",
@@ -5242,7 +5242,7 @@
     "Codename": "faffy",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "86": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13421.99.0_puff_recovery_stable-channel_mp-v6.bin.zip",
@@ -5265,7 +5265,7 @@
     "Codename": "kaisa",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "86": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13421.99.0_puff_recovery_stable-channel_mp-v6.bin.zip",
@@ -5288,7 +5288,7 @@
     "Codename": "noibat",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "86": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13421.99.0_puff_recovery_stable-channel_mp-v6.bin.zip",
@@ -5311,7 +5311,7 @@
     "Codename": "wyvern",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "86": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13421.99.0_puff_recovery_stable-channel_mp-v6.bin.zip",
@@ -5394,7 +5394,7 @@
     "Codename": "rammus",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_rammus_recovery_stable-channel_mp-v2.bin.zip",
@@ -5423,7 +5423,7 @@
     "Codename": "leona",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_rammus_recovery_stable-channel_mp-v2.bin.zip",
@@ -5481,7 +5481,7 @@
     "Codename": "reef",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_reef_recovery_stable-channel_mp-v2.bin.zip",
@@ -5502,14 +5502,14 @@
       "97": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14324.62.0_reef_recovery_stable-channel_mp-v2.bin.zip",
       "98": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14388.61.0_reef_recovery_stable-channel_mp-v2.bin.zip"
     },
-    "Brand names": "Acer Chromebook Spin 11 (R751T / CP511), ASUS Chromebook Flip C213",
+    "Brand names": "ASUS Chromebook Flip C213, Acer Chromebook Spin 11 (R751T / CP511)",
     "isAue": false
   },
   {
     "Codename": "electro",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_reef_recovery_stable-channel_mp-v2.bin.zip",
@@ -5530,14 +5530,14 @@
       "97": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14324.62.0_reef_recovery_stable-channel_mp-v2.bin.zip",
       "98": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14388.61.0_reef_recovery_stable-channel_mp-v2.bin.zip"
     },
-    "Brand names": "Acer Chromebook Spin 11 (R751T / CP511), ASUS Chromebook Flip C213",
+    "Brand names": "ASUS Chromebook Flip C213, Acer Chromebook Spin 11 (R751T / CP511)",
     "isAue": false
   },
   {
     "Codename": "reks",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.81.0_reks_recovery_stable-channel_mp-v4.bin.zip",
@@ -5559,14 +5559,14 @@
       "97": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14324.62.0_reks_recovery_stable-channel_mp-v4.bin.zip",
       "98": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14388.61.0_reks_recovery_stable-channel_mp-v4.bin.zip"
     },
-    "Brand names": "Lenovo N42 Chromebook, Lenovo N23 Chromebook (Touch), Lenovo N22 Chromebook, Lenovo N23 Chromebook",
+    "Brand names": "Lenovo N23 Chromebook (Touch), Lenovo N23 Chromebook, Lenovo N22 Chromebook, Lenovo N42 Chromebook",
     "isAue": false
   },
   {
     "Codename": "relm",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.81.0_relm_recovery_stable-channel_mp-v8.bin.zip",
@@ -5587,7 +5587,7 @@
       "97": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14324.62.0_relm_recovery_stable-channel_mp-v8.bin.zip",
       "98": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14388.52.0_relm_recovery_stable-channel_mp-v8.bin.zip"
     },
-    "Brand names": "HP Chromebook 11 G5 EE, N/A, Mecer V2 Chromebook, Positivo Chromebook C216B, Acer Chromebook 11 N7 (C731, C731T), EduGear Chromebook R, CTL NL61 Chromebook, Edxis Education Chromebook (NL6D)",
+    "Brand names": "CTL NL61 Chromebook, Positivo Chromebook C216B, Acer Chromebook 11 N7 (C731, C731T), Edxis Education Chromebook (NL6D), Mecer V2 Chromebook, HP Chromebook 11 G5 EE, EduGear Chromebook R, N/A",
     "isAue": false
   },
   {
@@ -5652,7 +5652,7 @@
     "Codename": "sand",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_sand_recovery_stable-channel_mp.bin.zip",
@@ -5680,7 +5680,7 @@
     "Codename": "sarien",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_sarien_recovery_stable-channel_mp-v3.bin.zip",
@@ -5707,7 +5707,7 @@
     "Codename": "arcada",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_sarien_recovery_stable-channel_mp-v3.bin.zip",
@@ -5734,7 +5734,7 @@
     "Codename": "scarlet",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_scarlet_recovery_stable-channel_mp-v7.bin.zip",
@@ -5763,7 +5763,7 @@
     "Codename": "dru",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_scarlet_recovery_stable-channel_mp-v7.bin.zip",
@@ -5792,7 +5792,7 @@
     "Codename": "druwl",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_scarlet_recovery_stable-channel_mp-v7.bin.zip",
@@ -5814,14 +5814,14 @@
       "97": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14324.62.0_scarlet_recovery_stable-channel_mp-v7.bin.zip",
       "98": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14388.61.0_scarlet_recovery_stable-channel_mp-v7.bin.zip"
     },
-    "Brand names": "CTL Chromebook Tablet Tx1 for Education, AOpen Chromebook Commercial Tab",
+    "Brand names": "AOpen Chromebook Commercial Tab, CTL Chromebook Tablet Tx1 for Education",
     "isAue": false
   },
   {
     "Codename": "dumo",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_scarlet_recovery_stable-channel_mp-v7.bin.zip",
@@ -5850,7 +5850,7 @@
     "Codename": "sentry",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.82.0_sentry_recovery_stable-channel_mp.bin.zip",
@@ -5879,7 +5879,7 @@
     "Codename": "setzer",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.81.0_setzer_recovery_stable-channel_mp.bin.zip",
@@ -6102,7 +6102,7 @@
     "Codename": "homestar",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.19.0<br>100.0.4896.39",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "93": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14092.77.0_strongbad_recovery_stable-channel_mp-v3.bin.zip",
@@ -6117,7 +6117,7 @@
     "Codename": "wormdingler",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.19.0<br>100.0.4896.39",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "93": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14092.77.0_strongbad_recovery_stable-channel_mp-v3.bin.zip",
@@ -6211,7 +6211,7 @@
     "Codename": "terra",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.81.0_terra_recovery_stable-channel_mp-v2.bin.zip",
@@ -6229,7 +6229,7 @@
       "97": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14324.62.0_terra_recovery_stable-channel_mp-v2.bin.zip",
       "98": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14388.61.0_terra_recovery_stable-channel_mp-v2.bin.zip"
     },
-    "Brand names": "ASUS Chromebook C300SA / C301SA, ASUS Chromebook C202SA",
+    "Brand names": "ASUS Chromebook C202SA, ASUS Chromebook C300SA / C301SA",
     "isAue": false
   },
   {
@@ -6295,7 +6295,7 @@
     "Codename": "trogdor",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.28.0<br>100.0.4896.44",
-    "Dev": "14583.0.0<br>101.0.4943.0",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "88": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13597.105.0_trogdor_recovery_stable-channel_mp-v4.bin.zip",
@@ -6316,7 +6316,7 @@
     "Codename": "lazor",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.28.0<br>100.0.4896.44",
-    "Dev": "14583.0.0<br>101.0.4943.0",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "88": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13597.105.0_trogdor_recovery_stable-channel_mp-v4.bin.zip",
@@ -6337,7 +6337,7 @@
     "Codename": "limozeen",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.28.0<br>100.0.4896.44",
-    "Dev": "14583.0.0<br>101.0.4943.0",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "88": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13597.105.0_trogdor_recovery_stable-channel_mp-v4.bin.zip",
@@ -6379,7 +6379,7 @@
     "Codename": "pompom",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.28.0<br>100.0.4896.44",
-    "Dev": "14583.0.0<br>101.0.4943.0",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "88": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13597.105.0_trogdor_recovery_stable-channel_mp-v4.bin.zip",
@@ -6400,7 +6400,7 @@
     "Codename": "ultima",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.81.0_ultima_recovery_stable-channel_mp-v2.bin.zip",
@@ -6480,7 +6480,7 @@
       "81": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12871.102.0_veyron-jaq_recovery_stable-channel_jaq-mp-v5.bin.zip",
       "83": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_veyron-jaq_recovery_stable-channel_jaq-mp-v5.bin.zip"
     },
-    "Brand names": "Medion Chromebook Akoya S2013, Lava Xolo Chromebook, Haier Chromebook 11, True IDC Chromebook 11",
+    "Brand names": "True IDC Chromebook 11, Medion Chromebook Akoya S2013, Haier Chromebook 11, Lava Xolo Chromebook",
     "isAue": true
   },
   {
@@ -6509,7 +6509,7 @@
       "83": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_veyron-jerry_recovery_stable-channel_jerry-mp-v12.bin.zip",
       "84": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13099.110.0_veyron-jerry_recovery_stable-channel_jerry-mp-v12.bin.zip"
     },
-    "Brand names": "EduGear Chromebook K, Poin2 Chromebook 11, NComputing Chromebook CX100, VideoNet Chromebook BL10, Epik 11.6\" Chromebook  ELB1101, Mecer Chromebook, Positivo Chromebook CH1190, HiSense Chromebook 11, CTL J2 / J4 Chromebook",
+    "Brand names": "HiSense Chromebook 11, Poin2 Chromebook 11, CTL J2 / J4 Chromebook, Epik 11.6\" Chromebook  ELB1101, VideoNet Chromebook BL10, Mecer Chromebook, EduGear Chromebook K, Positivo Chromebook CH1190, NComputing Chromebook CX100",
     "isAue": true
   },
   {
@@ -6568,7 +6568,7 @@
       "83": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_veyron-mighty_recovery_stable-channel_mighty-mp-v11.bin.zip",
       "84": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13099.110.0_veyron-mighty_recovery_stable-channel_mighty-mp-v11.bin.zip"
     },
-    "Brand names": "PCMerge Chromebook PCM-116E/PCM-116EB, Viglen Chromebook 11, Sector 5 E1 Rugged Chromebook, Haier Chromebook 11e, EduGear Chromebook M, MEDION Chromebook S2015, Prowise Chromebook Entryline, Nexian Chromebook 11.6\", Lumos Education Chromebook",
+    "Brand names": "Lumos Education Chromebook, Haier Chromebook 11e, Sector 5 E1 Rugged Chromebook, Nexian Chromebook 11.6\", MEDION Chromebook S2015, PCMerge Chromebook PCM-116E/PCM-116EB, Prowise Chromebook Entryline, Viglen Chromebook 11, EduGear Chromebook M",
     "isAue": true
   },
   {
@@ -6663,7 +6663,7 @@
     "Codename": "volteer",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "90": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13816.82.0_volteer_recovery_stable-channel_mp-v6.bin.zip",
@@ -6680,7 +6680,7 @@
     "Codename": "chronicler",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "90": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13816.82.0_volteer_recovery_stable-channel_mp-v6.bin.zip",
@@ -6697,7 +6697,7 @@
     "Codename": "collis",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "90": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13816.82.0_volteer_recovery_stable-channel_mp-v6.bin.zip",
@@ -6714,7 +6714,7 @@
     "Codename": "copano",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "90": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13816.82.0_volteer_recovery_stable-channel_mp-v6.bin.zip",
@@ -6731,7 +6731,7 @@
     "Codename": "delbin",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "90": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13816.82.0_volteer_recovery_stable-channel_mp-v6.bin.zip",
@@ -6748,7 +6748,7 @@
     "Codename": "drobit",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "90": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13816.82.0_volteer_recovery_stable-channel_mp-v6.bin.zip",
@@ -6765,7 +6765,7 @@
     "Codename": "eldrid",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "90": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13816.82.0_volteer_recovery_stable-channel_mp-v6.bin.zip",
@@ -6782,7 +6782,7 @@
     "Codename": "elemi",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "90": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13816.82.0_volteer_recovery_stable-channel_mp-v6.bin.zip",
@@ -6799,7 +6799,7 @@
     "Codename": "lillipup",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "90": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13816.82.0_volteer_recovery_stable-channel_mp-v6.bin.zip",
@@ -6816,7 +6816,7 @@
     "Codename": "lindar",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "90": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13816.82.0_volteer_recovery_stable-channel_mp-v6.bin.zip",
@@ -6833,7 +6833,7 @@
     "Codename": "voema",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "90": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13816.82.0_volteer_recovery_stable-channel_mp-v6.bin.zip",
@@ -6850,7 +6850,7 @@
     "Codename": "volet",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "90": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13816.82.0_volteer_recovery_stable-channel_mp-v6.bin.zip",
@@ -6867,7 +6867,7 @@
     "Codename": "volta",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "90": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13816.82.0_volteer_recovery_stable-channel_mp-v6.bin.zip",
@@ -6884,7 +6884,7 @@
     "Codename": "voxel",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "90": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13816.82.0_volteer_recovery_stable-channel_mp-v6.bin.zip",
@@ -6929,7 +6929,7 @@
     "Codename": "wizpig",
     "Stable": "14469.59.0<br>99.0.4844.94",
     "Beta": "14526.43.0<br>100.0.4896.54",
-    "Dev": "14588.11.0<br>101.0.4951.6",
+    "Dev": "14588.23.0<br>101.0.4951.13",
     "Canary": "14643.0.0<br>102.0.4967.0",
     "Recovery": {
       "79": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12607.81.0_wizpig_recovery_stable-channel_mp-v10.bin.zip",
@@ -6949,7 +6949,7 @@
       "97": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14324.62.0_wizpig_recovery_stable-channel_mp-v10.bin.zip",
       "98": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14388.61.0_wizpig_recovery_stable-channel_mp-v10.bin.zip"
     },
-    "Brand names": "Edugear CMT Chromebook, Haier Chromebook 11 C, Multilaser Chromebook M11C, CTL J5 Chromebook, Prowise Chromebook Proline, PCMerge Chromebook PCM-116T-432B, Viglen Chromebook 360",
+    "Brand names": "Haier Chromebook 11 C, Viglen Chromebook 360, Prowise Chromebook Proline, Multilaser Chromebook M11C, Edugear CMT Chromebook, CTL J5 Chromebook, PCMerge Chromebook PCM-116T-432B",
     "isAue": false
   },
   {
@@ -7266,7 +7266,7 @@
       "97": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14324.62.0_zork_recovery_stable-channel_mp-v7.bin.zip",
       "98": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14388.61.0_zork_recovery_stable-channel_mp-v7.bin.zip"
     },
-    "Brand names": "NEC Chromebook Y1 Gen3A, Lenovo 300e Chromebook Gen 3",
+    "Brand names": "Lenovo 300e Chromebook Gen 3, NEC Chromebook Y1 Gen3A",
     "isAue": false
   },
   {
