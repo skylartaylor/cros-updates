@@ -41,7 +41,7 @@ export default function Index(props) {
         <Card>
           <CardContent className={classes.header}>
             <h1>Find your Chrome OS Device</h1>
-            {/*<h3 className={classes.warning}>Data may be out of date due to a periodic provider outage.</h3>*/}
+            <h3 className={classes.warning}>Data may be out of date due to a Google data issue.</h3>
             <DeviceSearch />
             <h3>
               Experiencing issues or have a feature request? <a href="https://github.com/skylartaylor/cros-updates/" target="_blank" rel="noopener noreferrer" >Report it on Github!</a>
