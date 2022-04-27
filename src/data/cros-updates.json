@@ -6018,8 +6018,8 @@
     "Codename": "sentry",
     "Stable": "14526.89.0<br>100.0.4896.133",
     "Beta": "14588.67.0<br>101.0.4951.41",
-    "Dev": "No Update",
-    "Canary": "No Update",
+    "Dev": "14682.0.0<br>102.0.4992.0",
+    "Canary": "14714.0.0<br>102.0.5002.0",
     "Recovery": {
       "81": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12871.102.0_sentry_recovery_stable-channel_mp.bin.zip",
       "83": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_sentry_recovery_stable-channel_mp.bin.zip",
