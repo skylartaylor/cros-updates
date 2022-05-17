@@ -238,7 +238,7 @@
     "Stable": "14588.98.0<br>101.0.4951.59",
     "Beta": "14695.55.0<br>102.0.5005.48",
     "Dev": "14767.0.0<br>103.0.5037.0",
-    "Canary": "14831.0.0<br>104.0.5062.0",
+    "Canary": "14836.0.0<br>104.0.5065.0",
     "Recovery": {
       "83": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_bob_recovery_stable-channel_mp.bin.zip",
       "84": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13099.110.0_bob_recovery_stable-channel_mp.bin.zip",
@@ -397,7 +397,7 @@
     "Stable": "14588.98.0<br>101.0.4951.59",
     "Beta": "14695.55.0<br>102.0.5005.48",
     "Dev": "14794.0.0<br>103.0.5045.0",
-    "Canary": "14831.0.0<br>104.0.5062.0",
+    "Canary": "14836.0.0<br>104.0.5065.0",
     "Recovery": {
       "83": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_cave_recovery_stable-channel_mp.bin.zip",
       "84": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13099.110.0_cave_recovery_stable-channel_mp.bin.zip",
@@ -587,7 +587,7 @@
       "100": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14526.89.0_coral_recovery_stable-channel_mp-v19.bin.zip",
       "101": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14588.98.0_coral_recovery_stable-channel_mp-v19.bin.zip"
     },
-    "Brand names": "ASUS Chromebook C223, ASUS Chromebook CX1100CNA",
+    "Brand names": "ASUS Chromebook CX1100CNA, ASUS Chromebook C223",
     "isAue": false
   },
   {
@@ -641,7 +641,7 @@
       "100": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14526.89.0_coral_recovery_stable-channel_mp-v19.bin.zip",
       "101": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14588.98.0_coral_recovery_stable-channel_mp-v19.bin.zip"
     },
-    "Brand names": "CTL chromebook NL7, Edxis Chromebook 11, Multilaser Chromebook M11C-PC912, Lanix Chromebook C116, Positivo Chromebook N2110",
+    "Brand names": "Lanix Chromebook C116, CTL chromebook NL7, Edxis Chromebook 11, Positivo Chromebook N2110, Multilaser Chromebook M11C-PC912",
     "isAue": false
   },
   {
@@ -668,7 +668,7 @@
       "100": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14526.89.0_coral_recovery_stable-channel_mp-v19.bin.zip",
       "101": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14588.98.0_coral_recovery_stable-channel_mp-v19.bin.zip"
     },
-    "Brand names": "CTL Chromebook NL7 / NL7T-360 / NL7TW-360, Lanix Chromebook C116, Edxis Chromebook X11, Multilaser Chromebook M11HC-PC911, Viglen Chromebook 360C, Positivo Chromebook N2112",
+    "Brand names": "Edxis Chromebook X11, Viglen Chromebook 360C, Positivo Chromebook N2112, Multilaser Chromebook M11HC-PC911, CTL Chromebook NL7 / NL7T-360 / NL7TW-360, Lanix Chromebook C116",
     "isAue": false
   },
   {
@@ -884,7 +884,7 @@
       "100": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14526.89.0_coral_recovery_stable-channel_mp-v19.bin.zip",
       "101": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14588.98.0_coral_recovery_stable-channel_mp-v19.bin.zip"
     },
-    "Brand names": "ASUS Chromebook C423, ASUS Chromebook CX1400CNA, ASUS Chromebook C403",
+    "Brand names": "ASUS Chromebook CX1400CNA, ASUS Chromebook C423, ASUS Chromebook C403",
     "isAue": false
   },
   {
@@ -992,7 +992,7 @@
       "100": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14526.89.0_coral_recovery_stable-channel_mp-v19.bin.zip",
       "101": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14588.98.0_coral_recovery_stable-channel_mp-v19.bin.zip"
     },
-    "Brand names": "Viglen Chromebook 11C, CTL Chromebook J41 / J41T, Prowise Chromebook Eduline, PCmerge Chromebook AL116, Sector 5 E3 Chromebook",
+    "Brand names": "PCmerge Chromebook AL116, CTL Chromebook J41 / J41T, Prowise Chromebook Eduline, Sector 5 E3 Chromebook, Viglen Chromebook 11C",
     "isAue": false
   },
   {
@@ -1231,7 +1231,7 @@
       "100": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14526.89.0_dedede_recovery_stable-channel_mp-v23.bin.zip",
       "101": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14588.98.0_dedede_recovery_stable-channel_mp-v23.bin.zip"
     },
-    "Brand names": "Lenovo 500e Chromebook Gen 3, Lenovo Flex 3i-11 Chromebook / IdeaPad Flex 3i Chromebook (11\", 6)",
+    "Brand names": "Lenovo Flex 3i-11 Chromebook / IdeaPad Flex 3i Chromebook (11\", 6), Lenovo 500e Chromebook Gen 3",
     "isAue": false
   },
   {
@@ -1831,7 +1831,7 @@
       "100": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14526.89.0_dedede_recovery_stable-channel_mp-v23.bin.zip",
       "101": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14588.98.0_dedede_recovery_stable-channel_mp-v23.bin.zip"
     },
-    "Brand names": "Zyrex Chromebook M432-2, Axioo Chromebook P11, CTL Chromebook PX11E, SPC Chromebook Z1 Mini",
+    "Brand names": "Zyrex Chromebook M432-2, CTL Chromebook PX11E, SPC Chromebook Z1 Mini, Axioo Chromebook P11",
     "isAue": false
   },
   {
@@ -1855,7 +1855,7 @@
       "100": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14526.89.0_dedede_recovery_stable-channel_mp-v23.bin.zip",
       "101": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14588.98.0_dedede_recovery_stable-channel_mp-v23.bin.zip"
     },
-    "Brand names": "CTL Chromebook PX14E/PX14EX, Gateway Chromebook 14",
+    "Brand names": "Gateway Chromebook 14, CTL Chromebook PX14E/PX14EX",
     "isAue": false
   },
   {
@@ -1935,7 +1935,7 @@
     "Stable": "14588.98.0<br>101.0.4951.59",
     "Beta": "14695.55.0<br>102.0.5005.48",
     "Dev": "14794.0.0<br>103.0.5045.0",
-    "Canary": "14831.0.0<br>104.0.5062.0",
+    "Canary": "14836.0.0<br>104.0.5065.0",
     "Recovery": {
       "84": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13099.102.0_drallion_recovery_stable-channel_mp-v2.bin.zip",
       "85": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13310.93.0_drallion_recovery_stable-channel_mp-v2.bin.zip",
@@ -2066,7 +2066,7 @@
       "92": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13982.88.0_enguarde_recovery_stable-channel_mp-v25.bin.zip",
       "93": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14092.77.0_enguarde_recovery_stable-channel_mp-v25.bin.zip"
     },
-    "Brand names": "JP Sa Couto Chromebook, True IDC Chromebook, Crambo Chromebook, Lenovo N21 Chromebook, Senkatel C1101 Chromebook, eduGear Chromebook R, Education Chromebook, M&A Chromebook, RGS Education Chromebook, CTL N6 Education Chromebook, Videonet Chromebook, Edxis Education Chromebook (NL6), ASI Chromebook",
+    "Brand names": "True IDC Chromebook, RGS Education Chromebook, Senkatel C1101 Chromebook, Edxis Education Chromebook (NL6), Crambo Chromebook, ASI Chromebook, CTL N6 Education Chromebook, eduGear Chromebook R, JP Sa Couto Chromebook, Lenovo N21 Chromebook, Videonet Chromebook, M&A Chromebook, Education Chromebook",
     "isAue": true
   },
   {
@@ -2120,7 +2120,7 @@
       "92": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13982.88.0_expresso_recovery_stable-channel_mp-v15.bin.zip",
       "93": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14092.77.0_expresso_recovery_stable-channel_mp-v15.bin.zip"
     },
-    "Brand names": "Edxis Chromebook, Consumer Chromebook, HEXA Chromebook Pi, Bobicus Chromebook 11",
+    "Brand names": "HEXA Chromebook Pi, Consumer Chromebook, Edxis Chromebook, Bobicus Chromebook 11",
     "isAue": true
   },
   {
@@ -2211,7 +2211,7 @@
       "100": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14526.89.0_fizz_recovery_stable-channel_mp-v13.bin.zip",
       "101": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14588.98.0_fizz_recovery_stable-channel_mp-v13.bin.zip"
     },
-    "Brand names": "AOpen Chromebox Commercial 2, Newline Chromebox A10",
+    "Brand names": "Newline Chromebox A10, AOpen Chromebox Commercial 2",
     "isAue": false
   },
   {
@@ -2240,7 +2240,7 @@
       "100": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14526.89.0_fizz_recovery_stable-channel_mp-v13.bin.zip",
       "101": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14588.98.0_fizz_recovery_stable-channel_mp-v13.bin.zip"
     },
-    "Brand names": "AOpen Chromebox Commercial 2, Newline Chromebox A10",
+    "Brand names": "Newline Chromebox A10, AOpen Chromebox Commercial 2",
     "isAue": false
   },
   {
@@ -2356,7 +2356,7 @@
       "100": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14526.89.0_fizz_recovery_stable-channel_mp-v13.bin.zip",
       "101": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14588.98.0_fizz_recovery_stable-channel_mp-v13.bin.zip"
     },
-    "Brand names": "Promethean Chromebox, ViewSonic NMP660 Chromebox, CTL Chromebox CBx1, SMART Chromebox G3, OWG",
+    "Brand names": "SMART Chromebox G3, CTL Chromebox CBx1, ViewSonic NMP660 Chromebox, Promethean Chromebox, OWG",
     "isAue": false
   },
   {
@@ -2565,7 +2565,7 @@
     "Stable": "14588.98.0<br>101.0.4951.59",
     "Beta": "14695.55.0<br>102.0.5005.48",
     "Dev": "14794.0.0<br>103.0.5045.0",
-    "Canary": "14831.0.0<br>104.0.5062.0",
+    "Canary": "14836.0.0<br>104.0.5065.0",
     "Recovery": {
       "83": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_grunt_recovery_stable-channel_mp-v5.bin.zip",
       "84": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13099.110.0_grunt_recovery_stable-channel_mp-v5.bin.zip",
@@ -2621,7 +2621,7 @@
     "Stable": "14588.98.0<br>101.0.4951.59",
     "Beta": "14695.55.0<br>102.0.5005.48",
     "Dev": "14794.0.0<br>103.0.5045.0",
-    "Canary": "14831.0.0<br>104.0.5062.0",
+    "Canary": "14836.0.0<br>104.0.5065.0",
     "Recovery": {
       "83": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_grunt_recovery_stable-channel_mp-v5.bin.zip",
       "84": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13099.110.0_grunt_recovery_stable-channel_mp-v5.bin.zip",
@@ -2669,7 +2669,7 @@
       "100": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14526.89.0_grunt_recovery_stable-channel_mp-v6.bin.zip",
       "101": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14588.98.0_grunt_recovery_stable-channel_mp-v6.bin.zip"
     },
-    "Brand names": "100e Gen 2 AST, IdeaPad 3 Chromebook (11\", 5)",
+    "Brand names": "IdeaPad 3 Chromebook (11\", 5), 100e Gen 2 AST",
     "isAue": false
   },
   {
@@ -2677,7 +2677,7 @@
     "Stable": "14588.98.0<br>101.0.4951.59",
     "Beta": "14695.55.0<br>102.0.5005.48",
     "Dev": "14794.0.0<br>103.0.5045.0",
-    "Canary": "14831.0.0<br>104.0.5062.0",
+    "Canary": "14836.0.0<br>104.0.5065.0",
     "Recovery": {
       "83": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_grunt_recovery_stable-channel_mp-v5.bin.zip",
       "84": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13099.110.0_grunt_recovery_stable-channel_mp-v5.bin.zip",
@@ -2697,7 +2697,7 @@
       "100": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14526.89.0_grunt_recovery_stable-channel_mp-v6.bin.zip",
       "101": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14588.98.0_grunt_recovery_stable-channel_mp-v6.bin.zip"
     },
-    "Brand names": "300e Gen 2 AST, NEC Chromebook Y1 Gen2A",
+    "Brand names": "NEC Chromebook Y1 Gen2A, 300e Gen 2 AST",
     "isAue": false
   },
   {
@@ -2753,7 +2753,7 @@
       "100": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14526.89.0_hana_recovery_stable-channel_mp-v7.bin.zip",
       "101": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14588.98.0_hana_recovery_stable-channel_mp-v7.bin.zip"
     },
-    "Brand names": "Poin2 Chromebook 14, Lenovo 300e/N23 Yoga/Flex 11 Chromebook, Lenovo Ideapad S330 Chromebook, Lenovo 100e Chromebook 2nd Gen MTK, Lenovo Ideapad C330 Chromebook, ASUS Chromebook C202XA, Prowise Chromebook Eduline / Prowise Chromebook Eduline 360, Poin2 Chromebook 11C, Lenovo 300e Chromebook 2nd Gen MTK",
+    "Brand names": "Poin2 Chromebook 11C, Poin2 Chromebook 14, Prowise Chromebook Eduline / Prowise Chromebook Eduline 360, Lenovo 300e Chromebook 2nd Gen MTK, Lenovo Ideapad S330 Chromebook, Lenovo Ideapad C330 Chromebook, ASUS Chromebook C202XA, Lenovo 300e/N23 Yoga/Flex 11 Chromebook, Lenovo 100e Chromebook 2nd Gen MTK",
     "isAue": false
   },
   {
@@ -3248,7 +3248,7 @@
     "Stable": "14526.89.0<br>100.0.4896.133",
     "Beta": "14695.55.0<br>102.0.5005.48",
     "Dev": "14794.0.0<br>103.0.5045.0",
-    "Canary": "14831.0.0<br>104.0.5062.0",
+    "Canary": "14836.0.0<br>104.0.5065.0",
     "Recovery": {
       "83": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_jacuzzi_recovery_stable-channel_mp-v2.bin.zip",
       "84": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13099.110.0_jacuzzi_recovery_stable-channel_mp-v3.bin.zip",
@@ -3576,7 +3576,7 @@
       "92": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13982.88.0_kip_recovery_stable-channel_mp-v3.bin.zip",
       "93": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14092.77.0_kip_recovery_stable-channel_mp-v3.bin.zip"
     },
-    "Brand names": "HP Chromebook 11 G3/G4/G4 EE, HP Chromebook 14 G4, HP Chromebook 11 2100-2199 / HP Chromebook 11 G3",
+    "Brand names": "HP Chromebook 14 G4, HP Chromebook 11 2100-2199 / HP Chromebook 11 G3, HP Chromebook 11 G3/G4/G4 EE",
     "isAue": true
   },
   {
@@ -3642,7 +3642,7 @@
     "Stable": "14526.89.0<br>100.0.4896.133",
     "Beta": "14695.55.0<br>102.0.5005.48",
     "Dev": "14794.0.0<br>103.0.5045.0",
-    "Canary": "14831.0.0<br>104.0.5062.0",
+    "Canary": "14836.0.0<br>104.0.5065.0",
     "Recovery": {
       "81": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12871.102.0_kukui_recovery_stable-channel_mp-v2.bin.zip",
       "83": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_kukui_recovery_stable-channel_mp-v2.bin.zip",
@@ -3671,7 +3671,7 @@
     "Stable": "14526.89.0<br>100.0.4896.133",
     "Beta": "14695.55.0<br>102.0.5005.48",
     "Dev": "12871.16.0<br>81.0.4044.24",
-    "Canary": "14831.0.0<br>104.0.5062.0",
+    "Canary": "14836.0.0<br>104.0.5065.0",
     "Recovery": {
       "81": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12871.102.0_kukui_recovery_stable-channel_mp-v2.bin.zip",
       "83": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_kukui_recovery_stable-channel_mp-v2.bin.zip",
@@ -3721,7 +3721,7 @@
       "100": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14526.89.0_lars_recovery_stable-channel_mp.bin.zip",
       "101": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14588.98.0_lars_recovery_stable-channel_mp.bin.zip"
     },
-    "Brand names": "Acer Chromebook 14 for Work (CP5-471), Acer Chromebook 11 (C771, C771T)",
+    "Brand names": "Acer Chromebook 11 (C771, C771T), Acer Chromebook 14 for Work (CP5-471)",
     "isAue": false
   },
   {
@@ -4060,7 +4060,7 @@
       "100": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14526.89.0_nami_recovery_stable-channel_mp-v5.bin.zip",
       "101": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14588.98.0_nami_recovery_stable-channel_mp-v5.bin.zip"
     },
-    "Brand names": "Lenovo Yoga C630 Chromebook, Lenovo C340-15 Chromebook",
+    "Brand names": "Lenovo C340-15 Chromebook, Lenovo Yoga C630 Chromebook",
     "isAue": false
   },
   {
@@ -4152,7 +4152,7 @@
     "Stable": "14588.98.0<br>101.0.4951.59",
     "Beta": "14695.55.0<br>102.0.5005.48",
     "Dev": "14794.0.0<br>103.0.5045.0",
-    "Canary": "14831.0.0<br>104.0.5062.0",
+    "Canary": "14836.0.0<br>104.0.5065.0",
     "Recovery": {
       "83": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_nautilus_recovery_stable-channel_mp-v2.bin.zip",
       "84": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13099.110.0_nautilus_recovery_stable-channel_mp-v2.bin.zip",
@@ -4580,7 +4580,7 @@
     "Stable": "14588.98.0<br>101.0.4951.59",
     "Beta": "14695.55.0<br>102.0.5005.48",
     "Dev": "14767.0.0<br>103.0.5037.0",
-    "Canary": "14798.0.0<br>103.0.5045.0",
+    "Canary": "14836.0.0<br>104.0.5065.0",
     "Recovery": {
       "83": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_octopus_recovery_stable-channel_mp-v17.bin.zip",
       "84": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13099.102.0_octopus_recovery_stable-channel_mp-v19.bin.zip",
@@ -4768,7 +4768,7 @@
       "100": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14526.89.0_octopus_recovery_stable-channel_mp-v31.bin.zip",
       "101": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14588.98.0_octopus_recovery_stable-channel_mp-v31.bin.zip"
     },
-    "Brand names": "Packard Bell Chromebook 314 (PCB314), Acer Chromebook 314 (CB314), Acer Chromebook 314 (C933L/LT)",
+    "Brand names": "Acer Chromebook 314 (CB314), Acer Chromebook 314 (C933L/LT), Packard Bell Chromebook 314 (PCB314)",
     "isAue": false
   },
   {
@@ -4796,7 +4796,7 @@
       "100": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14526.89.0_octopus_recovery_stable-channel_mp-v31.bin.zip",
       "101": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14588.98.0_octopus_recovery_stable-channel_mp-v31.bin.zip"
     },
-    "Brand names": "Dell Chromebook 3100, Dell Chromebook 3100 2-in-1",
+    "Brand names": "Dell Chromebook 3100 2-in-1, Dell Chromebook 3100",
     "isAue": false
   },
   {
@@ -4860,7 +4860,7 @@
     "Stable": "14588.98.0<br>101.0.4951.59",
     "Beta": "14695.55.0<br>102.0.5005.48",
     "Dev": "14767.0.0<br>103.0.5037.0",
-    "Canary": "14831.0.0<br>104.0.5062.0",
+    "Canary": "14836.0.0<br>104.0.5065.0",
     "Recovery": {
       "83": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_octopus_recovery_stable-channel_mp-v17.bin.zip",
       "84": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13099.102.0_octopus_recovery_stable-channel_mp-v19.bin.zip",
@@ -4908,7 +4908,7 @@
       "100": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14526.89.0_octopus_recovery_stable-channel_mp-v31.bin.zip",
       "101": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14588.98.0_octopus_recovery_stable-channel_mp-v31.bin.zip"
     },
-    "Brand names": "WS Chromebook A101, JOI Chromebook C100, CTL Chromebook NL71/CT/LTE, ADVAN Chromebook 116, Multilaser Chromebook M11C-PC914, XO Chromebook, Edxis Chromebook 11 (S20-C), SPC Chromebook X1 Mini, Axioo Chromebook, Pixart Rxart Chromebook, Sector 5 E4 LTE Chromebook, Baicells Chromebook BB01, Positivo Chromebook N2210, Poin2 Chromebook 11A, EVERCOSS Chromebook CB1/CB1A, Zyrex Chromebook M432-1/M432-128/Zyrex Chromebook 360-1",
+    "Brand names": "ADVAN Chromebook 116, Multilaser Chromebook M11C-PC914, WS Chromebook A101, EVERCOSS Chromebook CB1/CB1A, Pixart Rxart Chromebook, Poin2 Chromebook 11A, Sector 5 E4 LTE Chromebook, Zyrex Chromebook M432-1/M432-128/Zyrex Chromebook 360-1, Edxis Chromebook 11 (S20-C), Positivo Chromebook N2210, JOI Chromebook C100, Baicells Chromebook BB01, XO Chromebook, Axioo Chromebook, CTL Chromebook NL71/CT/LTE, SPC Chromebook X1 Mini",
     "isAue": false
   },
   {
@@ -4936,7 +4936,7 @@
       "100": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14526.89.0_octopus_recovery_stable-channel_mp-v31.bin.zip",
       "101": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14588.98.0_octopus_recovery_stable-channel_mp-v31.bin.zip"
     },
-    "Brand names": "Poin2 Chromebook 11A, EVERCOSS Chromebook CB1A, WS Chromebook A101, Zyrex Chromebook 360, Ascon Chromebook 11A, Positivo Chromebook N2212, ADVAN Chromebook 116, SPC Chromebook X1 Mini, CTL Chromebook NL71T/TW/TWB, Edxis Chromebook 11 (S20-X), Axioo Chromebook 360, JOI Chromebook C100, Baicells Chromebook BB01, Multilaser Chromebook M11HC-PC915, Pixart Rxart Chromebook",
+    "Brand names": "JOI Chromebook C100, Pixart Rxart Chromebook, ADVAN Chromebook 116, WS Chromebook A101, Ascon Chromebook 11A, Zyrex Chromebook 360, SPC Chromebook X1 Mini, Edxis Chromebook 11 (S20-X), Poin2 Chromebook 11A, Baicells Chromebook BB01, Multilaser Chromebook M11HC-PC915, Positivo Chromebook N2212, EVERCOSS Chromebook CB1A, Axioo Chromebook 360, CTL Chromebook NL71T/TW/TWB",
     "isAue": false
   },
   {
@@ -4964,7 +4964,7 @@
       "100": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14526.89.0_octopus_recovery_stable-channel_mp-v31.bin.zip",
       "101": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14588.98.0_octopus_recovery_stable-channel_mp-v31.bin.zip"
     },
-    "Brand names": "IdeaPad 3 CB 14IGL05, Lenovo Chromebook S340-14 and Lenovo Chromebook S340-14 Touch",
+    "Brand names": "Lenovo Chromebook S340-14 and Lenovo Chromebook S340-14 Touch, IdeaPad 3 CB 14IGL05",
     "isAue": false
   },
   {
@@ -5160,7 +5160,7 @@
       "100": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14526.89.0_octopus_recovery_stable-channel_mp-v31.bin.zip",
       "101": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14588.98.0_octopus_recovery_stable-channel_mp-v31.bin.zip"
     },
-    "Brand names": "Lenovo 300e/500e Chromebook 2nd Gen, Lenovo Chromebook C340-11/300e/500e Chromebook 2nd Gen, IdeaPad Flex 3 CB 11IGL05, NEC Chromebook Y1 Gen 2, NEC Chromebook Y1",
+    "Brand names": "NEC Chromebook Y1 Gen 2, Lenovo 300e/500e Chromebook 2nd Gen, Lenovo Chromebook C340-11/300e/500e Chromebook 2nd Gen, NEC Chromebook Y1, IdeaPad Flex 3 CB 11IGL05",
     "isAue": false
   },
   {
@@ -5627,7 +5627,7 @@
       "99": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14469.59.0_puff_recovery_stable-channel_mp-v11.bin.zip",
       "100": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14526.89.0_puff_recovery_stable-channel_mp-v11.bin.zip"
     },
-    "Brand names": "CTL Chromebox CBx2, Promethean Chromebox 2, ViewSonic NMP760 Chromebox, Wyvern MobLab",
+    "Brand names": "CTL Chromebox CBx2, ViewSonic NMP760 Chromebox, Wyvern MobLab, Promethean Chromebox 2",
     "isAue": false
   },
   {
@@ -5695,7 +5695,7 @@
     "Stable": "14588.98.0<br>101.0.4951.59",
     "Beta": "14695.55.0<br>102.0.5005.48",
     "Dev": "14794.0.0<br>103.0.5045.0",
-    "Canary": "14831.0.0<br>104.0.5062.0",
+    "Canary": "14836.0.0<br>104.0.5065.0",
     "Recovery": {
       "83": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_rammus_recovery_stable-channel_mp-v2.bin.zip",
       "84": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13099.110.0_rammus_recovery_stable-channel_mp-v2.bin.zip",
@@ -5724,7 +5724,7 @@
     "Stable": "14588.98.0<br>101.0.4951.59",
     "Beta": "14695.55.0<br>102.0.5005.48",
     "Dev": "14794.0.0<br>103.0.5045.0",
-    "Canary": "14831.0.0<br>104.0.5062.0",
+    "Canary": "14836.0.0<br>104.0.5065.0",
     "Recovery": {
       "83": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_rammus_recovery_stable-channel_mp-v2.bin.zip",
       "84": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13099.110.0_rammus_recovery_stable-channel_mp-v2.bin.zip",
@@ -5802,7 +5802,7 @@
       "100": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14526.89.0_reef_recovery_stable-channel_mp-v2.bin.zip",
       "101": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14588.98.0_reef_recovery_stable-channel_mp-v2.bin.zip"
     },
-    "Brand names": "Acer Chromebook Spin 11 (R751T / CP511), ASUS Chromebook Flip C213",
+    "Brand names": "ASUS Chromebook Flip C213, Acer Chromebook Spin 11 (R751T / CP511)",
     "isAue": false
   },
   {
@@ -5830,7 +5830,7 @@
       "100": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14526.89.0_reef_recovery_stable-channel_mp-v2.bin.zip",
       "101": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14588.98.0_reef_recovery_stable-channel_mp-v2.bin.zip"
     },
-    "Brand names": "Acer Chromebook Spin 11 (R751T / CP511), ASUS Chromebook Flip C213",
+    "Brand names": "ASUS Chromebook Flip C213, Acer Chromebook Spin 11 (R751T / CP511)",
     "isAue": false
   },
   {
@@ -5859,7 +5859,7 @@
       "100": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14526.89.0_reks_recovery_stable-channel_mp-v4.bin.zip",
       "101": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14588.98.0_reks_recovery_stable-channel_mp-v4.bin.zip"
     },
-    "Brand names": "Lenovo N22 Chromebook, Lenovo N23 Chromebook (Touch), Lenovo N23 Chromebook, Lenovo N42 Chromebook",
+    "Brand names": "Lenovo N22 Chromebook, Lenovo N23 Chromebook, Lenovo N42 Chromebook, Lenovo N23 Chromebook (Touch)",
     "isAue": false
   },
   {
@@ -5887,7 +5887,7 @@
       "99": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14469.59.0_relm_recovery_stable-channel_mp-v8.bin.zip",
       "100": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14526.89.0_relm_recovery_stable-channel_mp-v8.bin.zip"
     },
-    "Brand names": "Positivo Chromebook C216B, CTL NL61 Chromebook, Mecer V2 Chromebook, Acer Chromebook 11 N7 (C731, C731T), EduGear Chromebook R, N/A, Edxis Education Chromebook (NL6D), HP Chromebook 11 G5 EE",
+    "Brand names": "Acer Chromebook 11 N7 (C731, C731T), EduGear Chromebook R, Edxis Education Chromebook (NL6D), HP Chromebook 11 G5 EE, N/A, Positivo Chromebook C216B, CTL NL61 Chromebook, Mecer V2 Chromebook",
     "isAue": false
   },
   {
@@ -5953,7 +5953,7 @@
     "Stable": "14588.98.0<br>101.0.4951.59",
     "Beta": "14695.55.0<br>102.0.5005.48",
     "Dev": "14794.0.0<br>103.0.5045.0",
-    "Canary": "14831.0.0<br>104.0.5062.0",
+    "Canary": "14836.0.0<br>104.0.5065.0",
     "Recovery": {
       "83": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_sand_recovery_stable-channel_mp.bin.zip",
       "84": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13099.110.0_sand_recovery_stable-channel_mp.bin.zip",
@@ -5981,7 +5981,7 @@
     "Stable": "14588.98.0<br>101.0.4951.59",
     "Beta": "14695.55.0<br>102.0.5005.48",
     "Dev": "14794.0.0<br>103.0.5045.0",
-    "Canary": "14831.0.0<br>104.0.5062.0",
+    "Canary": "14836.0.0<br>104.0.5065.0",
     "Recovery": {
       "83": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_sarien_recovery_stable-channel_mp-v3.bin.zip",
       "84": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13099.110.0_sarien_recovery_stable-channel_mp-v3.bin.zip",
@@ -6008,7 +6008,7 @@
     "Stable": "14588.98.0<br>101.0.4951.59",
     "Beta": "14695.55.0<br>102.0.5005.48",
     "Dev": "14794.0.0<br>103.0.5045.0",
-    "Canary": "14831.0.0<br>104.0.5062.0",
+    "Canary": "14836.0.0<br>104.0.5065.0",
     "Recovery": {
       "83": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_sarien_recovery_stable-channel_mp-v3.bin.zip",
       "84": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13099.110.0_sarien_recovery_stable-channel_mp-v3.bin.zip",
@@ -6203,7 +6203,7 @@
     "Stable": "14588.98.0<br>101.0.4951.59",
     "Beta": "14695.55.0<br>102.0.5005.48",
     "Dev": "14794.0.0<br>103.0.5045.0",
-    "Canary": "14831.0.0<br>104.0.5062.0",
+    "Canary": "14836.0.0<br>104.0.5065.0",
     "Recovery": {
       "83": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.82.0_snappy_recovery_stable-channel_mp.bin.zip",
       "84": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13099.102.0_snappy_recovery_stable-channel_mp.bin.zip",
@@ -6231,7 +6231,7 @@
     "Stable": "14588.98.0<br>101.0.4951.59",
     "Beta": "14695.55.0<br>102.0.5005.48",
     "Dev": "14794.0.0<br>103.0.5045.0",
-    "Canary": "14831.0.0<br>104.0.5062.0",
+    "Canary": "14836.0.0<br>104.0.5065.0",
     "Recovery": {
       "83": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.82.0_snappy_recovery_stable-channel_mp.bin.zip",
       "84": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13099.102.0_snappy_recovery_stable-channel_mp.bin.zip",
@@ -6409,7 +6409,7 @@
     "Stable": "14588.98.0<br>101.0.4951.59",
     "Beta": "14695.55.0<br>102.0.5005.48",
     "Dev": "14794.0.0<br>103.0.5045.0",
-    "Canary": "14831.0.0<br>104.0.5062.0",
+    "Canary": "14836.0.0<br>104.0.5065.0",
     "Recovery": {
       "93": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14092.77.0_strongbad_recovery_stable-channel_mp-v3.bin.zip",
       "94": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14150.87.0_strongbad_recovery_stable-channel_mp-v3.bin.zip",
@@ -6427,7 +6427,7 @@
     "Stable": "14588.98.0<br>101.0.4951.59",
     "Beta": "14695.55.0<br>102.0.5005.48",
     "Dev": "14794.0.0<br>103.0.5045.0",
-    "Canary": "14831.0.0<br>104.0.5062.0",
+    "Canary": "14836.0.0<br>104.0.5065.0",
     "Recovery": {
       "93": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14092.77.0_strongbad_recovery_stable-channel_mp-v3.bin.zip",
       "94": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14150.87.0_strongbad_recovery_stable-channel_mp-v3.bin.zip",
@@ -6541,7 +6541,7 @@
       "100": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14526.89.0_terra_recovery_stable-channel_mp-v2.bin.zip",
       "101": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14588.98.0_terra_recovery_stable-channel_mp-v2.bin.zip"
     },
-    "Brand names": "ASUS Chromebook C202SA, ASUS Chromebook C300SA / C301SA",
+    "Brand names": "ASUS Chromebook C300SA / C301SA, ASUS Chromebook C202SA",
     "isAue": false
   },
   {
@@ -6696,7 +6696,7 @@
       "100": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14526.89.0_trogdor_recovery_stable-channel_mp-v6.bin.zip",
       "101": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14588.98.0_trogdor_recovery_stable-channel_mp-v7.bin.zip"
     },
-    "Brand names": "Libera-Merdeka Chromebook C100/C110/C120/C150, Orbic Chromebook",
+    "Brand names": "Orbic Chromebook, Libera-Merdeka Chromebook C100/C110/C120/C150",
     "isAue": false
   },
   {
@@ -6807,7 +6807,7 @@
       "81": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12871.102.0_veyron-jaq_recovery_stable-channel_jaq-mp-v5.bin.zip",
       "83": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_veyron-jaq_recovery_stable-channel_jaq-mp-v5.bin.zip"
     },
-    "Brand names": "True IDC Chromebook 11, Lava Xolo Chromebook, Medion Chromebook Akoya S2013, Haier Chromebook 11",
+    "Brand names": "True IDC Chromebook 11, Haier Chromebook 11, Medion Chromebook Akoya S2013, Lava Xolo Chromebook",
     "isAue": true
   },
   {
@@ -6836,7 +6836,7 @@
       "83": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_veyron-jerry_recovery_stable-channel_jerry-mp-v12.bin.zip",
       "84": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13099.110.0_veyron-jerry_recovery_stable-channel_jerry-mp-v12.bin.zip"
     },
-    "Brand names": "VideoNet Chromebook BL10, Epik 11.6\" Chromebook  ELB1101, EduGear Chromebook K, HiSense Chromebook 11, NComputing Chromebook CX100, Mecer Chromebook, Poin2 Chromebook 11, CTL J2 / J4 Chromebook, Positivo Chromebook CH1190",
+    "Brand names": "Poin2 Chromebook 11, VideoNet Chromebook BL10, CTL J2 / J4 Chromebook, HiSense Chromebook 11, Mecer Chromebook, NComputing Chromebook CX100, Positivo Chromebook CH1190, EduGear Chromebook K, Epik 11.6\" Chromebook  ELB1101",
     "isAue": true
   },
   {
@@ -6895,7 +6895,7 @@
       "83": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_veyron-mighty_recovery_stable-channel_mighty-mp-v11.bin.zip",
       "84": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13099.110.0_veyron-mighty_recovery_stable-channel_mighty-mp-v11.bin.zip"
     },
-    "Brand names": "Sector 5 E1 Rugged Chromebook, Lumos Education Chromebook, PCMerge Chromebook PCM-116E/PCM-116EB, Nexian Chromebook 11.6\", Prowise Chromebook Entryline, Haier Chromebook 11e, Viglen Chromebook 11, MEDION Chromebook S2015, EduGear Chromebook M",
+    "Brand names": "EduGear Chromebook M, Lumos Education Chromebook, Sector 5 E1 Rugged Chromebook, MEDION Chromebook S2015, Prowise Chromebook Entryline, Nexian Chromebook 11.6\", PCMerge Chromebook PCM-116E/PCM-116EB, Viglen Chromebook 11, Haier Chromebook 11e",
     "isAue": true
   },
   {
@@ -7318,7 +7318,7 @@
       "100": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14526.89.0_wizpig_recovery_stable-channel_mp-v10.bin.zip",
       "101": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14588.98.0_wizpig_recovery_stable-channel_mp-v10.bin.zip"
     },
-    "Brand names": "PCMerge Chromebook PCM-116T-432B, Haier Chromebook 11 C, Prowise Chromebook Proline, CTL J5 Chromebook, Viglen Chromebook 360, Multilaser Chromebook M11C, Edugear CMT Chromebook",
+    "Brand names": "Multilaser Chromebook M11C, Haier Chromebook 11 C, Edugear CMT Chromebook, Viglen Chromebook 360, PCMerge Chromebook PCM-116T-432B, Prowise Chromebook Proline, CTL J5 Chromebook",
     "isAue": false
   },
   {
@@ -7433,7 +7433,7 @@
     "Stable": "14588.98.0<br>101.0.4951.59",
     "Beta": "14695.55.0<br>102.0.5005.48",
     "Dev": "14667.0.0<br>102.0.4977.0",
-    "Canary": "14831.0.0<br>104.0.5062.0",
+    "Canary": "14836.0.0<br>104.0.5065.0",
     "Recovery": {
       "87": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13505.111.0_zork_recovery_stable-channel_mp-v4.bin.zip",
       "88": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13597.105.0_zork_recovery_stable-channel_mp-v4.bin.zip",
@@ -7457,7 +7457,7 @@
     "Stable": "14588.98.0<br>101.0.4951.59",
     "Beta": "14695.55.0<br>102.0.5005.48",
     "Dev": "14667.0.0<br>102.0.4977.0",
-    "Canary": "14831.0.0<br>104.0.5062.0",
+    "Canary": "14836.0.0<br>104.0.5065.0",
     "Recovery": {
       "87": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13505.111.0_zork_recovery_stable-channel_mp-v4.bin.zip",
       "88": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13597.105.0_zork_recovery_stable-channel_mp-v4.bin.zip",
@@ -7505,7 +7505,7 @@
     "Stable": "14588.98.0<br>101.0.4951.59",
     "Beta": "14695.55.0<br>102.0.5005.48",
     "Dev": "14667.0.0<br>102.0.4977.0",
-    "Canary": "14831.0.0<br>104.0.5062.0",
+    "Canary": "14836.0.0<br>104.0.5065.0",
     "Recovery": {
       "87": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13505.111.0_zork_recovery_stable-channel_mp-v4.bin.zip",
       "88": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13597.105.0_zork_recovery_stable-channel_mp-v4.bin.zip",
@@ -7625,7 +7625,7 @@
     "Stable": "14588.98.0<br>101.0.4951.59",
     "Beta": "14695.55.0<br>102.0.5005.48",
     "Dev": "14794.0.0<br>103.0.5045.0",
-    "Canary": "14831.0.0<br>104.0.5062.0",
+    "Canary": "14836.0.0<br>104.0.5065.0",
     "Recovery": {
       "87": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13505.111.0_zork_recovery_stable-channel_mp-v4.bin.zip",
       "88": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13597.105.0_zork_recovery_stable-channel_mp-v4.bin.zip",
@@ -7665,7 +7665,7 @@
       "100": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14526.69.0_zork_recovery_stable-channel_mp-v7.bin.zip",
       "101": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14588.98.0_zork_recovery_stable-channel_mp-v7.bin.zip"
     },
-    "Brand names": "Lenovo 300e Chromebook Gen 3, NEC Chromebook Y1 Gen3A",
+    "Brand names": "NEC Chromebook Y1 Gen3A, Lenovo 300e Chromebook Gen 3",
     "isAue": false
   },
   {
