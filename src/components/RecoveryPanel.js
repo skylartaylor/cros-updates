@@ -31,7 +31,11 @@ const useStyles = makeStyles({
     const classes = useStyles()
   
     var selectedDevice = props.device
-    var recoveryData = Object.entries(selectedDevice.Recovery)
+    if (selectedDevice.Recovery !== undefined) {
+      var recoveryData = Object.entries(selectedDevice.Recovery)
+    } else {
+      var recoveryData = []
+    }
 
     var formattedDevice = {
       Codename: selectedDevice.Codename,
@@ -45,7 +49,7 @@ const useStyles = makeStyles({
             </ExpansionPanelSummary>
             <ExpansionPanelDetails>
               <Grid container justify="center">
-                {(formattedDevice.Recovery === "no update") ? <h3>Google's recovery images are currently down. <br />They will return here as soon as they are up again. Sorry for the inconvenience!</h3> : null}
+                {(recoveryData.length === 0) ? <h3>Google's data source is not currently providing all recovery images.<br />You may be able to find them <a href="https://chromiumdash.appspot.com/serving-builds?deviceCategory=Chrome%20OS">on Google's site</a> until they fix the issue.</h3> : null}
                 {recoveryData.map(recovery => {
                   return (
                     <Button
