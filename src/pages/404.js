@@ -1,48 +1,49 @@
-import React from "react"
-import { makeStyles } from "@material-ui/core/styles"
-import { Grid, Card, CardContent } from "@material-ui/core"
+import * as React from "react"
+import { Link } from "gatsby"
 
-const useStyles = makeStyles(theme => ({
-  grid: {
-    padding: theme.spacing(3),
-    height: "auto"
-  },
-  header: {
-    textAlign: "center",
-    '& h1': {
-      margin: "15px 0px 5px 0px",
-    },
-    '& h3': {
-      fontWeight: "300",
-      fontStyle: "italic",
-      fontSize: "0.95em",
-      margin: "0px 0px 30px 0px",
-    },
-  },
-  item: {
-    minWidth: "60%",
-  },
-}))
+const pageStyles = {
+  color: "#232129",
+  padding: "96px",
+  fontFamily: "-apple-system, Roboto, sans-serif, serif",
+}
+const headingStyles = {
+  marginTop: 0,
+  marginBottom: 64,
+  maxWidth: 320,
+}
 
-export default function NotFound(props) {
-  const classes = useStyles()
+const paragraphStyles = {
+  marginBottom: 48,
+}
+const codeStyles = {
+  color: "#8A6534",
+  padding: 4,
+  backgroundColor: "#FFF4DB",
+  fontSize: "1.25rem",
+  borderRadius: 4,
+}
+
+const NotFoundPage = () => {
   return (
-    <Grid
-      container
-      className={classes.grid}
-      alignContent="center"
-      justify="center"
-    >
-      <Grid item className={classes.item}>
-        <Card>
-          <CardContent className={classes.header}>
-            <h1>Oops!</h1>
-            <h3>
-              You managed to find a url that doesn't exist. whoops.
-            </h3>
-          </CardContent>
-        </Card>
-      </Grid>
-    </Grid>
+    <main style={pageStyles}>
+      <h1 style={headingStyles}>Page not found</h1>
+      <p style={paragraphStyles}>
+        Sorry 😔, we couldn’t find what you were looking for.
+        <br />
+        {process.env.NODE_ENV === "development" ? (
+          <>
+            <br />
+            Try creating a page in <code style={codeStyles}>src/pages/</code>.
+            <br />
+          </>
+        ) : null}
+        <br />
+        <Link to="/">Go home</Link>.
+      </p>
+    </main>
   )
 }
+
+export default NotFoundPage
+
+export const Head = () => <title>Not found</title>

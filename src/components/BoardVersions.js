@@ -49,34 +49,34 @@ export default function DeviceVersions(props) {
     const deviceData = props.deviceData
     return (
         <Grid container justifyContent="center">
-          <VersionCard headerColor="#1DA462">
+            <VersionCard headerColor="#1DA462">
             <Typography variant="h2">Stable</Typography>
             <VersionContainer>
-                <Typography variant="h1">{deviceData.servingStable?.chromeVersion ?? "No Update"}</Typography>
-                <Typography variant="h4">platform: {deviceData.servingStable?.version ?? ""}</Typography>
+                <Typography variant="h1">{deviceData.servingStable.chromeVersion}</Typography>
+                <Typography variant="h4">platform: {deviceData.servingStable.version}</Typography>
             </VersionContainer>
-          </VersionCard>
-          <VersionCard headerColor="#4C8BF5">
+            </VersionCard>
+            <VersionCard headerColor="#4C8BF5">
             <Typography variant="h2">Beta</Typography>
             <VersionContainer>
-              <Typography variant="h1">{deviceData.servingBeta?.chromeVersion ?? "No Update"}</Typography>
-              <Typography variant="h4">platform: {deviceData.servingBeta?.version ?? ""}</Typography>
+                <Typography variant="h1">{deviceData.servingBeta.chromeVersion}</Typography>
+                <Typography variant="h4">platform: {deviceData.servingBeta.version}</Typography>
             </VersionContainer>
-          </VersionCard>
-          <VersionCard headerColor="#DD5144">
+            </VersionCard>
+            <VersionCard headerColor="#DD5144">
             <Typography variant="h2">Dev</Typography>
             <VersionContainer>
-              <Typography variant="h1">{deviceData.servingDev?.chromeVersion ?? "No Update"}</Typography>
-              <Typography variant="h4">platform: {deviceData.servingDev?.version ?? ""}</Typography>
+                <Typography variant="h1">{deviceData.servingDev.chromeVersion}</Typography>
+                <Typography variant="h4">platform: {deviceData.servingDev.version}</Typography>
             </VersionContainer>
-          </VersionCard>
-          <VersionCard headerColor="#FFCD46">
+            </VersionCard>
+            <VersionCard headerColor="#FFCD46">
             <Typography variant="h2">Canary</Typography>
             <VersionContainer>
-              <Typography variant="h1">{deviceData.servingCanary?.chromeVersion ?? "No Update"}</Typography>
-              <Typography variant="h4">platform: {deviceData.servingCanary?.version ?? ""}</Typography>
+                <Typography variant="h1">{deviceData.servingCanary.chromeVersion}</Typography>
+                <Typography variant="h4">platform: {deviceData.servingCanary.version}</Typography>
             </VersionContainer>
-          </VersionCard>           
+            </VersionCard>
         </Grid>
     );  
 }
