@@ -11,7 +11,8 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "scrape": "node scripts/scrape.js"
   },
   "dependencies": {
     "@emotion/react": "^11.10.6",
