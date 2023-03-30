@@ -17,7 +17,7 @@ const DeviceTitle = ({ brandNames, ...rest }) => (
       fontWeight: "bold",
     }}
   >
-    {brandNames}
+    {brandNames.join(', ')}
   </Typography>
   )
 
