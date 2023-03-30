@@ -1,3 +1,24 @@
 [build.environment]
     NODE_VERSION = "18.15.0"
     NPM_VERSION = "9.5.0" 
+[[redirects]]
+  from = "/device/rammus"
+  to = "/board/rammus"
+[[redirects]]
+  from = "/device/octopus"
+  to = "/board/octopus"
+[[redirects]]
+  from = "/device/volteer"
+  to = "/board/volteer"
+[[redirects]]
+  from = "/device/zork"
+  to = "/board/zork"
+[[redirects]]
+  from = "/device/grunt"
+  to = "/board/grunt"
+[[redirects]]
+  from = "/device/kukui"
+  to = "/board/kukui"
+[[redirects]]
+  from = "/device/hatch"
+  to = "/board/hatch"
