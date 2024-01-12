@@ -194,7 +194,7 @@
     "Beta": "15699.29.0<br>121.0.6167.49",
     "Dev": "15699.25.0<br>121.0.6167.40",
     "Canary": "15733.0.0<br>122.0.6223.0",
-    "Brand names": "CTL Chromebox CBx3 / CTL Chromebox Enterprise CBx3, Lisbon Development Product",
+    "Brand names": "Lisbon Development Product, CTL Chromebox CBx3 / CTL Chromebox Enterprise CBx3",
     "isAue": false
   },
   {
@@ -210,7 +210,7 @@
     "Codename": "brya",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
     "Brand names": "w/o Chrome Enterprise Upgrade: HP Elite c640 14 inch G3 Chromebook; with Chrome Enterprise Upgrade: HP Elite c640 14 inch G3 Chromebook Enterprise",
     "isAue": false
@@ -219,7 +219,7 @@
     "Codename": "anahera",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
     "Brand names": "w/o Chrome Enterprise Upgrade: HP Elite c640 14 inch G3 Chromebook; with Chrome Enterprise Upgrade: HP Elite c640 14 inch G3 Chromebook Enterprise",
     "isAue": false
@@ -255,7 +255,7 @@
     "Codename": "felwinter",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
     "Brand names": "ASUS Chromebook Flip CX5(CX5601), ASUS Chromebook Enterprise Flip CX5(CX5601)",
     "isAue": false
@@ -264,7 +264,7 @@
     "Codename": "gimble",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
     "Brand names": "Chromebook x360 14c-cd0",
     "isAue": false
@@ -273,7 +273,7 @@
     "Codename": "kano",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
     "Brand names": "Acer Chromebook Spin 714  -- CP714-2WN / Acer Chromebook Enterprise Spin 714 -- CP714-2WN, Acer Chromebook Spin 714  -- CP714-1WN / Acer Chromebook Enterprise Spin 714 -- CP714-1WN",
     "isAue": false
@@ -309,7 +309,7 @@
     "Codename": "osiris",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
     "Brand names": "Acer Chromebook 516 GE (CBG516-1H)",
     "isAue": false
@@ -336,9 +336,9 @@
     "Codename": "taeko",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
-    "Brand names": "Lenovo Flex 5i Chromebook (14\", 7), IdeaPad Flex 5i Chromebook Plus (14\", 7), Lenovo 5i Chromebook 16\"/IdeaPad 5i Chromebook (16\", 7), Lenovo Flex 5i Chromebook 14\"/IdeaPad Flex 5i Chromebook (14\", 7)",
+    "Brand names": "Lenovo Flex 5i Chromebook 14\"/IdeaPad Flex 5i Chromebook (14\", 7), Lenovo Flex 5i Chromebook (14\", 7), Lenovo 5i Chromebook 16\"/IdeaPad 5i Chromebook (16\", 7), IdeaPad Flex 5i Chromebook Plus (14\", 7)",
     "isAue": false
   },
   {
@@ -354,7 +354,7 @@
     "Codename": "vell",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
     "Brand names": "HP Dragonfly Pro Chromebook",
     "isAue": false
@@ -363,7 +363,7 @@
     "Codename": "volmar",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
     "Brand names": "Acer Chromebook Vero 514",
     "isAue": false
@@ -372,7 +372,7 @@
     "Codename": "zavala",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
     "Brand names": "Acer Chromebook Vero 712 (CV872, CV872T)",
     "isAue": false
@@ -510,7 +510,7 @@
     "Codename": "cherry",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
     "Brand names": "Chromebook x360 13b-ca0",
     "isAue": false
@@ -519,7 +519,7 @@
     "Codename": "dojo",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
     "Brand names": "Chromebook x360 13b-ca0",
     "isAue": false
@@ -528,7 +528,7 @@
     "Codename": "tomato",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
     "Brand names": "ACER Chromebook Spin 513 (CP513-2H), Acer Chromebook Enterprise Spin 513 (CP513-2H)",
     "isAue": false
@@ -575,7 +575,7 @@
     "Codename": "babymega",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
     "Brand names": "ASUS Chromebook C223, ASUS Chromebook CX1100CNA",
     "isAue": false
@@ -595,23 +595,23 @@
     "Beta": "15699.29.0<br>121.0.6167.49",
     "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15712.0.0<br>122.0.6185.0",
-    "Brand names": "Positivo Chromebook N2110, Multilaser Chromebook M11C-PC912, Lanix Chromebook C116, Edxis Chromebook 11, CTL chromebook NL7",
+    "Brand names": "Edxis Chromebook 11, Positivo Chromebook N2110, CTL chromebook NL7, Lanix Chromebook C116, Multilaser Chromebook M11C-PC912",
     "isAue": false
   },
   {
     "Codename": "blacktip360",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
-    "Brand names": "CTL Chromebook NL7 / NL7T-360 / NL7TW-360, Multilaser Chromebook M11HC-PC911, Viglen Chromebook 360C, Edxis Chromebook X11, Lanix Chromebook C116, Positivo Chromebook N2112",
+    "Brand names": "Positivo Chromebook N2112, CTL Chromebook NL7 / NL7T-360 / NL7TW-360, Lanix Chromebook C116, Edxis Chromebook X11, Multilaser Chromebook M11HC-PC911, Viglen Chromebook 360C",
     "isAue": false
   },
   {
     "Codename": "blacktiplte",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
     "Brand names": "CTL Chromebook NL7 LTE",
     "isAue": false
@@ -638,7 +638,7 @@
     "Codename": "epaulette",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
     "Brand names": "Acer Chromebook 514",
     "isAue": false
@@ -656,7 +656,7 @@
     "Codename": "nasher",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
     "Brand names": "Dell Chromebook 11 (5190)",
     "isAue": false
@@ -676,14 +676,14 @@
     "Beta": "15699.29.0<br>121.0.6167.49",
     "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15712.0.0<br>122.0.6185.0",
-    "Brand names": "ASUS Chromebook C403, ASUS Chromebook C423, ASUS Chromebook CX1400CNA",
+    "Brand names": "ASUS Chromebook C403, ASUS Chromebook CX1400CNA, ASUS Chromebook C423",
     "isAue": false
   },
   {
     "Codename": "robo",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15712.0.0<br>122.0.6185.0",
     "Brand names": "Lenovo 100e Chromebook",
     "isAue": false
@@ -692,7 +692,7 @@
     "Codename": "robo360",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
     "Brand names": "Lenovo 500e Chromebook",
     "isAue": false
@@ -701,7 +701,7 @@
     "Codename": "santa",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15712.0.0<br>122.0.6185.0",
     "Brand names": "Acer Chromebook 11 (CB311-8H, CB311-8HT)",
     "isAue": false
@@ -710,9 +710,9 @@
     "Codename": "whitetip",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
-    "Brand names": "Prowise Chromebook Eduline, CTL Chromebook J41 / J41T, Viglen Chromebook 11C, PCmerge Chromebook AL116, Sector 5 E3 Chromebook",
+    "Brand names": "Viglen Chromebook 11C, CTL Chromebook J41 / J41T, Prowise Chromebook Eduline, PCmerge Chromebook AL116, Sector 5 E3 Chromebook",
     "isAue": false
   },
   {
@@ -746,7 +746,7 @@
     "Codename": "steelix",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15730.0.0<br>122.0.6219.0",
     "Brand names": "Lenovo 300e Yoga Chromebook Gen 4",
     "isAue": false
@@ -755,7 +755,7 @@
     "Codename": "tentacool",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15732.0.0<br>122.0.6223.0",
     "Brand names": "ASUS Chromebook CM14 (CM1402C)",
     "isAue": false
@@ -764,7 +764,7 @@
     "Codename": "tentacruel",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
     "Brand names": "ASUS Chromebook CM14 Flip (CM1402F)",
     "isAue": false
@@ -773,7 +773,7 @@
     "Codename": "voltorb",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
     "Brand names": "Acer Chromebook 311(C723,C723-TCO,C723T,C723T-TCO)",
     "isAue": false
@@ -895,9 +895,9 @@
     "Codename": "boten",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15674.0.0<br>121.0.6117.0",
-    "Brand names": "Lenovo 500e Chromebook Gen 3, Lenovo Flex 3i-11 Chromebook / IdeaPad Flex 3i Chromebook (11\", 6)",
+    "Brand names": "Lenovo Flex 3i-11 Chromebook / IdeaPad Flex 3i Chromebook (11\", 6), Lenovo 500e Chromebook Gen 3",
     "isAue": false
   },
   {
@@ -922,7 +922,7 @@
     "Codename": "cret",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15672.0.0<br>121.0.6110.0",
     "Brand names": "Dell Chromebook 3110",
     "isAue": false
@@ -958,7 +958,7 @@
     "Codename": "drawman",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15677.2.0<br>121.0.6124.0",
     "Brand names": "HP Chromebook 14 G7",
     "isAue": false
@@ -967,7 +967,7 @@
     "Codename": "drawper",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15671.0.0<br>121.0.6110.0",
     "Brand names": "HP Fortis 14 G10 Chromebook",
     "isAue": false
@@ -985,7 +985,7 @@
     "Codename": "galith360",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15672.0.0<br>121.0.6110.0",
     "Brand names": "CX1500FKA",
     "isAue": false
@@ -1021,7 +1021,7 @@
     "Codename": "galtic",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15680.0.0<br>121.0.6126.0",
     "Brand names": "ASUS Chromebook CX1",
     "isAue": false
@@ -1039,16 +1039,16 @@
     "Codename": "kracko",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15677.2.0<br>121.0.6124.0",
-    "Brand names": "Zyrex Chromebook M432-64/Zyrex Chromebook M432-11, Edxis Chromebook 11 (S30-C) / Edxis Chromebook 11 (S30-CT), CTL Chromebook NL72",
+    "Brand names": "Edxis Chromebook 11 (S30-C) / Edxis Chromebook 11 (S30-CT), Zyrex Chromebook M432-64/Zyrex Chromebook M432-11, CTL Chromebook NL72",
     "isAue": false
   },
   {
     "Codename": "kracko360",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15672.0.0<br>121.0.6110.0",
     "Brand names": "LG Chromebook 11TC50Q/11TQ50Q, CTL Chromebook NL72T",
     "isAue": false
@@ -1057,7 +1057,7 @@
     "Codename": "landia",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15684.0.0<br>121.0.6136.0",
     "Brand names": "HP Chromebook x360 14a-ca1",
     "isAue": false
@@ -1066,7 +1066,7 @@
     "Codename": "landrid",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15684.0.0<br>121.0.6136.0",
     "Brand names": "HP Chromebook15a-na0",
     "isAue": false
@@ -1075,7 +1075,7 @@
     "Codename": "lantis",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15671.0.0<br>121.0.6110.0",
     "Brand names": "HP Chromebook 14a-na1",
     "isAue": false
@@ -1084,7 +1084,7 @@
     "Codename": "madoo",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15622.0.0<br>119.0.6018.0",
     "Brand names": "Chromebook x360 14b-cb0",
     "isAue": false
@@ -1102,7 +1102,7 @@
     "Codename": "maglet",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15659.0.0<br>120.0.6090.0",
     "Brand names": "Acer Chromebook 512 (C852)",
     "isAue": false
@@ -1120,7 +1120,7 @@
     "Codename": "maglith",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15672.0.0<br>121.0.6110.0",
     "Brand names": "Acer Chromebook 511 (C734 , C734T, C733-R, C733T-R)",
     "isAue": false
@@ -1140,14 +1140,14 @@
     "Beta": "15699.29.0<br>121.0.6167.49",
     "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15671.0.0<br>121.0.6110.0",
-    "Brand names": "Acer Chromebook 314 (CB314-3H , CB314-3HT, C934, C934T), Packard Bell Chromebook 314, Packard Bell Chromebook 314(PCB314-2 , PCB314-2T)",
+    "Brand names": "Acer Chromebook 314 (CB314-3H , CB314-3HT, C934, C934T), Packard Bell Chromebook 314(PCB314-2 , PCB314-2T), Packard Bell Chromebook 314",
     "isAue": false
   },
   {
     "Codename": "magolor",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15673.0.0<br>121.0.6110.0",
     "Brand names": "Acer Chromebook Spin 511 (R753T) & Acer Chromebook spin 511 (R753TN) & Acer Chromebook Spin 511(R752T-R)",
     "isAue": false
@@ -1156,7 +1156,7 @@
     "Codename": "magpie",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15684.0.0<br>121.0.6136.0",
     "Brand names": "Acer Chromebook 317",
     "isAue": false
@@ -1165,7 +1165,7 @@
     "Codename": "metaknight",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15677.2.0<br>121.0.6124.0",
     "Brand names": "NEC Chromebook Y3",
     "isAue": false
@@ -1183,7 +1183,7 @@
     "Codename": "peezer",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15684.0.0<br>121.0.6136.0",
     "Brand names": "CA11J2",
     "isAue": false
@@ -1192,25 +1192,25 @@
     "Codename": "pirette",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15671.0.0<br>121.0.6110.0",
-    "Brand names": "Axioo Chromebook P11/Axioo Chromebook P432, CTL Chromebook PX11E, SPC Chromebook Z1 Mini, Zyrex Chromebook M432-2",
+    "Brand names": "Axioo Chromebook P11/Axioo Chromebook P432, Zyrex Chromebook M432-2, SPC Chromebook Z1 Mini, CTL Chromebook PX11E",
     "isAue": false
   },
   {
     "Codename": "pirika",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15677.2.0<br>121.0.6124.0",
-    "Brand names": "CTL Chromebook Enterprise/PX14E/PX14EX/PX14EXT, Gateway Chromebook 14, Axioo Chromebook P14",
+    "Brand names": "CTL Chromebook Enterprise/PX14E/PX14EX/PX14EXT, Axioo Chromebook P14, Gateway Chromebook 14",
     "isAue": false
   },
   {
     "Codename": "sasuke",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15665.0.0<br>121.0.6101.0",
     "Brand names": "Galaxy Chromebook Go",
     "isAue": false
@@ -1237,7 +1237,7 @@
     "Codename": "storo360",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15659.0.0<br>120.0.6090.0",
     "Brand names": "ASUS Chromebook Flip CR1100FKA",
     "isAue": false
@@ -1246,7 +1246,7 @@
     "Codename": "drallion",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
     "Brand names": "Dell Latitude 7410 Chromebook Enterprise",
     "isAue": false
@@ -1255,7 +1255,7 @@
     "Codename": "drallion360",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
     "Brand names": "Dell Latitude 7410 Chromebook Enterprise",
     "isAue": false
@@ -1306,7 +1306,7 @@
       "92": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13982.88.0_enguarde_recovery_stable-channel_mp-v25.bin.zip",
       "93": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14092.77.0_enguarde_recovery_stable-channel_mp-v25.bin.zip"
     },
-    "Brand names": "M&A Chromebook, Senkatel C1101 Chromebook, eduGear Chromebook R, Lenovo N21 Chromebook, Edxis Education Chromebook (NL6), JP Sa Couto Chromebook, CTL N6 Education Chromebook, Crambo Chromebook, ASI Chromebook, RGS Education Chromebook, True IDC Chromebook, Videonet Chromebook, Education Chromebook",
+    "Brand names": "M&A Chromebook, JP Sa Couto Chromebook, Lenovo N21 Chromebook, Edxis Education Chromebook (NL6), eduGear Chromebook R, Education Chromebook, RGS Education Chromebook, True IDC Chromebook, ASI Chromebook, Videonet Chromebook, CTL N6 Education Chromebook, Crambo Chromebook, Senkatel C1101 Chromebook",
     "isAue": true
   },
   {
@@ -1335,7 +1335,7 @@
       "92": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13982.88.0_expresso_recovery_stable-channel_mp-v15.bin.zip",
       "93": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14092.77.0_expresso_recovery_stable-channel_mp-v15.bin.zip"
     },
-    "Brand names": "HEXA Chromebook Pi, Edxis Chromebook, Bobicus Chromebook 11, Consumer Chromebook",
+    "Brand names": "Consumer Chromebook, Bobicus Chromebook 11, Edxis Chromebook, HEXA Chromebook Pi",
     "isAue": true
   },
   {
@@ -1362,18 +1362,18 @@
     "Codename": "fizz",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
-    "Brand names": "Newline Chromebox A10, AOpen Chromebox Commercial 2",
+    "Brand names": "AOpen Chromebox Commercial 2, Newline Chromebox A10",
     "isAue": false
   },
   {
     "Codename": "jax",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
-    "Brand names": "Newline Chromebox A10, AOpen Chromebox Commercial 2",
+    "Brand names": "AOpen Chromebox Commercial 2, Newline Chromebox A10",
     "isAue": false
   },
   {
@@ -1389,7 +1389,7 @@
     "Codename": "sion",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
     "Brand names": "Acer Chromebox CXI3",
     "isAue": false
@@ -1407,9 +1407,9 @@
     "Codename": "wukong",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
-    "Brand names": "Promethean Chromebox, ViewSonic NMP660 Chromebox, SMART Chromebox G3, CTL Chromebox CBx1, OWG",
+    "Brand names": "SMART Chromebox G3, ViewSonic NMP660 Chromebox, Promethean Chromebox, CTL Chromebox CBx1, OWG",
     "isAue": false
   },
   {
@@ -1496,14 +1496,14 @@
     "Beta": "15699.29.0<br>121.0.6167.49",
     "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
-    "Brand names": "HP Chromebook 11A G6 EE / HP Chromebook 11A G8 EE, HP Chromebook 11A G6 EE/ HP Chromebook 11A G8 EE",
+    "Brand names": "HP Chromebook 11A G6 EE/ HP Chromebook 11A G8 EE, HP Chromebook 11A G6 EE / HP Chromebook 11A G8 EE",
     "isAue": false
   },
   {
     "Codename": "careena",
     "Stable": "15633.72.0<br>119.0.6045.214",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
     "Brand names": "Chromebook 14-db0",
     "isAue": false
@@ -1512,7 +1512,7 @@
     "Codename": "kasumi",
     "Stable": "15633.69.0<br>119.0.6045.212",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
     "Brand names": "Acer Chromebook 311 (C721)",
     "isAue": false
@@ -1539,7 +1539,7 @@
     "Codename": "treeya",
     "Stable": "15633.72.0<br>119.0.6045.214",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
     "Brand names": "100e Gen 2 AST, IdeaPad 3 Chromebook (11\", 5)",
     "isAue": false
@@ -1550,7 +1550,7 @@
     "Beta": "15699.29.0<br>121.0.6167.49",
     "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
-    "Brand names": "NEC Chromebook Y1 Gen2A, Lenovo 300e Gen 2 AST",
+    "Brand names": "Lenovo 300e Gen 2 AST, NEC Chromebook Y1 Gen2A",
     "isAue": false
   },
   {
@@ -1575,7 +1575,7 @@
     "Codename": "guybrush",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15694.0.0<br>121.0.6154.0",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
     "Brand names": "Acer Chromebook Spin 514 [CP514-3H, CP514-3HH, CP514-3WH]",
     "isAue": false
@@ -1584,7 +1584,7 @@
     "Codename": "dewatt",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15694.0.0<br>121.0.6154.0",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
     "Brand names": "Acer Chromebook Spin 514 [CP514-3H, CP514-3HH, CP514-3WH]",
     "isAue": false
@@ -1602,7 +1602,7 @@
     "Codename": "hana",
     "Stable": "15633.72.0<br>119.0.6045.214",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15712.0.0<br>122.0.6185.0",
     "Brand names": "Poin2 Chromebook 14",
     "isAue": false
@@ -1611,7 +1611,7 @@
     "Codename": "birch",
     "Stable": "15633.72.0<br>119.0.6045.214",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15712.0.0<br>122.0.6185.0",
     "Brand names": "Poin2 Chromebook 14",
     "isAue": false
@@ -1620,7 +1620,7 @@
     "Codename": "maple",
     "Stable": "15633.72.0<br>119.0.6045.214",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15712.0.0<br>122.0.6185.0",
     "Brand names": "Lenovo Ideapad C330 Chromebook",
     "isAue": false
@@ -1629,7 +1629,7 @@
     "Codename": "maple14",
     "Stable": "15633.72.0<br>119.0.6045.214",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15712.0.0<br>122.0.6185.0",
     "Brand names": "Lenovo Ideapad S330 Chromebook",
     "isAue": false
@@ -1638,7 +1638,7 @@
     "Codename": "sycamore",
     "Stable": "15633.72.0<br>119.0.6045.214",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15712.0.0<br>122.0.6185.0",
     "Brand names": "Lenovo 100e Chromebook 2nd Gen MTK",
     "isAue": false
@@ -1656,7 +1656,7 @@
     "Codename": "telesu",
     "Stable": "15633.72.0<br>119.0.6045.214",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15712.0.0<br>122.0.6185.0",
     "Brand names": "ASUS Chromebook C202XA / C203XA",
     "isAue": false
@@ -1683,7 +1683,7 @@
     "Codename": "dragonair",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
     "Brand names": "Chromebook x360 14c-ca0",
     "isAue": false
@@ -1692,7 +1692,7 @@
     "Codename": "dratini",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
     "Brand names": "HP Pro c640 Chromebook/HP Pro c640 Chromebook Enterprise",
     "isAue": false
@@ -1701,7 +1701,7 @@
     "Codename": "helios",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
     "Brand names": "ASUS Chromebook Flip C436FA",
     "isAue": false
@@ -1710,7 +1710,7 @@
     "Codename": "jinlon",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
     "Brand names": "Chromebook x360 13c-ca0",
     "isAue": false
@@ -1728,7 +1728,7 @@
     "Codename": "kled",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
     "Brand names": "Acer Chromebook Spin 713 (CP713-2W)",
     "isAue": false
@@ -1737,7 +1737,7 @@
     "Codename": "kohaku",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
     "Brand names": "Samsung Galaxy Chromebook",
     "isAue": false
@@ -1746,7 +1746,7 @@
     "Codename": "nightfury",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
     "Brand names": "Samsung Galaxy Chromebook 2",
     "isAue": false
@@ -1775,7 +1775,7 @@
     "Codename": "jacuzzi",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15730.0.0<br>122.0.6219.0",
     "Brand names": "HP Chromebook x360 11MK G3 EE",
     "isAue": false
@@ -1784,7 +1784,7 @@
     "Codename": "burnet",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15730.0.0<br>122.0.6219.0",
     "Brand names": "HP Chromebook x360 11MK G3 EE",
     "isAue": false
@@ -1793,7 +1793,7 @@
     "Codename": "cozmo",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15724.0.0<br>122.0.6195.0",
     "Brand names": "Acer Chromebook  314 (CB314-2H/CB314-2HT)",
     "isAue": false
@@ -1820,7 +1820,7 @@
     "Codename": "fennel",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15714.4.0<br>122.0.6189.0",
     "Brand names": "IdeaPad Flex 3 Chromebook",
     "isAue": false
@@ -1849,14 +1849,14 @@
     "Beta": "15699.29.0<br>121.0.6167.49",
     "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15682.0.0<br>121.0.6128.0",
-    "Brand names": "HP Chromebook 11a-ne0, HP Chromebook 11a na0",
+    "Brand names": "HP Chromebook 11a na0, HP Chromebook 11a-ne0",
     "isAue": false
   },
   {
     "Codename": "kenzo",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
     "Brand names": "Acer Chromebook 311 (CB311-11H/CB311-11HT)",
     "isAue": false
@@ -1883,7 +1883,7 @@
     "Codename": "willow",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15728.0.0<br>122.0.6215.0",
     "Brand names": "Acer Chromebook 311 (C722/C722T)",
     "isAue": false
@@ -1951,7 +1951,7 @@
       "92": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13982.88.0_kip_recovery_stable-channel_mp-v3.bin.zip",
       "93": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14092.77.0_kip_recovery_stable-channel_mp-v3.bin.zip"
     },
-    "Brand names": "HP Chromebook 11 2100-2199 / HP Chromebook 11 G3, HP Chromebook 11 G3/G4/G4 EE, HP Chromebook 14 G4",
+    "Brand names": "HP Chromebook 11 G3/G4/G4 EE, HP Chromebook 14 G4, HP Chromebook 11 2100-2199 / HP Chromebook 11 G3",
     "isAue": true
   },
   {
@@ -1976,7 +1976,7 @@
     "Codename": "katsu",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15712.0.0<br>122.0.6185.0",
     "Brand names": "ASUS Chromebook Detachable CZ1",
     "isAue": false
@@ -1994,7 +1994,7 @@
     "Codename": "krane",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
     "Brand names": "Lenovo Chromebook Duet / Lenovo Ideapad Duet Chromebook",
     "isAue": false
@@ -2141,7 +2141,7 @@
     "Codename": "nami",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
     "Brand names": "Acer Chromebook 13 (CB713-1W)",
     "isAue": false
@@ -2150,7 +2150,7 @@
     "Codename": "akali",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
     "Brand names": "Acer Chromebook 13 (CB713-1W)",
     "isAue": false
@@ -2168,7 +2168,7 @@
     "Codename": "bard",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
     "Brand names": "Acer Chromebook 715 (CB715-1W / CB715-1WT)",
     "isAue": false
@@ -2186,7 +2186,7 @@
     "Codename": "pantheon",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
     "Brand names": "Lenovo Yoga C630 Chromebook, Lenovo C340-15 Chromebook",
     "isAue": false
@@ -2277,7 +2277,7 @@
     "Codename": "craaskbowl",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15714.4.0<br>122.0.6189.0",
     "Brand names": "Acer Chromebook Spin 511 (R756T R756T-TCO R756TN R756TN-TCO R756LT R756LT-TCO R756LTN R756LTN-TCO)",
     "isAue": false
@@ -2286,7 +2286,7 @@
     "Codename": "craaskvin",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15732.0.0<br>122.0.6223.0",
     "Brand names": "Acer Chromebook 511( C736, C736T, C736L, C736LT )",
     "isAue": false
@@ -2304,25 +2304,25 @@
     "Codename": "pujjo",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15724.0.0<br>122.0.6195.0",
-    "Brand names": "Lenovo 500e Yoga Chromebook Gen 4, Lenovo Flex 3i Chromebook 12\"/IdeaPad Flex 3i Chromebook (12\", 8)",
+    "Brand names": "Lenovo Flex 3i Chromebook 12\"/IdeaPad Flex 3i Chromebook (12\", 8), Lenovo 500e Yoga Chromebook Gen 4",
     "isAue": false
   },
   {
     "Codename": "pujjoteen",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15724.0.0<br>122.0.6195.0",
-    "Brand names": "Lenovo Slim 3i Chromebook 14, 14e Chromebook Gen 3 CB 5, 14e Chromebook Gen 3",
+    "Brand names": "14e Chromebook Gen 3 CB 5, Lenovo Slim 3i Chromebook 14, 14e Chromebook Gen 3",
     "isAue": false
   },
   {
     "Codename": "xivu",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15714.4.0<br>122.0.6189.0",
     "Brand names": "CR1102C",
     "isAue": false
@@ -2340,9 +2340,9 @@
     "Codename": "yaviks",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15732.0.0<br>122.0.6223.0",
-    "Brand names": "HP Chromebook 15.6\" 15w, HP Chromebook Plus 15, HP Chromebook 15.6\"",
+    "Brand names": "HP Chromebook Plus 15, HP Chromebook 15.6\", HP Chromebook 15.6\" 15w",
     "isAue": false
   },
   {
@@ -2417,7 +2417,7 @@
     "Codename": "octopus",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
     "Brand names": "ASUS Chromebook Flip C214 (EDU), ASUS Chromebook Flip C234 (CANADA CONSUMER)",
     "isAue": false
@@ -2426,7 +2426,7 @@
     "Codename": "ampton",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
     "Brand names": "ASUS Chromebook Flip C214 (EDU), ASUS Chromebook Flip C234 (CANADA CONSUMER)",
     "isAue": false
@@ -2473,14 +2473,14 @@
     "Beta": "15699.29.0<br>121.0.6167.49",
     "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
-    "Brand names": "Chromebook x360 14b-ca0, Chromebook x360 14a-ca0",
+    "Brand names": "Chromebook x360 14a-ca0, Chromebook x360 14b-ca0",
     "isAue": false
   },
   {
     "Codename": "blorb",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15731.0.0<br>122.0.6221.0",
     "Brand names": "Acer Chromebook 315 (CB315)",
     "isAue": false
@@ -2489,7 +2489,7 @@
     "Codename": "bluebird",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15725.0.0<br>122.0.6210.0",
     "Brand names": "Samsung Chromebook 4",
     "isAue": false
@@ -2500,7 +2500,7 @@
     "Beta": "15699.29.0<br>121.0.6167.49",
     "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
-    "Brand names": "Acer Chromebook 311 (C733, C733U, C733T), Acer Chromebook 311 (CB311-9H, CB311-9HT)",
+    "Brand names": "Acer Chromebook 311 (CB311-9H, CB311-9HT), Acer Chromebook 311 (C733, C733U, C733T)",
     "isAue": false
   },
   {
@@ -2516,7 +2516,7 @@
     "Codename": "casta",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15725.0.0<br>122.0.6210.0",
     "Brand names": "Samsung Chromebook 4+",
     "isAue": false
@@ -2525,7 +2525,7 @@
     "Codename": "dood",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
     "Brand names": "NEC Chromebook Y2",
     "isAue": false
@@ -2545,16 +2545,16 @@
     "Beta": "15699.29.0<br>121.0.6167.49",
     "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15732.0.0<br>122.0.6223.0",
-    "Brand names": "Acer Chromebook 314 (CB314), Packard Bell Chromebook 314 (PCB314), Acer Chromebook 314 (C933L/LT)",
+    "Brand names": "Acer Chromebook 314 (C933L/LT), Packard Bell Chromebook 314 (PCB314), Acer Chromebook 314 (CB314)",
     "isAue": false
   },
   {
     "Codename": "fleex",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15740.0.0<br>122.0.6226.0",
-    "Brand names": "Dell Chromebook 3100 2-in-1, Dell Chromebook 3100",
+    "Brand names": "Dell Chromebook 3100, Dell Chromebook 3100 2-in-1",
     "isAue": false
   },
   {
@@ -2570,7 +2570,7 @@
     "Codename": "foob360",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
     "Brand names": "Poin2 Chromebook 11P, CTL Chromebook VX11T",
     "isAue": false
@@ -2588,34 +2588,34 @@
     "Codename": "garg",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15740.0.0<br>122.0.6226.0",
-    "Brand names": "ADVAN Chromebook 116, EVERCOSS Chromebook CB1/CB1A, Positivo Chromebook N2210, Edxis Chromebook 11 (S20-C), Poin2 Chromebook 11A, Sector 5 E4 LTE Chromebook, WS Chromebook A101, CTL Chromebook NL71/CT/LTE, Baicells Chromebook BB01, SPC Chromebook X1 Mini, XO Chromebook, Pixart Rxart Chromebook, Multilaser Chromebook M11C-PC914, Axioo Chromebook, Zyrex Chromebook M432-1/M432-128/Zyrex Chromebook 360-1, JOI Chromebook C100",
+    "Brand names": "Positivo Chromebook N2210, SPC Chromebook X1 Mini, ADVAN Chromebook 116, XO Chromebook, WS Chromebook A101, CTL Chromebook NL71/CT/LTE, Poin2 Chromebook 11A, Sector 5 E4 LTE Chromebook, Edxis Chromebook 11 (S20-C), Axioo Chromebook, Multilaser Chromebook M11C-PC914, Pixart Rxart Chromebook, Zyrex Chromebook M432-1/M432-128/Zyrex Chromebook 360-1, JOI Chromebook C100, EVERCOSS Chromebook CB1/CB1A, Baicells Chromebook BB01",
     "isAue": false
   },
   {
     "Codename": "garg360",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15740.0.0<br>122.0.6226.0",
-    "Brand names": "WS Chromebook A101, EVERCOSS Chromebook CB1A, Zyrex Chromebook 360, Poin2 Chromebook 11A, Multilaser Chromebook M11HC-PC915, Edxis Chromebook 11 (S20-X), Positivo Chromebook N2212, Pixart Rxart Chromebook, JOI Chromebook C100, Axioo Chromebook 360, CTL Chromebook NL71T/TW/TWB, ADVAN Chromebook 116, Baicells Chromebook BB01, SPC Chromebook X1 Mini, Ascon Chromebook 11A",
+    "Brand names": "Edxis Chromebook 11 (S20-X), JOI Chromebook C100, Multilaser Chromebook M11HC-PC915, Ascon Chromebook 11A, Baicells Chromebook BB01, CTL Chromebook NL71T/TW/TWB, EVERCOSS Chromebook CB1A, ADVAN Chromebook 116, Poin2 Chromebook 11A, SPC Chromebook X1 Mini, Positivo Chromebook N2212, WS Chromebook A101, Axioo Chromebook 360, Pixart Rxart Chromebook, Zyrex Chromebook 360",
     "isAue": false
   },
   {
     "Codename": "laser14",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15725.0.0<br>122.0.6210.0",
-    "Brand names": "IdeaPad 3 CB 14IGL05, Lenovo Chromebook S340-14 and Lenovo Chromebook S340-14 Touch",
+    "Brand names": "Lenovo Chromebook S340-14 and Lenovo Chromebook S340-14 Touch, IdeaPad 3 CB 14IGL05",
     "isAue": false
   },
   {
     "Codename": "lick",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15731.0.0<br>122.0.6221.0",
     "Brand names": "Ideapad 3 Chromebook",
     "isAue": false
@@ -2624,7 +2624,7 @@
     "Codename": "meep",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15725.0.0<br>122.0.6210.0",
     "Brand names": "HP Chromebook x360 11 G2 EE",
     "isAue": false
@@ -2633,7 +2633,7 @@
     "Codename": "mimrock",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15740.0.0<br>122.0.6226.0",
     "Brand names": "HP Chromebook 11 G7 EE",
     "isAue": false
@@ -2651,7 +2651,7 @@
     "Codename": "orbatrix",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15725.0.0<br>122.0.6210.0",
     "Brand names": "Dell Chromebook 3400",
     "isAue": false
@@ -2660,7 +2660,7 @@
     "Codename": "phaser",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15725.0.0<br>122.0.6210.0",
     "Brand names": "Lenovo 100e Chromebook 2nd Gen",
     "isAue": false
@@ -2671,14 +2671,14 @@
     "Beta": "15699.29.0<br>121.0.6167.49",
     "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15740.0.0<br>122.0.6226.0",
-    "Brand names": "NEC Chromebook Y1 Gen 2, Lenovo Chromebook C340-11/300e/500e Chromebook 2nd Gen, NEC Chromebook Y1, Lenovo 300e/500e Chromebook 2nd Gen, IdeaPad Flex 3 CB 11IGL05",
+    "Brand names": "NEC Chromebook Y1 Gen 2, Lenovo 300e/500e Chromebook 2nd Gen, IdeaPad Flex 3 CB 11IGL05, NEC Chromebook Y1, Lenovo Chromebook C340-11/300e/500e Chromebook 2nd Gen",
     "isAue": false
   },
   {
     "Codename": "sparky",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15740.0.0<br>122.0.6226.0",
     "Brand names": "Acer Chromebook 512 (C851, C851T)",
     "isAue": false
@@ -2696,7 +2696,7 @@
     "Codename": "vorticon",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15740.0.0<br>122.0.6226.0",
     "Brand names": "Chromebook 11 G8 EE",
     "isAue": false
@@ -2705,7 +2705,7 @@
     "Codename": "vortininja",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15740.0.0<br>122.0.6226.0",
     "Brand names": "Chromebook x360 11 G3 EE",
     "isAue": false
@@ -2852,7 +2852,7 @@
     "Codename": "duffy",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15714.4.0<br>122.0.6189.0",
     "Brand names": "ASUS Chromebox 4",
     "isAue": false
@@ -2870,7 +2870,7 @@
     "Codename": "kaisa",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
     "Brand names": "Acer Chromebox CXI4",
     "isAue": false
@@ -2879,7 +2879,7 @@
     "Codename": "noibat",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
     "Brand names": "HP Chromebox G3",
     "isAue": false
@@ -2890,14 +2890,14 @@
     "Beta": "15699.29.0<br>121.0.6167.49",
     "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15732.0.0<br>122.0.6223.0",
-    "Brand names": "Promethean Chromebox 2, Wyvern MobLab, ViewSonic NMP760 Chromebox, CTL Chromebox CBx2/Enterprise CBx2",
+    "Brand names": "CTL Chromebox CBx2/Enterprise CBx2, Promethean Chromebox 2, Wyvern MobLab, ViewSonic NMP760 Chromebox",
     "isAue": false
   },
   {
     "Codename": "pyro",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15662.57.0<br>120.0.6099.186",
-    "Dev": "15699.10.0<br>121.0.6167.14",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15711.0.0<br>122.0.6183.0",
     "Brand names": "Lenovo ThinkPad 11e 4th Gen Chromebook",
     "isAue": false
@@ -2926,7 +2926,7 @@
     "Codename": "rammus",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15725.0.0<br>122.0.6210.0",
     "Brand names": "ASUS Chromebook C425",
     "isAue": false
@@ -2935,7 +2935,7 @@
     "Codename": "leona",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15725.0.0<br>122.0.6210.0",
     "Brand names": "ASUS Chromebook C425",
     "isAue": false
@@ -2953,7 +2953,7 @@
     "Codename": "reef",
     "Stable": "15633.69.0<br>119.0.6045.212",
     "Beta": "15662.44.0<br>120.0.6099.121",
-    "Dev": "15699.10.0<br>121.0.6167.14",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15740.0.0<br>122.0.6226.0",
     "Brand names": "ASUS Chromebook Flip C213",
     "isAue": false
@@ -2962,7 +2962,7 @@
     "Codename": "basking",
     "Stable": "15633.69.0<br>119.0.6045.212",
     "Beta": "15662.44.0<br>120.0.6099.121",
-    "Dev": "15699.10.0<br>121.0.6167.14",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15740.0.0<br>122.0.6226.0",
     "Brand names": "ASUS Chromebook Flip C213",
     "isAue": false
@@ -3012,7 +3012,7 @@
       "102": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14695.107.0_relm_recovery_stable-channel_mp-v8.bin.zip",
       "103": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14816.131.0_relm_recovery_stable-channel_mp-v8.bin.zip"
     },
-    "Brand names": "N/A, Mecer V2 Chromebook, EduGear Chromebook R, Edxis Education Chromebook (NL6D), Positivo Chromebook C216B, Acer Chromebook 11 N7 (C731, C731T), CTL NL61 Chromebook, HP Chromebook 11 G5 EE",
+    "Brand names": "N/A, CTL NL61 Chromebook, Mecer V2 Chromebook, Acer Chromebook 11 N7 (C731, C731T), Edxis Education Chromebook (NL6D), Positivo Chromebook C216B, HP Chromebook 11 G5 EE, EduGear Chromebook R",
     "isAue": true
   },
   {
@@ -3057,7 +3057,7 @@
     "Codename": "sand",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15662.57.0<br>120.0.6099.186",
-    "Dev": "15699.10.0<br>121.0.6167.14",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15730.0.0<br>122.0.6219.0",
     "Brand names": "Acer Chromebook 15 (CB515-1H, CB515-1HT)",
     "isAue": false
@@ -3066,7 +3066,7 @@
     "Codename": "sarien",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15726.0.0<br>122.0.6212.0",
     "Brand names": "Dell Latitude 5300 2-in-1 Chromebook Enterprise",
     "isAue": false
@@ -3075,7 +3075,7 @@
     "Codename": "arcada",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15726.0.0<br>122.0.6212.0",
     "Brand names": "Dell Latitude 5300 2-in-1 Chromebook Enterprise",
     "isAue": false
@@ -3148,7 +3148,7 @@
     "Codename": "skyrim",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
     "Brand names": "ASUS Chromebook CM34 Flip",
     "isAue": false
@@ -3157,7 +3157,7 @@
     "Codename": "frostflow",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
     "Brand names": "ASUS Chromebook CM34 Flip",
     "isAue": false
@@ -3175,7 +3175,7 @@
     "Codename": "whiterun",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
     "Brand names": "Dell Latitude 3445 Chromebook",
     "isAue": false
@@ -3184,7 +3184,7 @@
     "Codename": "snappy",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15662.57.0<br>120.0.6099.186",
-    "Dev": "15699.10.0<br>121.0.6167.14",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15740.0.0<br>122.0.6226.0",
     "Brand names": "HP Chromebook 11 G6 EE / Chromebook 11a",
     "isAue": false
@@ -3193,7 +3193,7 @@
     "Codename": "alan",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15662.57.0<br>120.0.6099.186",
-    "Dev": "15699.10.0<br>121.0.6167.14",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15740.0.0<br>122.0.6226.0",
     "Brand names": "HP Chromebook 11 G6 EE / Chromebook 11a",
     "isAue": false
@@ -3202,7 +3202,7 @@
     "Codename": "bigdaddy",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15662.57.0<br>120.0.6099.186",
-    "Dev": "15699.10.0<br>121.0.6167.14",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15740.0.0<br>122.0.6226.0",
     "Brand names": "Chromebook 14-ca1 / Chromebook 14-ca0",
     "isAue": false
@@ -3211,7 +3211,7 @@
     "Codename": "soraka",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15730.0.0<br>122.0.6219.0",
     "Brand names": "Chromebook x2 12-f0",
     "isAue": false
@@ -3305,7 +3305,7 @@
     "Codename": "quackingstick",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
     "Brand names": "Acer Chromebook Tab 510 / Enterprise Tab 510",
     "isAue": false
@@ -3394,7 +3394,7 @@
       "102": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14695.107.0_terra_recovery_stable-channel_mp-v2.bin.zip",
       "103": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14816.131.0_terra_recovery_stable-channel_mp-v2.bin.zip"
     },
-    "Brand names": "ASUS Chromebook C300SA / C301SA, ASUS Chromebook C202SA",
+    "Brand names": "ASUS Chromebook C202SA, ASUS Chromebook C300SA / C301SA",
     "isAue": true
   },
   {
@@ -3457,7 +3457,7 @@
     "Codename": "lazor",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
     "Brand names": "Acer Chromebook Spin 513, CP513-1H/1HL, R841T/LT",
     "isAue": false
@@ -3466,7 +3466,7 @@
     "Codename": "limozeen",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
     "Brand names": "Acer Chromebook 511 (C741L/C741LT)",
     "isAue": false
@@ -3475,9 +3475,9 @@
     "Codename": "pazquel",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
-    "Brand names": "Libera-Merdeka Chromebook C100/C110/C120/C150, Orbic Chromebook",
+    "Brand names": "Orbic Chromebook, Libera-Merdeka Chromebook C100/C110/C120/C150",
     "isAue": false
   },
   {
@@ -3555,7 +3555,7 @@
       "81": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12871.102.0_veyron-jaq_recovery_stable-channel_jaq-mp-v5.bin.zip",
       "83": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_veyron-jaq_recovery_stable-channel_jaq-mp-v5.bin.zip"
     },
-    "Brand names": "Haier Chromebook 11, Lava Xolo Chromebook, Medion Chromebook Akoya S2013, True IDC Chromebook 11",
+    "Brand names": "Medion Chromebook Akoya S2013, Lava Xolo Chromebook, True IDC Chromebook 11, Haier Chromebook 11",
     "isAue": true
   },
   {
@@ -3574,7 +3574,7 @@
       "83": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_veyron-jerry_recovery_stable-channel_jerry-mp-v12.bin.zip",
       "84": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13099.110.0_veyron-jerry_recovery_stable-channel_jerry-mp-v12.bin.zip"
     },
-    "Brand names": "HiSense Chromebook 11, Mecer Chromebook, NComputing Chromebook CX100, CTL J2 / J4 Chromebook, Poin2 Chromebook 11, Positivo Chromebook CH1190, VideoNet Chromebook BL10, Epik 11.6\" Chromebook  ELB1101, EduGear Chromebook K",
+    "Brand names": "VideoNet Chromebook BL10, Epik 11.6\" Chromebook  ELB1101, CTL J2 / J4 Chromebook, NComputing Chromebook CX100, HiSense Chromebook 11, EduGear Chromebook K, Positivo Chromebook CH1190, Poin2 Chromebook 11, Mecer Chromebook",
     "isAue": true
   },
   {
@@ -3613,7 +3613,7 @@
       "83": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_veyron-mighty_recovery_stable-channel_mighty-mp-v11.bin.zip",
       "84": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13099.110.0_veyron-mighty_recovery_stable-channel_mighty-mp-v11.bin.zip"
     },
-    "Brand names": "EduGear Chromebook M, Prowise Chromebook Entryline, Sector 5 E1 Rugged Chromebook, Lumos Education Chromebook, PCMerge Chromebook PCM-116E/PCM-116EB, Viglen Chromebook 11, Nexian Chromebook 11.6\", Haier Chromebook 11e, MEDION Chromebook S2015",
+    "Brand names": "MEDION Chromebook S2015, EduGear Chromebook M, Haier Chromebook 11e, Prowise Chromebook Entryline, Lumos Education Chromebook, Nexian Chromebook 11.6\", Viglen Chromebook 11, Sector 5 E1 Rugged Chromebook, PCMerge Chromebook PCM-116E/PCM-116EB",
     "isAue": true
   },
   {
@@ -3679,7 +3679,7 @@
     "Codename": "volteer",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
     "Brand names": "FMV Chromebook 14F, FMV Chromebook WM1/F3",
     "isAue": false
@@ -3688,7 +3688,7 @@
     "Codename": "chronicler",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
     "Brand names": "FMV Chromebook 14F, FMV Chromebook WM1/F3",
     "isAue": false
@@ -3697,7 +3697,7 @@
     "Codename": "collis",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
     "Brand names": "ASUS Chromebook Flip CX3",
     "isAue": false
@@ -3706,7 +3706,7 @@
     "Codename": "copano",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
     "Brand names": "ASUS Chromebook Flip CX5 (CX5400)",
     "isAue": false
@@ -3715,7 +3715,7 @@
     "Codename": "delbin",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
     "Brand names": "ASUS Chromebook Vibe CX55 Flip, ASUS Chromebook Flip CX5 (CX5500), ASUS Chromebook Flip C536",
     "isAue": false
@@ -3751,7 +3751,7 @@
     "Codename": "lillipup",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
     "Brand names": "IdeaPad Flex 5i Chromebook (13\", 6)",
     "isAue": false
@@ -3762,7 +3762,7 @@
     "Beta": "15699.29.0<br>121.0.6167.49",
     "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
-    "Brand names": "Lenovo 5i-14 Chromebook, Lenovo Slim 5 Chromebook",
+    "Brand names": "Lenovo Slim 5 Chromebook, Lenovo 5i-14 Chromebook",
     "isAue": false
   },
   {
@@ -3778,7 +3778,7 @@
     "Codename": "volet",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15733.0.0<br>122.0.6223.0",
     "Brand names": "Acer Chromebook 515 (CB515-1W/CB515-1WT)",
     "isAue": false
@@ -3837,7 +3837,7 @@
       "102": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14695.107.0_wizpig_recovery_stable-channel_mp-v10.bin.zip",
       "103": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14816.131.0_wizpig_recovery_stable-channel_mp-v10.bin.zip"
     },
-    "Brand names": "Viglen Chromebook 360, Prowise Chromebook Proline, Haier Chromebook 11 C, Edugear CMT Chromebook, CTL J5 Chromebook, Multilaser Chromebook M11C, PCMerge Chromebook PCM-116T-432B",
+    "Brand names": "Multilaser Chromebook M11C, Viglen Chromebook 360, CTL J5 Chromebook, PCMerge Chromebook PCM-116T-432B, Haier Chromebook 11 C, Prowise Chromebook Proline, Edugear CMT Chromebook",
     "isAue": true
   },
   {
@@ -3947,7 +3947,7 @@
     "Codename": "dirinboz",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15670.0.0<br>121.0.6109.0",
     "Brand names": "HP Chromebook 14a-nd0",
     "isAue": false
@@ -3965,7 +3965,7 @@
     "Codename": "gumboz",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15668.0.0<br>121.0.6105.0",
     "Brand names": "HP Chromebook x360 14a-cb0",
     "isAue": false
@@ -3992,7 +3992,7 @@
     "Codename": "vilboz",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15680.0.0<br>121.0.6126.0",
     "Brand names": "Lenovo 100e Chromebook Gen 3",
     "isAue": false
@@ -4001,7 +4001,7 @@
     "Codename": "vilboz14",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15680.0.0<br>121.0.6126.0",
     "Brand names": "Lenovo 14e Chromebook Gen 2",
     "isAue": false
@@ -4010,7 +4010,7 @@
     "Codename": "vilboz360",
     "Stable": "15662.64.0<br>120.0.6099.203",
     "Beta": "15699.29.0<br>121.0.6167.49",
-    "Dev": "15699.25.0<br>121.0.6167.40",
+    "Dev": "15739.0.0<br>122.0.6226.0",
     "Canary": "15677.0.0<br>121.0.6124.0",
     "Brand names": "Lenovo 300e Chromebook Gen 3, NEC Chromebook Y1 Gen3A",
     "isAue": false
