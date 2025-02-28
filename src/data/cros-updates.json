@@ -21,7 +21,7 @@
   },
   {
     "Codename": "asurada",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -30,7 +30,7 @@
   },
   {
     "Codename": "hayato",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -39,7 +39,7 @@
   },
   {
     "Codename": "spherion",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -48,7 +48,7 @@
   },
   {
     "Codename": "atlas",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -145,7 +145,7 @@
   },
   {
     "Codename": "brask",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -154,7 +154,7 @@
   },
   {
     "Codename": "aurash",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -163,7 +163,7 @@
   },
   {
     "Codename": "bujia",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -172,7 +172,7 @@
   },
   {
     "Codename": "gladios",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -181,7 +181,7 @@
   },
   {
     "Codename": "kinox",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -190,25 +190,25 @@
   },
   {
     "Codename": "kuldax",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
-    "Brand names": "ASUS Chromebox 5 (CN67), ASUS Chromebox Enterprise 5 (CN67), ASUS Chromebox 5a, ASUS Chromebox Enterprise 5a",
+    "Brand names": "ASUS Chromebox 5a, ASUS Chromebox Enterprise 5a, ASUS Chromebox 5 (CN67), ASUS Chromebox Enterprise 5 (CN67)",
     "isAue": false
   },
   {
     "Codename": "lisbon",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
-    "Brand names": "Lisbon Development Product, Centerm Chromebox D661 / Centerm Chromebox Enterprise D661, CTL Chromebox CBx3 / CTL Chromebox Enterprise CBx3",
+    "Brand names": "CTL Chromebox CBx3 / CTL Chromebox Enterprise CBx3, Centerm Chromebox D661 / Centerm Chromebox Enterprise D661, Lisbon Development Product",
     "isAue": false
   },
   {
     "Codename": "moli",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -217,7 +217,7 @@
   },
   {
     "Codename": "brox",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -226,7 +226,7 @@
   },
   {
     "Codename": "lotso",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -235,7 +235,7 @@
   },
   {
     "Codename": "brya",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -244,7 +244,7 @@
   },
   {
     "Codename": "anahera",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -253,7 +253,7 @@
   },
   {
     "Codename": "banshee",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -262,7 +262,7 @@
   },
   {
     "Codename": "crota",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -271,7 +271,7 @@
   },
   {
     "Codename": "crota360",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -280,7 +280,7 @@
   },
   {
     "Codename": "dochi",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -289,7 +289,7 @@
   },
   {
     "Codename": "felwinter",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -298,16 +298,16 @@
   },
   {
     "Codename": "gimble",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
-    "Brand names": "HP Chromebook Plus X360 14, Chromebook x360 14c-cd0",
+    "Brand names": "Chromebook x360 14c-cd0, HP Chromebook Plus X360 14",
     "isAue": false
   },
   {
     "Codename": "kano",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -316,16 +316,16 @@
   },
   {
     "Codename": "marasov",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
-    "Brand names": "ASUS Chromebook Plus CX34 CX3402CVA, ASUS Chromebook Plus CX34 CX3402CBA",
+    "Brand names": "ASUS Chromebook Plus CX34 CX3402CBA, ASUS Chromebook Plus CX34 CX3402CVA",
     "isAue": false
   },
   {
     "Codename": "mithrax",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -334,7 +334,7 @@
   },
   {
     "Codename": "omnigul",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -343,7 +343,7 @@
   },
   {
     "Codename": "omniknight",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -352,7 +352,7 @@
   },
   {
     "Codename": "osiris",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -361,7 +361,7 @@
   },
   {
     "Codename": "primus",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -370,7 +370,7 @@
   },
   {
     "Codename": "redrix",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -379,16 +379,16 @@
   },
   {
     "Codename": "taeko",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
-    "Brand names": "Lenovo Flex 5i Chromebook (14\", 7), IdeaPad Flex 5i Chromebook Plus (14\", 7), Lenovo 5i Chromebook 16\"/IdeaPad 5i Chromebook (16\", 7), Lenovo Flex 5i Chromebook 14\"/IdeaPad Flex 5i Chromebook (14\", 7)",
+    "Brand names": "Lenovo 5i Chromebook 16\"/IdeaPad 5i Chromebook (16\", 7), Lenovo Flex 5i Chromebook 14\"/IdeaPad Flex 5i Chromebook (14\", 7), IdeaPad Flex 5i Chromebook Plus (14\", 7), Lenovo Flex 5i Chromebook (14\", 7)",
     "isAue": false
   },
   {
     "Codename": "taniks",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -397,7 +397,7 @@
   },
   {
     "Codename": "vell",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -406,7 +406,7 @@
   },
   {
     "Codename": "volmar",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -415,7 +415,7 @@
   },
   {
     "Codename": "xol",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -424,7 +424,7 @@
   },
   {
     "Codename": "zavala",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -562,7 +562,7 @@
   },
   {
     "Codename": "cherry",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -571,7 +571,7 @@
   },
   {
     "Codename": "dojo",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -580,7 +580,7 @@
   },
   {
     "Codename": "tomato",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -649,7 +649,7 @@
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
-    "Brand names": "Edxis Chromebook 11, CTL chromebook NL7, Lanix Chromebook C116, Positivo Chromebook N2110, Multilaser Chromebook M11C-PC912",
+    "Brand names": "CTL chromebook NL7, Edxis Chromebook 11, Multilaser Chromebook M11C-PC912, Positivo Chromebook N2110, Lanix Chromebook C116",
     "isAue": false
   },
   {
@@ -658,7 +658,7 @@
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
-    "Brand names": "Positivo Chromebook N2112, Edxis Chromebook X11, CTL Chromebook NL7 / NL7T-360 / NL7TW-360, Viglen Chromebook 360C, Multilaser Chromebook M11HC-PC911, Lanix Chromebook C116",
+    "Brand names": "Multilaser Chromebook M11HC-PC911, Edxis Chromebook X11, CTL Chromebook NL7 / NL7T-360 / NL7TW-360, Lanix Chromebook C116, Positivo Chromebook N2112, Viglen Chromebook 360C",
     "isAue": false
   },
   {
@@ -730,7 +730,7 @@
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
-    "Brand names": "ASUS Chromebook C423, ASUS Chromebook C403, ASUS Chromebook CX1400CNA",
+    "Brand names": "ASUS Chromebook C403, ASUS Chromebook C423, ASUS Chromebook CX1400CNA",
     "isAue": false
   },
   {
@@ -766,12 +766,12 @@
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
-    "Brand names": "Viglen Chromebook 11C, PCmerge Chromebook AL116, Sector 5 E3 Chromebook, Prowise Chromebook Eduline, CTL Chromebook J41 / J41T",
+    "Brand names": "CTL Chromebook J41 / J41T, Prowise Chromebook Eduline, Sector 5 E3 Chromebook, Viglen Chromebook 11C, PCmerge Chromebook AL116",
     "isAue": false
   },
   {
     "Codename": "corsola",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -780,7 +780,7 @@
   },
   {
     "Codename": "chinchou",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -789,7 +789,7 @@
   },
   {
     "Codename": "chinchou360",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -798,7 +798,7 @@
   },
   {
     "Codename": "keldeo",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -807,7 +807,7 @@
   },
   {
     "Codename": "kyogre",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -816,7 +816,7 @@
   },
   {
     "Codename": "magneton",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -825,7 +825,7 @@
   },
   {
     "Codename": "rusty",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -834,7 +834,7 @@
   },
   {
     "Codename": "squirtle",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -852,7 +852,7 @@
   },
   {
     "Codename": "tentacool",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -861,7 +861,7 @@
   },
   {
     "Codename": "tentacruel",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -870,7 +870,7 @@
   },
   {
     "Codename": "veluza",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -879,7 +879,7 @@
   },
   {
     "Codename": "voltorb",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -965,7 +965,7 @@
   },
   {
     "Codename": "dedede",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -974,7 +974,7 @@
   },
   {
     "Codename": "awasuki",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -983,16 +983,16 @@
   },
   {
     "Codename": "beadrix",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
-    "Brand names": "DINATECH Gen1 Chromebook  SG20JL1C, Allied Chromebook 11 N5100EO-864180 /  Allied Chromebook 11 N4500EO-432180 /  Allied Chromebook 11 N5100EO-432180, Multilaser Chromebook M11C-PC919",
+    "Brand names": "Allied Chromebook 11 N5100EO-864180 /  Allied Chromebook 11 N4500EO-432180 /  Allied Chromebook 11 N5100EO-432180, DINATECH Gen1 Chromebook  SG20JL1C, Multilaser Chromebook M11C-PC919",
     "isAue": false
   },
   {
     "Codename": "beetley",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1001,7 +1001,7 @@
   },
   {
     "Codename": "blipper",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1010,16 +1010,16 @@
   },
   {
     "Codename": "bookem",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
-    "Brand names": "Lenovo Chromebook (11\", 9) / Lenovo Chrome 11IJL9, Lenovo 100e Chromebook Gen 3 (Intel)",
+    "Brand names": "Lenovo 100e Chromebook Gen 3 (Intel), Lenovo Chromebook (11\", 9) / Lenovo Chrome 11IJL9",
     "isAue": false
   },
   {
     "Codename": "boten",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1028,7 +1028,7 @@
   },
   {
     "Codename": "boxy",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1037,7 +1037,7 @@
   },
   {
     "Codename": "bugzzy",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1046,7 +1046,7 @@
   },
   {
     "Codename": "cret",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1055,7 +1055,7 @@
   },
   {
     "Codename": "cret360",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1064,7 +1064,7 @@
   },
   {
     "Codename": "dexi",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1073,25 +1073,25 @@
   },
   {
     "Codename": "dita",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
-    "Brand names": "Acer Chromebox Mini CXM1 / Acer Chromebox Mini Enterprise  CXM1, AOPEN Chromebox P1 / AOPEN Chromebox Enterprise P1",
+    "Brand names": "AOPEN Chromebox P1 / AOPEN Chromebox Enterprise P1, Acer Chromebox Mini CXM1 / Acer Chromebox Mini Enterprise  CXM1",
     "isAue": false
   },
   {
     "Codename": "drawcia",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
-    "Brand names": "HP Chromebook x360 11 G4 EE, HP Fortis x360 11 G3 J Chromebook / HP Fortis x360 11 G3 J Chromebook Enterprise",
+    "Brand names": "HP Fortis x360 11 G3 J Chromebook / HP Fortis x360 11 G3 J Chromebook Enterprise, HP Chromebook x360 11 G4 EE",
     "isAue": false
   },
   {
     "Codename": "drawlat",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1100,7 +1100,7 @@
   },
   {
     "Codename": "drawman",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1109,7 +1109,7 @@
   },
   {
     "Codename": "drawper",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1118,7 +1118,7 @@
   },
   {
     "Codename": "galith",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1127,7 +1127,7 @@
   },
   {
     "Codename": "galith360",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1136,7 +1136,7 @@
   },
   {
     "Codename": "gallop",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1145,7 +1145,7 @@
   },
   {
     "Codename": "galnat",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1154,7 +1154,7 @@
   },
   {
     "Codename": "galnat360",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1163,7 +1163,7 @@
   },
   {
     "Codename": "galtic",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1172,7 +1172,7 @@
   },
   {
     "Codename": "galtic360",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1181,25 +1181,25 @@
   },
   {
     "Codename": "kracko",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
-    "Brand names": "Poin2 Chromebook 11B, Zyrex Chromebook M432-64/Zyrex Chromebook M432-11, ADVAN Chromebook 116J, Edxis Chromebook 11 (S30-C) / Edxis Chromebook 11 (S30-CT), Positivo Chromebook N2310, Centerm Chromebook M610, CTL Chromebook NL72, Multilaser Chromebook M11HC-PC916 (clamshell) / Multilaser Chromebook M11HC-PC917 (convertible)",
+    "Brand names": "ADVAN Chromebook 116J, Edxis Chromebook 11 (S30-C) / Edxis Chromebook 11 (S30-CT), Poin2 Chromebook 11B, Centerm Chromebook M610, Multilaser Chromebook M11HC-PC916 (clamshell) / Multilaser Chromebook M11HC-PC917 (convertible), CTL Chromebook NL72, Zyrex Chromebook M432-64/Zyrex Chromebook M432-11, Positivo Chromebook N2310",
     "isAue": false
   },
   {
     "Codename": "kracko360",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
-    "Brand names": "CTL Chromebook NL72T, Positivo Chromebook N2312, LG Chromebook 11TC50Q/11TQ50Q, Poin2 Chromebook 11E",
+    "Brand names": "CTL Chromebook NL72T, Positivo Chromebook N2312, Poin2 Chromebook 11E, LG Chromebook 11TC50Q/11TQ50Q",
     "isAue": false
   },
   {
     "Codename": "landia",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1208,7 +1208,7 @@
   },
   {
     "Codename": "landrid",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1217,7 +1217,7 @@
   },
   {
     "Codename": "lantis",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1226,7 +1226,7 @@
   },
   {
     "Codename": "madoo",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1235,7 +1235,7 @@
   },
   {
     "Codename": "magister",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1244,7 +1244,7 @@
   },
   {
     "Codename": "maglet",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1253,7 +1253,7 @@
   },
   {
     "Codename": "maglia",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1262,7 +1262,7 @@
   },
   {
     "Codename": "maglith",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1271,7 +1271,7 @@
   },
   {
     "Codename": "magma",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1280,7 +1280,7 @@
   },
   {
     "Codename": "magneto",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1289,7 +1289,7 @@
   },
   {
     "Codename": "magolor",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1298,7 +1298,7 @@
   },
   {
     "Codename": "magpie",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1307,7 +1307,7 @@
   },
   {
     "Codename": "metaknight",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1316,52 +1316,52 @@
   },
   {
     "Codename": "palutena",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
-    "Brand names": "CA14J2, Acer Chromebook 314, Gateway Chromebook 314",
+    "Brand names": "Gateway Chromebook 314, CA14J2, Acer Chromebook 314",
     "isAue": false
   },
   {
     "Codename": "pasara",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
-    "Brand names": "Edxis E-Lite Chromebook 15, Gateway Chromebook 15",
+    "Brand names": "Gateway Chromebook 15, Edxis E-Lite Chromebook 15",
     "isAue": false
   },
   {
     "Codename": "peezer",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
-    "Brand names": "Gateway Chromebook 311, Acer Chromebook 311(CO731), CTL Chromebook PX11EG, CA11J2, Multilaser Chromebook M11C-PC924, Edxis E-Lite Chromebook 11",
+    "Brand names": "Multilaser Chromebook M11C-PC924, CA11J2, Acer Chromebook 311(CO731), CTL Chromebook PX11EG, Gateway Chromebook 311, Edxis E-Lite Chromebook 11",
     "isAue": false
   },
   {
     "Codename": "pirette",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
-    "Brand names": "SPC Chromebook Z1 Mini, CTL Chromebook PX11E, Zyrex Chromebook M432-2, Axioo Chromebook P11/Axioo Chromebook P432",
+    "Brand names": "Zyrex Chromebook M432-2, CTL Chromebook PX11E, SPC Chromebook Z1 Mini, Axioo Chromebook P11/Axioo Chromebook P432",
     "isAue": false
   },
   {
     "Codename": "pirika",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
-    "Brand names": "Gateway Chromebook 14, CTL Chromebook Enterprise/PX14E/PX14EX/PX14EXT, Axioo Chromebook P14",
+    "Brand names": "Gateway Chromebook 14, Axioo Chromebook P14, CTL Chromebook Enterprise/PX14E/PX14EX/PX14EXT",
     "isAue": false
   },
   {
     "Codename": "sasuke",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1370,7 +1370,7 @@
   },
   {
     "Codename": "sasukette",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1379,7 +1379,7 @@
   },
   {
     "Codename": "storo",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1388,7 +1388,7 @@
   },
   {
     "Codename": "storo360",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1397,7 +1397,7 @@
   },
   {
     "Codename": "taranza",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1406,7 +1406,7 @@
   },
   {
     "Codename": "drallion",
-    "Stable": "16093.92.0<br>132.0.6834.208",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1415,7 +1415,7 @@
   },
   {
     "Codename": "drallion360_signed",
-    "Stable": "16093.92.0<br>132.0.6834.208",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1424,7 +1424,7 @@
   },
   {
     "Codename": "drallion_signed",
-    "Stable": "16093.92.0<br>132.0.6834.208",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1477,7 +1477,7 @@
       "92": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13982.88.0_enguarde_recovery_stable-channel_mp-v25.bin.zip",
       "93": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14092.77.0_enguarde_recovery_stable-channel_mp-v25.bin.zip"
     },
-    "Brand names": "Videonet Chromebook, M&A Chromebook, JP Sa Couto Chromebook, RGS Education Chromebook, ASI Chromebook, Lenovo N21 Chromebook, Crambo Chromebook, True IDC Chromebook, CTL N6 Education Chromebook, Senkatel C1101 Chromebook, Education Chromebook, eduGear Chromebook R, Edxis Education Chromebook (NL6)",
+    "Brand names": "RGS Education Chromebook, True IDC Chromebook, M&A Chromebook, Edxis Education Chromebook (NL6), JP Sa Couto Chromebook, CTL N6 Education Chromebook, Senkatel C1101 Chromebook, Lenovo N21 Chromebook, Crambo Chromebook, eduGear Chromebook R, ASI Chromebook, Videonet Chromebook, Education Chromebook",
     "isAue": true
   },
   {
@@ -1506,7 +1506,7 @@
       "92": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13982.88.0_expresso_recovery_stable-channel_mp-v15.bin.zip",
       "93": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14092.77.0_expresso_recovery_stable-channel_mp-v15.bin.zip"
     },
-    "Brand names": "Edxis Chromebook, Consumer Chromebook, HEXA Chromebook Pi, Bobicus Chromebook 11",
+    "Brand names": "Bobicus Chromebook 11, Edxis Chromebook, Consumer Chromebook, HEXA Chromebook Pi",
     "isAue": true
   },
   {
@@ -1531,7 +1531,7 @@
   },
   {
     "Codename": "fizz",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1540,7 +1540,7 @@
   },
   {
     "Codename": "jax",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1549,7 +1549,7 @@
   },
   {
     "Codename": "kench",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1558,7 +1558,7 @@
   },
   {
     "Codename": "sion",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1567,7 +1567,7 @@
   },
   {
     "Codename": "teemo",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1576,11 +1576,11 @@
   },
   {
     "Codename": "wukong",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
-    "Brand names": "OWG, SMART Chromebox G3, CTL Chromebox CBx1, ViewSonic NMP660 Chromebox, Promethean Chromebox",
+    "Brand names": "CTL Chromebox CBx1, OWG, SMART Chromebox G3, Promethean Chromebox, ViewSonic NMP660 Chromebox",
     "isAue": false
   },
   {
@@ -1605,7 +1605,7 @@
   },
   {
     "Codename": "geralt",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1614,7 +1614,7 @@
   },
   {
     "Codename": "ciri",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1663,7 +1663,7 @@
   },
   {
     "Codename": "grunt",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1672,7 +1672,7 @@
   },
   {
     "Codename": "aleena",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1681,16 +1681,16 @@
   },
   {
     "Codename": "barla",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
-    "Brand names": "HP Chromebook 11A G6 EE / HP Chromebook 11A G8 EE, HP Chromebook 11A G6 EE/ HP Chromebook 11A G8 EE",
+    "Brand names": "HP Chromebook 11A G6 EE/ HP Chromebook 11A G8 EE, HP Chromebook 11A G6 EE / HP Chromebook 11A G8 EE",
     "isAue": false
   },
   {
     "Codename": "careena",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1699,7 +1699,7 @@
   },
   {
     "Codename": "kasumi",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1708,7 +1708,7 @@
   },
   {
     "Codename": "kasumi360",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1717,7 +1717,7 @@
   },
   {
     "Codename": "liara",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1726,16 +1726,16 @@
   },
   {
     "Codename": "treeya",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
-    "Brand names": "100e Gen 2 AST, IdeaPad 3 Chromebook (11\", 5)",
+    "Brand names": "IdeaPad 3 Chromebook (11\", 5), 100e Gen 2 AST",
     "isAue": false
   },
   {
     "Codename": "treeya360",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1762,7 +1762,7 @@
   },
   {
     "Codename": "guybrush",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1771,7 +1771,7 @@
   },
   {
     "Codename": "dewatt",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1780,7 +1780,7 @@
   },
   {
     "Codename": "nipperkin",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1789,7 +1789,7 @@
   },
   {
     "Codename": "hana",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1798,7 +1798,7 @@
   },
   {
     "Codename": "birch",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1807,7 +1807,7 @@
   },
   {
     "Codename": "maple",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1816,7 +1816,7 @@
   },
   {
     "Codename": "maple14",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1825,7 +1825,7 @@
   },
   {
     "Codename": "sycamore",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1834,7 +1834,7 @@
   },
   {
     "Codename": "sycamore360",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1843,7 +1843,7 @@
   },
   {
     "Codename": "telesu",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1852,7 +1852,7 @@
   },
   {
     "Codename": "hatch",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1861,7 +1861,7 @@
   },
   {
     "Codename": "akemi",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1870,7 +1870,7 @@
   },
   {
     "Codename": "dragonair",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1879,7 +1879,7 @@
   },
   {
     "Codename": "dratini",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1888,7 +1888,7 @@
   },
   {
     "Codename": "helios",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1897,7 +1897,7 @@
   },
   {
     "Codename": "jinlon",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1906,7 +1906,7 @@
   },
   {
     "Codename": "kindred",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1915,7 +1915,7 @@
   },
   {
     "Codename": "kled",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1924,7 +1924,7 @@
   },
   {
     "Codename": "kohaku",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1933,7 +1933,7 @@
   },
   {
     "Codename": "nightfury",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1962,7 +1962,7 @@
   },
   {
     "Codename": "jacuzzi",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1971,7 +1971,7 @@
   },
   {
     "Codename": "burnet",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1980,7 +1980,7 @@
   },
   {
     "Codename": "cozmo",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1989,7 +1989,7 @@
   },
   {
     "Codename": "damu",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -1998,7 +1998,7 @@
   },
   {
     "Codename": "esche",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -2007,7 +2007,7 @@
   },
   {
     "Codename": "fennel",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -2016,7 +2016,7 @@
   },
   {
     "Codename": "fennel14",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -2025,7 +2025,7 @@
   },
   {
     "Codename": "juniper",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -2034,16 +2034,16 @@
   },
   {
     "Codename": "kappa",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
-    "Brand names": "HP Chromebook 11a na0, HP Chromebook 11a-ne0",
+    "Brand names": "HP Chromebook 11a-ne0, HP Chromebook 11a na0",
     "isAue": false
   },
   {
     "Codename": "kenzo",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -2052,7 +2052,7 @@
   },
   {
     "Codename": "makomo",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -2061,7 +2061,7 @@
   },
   {
     "Codename": "pico",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -2070,7 +2070,7 @@
   },
   {
     "Codename": "willow",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -2079,7 +2079,7 @@
   },
   {
     "Codename": "kalista",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -2088,7 +2088,7 @@
   },
   {
     "Codename": "karma",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -2111,7 +2111,7 @@
       "102": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14695.107.0_kefka_recovery_stable-channel_mp.bin.zip",
       "103": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14816.131.0_kefka_recovery_stable-channel_mp.bin.zip"
     },
-    "Brand names": "Dell Chromebook 11 2-in-1 (3189), Dell Chromebook 11 (3180)",
+    "Brand names": "Dell Chromebook 11 (3180), Dell Chromebook 11 2-in-1 (3189)",
     "isAue": true
   },
   {
@@ -2140,12 +2140,12 @@
       "92": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13982.88.0_kip_recovery_stable-channel_mp-v3.bin.zip",
       "93": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14092.77.0_kip_recovery_stable-channel_mp-v3.bin.zip"
     },
-    "Brand names": "HP Chromebook 11 2100-2199 / HP Chromebook 11 G3, HP Chromebook 14 G4, HP Chromebook 11 G3/G4/G4 EE",
+    "Brand names": "HP Chromebook 11 2100-2199 / HP Chromebook 11 G3, HP Chromebook 11 G3/G4/G4 EE, HP Chromebook 14 G4",
     "isAue": true
   },
   {
     "Codename": "kukui",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -2154,7 +2154,7 @@
   },
   {
     "Codename": "kakadu",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -2163,7 +2163,7 @@
   },
   {
     "Codename": "katsu",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -2172,7 +2172,7 @@
   },
   {
     "Codename": "kodama",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -2181,7 +2181,7 @@
   },
   {
     "Codename": "krane",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -2323,12 +2323,12 @@
       "83": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_monroe_recovery_stable-channel_mp-v2.bin.zip",
       "84": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13099.110.2_monroe_recovery_stable-channel_mp-v2.bin.zip"
     },
-    "Brand names": "LG Chromebase (22CV241), LG Chromebase (22CB25S)",
+    "Brand names": "LG Chromebase (22CB25S), LG Chromebase (22CV241)",
     "isAue": true
   },
   {
     "Codename": "nami",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -2337,7 +2337,7 @@
   },
   {
     "Codename": "akali",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -2346,7 +2346,7 @@
   },
   {
     "Codename": "akali360",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -2355,7 +2355,7 @@
   },
   {
     "Codename": "bard",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -2364,7 +2364,7 @@
   },
   {
     "Codename": "ekko",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -2373,7 +2373,7 @@
   },
   {
     "Codename": "pantheon",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -2382,7 +2382,7 @@
   },
   {
     "Codename": "sona",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -2391,7 +2391,7 @@
   },
   {
     "Codename": "syndra",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -2400,7 +2400,7 @@
   },
   {
     "Codename": "vayne",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -2446,7 +2446,7 @@
   },
   {
     "Codename": "nissa",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -2455,7 +2455,7 @@
   },
   {
     "Codename": "anraggar",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -2464,7 +2464,7 @@
   },
   {
     "Codename": "anraggar360",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -2473,7 +2473,7 @@
   },
   {
     "Codename": "craask",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -2482,7 +2482,7 @@
   },
   {
     "Codename": "craaskana",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -2491,7 +2491,7 @@
   },
   {
     "Codename": "craaskbowl",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -2500,7 +2500,7 @@
   },
   {
     "Codename": "craaskino",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -2509,7 +2509,7 @@
   },
   {
     "Codename": "craaskvin",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -2518,16 +2518,16 @@
   },
   {
     "Codename": "craasneto",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
-    "Brand names": "Acer Chromebook Plus 514(CB514-4H / CB514-4HT), Acer Chromebook 314(C936 /C936T /C936-TCO /C936T-TCO), Acer Chromebook 314(CB314-4H / CB314-4HT)",
+    "Brand names": "Acer Chromebook 314(CB314-4H / CB314-4HT), Acer Chromebook Plus 514(CB514-4H / CB514-4HT), Acer Chromebook 314(C936 /C936T /C936-TCO /C936T-TCO)",
     "isAue": false
   },
   {
     "Codename": "craaswell",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -2536,7 +2536,7 @@
   },
   {
     "Codename": "domika",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -2545,7 +2545,7 @@
   },
   {
     "Codename": "domilly",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -2554,7 +2554,7 @@
   },
   {
     "Codename": "domiso",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -2563,61 +2563,61 @@
   },
   {
     "Codename": "gana",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
-    "Brand names": "CTL Chromebook PX111E, CA21A",
+    "Brand names": "CA21A, CTL Chromebook PX111E",
     "isAue": false
   },
   {
     "Codename": "glassway",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
-    "Brand names": "CTL Chromebook Plus PX141GX / CTL Chromebook Plus PX141GXT / CTL Chromebook Plus Entreprise PX141GX / CTL Chromebook Plus Enterprise PX141GXT, CTL Chromebook Enterprise PX141E / CTL Chromebook Enterprise PX141EX / CTL Chromebook Enterprise PX141EXT / CTL Chromebook PX141E / CTL Chromebook PX141EX / CTL Chromebook PX141EXT",
+    "Brand names": "CTL Chromebook Enterprise PX141E / CTL Chromebook Enterprise PX141EX / CTL Chromebook Enterprise PX141EXT / CTL Chromebook PX141E / CTL Chromebook PX141EX / CTL Chromebook PX141EXT, CTL Chromebook Plus PX141GX / CTL Chromebook Plus PX141GXT / CTL Chromebook Plus Entreprise PX141GX / CTL Chromebook Plus Enterprise PX141GXT",
     "isAue": false
   },
   {
     "Codename": "gothrax",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
-    "Brand names": "Centerm Chromebook M612B, Multi Chromebook M11HC-PC925",
+    "Brand names": "Multi Chromebook M11HC-PC925, Centerm Chromebook M612B",
     "isAue": false
   },
   {
     "Codename": "gothraxcs",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
-    "Brand names": "Centerm Chromebook M612A, Multi Chromebook M11C-PC926",
+    "Brand names": "Multi Chromebook M11C-PC926, Centerm Chromebook M612A",
     "isAue": false
   },
   {
     "Codename": "hideo",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
-    "Brand names": "Hideo non-CBX Development Project, Centerm Chromebook M621 / Centerm Chromebook Enterprise M621, Centerm Chromebook Plus M621 / Centerm Chromebook Plus Enterprise M621, Hideo CBX Development Project",
+    "Brand names": "Centerm Chromebook Plus M621 / Centerm Chromebook Plus Enterprise M621, Hideo CBX Development Project, Hideo non-CBX Development Project, Centerm Chromebook M621 / Centerm Chromebook Enterprise M621",
     "isAue": false
   },
   {
     "Codename": "joxer",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
-    "Brand names": "HP Chromebook Plus x360 14b-cd0, HP Chromebook x360 14b-cc0, HP Chromebook x360 14b-cd0, HP Chromebook Plus x360 14b-cc0",
+    "Brand names": "HP Chromebook Plus x360 14b-cd0, HP Chromebook Plus x360 14b-cc0, HP Chromebook x360 14b-cc0, HP Chromebook x360 14b-cd0",
     "isAue": false
   },
   {
     "Codename": "pujjo",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -2626,7 +2626,7 @@
   },
   {
     "Codename": "pujjo1e",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -2635,7 +2635,7 @@
   },
   {
     "Codename": "pujjoga",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -2644,34 +2644,34 @@
   },
   {
     "Codename": "pujjoteen",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
-    "Brand names": "Lenovo 14e Chromebook Gen 3 CB 5, Lenovo 14e Chromebook Gen 3/Lenovo Slim 3i Chromebook 14\\\", IdeaPad Slim 3i Chromebook Plus (14\\\" Intel), Lenovo 14e Chromebook Gen 3",
+    "Brand names": "Lenovo 14e Chromebook Gen 3/Lenovo Slim 3i Chromebook 14\\\", Lenovo 14e Chromebook Gen 3 CB 5, Lenovo 14e Chromebook Gen 3, IdeaPad Slim 3i Chromebook Plus (14\\\" Intel)",
     "isAue": false
   },
   {
     "Codename": "quandiso",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
-    "Brand names": "CTL Chromebook NL73, Edxis Chromebook 11 (S30-C25), LI7A",
+    "Brand names": "CTL Chromebook NL73, LI7A, Edxis Chromebook 11 (S30-C25)",
     "isAue": false
   },
   {
     "Codename": "quandiso360",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
-    "Brand names": "Edxis Chromebook 11 (S30-X25), LI7B, CTL Chromebook NL73T/CTL Chromebook NL73TW, mouse Chromebook U1-DAU01GY-A",
+    "Brand names": "Edxis Chromebook 11 (S30-X25), mouse Chromebook U1-DAU01GY-A, LI7B, CTL Chromebook NL73T/CTL Chromebook NL73TW",
     "isAue": false
   },
   {
     "Codename": "riven",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -2680,7 +2680,7 @@
   },
   {
     "Codename": "rudriks",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -2689,7 +2689,7 @@
   },
   {
     "Codename": "rynax",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -2698,7 +2698,7 @@
   },
   {
     "Codename": "sundance",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -2707,7 +2707,7 @@
   },
   {
     "Codename": "teliks",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -2716,7 +2716,7 @@
   },
   {
     "Codename": "teliks360",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -2725,7 +2725,7 @@
   },
   {
     "Codename": "uldren",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -2734,7 +2734,7 @@
   },
   {
     "Codename": "uldren360",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -2743,7 +2743,7 @@
   },
   {
     "Codename": "xivu",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -2752,7 +2752,7 @@
   },
   {
     "Codename": "xivu360",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -2761,16 +2761,16 @@
   },
   {
     "Codename": "yahiko",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
-    "Brand names": "HP Chromebook Plus 14a-nf0xxx, HP Chromebook 14a-nf0xxx",
+    "Brand names": "HP Chromebook 14a-nf0xxx, HP Chromebook Plus 14a-nf0xxx",
     "isAue": false
   },
   {
     "Codename": "yavijo",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -2779,16 +2779,16 @@
   },
   {
     "Codename": "yaviks",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
-    "Brand names": "HP Chromebook 15.6\" 15w, HP Chromebook Plus 15, HP Chromebook 15.6\"",
+    "Brand names": "HP Chromebook Plus 15, HP Chromebook 15.6\", HP Chromebook 15.6\" 15w",
     "isAue": false
   },
   {
     "Codename": "yavilla",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -2797,7 +2797,7 @@
   },
   {
     "Codename": "yavilly",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -2806,7 +2806,7 @@
   },
   {
     "Codename": "nocturne",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -2874,7 +2874,7 @@
   },
   {
     "Codename": "octopus",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -2883,7 +2883,7 @@
   },
   {
     "Codename": "ampton",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -2901,7 +2901,7 @@
   },
   {
     "Codename": "apele",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -2910,7 +2910,7 @@
   },
   {
     "Codename": "bloog",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -2919,7 +2919,7 @@
   },
   {
     "Codename": "blooglet",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -2928,16 +2928,16 @@
   },
   {
     "Codename": "blooguard",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
-    "Brand names": "Chromebook x360 14a-ca0, Chromebook x360 14b-ca0",
+    "Brand names": "Chromebook x360 14b-ca0, Chromebook x360 14a-ca0",
     "isAue": false
   },
   {
     "Codename": "blorb",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -2946,7 +2946,7 @@
   },
   {
     "Codename": "bluebird",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -2955,25 +2955,25 @@
   },
   {
     "Codename": "bobba",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
-    "Brand names": "Acer Chromebook 311 (CB311-9H, CB311-9HT), Acer Chromebook 311 (C733, C733U, C733T)",
+    "Brand names": "Acer Chromebook 311 (C733, C733U, C733T), Acer Chromebook 311 (CB311-9H, CB311-9HT)",
     "isAue": false
   },
   {
     "Codename": "bobba360",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
-    "Brand names": "Acer Chromebook Spin 311 (CP311-2H, CP311-2HN), Acer Chromebook Spin 511 (R752T, R752TN)",
+    "Brand names": "Acer Chromebook Spin 511 (R752T, R752TN), Acer Chromebook Spin 311 (CP311-2H, CP311-2HN)",
     "isAue": false
   },
   {
     "Codename": "casta",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -2982,7 +2982,7 @@
   },
   {
     "Codename": "dood",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -2991,7 +2991,7 @@
   },
   {
     "Codename": "dorp",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -3000,11 +3000,11 @@
   },
   {
     "Codename": "droid",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
-    "Brand names": "Acer Chromebook 314 (CB314), Acer Chromebook 314 (C933L/LT), Packard Bell Chromebook 314 (PCB314)",
+    "Brand names": "Acer Chromebook 314 (C933L/LT), Acer Chromebook 314 (CB314), Packard Bell Chromebook 314 (PCB314)",
     "isAue": false
   },
   {
@@ -3018,7 +3018,7 @@
   },
   {
     "Codename": "foob",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -3027,7 +3027,7 @@
   },
   {
     "Codename": "foob360",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -3036,7 +3036,7 @@
   },
   {
     "Codename": "garfour",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -3045,25 +3045,25 @@
   },
   {
     "Codename": "garg",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
-    "Brand names": "Sector 5 E4 LTE Chromebook, Edxis Chromebook 11 (S20-C), WS Chromebook A101, Zyrex Chromebook M432-1/M432-128/Zyrex Chromebook 360-1, Pixart Rxart Chromebook, EVERCOSS Chromebook CB1/CB1A, Multilaser Chromebook M11C-PC914, Baicells Chromebook BB01, Positivo Chromebook N2210, CTL Chromebook NL71/CT/LTE, Poin2 Chromebook 11A, ADVAN Chromebook 116, Axioo Chromebook, JOI Chromebook C100, XO Chromebook, SPC Chromebook X1 Mini",
+    "Brand names": "Pixart Rxart Chromebook, ADVAN Chromebook 116, WS Chromebook A101, JOI Chromebook C100, EVERCOSS Chromebook CB1/CB1A, Multilaser Chromebook M11C-PC914, XO Chromebook, Sector 5 E4 LTE Chromebook, CTL Chromebook NL71/CT/LTE, Axioo Chromebook, Positivo Chromebook N2210, Baicells Chromebook BB01, Zyrex Chromebook M432-1/M432-128/Zyrex Chromebook 360-1, Edxis Chromebook 11 (S20-C), Poin2 Chromebook 11A, SPC Chromebook X1 Mini",
     "isAue": false
   },
   {
     "Codename": "garg360",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
-    "Brand names": "JOI Chromebook C100, Baicells Chromebook BB01, Pixart Rxart Chromebook, Positivo Chromebook N2212, WS Chromebook A101, Ascon Chromebook 11A, SPC Chromebook X1 Mini, Poin2 Chromebook 11A, CTL Chromebook NL71T/TW/TWB, Axioo Chromebook 360, Zyrex Chromebook 360, Multilaser Chromebook M11HC-PC915, Edxis Chromebook 11 (S20-X), ADVAN Chromebook 116, EVERCOSS Chromebook CB1A",
+    "Brand names": "CTL Chromebook NL71T/TW/TWB, Axioo Chromebook 360, Edxis Chromebook 11 (S20-X), Pixart Rxart Chromebook, Poin2 Chromebook 11A, Positivo Chromebook N2212, ADVAN Chromebook 116, Baicells Chromebook BB01, JOI Chromebook C100, SPC Chromebook X1 Mini, Zyrex Chromebook 360, WS Chromebook A101, Multilaser Chromebook M11HC-PC915, EVERCOSS Chromebook CB1A, Ascon Chromebook 11A",
     "isAue": false
   },
   {
     "Codename": "laser14",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -3072,7 +3072,7 @@
   },
   {
     "Codename": "lick",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -3081,7 +3081,7 @@
   },
   {
     "Codename": "meep",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -3099,7 +3099,7 @@
   },
   {
     "Codename": "nospike",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -3108,7 +3108,7 @@
   },
   {
     "Codename": "orbatrix",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -3117,7 +3117,7 @@
   },
   {
     "Codename": "phaser",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -3126,16 +3126,16 @@
   },
   {
     "Codename": "phaser360",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
-    "Brand names": "IdeaPad Flex 3 CB 11IGL05, Lenovo 300e/500e Chromebook 2nd Gen, NEC Chromebook Y1 Gen 2, Lenovo Chromebook C340-11/300e/500e Chromebook 2nd Gen, NEC Chromebook Y1",
+    "Brand names": "NEC Chromebook Y1, IdeaPad Flex 3 CB 11IGL05, Lenovo 300e/500e Chromebook 2nd Gen, NEC Chromebook Y1 Gen 2, Lenovo Chromebook C340-11/300e/500e Chromebook 2nd Gen",
     "isAue": false
   },
   {
     "Codename": "sparky",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -3144,7 +3144,7 @@
   },
   {
     "Codename": "sparky360",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -3153,7 +3153,7 @@
   },
   {
     "Codename": "vorticon",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -3162,7 +3162,7 @@
   },
   {
     "Codename": "vortininja",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -3291,7 +3291,7 @@
   },
   {
     "Codename": "puff",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -3300,7 +3300,7 @@
   },
   {
     "Codename": "dooly",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -3309,7 +3309,7 @@
   },
   {
     "Codename": "duffy",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -3318,7 +3318,7 @@
   },
   {
     "Codename": "faffy",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -3327,7 +3327,7 @@
   },
   {
     "Codename": "kaisa",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -3336,7 +3336,7 @@
   },
   {
     "Codename": "noibat",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -3345,11 +3345,11 @@
   },
   {
     "Codename": "wyvern",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
-    "Brand names": "CTL Chromebox CBx2/Enterprise CBx2, Wyvern MobLab, Promethean Chromebox 2, ViewSonic NMP760 Chromebox",
+    "Brand names": "Wyvern MobLab, CTL Chromebox CBx2/Enterprise CBx2, ViewSonic NMP760 Chromebox, Promethean Chromebox 2",
     "isAue": false
   },
   {
@@ -3383,7 +3383,7 @@
   },
   {
     "Codename": "rammus",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -3392,7 +3392,7 @@
   },
   {
     "Codename": "leona",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -3401,7 +3401,7 @@
   },
   {
     "Codename": "shyvana",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -3452,7 +3452,7 @@
       "102": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14695.107.0_reks_recovery_stable-channel_mp-v4.bin.zip",
       "103": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14816.131.0_reks_recovery_stable-channel_mp-v4.bin.zip"
     },
-    "Brand names": "Lenovo N22 Chromebook, Lenovo N23 Chromebook (Touch), Lenovo N23 Chromebook, Lenovo N42 Chromebook",
+    "Brand names": "Lenovo N23 Chromebook, Lenovo N22 Chromebook, Lenovo N23 Chromebook (Touch), Lenovo N42 Chromebook",
     "isAue": true
   },
   {
@@ -3471,12 +3471,12 @@
       "102": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14695.107.0_relm_recovery_stable-channel_mp-v8.bin.zip",
       "103": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14816.131.0_relm_recovery_stable-channel_mp-v8.bin.zip"
     },
-    "Brand names": "CTL NL61 Chromebook, EduGear Chromebook R, Positivo Chromebook C216B, N/A, Edxis Education Chromebook (NL6D), Acer Chromebook 11 N7 (C731, C731T), Mecer V2 Chromebook, HP Chromebook 11 G5 EE",
+    "Brand names": "Positivo Chromebook C216B, Acer Chromebook 11 N7 (C731, C731T), Edxis Education Chromebook (NL6D), EduGear Chromebook R, HP Chromebook 11 G5 EE, Mecer V2 Chromebook, CTL NL61 Chromebook, N/A",
     "isAue": true
   },
   {
     "Codename": "rex",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16204.0.0<br>135.0.7034.0",
@@ -3485,7 +3485,7 @@
   },
   {
     "Codename": "karis",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16204.0.0<br>135.0.7034.0",
@@ -3494,7 +3494,7 @@
   },
   {
     "Codename": "screebo",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16204.0.0<br>135.0.7034.0",
@@ -3550,7 +3550,7 @@
   },
   {
     "Codename": "sarien",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -3559,7 +3559,7 @@
   },
   {
     "Codename": "arcada",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -3632,7 +3632,7 @@
   },
   {
     "Codename": "skyrim",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -3641,7 +3641,7 @@
   },
   {
     "Codename": "crystaldrift",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -3650,7 +3650,7 @@
   },
   {
     "Codename": "frostflow",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -3659,7 +3659,7 @@
   },
   {
     "Codename": "markarth",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -3668,7 +3668,7 @@
   },
   {
     "Codename": "whiterun",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -3733,25 +3733,25 @@
   },
   {
     "Codename": "staryu",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
-    "Brand names": "ASUS Chromebook CM30, ASUS Chromebook CM3001",
+    "Brand names": "ASUS Chromebook CM3001, ASUS Chromebook CM30",
     "isAue": false
   },
   {
     "Codename": "starmie",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
-    "Brand names": "ASUS Chromebook CM30, ASUS Chromebook CM3001",
+    "Brand names": "ASUS Chromebook CM3001, ASUS Chromebook CM30",
     "isAue": false
   },
   {
     "Codename": "wugtrio",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -3780,7 +3780,7 @@
   },
   {
     "Codename": "strongbad",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -3789,7 +3789,7 @@
   },
   {
     "Codename": "coachz",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -3798,7 +3798,7 @@
   },
   {
     "Codename": "homestar",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -3807,7 +3807,7 @@
   },
   {
     "Codename": "quackingstick",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -3816,7 +3816,7 @@
   },
   {
     "Codename": "wormdingler",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -3941,7 +3941,7 @@
   },
   {
     "Codename": "trogdor",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -3950,7 +3950,7 @@
   },
   {
     "Codename": "kingoftown",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -3959,7 +3959,7 @@
   },
   {
     "Codename": "lazor",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -3968,7 +3968,7 @@
   },
   {
     "Codename": "limozeen",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -3977,16 +3977,16 @@
   },
   {
     "Codename": "pazquel",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
-    "Brand names": "Orbic Chromebook, Libera-Merdeka Chromebook C100/C110/C120/C150",
+    "Brand names": "Libera-Merdeka Chromebook C100/C110/C120/C150, Orbic Chromebook",
     "isAue": false
   },
   {
     "Codename": "pazquel360",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -3995,7 +3995,7 @@
   },
   {
     "Codename": "pompom",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -4059,7 +4059,7 @@
       "81": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12871.102.0_veyron-jaq_recovery_stable-channel_jaq-mp-v5.bin.zip",
       "83": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_veyron-jaq_recovery_stable-channel_jaq-mp-v5.bin.zip"
     },
-    "Brand names": "Haier Chromebook 11, Lava Xolo Chromebook, True IDC Chromebook 11, Medion Chromebook Akoya S2013",
+    "Brand names": "Medion Chromebook Akoya S2013, True IDC Chromebook 11, Haier Chromebook 11, Lava Xolo Chromebook",
     "isAue": true
   },
   {
@@ -4078,7 +4078,7 @@
       "83": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_veyron-jerry_recovery_stable-channel_jerry-mp-v12.bin.zip",
       "84": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13099.110.0_veyron-jerry_recovery_stable-channel_jerry-mp-v12.bin.zip"
     },
-    "Brand names": "HiSense Chromebook 11, CTL J2 / J4 Chromebook, VideoNet Chromebook BL10, Positivo Chromebook CH1190, EduGear Chromebook K, Mecer Chromebook, Epik 11.6\" Chromebook  ELB1101, Poin2 Chromebook 11, NComputing Chromebook CX100",
+    "Brand names": "Poin2 Chromebook 11, Epik 11.6\" Chromebook  ELB1101, Mecer Chromebook, HiSense Chromebook 11, VideoNet Chromebook BL10, EduGear Chromebook K, CTL J2 / J4 Chromebook, Positivo Chromebook CH1190, NComputing Chromebook CX100",
     "isAue": true
   },
   {
@@ -4117,7 +4117,7 @@
       "83": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13020.87.0_veyron-mighty_recovery_stable-channel_mighty-mp-v11.bin.zip",
       "84": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_13099.110.0_veyron-mighty_recovery_stable-channel_mighty-mp-v11.bin.zip"
     },
-    "Brand names": "Nexian Chromebook 11.6\", MEDION Chromebook S2015, EduGear Chromebook M, Prowise Chromebook Entryline, Sector 5 E1 Rugged Chromebook, Haier Chromebook 11e, Lumos Education Chromebook, Viglen Chromebook 11, PCMerge Chromebook PCM-116E/PCM-116EB",
+    "Brand names": "Prowise Chromebook Entryline, EduGear Chromebook M, MEDION Chromebook S2015, Haier Chromebook 11e, Viglen Chromebook 11, PCMerge Chromebook PCM-116E/PCM-116EB, Nexian Chromebook 11.6\", Lumos Education Chromebook, Sector 5 E1 Rugged Chromebook",
     "isAue": true
   },
   {
@@ -4181,7 +4181,7 @@
   },
   {
     "Codename": "volteer",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -4190,7 +4190,7 @@
   },
   {
     "Codename": "chronicler",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -4199,7 +4199,7 @@
   },
   {
     "Codename": "collis",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -4208,7 +4208,7 @@
   },
   {
     "Codename": "copano",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -4217,7 +4217,7 @@
   },
   {
     "Codename": "delbin",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -4226,7 +4226,7 @@
   },
   {
     "Codename": "drobit",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -4235,7 +4235,7 @@
   },
   {
     "Codename": "eldrid",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -4244,7 +4244,7 @@
   },
   {
     "Codename": "elemi",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -4253,7 +4253,7 @@
   },
   {
     "Codename": "lillipup",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -4262,16 +4262,16 @@
   },
   {
     "Codename": "lindar",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
-    "Brand names": "Lenovo Slim 5 Chromebook, Lenovo 5i-14 Chromebook",
+    "Brand names": "Lenovo 5i-14 Chromebook, Lenovo Slim 5 Chromebook",
     "isAue": false
   },
   {
     "Codename": "voema",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -4280,7 +4280,7 @@
   },
   {
     "Codename": "volet",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -4289,7 +4289,7 @@
   },
   {
     "Codename": "volta",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -4298,7 +4298,7 @@
   },
   {
     "Codename": "voxel",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -4341,7 +4341,7 @@
       "102": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14695.107.0_wizpig_recovery_stable-channel_mp-v10.bin.zip",
       "103": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14816.131.0_wizpig_recovery_stable-channel_mp-v10.bin.zip"
     },
-    "Brand names": "CTL J5 Chromebook, Haier Chromebook 11 C, Edugear CMT Chromebook, Viglen Chromebook 360, PCMerge Chromebook PCM-116T-432B, Multilaser Chromebook M11C, Prowise Chromebook Proline",
+    "Brand names": "Haier Chromebook 11 C, CTL J5 Chromebook, Prowise Chromebook Proline, PCMerge Chromebook PCM-116T-432B, Edugear CMT Chromebook, Multilaser Chromebook M11C, Viglen Chromebook 360",
     "isAue": true
   },
   {
@@ -4449,7 +4449,7 @@
   },
   {
     "Codename": "dirinboz",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -4458,7 +4458,7 @@
   },
   {
     "Codename": "ezkinil",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -4467,7 +4467,7 @@
   },
   {
     "Codename": "gumboz",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -4476,7 +4476,7 @@
   },
   {
     "Codename": "jelboz360",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -4485,7 +4485,7 @@
   },
   {
     "Codename": "morphius",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -4494,7 +4494,7 @@
   },
   {
     "Codename": "vilboz",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -4503,7 +4503,7 @@
   },
   {
     "Codename": "vilboz14",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -4512,7 +4512,7 @@
   },
   {
     "Codename": "vilboz360",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
@@ -4521,7 +4521,7 @@
   },
   {
     "Codename": "woomax",
-    "Stable": "16151.47.0<br>133.0.6943.132",
+    "Stable": "16151.53.0<br>133.0.6943.146",
     "Beta": "16181.24.0<br>134.0.6998.31",
     "Dev": "16181.10.0<br>134.0.6998.11",
     "Canary": "16205.0.0<br>135.0.7037.0",
