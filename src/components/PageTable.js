@@ -49,7 +49,7 @@ const PageTableComponent = ({ devices }) => {
                   </StyledTableCell>
                   <StyledTableCell align="center">
                     {selectedDevice.servingBeta?.chromeVersion ?? "No Update"}
-                    <PlatformVersion>{selectedDevice?.servingBeta.version ?? ""}</PlatformVersion>
+                    <PlatformVersion>{selectedDevice.servingBeta?.version ?? ""}</PlatformVersion>
                   </StyledTableCell>
                   <StyledTableCell align="center">
                     {selectedDevice.servingDev?.chromeVersion ?? "No Update"}

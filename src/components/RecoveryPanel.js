@@ -21,7 +21,7 @@ const RecoveryButton = styled(Button)({
 });
 
 const RecoveryPanel = (props) => {
-  const recoveryData = props.recoveryData;
+  const recoveryData = props.recoveryData || {};
   return (
     <RecoveryPanelStyled>
       <AccordionSummary expandIcon={<ExpandMoreIcon />}>
@@ -38,7 +38,7 @@ const RecoveryPanel = (props) => {
               return (
                 <RecoveryButton
                   key={recovery[0]}
-                  href={recovery[1]}
+                  href={recovery[1] || "#"}
                   color="primary"
                   variant="contained"
                 >
