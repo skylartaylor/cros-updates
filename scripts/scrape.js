@@ -29,7 +29,7 @@ fetch(url, settings)
                 "Dev": formatVersionString(board.servingDev),
                 "Canary": formatVersionString(board.servingCanary),
                 "Recovery": board.pushRecoveries,
-                "Brand names": board.brandNames.join(', '),
+                "Brand names": board.brandNames.sort().join(', '),
                 "isAue": board.isAue,
             }
             return boardObject
