@@ -1046,7 +1046,7 @@
   },
   {
     "Codename": "bookem",
-    "Stable": "16267.43.0<br>137.0.7151.86",
+    "Stable": "16267.51.0<br>137.0.7151.123",
     "Beta": "16295.27.0<br>138.0.7204.41",
     "Dev": "16324.0.0<br>139.0.7247.0_pre1475553",
     "Canary": "16327.0.0<br>139.0.7254.0_pre1476942",
@@ -3514,6 +3514,24 @@
     "Dev": "16324.0.0<br>139.0.7247.0_pre1475553",
     "Canary": "16327.0.0<br>139.0.7254.0_pre1476942",
     "Brand names": "ASUS Chromebook Flip C433, ASUS Chromebook Flip C434",
+    "isAue": false
+  },
+  {
+    "Codename": "rauru",
+    "Stable": "16267.43.0<br>137.0.7151.86",
+    "Beta": "16295.23.0<br>138.0.7204.31",
+    "Dev": "16317.0.0<br>139.0.7233.0",
+    "Canary": "16327.0.0<br>139.0.7254.0_pre1476942",
+    "Brand names": "Lenovo Chromebook Plus (14”, 10)",
+    "isAue": false
+  },
+  {
+    "Codename": "navi",
+    "Stable": "16267.43.0<br>137.0.7151.86",
+    "Beta": "16295.23.0<br>138.0.7204.31",
+    "Dev": "16317.0.0<br>139.0.7233.0",
+    "Canary": "16327.0.0<br>139.0.7254.0_pre1476942",
+    "Brand names": "Lenovo Chromebook Plus (14”, 10)",
     "isAue": false
   },
   {
