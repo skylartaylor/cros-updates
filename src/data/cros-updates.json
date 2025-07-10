@@ -2724,12 +2724,30 @@
     "isAue": false
   },
   {
+    "Codename": "quandiso2",
+    "Stable": "16267.60.0<br>137.0.7151.132",
+    "Beta": "16295.44.0<br>138.0.7204.148",
+    "Dev": "16328.6.0<br>139.0.7258.8",
+    "Canary": "16344.0.0<br>140.0.7283.0_pre1483324",
+    "Brand names": "LI7D",
+    "isAue": false
+  },
+  {
     "Codename": "quandiso360",
     "Stable": "16267.60.0<br>137.0.7151.132",
     "Beta": "16295.44.0<br>138.0.7204.148",
     "Dev": "16328.6.0<br>139.0.7258.8",
     "Canary": "16344.0.0<br>140.0.7283.0_pre1483324",
     "Brand names": "CTL Chromebook NL73T/CTL Chromebook NL73TW, Edxis Chromebook 11 (S30-X25), LI7B, mouse Chromebook U1-DAU01GY-A",
+    "isAue": false
+  },
+  {
+    "Codename": "quandiso3602",
+    "Stable": "16267.60.0<br>137.0.7151.132",
+    "Beta": "16295.44.0<br>138.0.7204.148",
+    "Dev": "16328.6.0<br>139.0.7258.8",
+    "Canary": "16344.0.0<br>140.0.7283.0_pre1483324",
+    "Brand names": "LI7F",
     "isAue": false
   },
   {
