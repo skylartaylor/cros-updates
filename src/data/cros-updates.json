@@ -3325,6 +3325,24 @@
     "isAue": true
   },
   {
+    "Codename": "ovis",
+    "Stable": "16328.55.0<br>139.0.7258.137",
+    "Beta": "16328.42.0<br>139.0.7258.86",
+    "Dev": "16358.0.0<br>140.0.7310.0_pre1489499",
+    "Canary": "16388.0.0<br>141.0.7364.0_pre1502672",
+    "Brand names": "Pinecone",
+    "isAue": false
+  },
+  {
+    "Codename": "deku",
+    "Stable": "16328.55.0<br>139.0.7258.137",
+    "Beta": "16328.42.0<br>139.0.7258.86",
+    "Dev": "16358.0.0<br>140.0.7310.0_pre1489499",
+    "Canary": "16388.0.0<br>141.0.7364.0_pre1502672",
+    "Brand names": "Pinecone",
+    "isAue": false
+  },
+  {
     "Codename": "panther",
     "Stable": "12239.92.2<br>76.0.3809.136",
     "Beta": "12239.67.0<br>76.0.3809.102",
