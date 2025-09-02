@@ -2481,6 +2481,33 @@
     "isAue": true
   },
   {
+    "Codename": "nirva",
+    "Stable": "16295.74.0<br>138.0.7204.232",
+    "Beta": "No Update",
+    "Dev": "No Update",
+    "Canary": "16401.0.0<br>141.0.7381.0_pre1507586",
+    "Brand names": "Asus_CX1505CTAZ",
+    "isAue": false
+  },
+  {
+    "Codename": "telithn50",
+    "Stable": "16295.74.0<br>138.0.7204.232",
+    "Beta": "No Update",
+    "Dev": "No Update",
+    "Canary": "16401.0.0<br>141.0.7381.0_pre1507586",
+    "Brand names": "Asus_CX1505CTAZ",
+    "isAue": false
+  },
+  {
+    "Codename": "telticn50",
+    "Stable": "16295.74.0<br>138.0.7204.232",
+    "Beta": "16295.64.0<br>138.0.7204.177",
+    "Dev": "No Update",
+    "Canary": "16401.0.0<br>141.0.7381.0_pre1507586",
+    "Brand names": "Asus_CX1405CTAZ",
+    "isAue": false
+  },
+  {
     "Codename": "nissa",
     "Stable": "16295.74.0<br>138.0.7204.232",
     "Beta": "16371.28.0<br>140.0.7339.77",
