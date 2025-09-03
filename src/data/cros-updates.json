@@ -216,6 +216,15 @@
     "isAue": false
   },
   {
+    "Codename": "moxie",
+    "Stable": "16328.65.0<br>139.0.7258.164",
+    "Beta": "16371.28.0<br>140.0.7339.77",
+    "Dev": "16397.0.0<br>141.0.7374.0_pre1505586",
+    "Canary": "16406.0.0<br>141.0.7389.0_pre1509191",
+    "Brand names": "Acer Chromebox CXI6",
+    "isAue": false
+  },
+  {
     "Codename": "brox",
     "Stable": "16328.65.0<br>139.0.7258.164",
     "Beta": "16371.28.0<br>140.0.7339.77",
