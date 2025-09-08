@@ -1,24 +1,24 @@
-import React from "react";
-import { Card, CardContent, Typography } from "@mui/material";
-import { styled } from "@mui/system";
+import React from "react"
+import { Card, CardContent, Typography, Link } from "@mui/material"
+import { styled } from "@mui/system"
 
-import Layout from "../components/Layout";
-import IndexSearch from "../components/IndexSearch";
+import Layout from "../components/Layout"
+import IndexSearch from "../components/IndexSearch"
 
-const StyledGrid = styled('div')(({ theme }) => ({
-  display: 'flex',
-  alignItems: 'center',
-  justifyContent: 'center',
+const StyledGrid = styled("div")(({ theme }) => ({
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "center",
   padding: "5%",
   height: "calc(100vh - 70px)",
-}));
+}))
 
 const StyledCard = styled(Card)({
   width: "100%",
   maxWidth: "700px",
   minWidth: "60%",
   paddingBottom: "30px",
-});
+})
 
 const HeaderContent = styled(CardContent)({
   textAlign: "center",
@@ -39,7 +39,7 @@ const HeaderContent = styled(CardContent)({
     fontSize: "0.8em",
     margin: "15px 0px 0px 0px",
   },
-});
+})
 
 const IndexPage = (props) => {
   return (
@@ -53,10 +53,20 @@ const IndexPage = (props) => {
             </Typography>
           </HeaderContent>
           <IndexSearch />
+          <Typography style={{ textAlign: "center", marginTop: "20px" }}>
+            Feeling adventurous?{" "}
+            <Link
+              href="https://next.cros.tech"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Try the new cros.tech ⮕
+            </Link>
+          </Typography>
         </StyledCard>
       </StyledGrid>
     </Layout>
-  );
-};
+  )
+}
 
-export default IndexPage;
+export default IndexPage
