@@ -2639,7 +2639,7 @@
     "Beta": "16371.41.0<br>140.0.7339.136",
     "Dev": "16404.9.0<br>141.0.7390.12",
     "Canary": "16417.0.0<br>142.0.7410.0_pre1514848",
-    "Brand names": "Acer Chromebook Spin 311",
+    "Brand names": "Acer Chromebook Spin 311, CA31AC",
     "isAue": false
   },
   {
@@ -2685,6 +2685,15 @@
     "Dev": "16404.9.0<br>141.0.7390.12",
     "Canary": "16417.0.0<br>142.0.7410.0_pre1514848",
     "Brand names": "CTL Chromebook PX121E, Pegatron CA31T",
+    "isAue": false
+  },
+  {
+    "Codename": "guren360",
+    "Stable": "16328.72.0<br>139.0.7258.172",
+    "Beta": "16371.41.0<br>140.0.7339.136",
+    "Dev": "16404.9.0<br>141.0.7390.12",
+    "Canary": "16417.0.0<br>142.0.7410.0_pre1514848",
+    "Brand names": "Pegatron CA32TC, Poin2 Chromebook 12P",
     "isAue": false
   },
   {
