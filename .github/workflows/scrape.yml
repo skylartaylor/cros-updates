@@ -6,24 +6,75 @@ on:
   push:
     paths:
       - ".github/*"
+  workflow_dispatch:  # Allow manual trigger
 
 jobs:
-  build:
+  scrape:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     steps:
-      - uses: actions/checkout@v1
-      - name: Use Node.js
-        uses: actions/setup-node@v2.5.2
-      - name: Scraping
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm install --production
+        continue-on-error: false
+
+      - name: Run scraper
+        id: scrape
         run: |
-          npm install node-fetch json2csv
-          npm run scrape
+          echo "## Scraping Results" >> $GITHUB_STEP_SUMMARY
+          echo "Starting scrape at $(date)" >> $GITHUB_STEP_SUMMARY
+
+          if npm run scrape; then
+            echo "✓ Scrape completed successfully" >> $GITHUB_STEP_SUMMARY
+            echo "status=success" >> $GITHUB_OUTPUT
+          else
+            echo "::error title=Scrape Failed::Failed to scrape data from chromiumdash"
+            echo "✗ Scrape failed - check logs for details" >> $GITHUB_STEP_SUMMARY
+            echo "status=failed" >> $GITHUB_OUTPUT
+            exit 1
+          fi
         env:
           CI: true
-          myToken: ${{ secrets.GITHUB_TOKEN }}
-      - name: Commit changes
-        uses: elstudio/actions-js-build/commit@v2
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PUSH_BRANCH: "master"
+
+      - name: Check for changes
+        id: git-check
+        run: |
+          git diff --exit-code || echo "changes=true" >> $GITHUB_OUTPUT
+          if [[ $(git diff --name-only) ]]; then
+            echo "## Files Changed" >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+            git diff --stat >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+          fi
+
+      - name: Commit and push changes
+        if: steps.git-check.outputs.changes == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add src/data/cros-updates.json src/data/cros-updates.csv
+          git commit -m "Update cros-updates data $(date -u +'%Y-%m-%d %H:%M:%S UTC')" || {
+            echo "::error title=Commit Failed::Unable to commit changes"
+            exit 1
+          }
+          git push || {
+            echo "::error title=Push Failed::Unable to push changes to repository"
+            exit 1
+          }
+          echo "✓ Changes committed and pushed successfully" >> $GITHUB_STEP_SUMMARY
+
+      - name: Report completion
+        if: always()
+        run: |
+          if [ "${{ steps.scrape.outputs.status }}" == "success" ]; then
+            echo "::notice title=Scrape Complete::Successfully scraped and updated cros-updates data"
+          fi
