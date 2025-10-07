@@ -2940,6 +2940,24 @@
     "isAue": false
   },
   {
+    "Codename": "uldrenite",
+    "Stable": "16371.61.0<br>140.0.7339.229",
+    "Beta": "16404.27.0<br>141.0.7390.49",
+    "Dev": "16433.2.0<br>142.0.7444.0",
+    "Canary": "16441.0.0<br>143.0.7455.0_pre1525367",
+    "Brand names": "Dell Chromebook 11 CC11260",
+    "isAue": false
+  },
+  {
+    "Codename": "uldrenite360",
+    "Stable": "16371.61.0<br>140.0.7339.229",
+    "Beta": "16404.27.0<br>141.0.7390.49",
+    "Dev": "16433.2.0<br>142.0.7444.0",
+    "Canary": "16441.0.0<br>143.0.7455.0_pre1525367",
+    "Brand names": "Dell Chromebook 11 CC11260 2-in-1",
+    "isAue": false
+  },
+  {
     "Codename": "xivu",
     "Stable": "16371.61.0<br>140.0.7339.229",
     "Beta": "16404.27.0<br>141.0.7390.49",
