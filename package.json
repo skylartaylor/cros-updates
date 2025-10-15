@@ -18,14 +18,12 @@
   "description": "",
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
-    "node-fetch": "^3.3.2"
-  },
-  "devDependencies": {
     "@11tyrocks/eleventy-plugin-lightningcss": "^1.5.0",
     "browserslist": "^4.26.3",
     "clean-css": "^5.3.3",
     "html-minifier-terser": "^7.2.0",
     "lightningcss": "^1.30.2",
+    "node-fetch": "^3.3.2",
     "terser": "^5.36.0"
   },
   "browserslist": [
