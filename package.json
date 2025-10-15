@@ -1,31 +1,37 @@
 {
-  "name": "cros-updates-2",
+  "name": "cros-updates-next",
+  "type": "module",
   "version": "1.0.0",
-  "private": true,
-  "description": "cros-updates-2",
-  "keywords": [
-    "gatsby"
-  ],
+  "main": "index.js",
   "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "scrape": "node scripts/scrape.js"
+    "start": "eleventy --serve",
+    "start:prod": "NODE_ENV=production eleventy --serve",
+    "build": "eleventy",
+    "build:prod": "NODE_ENV=production eleventy",
+    "debug": "DEBUG=Eleventy* eleventy",
+    "clean": "rm -rf _site",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
   "dependencies": {
-    "@emotion/react": "^11.10.6",
-    "@emotion/styled": "^11.10.6",
-    "@mui/icons-material": "^5.11.11",
-    "@mui/material": "^5.11.14",
-    "axios": "^1.3.4",
-    "eslint": "^7.32.0",
-    "gatsby": "^5.7.0",
-    "json2csv": "^6.0.0-alpha.2",
-    "node-fetch": "^2.7.0",
-    "prettier": "^2.8.6",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  }
+    "@11ty/eleventy": "^3.0.0",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@11tyrocks/eleventy-plugin-lightningcss": "^1.5.0",
+    "browserslist": "^4.26.3",
+    "clean-css": "^5.3.3",
+    "html-minifier-terser": "^7.2.0",
+    "lightningcss": "^1.30.2",
+    "terser": "^5.36.0"
+  },
+  "browserslist": [
+    "> 0.5%",
+    "last 2 versions",
+    "Firefox ESR",
+    "not dead"
+  ]
 }

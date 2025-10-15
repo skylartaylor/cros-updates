@@ -1,24 +1,101 @@
-# Chrome OS Updates [![Netlify Status](https://api.netlify.com/api/v1/badges/f7f707c6-715d-41d6-9fa8-343f1093f70c/deploy-status)](https://app.netlify.com/sites/cros-updates/deploys)
-This respository hosts https://cros.tech, a website I'm building to replace the well-known [cros-updates-serving](https://cros-updates-serving.appspot.com) appspot app. This repository consists of two parts:
+# Chrome OS Updates
 
-### Web Scraping Script
+A modern, fast, and accessible website for tracking Chrome OS version updates, recovery images, and device information.
 
-Located in `/scripts` is a node script that Github Actions runs every 15 minutes to scrape [cros-updates-serving](https://cros-updates-serving.appspot.com) for its data. If you know a better place to source board-specific Chrome OS version data, please open an issue.
+**Live Site:** https://cros.tech
 
-### Static Web App
+## About
 
-The rest of the repository is a [Gatsby](https://gatsbyjs.org)-based web application to display version data in a more user-friendly way. Pages are rendered statically by [Netlify](https://netlify.com) upon push to `master`. There are plans to move the website build process to Github Actions in order to save money on Netlify build minutes.
+Chrome OS Updates provides up-to-date information about Chrome OS versions across all devices and boards, including:
+- Current stable, beta, dev, and canary versions for every device
+- Recovery image downloads for all channels and versions
+- Device specifications including architecture, kernel versions, and capabilities
+- Chrome OS Flex update information
+- Historical version data
 
-_____
+This site was orignally built to provide a more user-friendly and performant alternative to the now-defunct [cros-updates-serving](https://cros-updates-serving.appspot.com) appspot app.
 
-### Reporting Issues
+## Data Sources
 
-If you run into an issue with the website, please [open an issue](https://github.com/skylartaylor/cros-updates/issues/new) on the repository and provide as much information as you can about the problem. If you could provide at least your device type and OS / Browser version, that'd be great.
+All Chrome OS version and device data is sourced directly from Google's official APIs and community-maintained repositories:
+- **Version Data:** [Chromium Dashboard API](https://chromiumdash.appspot.com/cros/fetch_serving_builds)
+- **Recovery Images:** [Google Chrome OS Recovery](https://dl.google.com/dl/edgedl/chromeos/recovery/)
+- **Chrome OS Flex:** [Flex Recovery Data](https://dl.google.com/dl/edgedl/chromeos/recovery/cloudready_recovery2.json)
+- **Device Metadata:** [ChromeOS Update Directory](https://github.com/jay0lee/chromeos-update-directory) - Enhanced device capabilities, kernel versions, architecture, and hardware information. (Thanks jay0lee!)
 
-_____
+Data is automatically updated every 15 minutes via GitHub Actions (see `.github/workflows/scrape.yml`).
 
-#### Other Considerations
+## Technology Stack
 
-Since version data is stored as JSON in Git, this repository can be used as an archive of the last ~7 months of Chrome OS Version data. I've yet to figure out how to use that productively, but I'm sure there's things you could do. If you have ideas or want to contribute something, feel free!
+Built with modern web technologies for maximum performance and maintainability:
 
-Also, I'm not an excellent developer by any means. This has been cobbled together over quite some time with lots of tutorials and trial and error. If you notice an error or best practice not being followed and have the time, I'd love if you could [open an issue](https://github.com/skylartaylor/cros-updates/issues/new) with your feedback. Thank you in advance!
+### Core Framework
+- **[Eleventy (11ty) 3.0](https://www.11ty.dev/)** - Static site generator
+
+### Build & Optimization
+- **[LightningCSS](https://lightningcss.dev/)** - CSS processing and minification (100x faster than traditional tools)
+- **[Terser](https://terser.org/)** - JavaScript minification
+- **[html-minifier-terser](https://github.com/terser/html-minifier-terser)** - HTML minification
+- **[@11ty/eleventy-plugin-bundle](https://github.com/11ty/eleventy-plugin-bundle)** - Asset bundling
+
+## Development
+
+### Prerequisites
+- Node.js 20 or higher
+- npm or pnpm
+
+### Installation
+
+```bash
+git clone https://github.com/skylartaylor/cros-updates.git
+cd cros-updates
+npm install
+```
+
+### Commands
+
+```bash
+# Development server (with live reload)
+npm start
+
+# Production build
+npm run build:prod
+
+# Development build
+npm run build
+
+# Production server (test minified output)
+npm run start:prod
+
+# Clean output directory
+npm run clean
+
+# Debug mode (verbose logging)
+npm run debug
+```
+
+## Data Updates
+
+Chrome OS version data is automatically updated every 15 minutes via GitHub Actions:
+1. Workflow runs scraper script (`scripts/scrape.js`)
+2. Fetches latest data from Chromium Dashboard API
+3. Commits updated data files if changes detected
+4. Netlify automatically rebuilds and deploys
+
+## Contributing
+
+Issues and pull requests are welcome! Please feel free to:
+- Report bugs or issues
+- Suggest new features
+- Improve documentation
+- Optimize performance
+
+## Contact
+
+For questions, feedback, or issues, please:
+- [Open an issue](https://github.com/skylartaylor/cros-updates/issues)
+- Email: hi@skylar.cc
+
+---
+
+**Previous Version:** The legacy Gatsby-based version is preserved at [cros-updates-legacy](https://github.com/skylartaylor/cros-updates-legacy)

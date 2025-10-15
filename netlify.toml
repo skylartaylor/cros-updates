@@ -1,24 +1,71 @@
-[build.environment]
-    NODE_VERSION = "18.15.0"
-    NPM_VERSION = "9.5.0" 
+# Netlify Configuration for Chrome OS Updates
+
+[build]
+  command = "npm run build:prod"
+  publish = "_site"
+
+  # Environment variables for build
+  [build.environment]
+    NODE_VERSION = "20"
+    NPM_FLAGS = "--legacy-peer-deps"
+
+# Production context (main branch)
+[context.production]
+  command = "npm run build:prod"
+
+  [context.production.environment]
+    NODE_ENV = "production"
+
+# Deploy Preview context (PR builds)
+[context.deploy-preview]
+  command = "npm run build"
+
+# Branch deploys
+[context.branch-deploy]
+  command = "npm run build"
+
+# Redirects and rewrites
 [[redirects]]
-  from = "/device/rammus"
-  to = "/board/rammus"
-[[redirects]]
-  from = "/device/octopus"
-  to = "/board/octopus"
-[[redirects]]
-  from = "/device/volteer"
-  to = "/board/volteer"
-[[redirects]]
-  from = "/device/zork"
-  to = "/board/zork"
-[[redirects]]
-  from = "/device/grunt"
-  to = "/board/grunt"
-[[redirects]]
-  from = "/device/kukui"
-  to = "/board/kukui"
-[[redirects]]
-  from = "/device/hatch"
-  to = "/board/hatch"
+  from = "/cros-updates-serving"
+  to = "/"
+  status = 301
+
+# Headers for security and performance
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "geolocation=(), microphone=(), camera=()"
+
+[[headers]]
+  for = "/*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.json"
+  [headers.values]
+    Cache-Control = "public, max-age=300, s-maxage=600"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=300, must-revalidate"
+
+# Plugin configuration
+[[plugins]]
+  package = "@netlify/plugin-sitemap"
+
+  [plugins.inputs]
+    buildDir = "_site"
+    exclude = [
+      "**/404.html"
+    ]

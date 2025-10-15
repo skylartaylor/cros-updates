@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="{{ metadata.language }}">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>{{ title or metadata.title }}</title>
+		<meta name="description" content="{{ description or metadata.description }}">
+		<meta property="og:image" content="{{ metadata.url }}img/social-image.png" >
+
+		{#- Atom and JSON feeds included by default #}
+		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
+		<link rel="alternate" href="/feed/feed.json" type="application/json" title="{{ metadata.title }}">
+		<meta name="generator" content="{{ eleventy.generator }}">
+
+		{%- css %}* { box-sizing: border-box; }{% endcss %}
+		{%- css %}{% include "public/css/index.css" %}{% endcss %}
+		{%- css %}{% include "public/css/components.css" %}{% endcss %}
+
+		{#- Render the CSS bundle using Inlined CSS (for the fastest site performance in production) #}
+		<style>{% getBundle "css" %}</style>		{#- <link rel="stylesheet" href="{% getBundleFileUrl "css" %}"> #}
+	</head>
+	<body>
+		<a href="#skip" class="visually-hidden">Skip to main content</a>
+		{% set isRootPage = (page.url == '/' or page.filePathStem == '/index') %}
+		<header class="main{% if isRootPage %} home-page{% endif %}">
+			<a href="/"><h1>Chrome OS Updates</h1></a>
+			<nav id="header-nav">
+				<div class="header-nav-links" id="header-nav-links">
+					<a href="/versions">Versions</a>
+					<a href="/table">All Devices</a>
+					<a href="/flex">Flex</a>
+					<button class="header-search-toggle" id="header-search-toggle" aria-label="Search">
+						<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<circle cx="11" cy="11" r="8"></circle>
+							<path d="m21 21-4.35-4.35"></path>
+						</svg>
+					</button>
+				</div>
+
+				<!-- Inline Header Search -->
+				<div class="header-search-container" id="header-search-container">
+					<input id="header-search-input" type="text" autocomplete="off" placeholder="Search devices, boards, or brands..." aria-label="Search" />
+					<button class="header-search-close" id="header-search-close" aria-label="Close">
+						<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<line x1="18" y1="6" x2="6" y2="18"></line>
+							<line x1="6" y1="6" x2="18" y2="18"></line>
+						</svg>
+					</button>
+					<div id="header-search-results" aria-live="polite"></div>
+				</div>
+			</nav>
+		</header>
+
+		<main id="skip">
+			{{ content | safe }}
+		</main>
+
+		<footer>
+			<p>Made with <span>♥</span> by <a href="https://skylar.cc">Skylar</a> using <a href="https://www.11ty.dev">11ty</a>. Data courtesy of <a href="https://chromiumdash.appspot.com/serving-builds?deviceCategory=Chrome%20OS">Google</a>, no affiliation. <a href="https://github.com/skylartaylor/cros-updates"><span>Source on </span>Github</a>.</p>
+		</footer>
+
+		<!-- Header Search Initialization -->
+		<script>
+			{% if not isRootPage %}
+				{% include "_includes/search.js" %}
+			{% endif %}
+
+			document.addEventListener("DOMContentLoaded", () => {
+				// Skip header search initialization if DeviceSearch doesn't exist yet
+				if (typeof DeviceSearch === 'undefined') {
+					return;
+				}
+
+				const headerNav = document.getElementById("header-nav");
+				const headerSearchToggle = document.getElementById("header-search-toggle");
+				const headerSearchInput = document.getElementById("header-search-input");
+				const headerSearchResults = document.getElementById("header-search-results");
+				const headerSearchClose = document.getElementById("header-search-close");
+
+				// Initialize header search with custom options to prevent auto-show
+				const headerSearch = new DeviceSearch({
+					renderResult: function(result) {
+						const isDeviceKeyMatch = result.matchSource === 'key' && result.type === 'device';
+						const tag = isDeviceKeyMatch
+							? `<span class="result-tag">Device</span>`
+							: (result.type === 'board' ? `<span class="result-tag">Board</span>` : '');
+
+						return `
+							<a href="/${result.type}/${result.key}" class="result-item">
+								<h2>${result.displayName} ${tag}</h2>
+							</a>
+						`;
+					}
+				});
+
+				headerSearch.initialize(headerSearchInput, headerSearchResults);
+
+				// Override showAllResults to do nothing (don't show on focus)
+				const originalShowAllResults = headerSearch.showAllResults.bind(headerSearch);
+				headerSearch.showAllResults = () => {}; // Disable auto-show
+
+				// Only show results when there's text
+				const originalHandleInput = headerSearch.handleInput.bind(headerSearch);
+				headerSearch.handleInput = function() {
+					const query = headerSearchInput.value.toLowerCase().trim();
+					if (!query) {
+						headerSearchResults.classList.remove('show');
+						return;
+					}
+					originalHandleInput();
+				};
+
+				// Toggle search box
+				headerSearchToggle.addEventListener("click", (e) => {
+					e.stopPropagation();
+					headerNav.classList.add("search-active");
+					setTimeout(() => headerSearchInput.focus(), 10);
+				});
+
+				// Close search
+				const closeSearch = () => {
+					headerNav.classList.remove("search-active");
+					headerSearchInput.value = "";
+					headerSearchResults.classList.remove("show");
+				};
+
+				headerSearchClose.addEventListener("click", closeSearch);
+
+				// Close on escape
+				document.addEventListener("keydown", (e) => {
+					if (e.key === "Escape" && headerNav.classList.contains("search-active")) {
+						closeSearch();
+					}
+				});
+
+				// Close when clicking outside
+				document.addEventListener("click", (e) => {
+					const headerSearchContainer = document.getElementById("header-search-container");
+					if (
+						headerNav.classList.contains("search-active") &&
+						!headerSearchContainer.contains(e.target) &&
+						e.target !== headerSearchToggle &&
+						!headerSearchToggle.contains(e.target)
+					) {
+						closeSearch();
+					}
+				});
+			});
+		</script>
+
+	</body>
+</html>
