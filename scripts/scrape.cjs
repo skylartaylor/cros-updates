@@ -101,6 +101,9 @@ async function scrape() {
         ];
         const csv = csvRows.join('\n');
 
+        // Ensure output directory exists
+        await fs.mkdir('./src/data', { recursive: true });
+
         // Write both files in parallel using promises
         await Promise.all([
             fs.writeFile('./src/data/cros-updates.json', JSON.stringify(crosUpdatesData, null, 2)),
