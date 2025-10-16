@@ -96,6 +96,10 @@ export default async function (eleventyConfig) {
   // Copy static assets and watch for changes
   eleventyConfig.addPassthroughCopy("public/css");
   eleventyConfig.addPassthroughCopy("public/js");
+  eleventyConfig.addPassthroughCopy("public/*.png");
+  eleventyConfig.addPassthroughCopy("public/*.ico");
+  eleventyConfig.addPassthroughCopy("public/*.xml");
+  eleventyConfig.addPassthroughCopy("public/manifest.json");
   eleventyConfig.addWatchTarget("public/css");
   eleventyConfig.addWatchTarget("public/js");
 
