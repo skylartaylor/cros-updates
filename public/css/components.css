@@ -1327,30 +1327,35 @@ header.versions {
 /* Device list version pane */
 #device-list .version-pane ul {
     padding: var(--spacing-4) var(--spacing-6);
-    li a {
-        font-size: var(--fontSize-3);
-        color: var(--color-button-text);
-        background: var(--color-button);
-        text-decoration: none;
-        padding: var(--spacing-1) var(--spacing-3);
-        border-radius: 8px;
-        transition: background 0.2s ease-in-out, color 0.2s ease-in-out;
-        span.boardName {
-            background: var(--color-button-card);
-            color: var(--color-button-card-text);
-            padding: var(--spacing-1);
-            border-radius: 3px;
-            font-size: var(--fontSize-1);
-            margin-left: var(--spacing-2);
-            vertical-align: text-bottom;
-        }
-        &.active {
-            background: var(--color-accent);
-            color: var(--color-background-header);
-        }
-        &:hover {
-            background: var(--color-gray-50);
-            color: var(--color-accent);
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-2);
+    li {
+        a {
+            font-size: var(--fontSize-3);
+            color: var(--color-button-text);
+            background: var(--color-button);
+            text-decoration: none;
+            padding: var(--spacing-2) var(--spacing-3);
+            border-radius: 8px;
+            transition: background 0.2s ease-in-out, color 0.2s ease-in-out;
+            span.boardName {
+                background: var(--color-button-card);
+                color: var(--color-button-card-text);
+                padding: var(--spacing-1);
+                border-radius: 3px;
+                font-size: var(--fontSize-1);
+                margin-left: var(--spacing-2);
+                vertical-align: text-bottom;
+            }
+            &.active {
+                background: var(--color-accent);
+                color: var(--color-background-header);
+            }
+            &:hover {
+                background: var(--color-gray-50);
+                color: var(--color-accent);
+            }
         }
     }
 }
@@ -1454,9 +1459,6 @@ header.versions {
         letter-spacing: 0.05em;
         color: var(--color-text);
         margin: var(--spacing-2) var(--spacing-4);
-    }
-    ul li {
-        display: inline-flex;
     }
 }
 
