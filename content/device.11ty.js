@@ -31,7 +31,7 @@ export function render(data) {
       ...(deviceData.recoveries.stable || []),
       ...(deviceData.recoveries.beta || []),
       ...(deviceData.recoveries.ltc || []),
-      ...(deviceData.recoveries.lts || [])
+      ...(deviceData.recoveries.ltr || [])
     ];
     
     if (allRecoveries.length > 0) {
@@ -163,7 +163,7 @@ ${hasAnyRecoveries
                       { key: 'stable', label: 'Stable', class: 'stable' },
                       { key: 'beta', label: 'Beta', class: 'beta' },
                       { key: 'ltc', label: 'LTC', class: 'ltc' },
-                      { key: 'lts', label: 'LTS', class: 'lts' }
+                      { key: 'ltr', label: 'LTS', class: 'ltr' }
                     ];
                     
                     channels.forEach(channel => {

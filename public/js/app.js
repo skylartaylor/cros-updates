@@ -586,7 +586,7 @@ function initTableModal() {
           { key: 'stable', label: 'Stable', class: 'stable' },
           { key: 'beta', label: 'Beta', class: 'beta' },
           { key: 'ltc', label: 'LTC', class: 'ltc' },
-          { key: 'lts', label: 'LTS', class: 'lts' }
+          { key: 'ltr', label: 'LTS', class: 'ltr' }
         ];
         
         // Create two columns: stable on left, others on right
@@ -604,7 +604,7 @@ function initTableModal() {
         content += `</div>`;
         
         content += `<div class="recovery-column-others">`;
-        ['beta', 'ltc', 'lts'].forEach(channelKey => {
+        ['beta', 'ltc', 'ltr'].forEach(channelKey => {
           const channel = channels.find(c => c.key === channelKey);
           const channelRecoveries = recoveries[channelKey] || [];
           if (channelRecoveries.length > 0) {
