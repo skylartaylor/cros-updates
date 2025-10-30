@@ -260,7 +260,7 @@ export function render(data) {
                                     (deviceData.recoveries.stable && deviceData.recoveries.stable.length > 0) ||
                                     (deviceData.recoveries.beta && deviceData.recoveries.beta.length > 0) ||
                                     (deviceData.recoveries.ltc && deviceData.recoveries.ltc.length > 0) ||
-                                    (deviceData.recoveries.ltr && deviceData.recoveries.ltr.length > 0)
+                                    (deviceData.recoveries.lts && deviceData.recoveries.lts.length > 0)
                                   );
                                   
                                   if (hasRecoveries) {

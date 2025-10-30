@@ -31,7 +31,7 @@ export function render(data) {
       ...(firstDevice.recoveries.stable || []),
       ...(firstDevice.recoveries.beta || []),
       ...(firstDevice.recoveries.ltc || []),
-      ...(firstDevice.recoveries.ltr || [])
+      ...(firstDevice.recoveries.lts || [])
     ];
 
     if (allRecoveries.length > 0) {
@@ -131,7 +131,7 @@ export function render(data) {
                       { key: 'stable', label: 'Stable', class: 'stable' },
                       { key: 'beta', label: 'Beta', class: 'beta' },
                       { key: 'ltc', label: 'LTC', class: 'ltc' },
-                      { key: 'ltr', label: 'LTR', class: 'ltr' }
+                      { key: 'lts', label: 'LTS', class: 'lts' }
                     ];
 
                     channels.forEach(channel => {

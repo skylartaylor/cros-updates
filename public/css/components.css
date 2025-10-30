@@ -1920,7 +1920,7 @@ details.recoveryDropdown[open] .dropdownContent { display: block; }
         border-left: 4px solid #ff9800;
         background: linear-gradient(135deg, #fff3e0 0%, #ffffff 100%);
     }
-    &.ltr {
+    &.lts {
         border-left: 4px solid #795548;
         background: linear-gradient(135deg, #efebe9 0%, #ffffff 100%);
     }
@@ -1930,7 +1930,7 @@ details.recoveryDropdown[open] .dropdownContent { display: block; }
         background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
         border-left-color: #ffb74d;
     }
-    &.ltr {
+    &.lts {
         background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
         border-left-color: #8d6e63;
     }
@@ -1952,7 +1952,7 @@ details.recoveryDropdown[open] .dropdownContent { display: block; }
     }
     &.stable { border-left: 4px solid var(--color-stable); }
     &.ltc { border-left: 4px solid #ff9800; }
-    &.ltr { border-left: 4px solid #795548; }
+    &.lts { border-left: 4px solid #795548; }
 }
 [data-theme="dark"] .recoveryCard:hover {
     box-shadow: 0 4px 12px hsl(from var(--color-text) h s l / 0.3);
@@ -2051,7 +2051,7 @@ details.recoveryDropdown[open] .dropdownContent { display: block; }
         font-size: 1.1em;
         margin: 0 0 var(--spacing-3) 0;
         font-weight: 600;
-        &.stable, &.beta, &.ltc, &.ltr { color: var(--color-orange); }
+        &.stable, &.beta, &.ltc, &.lts { color: var(--color-orange); }
     }
     .recovery-link {
         display: block;

@@ -71,7 +71,7 @@ export function render(data) {
                       stable: [],
                       beta: [],
                       ltc: [],
-                      ltr: []
+                      lts: []
                     };
                     
                     recoveryData.forEach(recovery => {
@@ -91,7 +91,7 @@ export function render(data) {
                       { key: 'stable', label: 'Stable', class: 'stable' },
                       { key: 'beta', label: 'Beta', class: 'beta' },
                       { key: 'ltc', label: 'LTC', class: 'ltc' },
-                      { key: 'ltr', label: 'LTR', class: 'ltr' }
+                      { key: 'lts', label: 'LTS', class: 'lts' }
                     ];
                     
                     channels.forEach(channel => {
