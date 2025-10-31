@@ -1,3 +1,60 @@
+/* WEB COMPONENTS */
+search-box {
+    display: contents;
+}
+
+version-card {
+    display: block;
+}
+
+recovery-dropdown {
+    display: contents;
+}
+
+/* Additional search styling for component classes */
+.search-input {
+    width: 100%;
+    padding: 12px 16px;
+    font-size: 16px;
+    border: 2px solid hsl(from var(--color-accent) h s l / 0.3);
+    border-radius: 8px;
+    outline: none;
+    background: var(--color-page);
+    color: var(--color-text);
+    transition: border-color 0.2s;
+}
+
+.search-input:focus {
+    border-color: var(--color-accent);
+}
+
+.search-results {
+    display: none;
+    position: absolute;
+    font-family: var(--font-family);
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: var(--color-card);
+    border: 2px solid var(--color-accent);
+    border-top: none;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    max-height: 400px;
+    overflow-y: auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.search-results.show {
+    display: block;
+}
+
+.search-container:has(.search-results.show) .search-input {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
 /* CAPABILITY BADGES */
 .capability-badges {
     display: flex;
