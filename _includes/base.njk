@@ -58,14 +58,18 @@
 
 				<!-- Inline Header Search -->
 				<div class="header-search-container" id="header-search-container">
-					<input id="header-search-input" type="text" autocomplete="off" placeholder="Search devices, boards, or brands..." aria-label="Search" />
+					<search-box
+						id="header-search-box"
+						placeholder="Search devices, boards, or brands..."
+						auto-show-results="false"
+						custom-class="header-search">
+					</search-box>
 					<button class="header-search-close" id="header-search-close" aria-label="Close">
 						<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
 							<line x1="18" y1="6" x2="6" y2="18"></line>
 							<line x1="6" y1="6" x2="18" y2="18"></line>
 						</svg>
 					</button>
-					<div id="header-search-results" aria-live="polite"></div>
 				</div>
 			</nav>
 		</header>
@@ -83,64 +87,32 @@
 			{% if not isRootPage %}
 				{% include "_includes/search.js" %}
 			{% endif %}
+		</script>
 
+		<!-- Load web components -->
+		<script src="/public/js/components/recovery-dropdown.js"></script>
+		<script src="/public/js/components/version-card.js"></script>
+		<script src="/public/js/components/modal-dialog.js"></script>
+		<script src="/public/js/components/search-box.js"></script>
+
+		<script>
 			document.addEventListener("DOMContentLoaded", () => {
-				// Skip header search initialization if DeviceSearch doesn't exist yet
-				if (typeof DeviceSearch === 'undefined') {
-					return;
-				}
-
 				const headerNav = document.getElementById("header-nav");
 				const headerSearchToggle = document.getElementById("header-search-toggle");
-				const headerSearchInput = document.getElementById("header-search-input");
-				const headerSearchResults = document.getElementById("header-search-results");
+				const headerSearchBox = document.getElementById("header-search-box");
 				const headerSearchClose = document.getElementById("header-search-close");
-
-				// Initialize header search with custom options to prevent auto-show
-				const headerSearch = new DeviceSearch({
-					renderResult: function(result) {
-						const isDeviceKeyMatch = result.matchSource === 'key' && result.type === 'device';
-						const tag = isDeviceKeyMatch
-							? `<span class="result-tag">Device</span>`
-							: (result.type === 'board' ? `<span class="result-tag">Board</span>` : '');
-
-						return `
-							<a href="/${result.type}/${result.key}" class="result-item">
-								<h2>${result.displayName} ${tag}</h2>
-							</a>
-						`;
-					}
-				});
-
-				headerSearch.initialize(headerSearchInput, headerSearchResults);
-
-				// Override showAllResults to do nothing (don't show on focus)
-				const originalShowAllResults = headerSearch.showAllResults.bind(headerSearch);
-				headerSearch.showAllResults = () => {}; // Disable auto-show
-
-				// Only show results when there's text
-				const originalHandleInput = headerSearch.handleInput.bind(headerSearch);
-				headerSearch.handleInput = function() {
-					const query = headerSearchInput.value.toLowerCase().trim();
-					if (!query) {
-						headerSearchResults.classList.remove('show');
-						return;
-					}
-					originalHandleInput();
-				};
 
 				// Toggle search box
 				headerSearchToggle.addEventListener("click", (e) => {
 					e.stopPropagation();
 					headerNav.classList.add("search-active");
-					setTimeout(() => headerSearchInput.focus(), 10);
+					setTimeout(() => headerSearchBox?.focus(), 10);
 				});
 
 				// Close search
 				const closeSearch = () => {
 					headerNav.classList.remove("search-active");
-					headerSearchInput.value = "";
-					headerSearchResults.classList.remove("show");
+					headerSearchBox?.clear();
 				};
 
 				headerSearchClose.addEventListener("click", closeSearch);

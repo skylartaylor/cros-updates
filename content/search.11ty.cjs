@@ -16,19 +16,14 @@ module.exports = {
       <section class="search-page">
         <h1>Search</h1>
         <div class="search-container">
-          <input id="search-input" type="text" placeholder="Search Devices..." aria-label="Search" />
-          <div id="search-results" aria-live="polite"></div>
+          <search-box
+            placeholder="Search Devices..."
+            auto-show-results="true"
+            auto-focus="true">
+          </search-box>
         </div>
         <script>
           ${searchJs}
-
-          document.addEventListener("DOMContentLoaded", () => {
-            const searchInput = document.getElementById("search-input");
-            const resultsContainer = document.getElementById("search-results");
-            
-            const search = new DeviceSearch();
-            search.initialize(searchInput, resultsContainer);
-          });
         </script>
       </section>
     `;
