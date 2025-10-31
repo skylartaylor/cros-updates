@@ -49,7 +49,7 @@ class VersionCard extends HTMLElement {
       stable: 'Stable',
       beta: 'Beta',
       dev: 'Dev',
-      canary: 'Canary LT'
+      canary: 'Canary'
     };
 
     const label = channelLabels[channel.toLowerCase()] || channel;
@@ -74,11 +74,19 @@ class VersionCard extends HTMLElement {
       return version;
     }
 
-    if (isAue) {
-      return `<span style="color: red;">${version}</span>`;
+    // Split version on underscore and style suffix differently
+    const parts = version.split('_');
+    let formattedVersion = version;
+
+    if (parts.length > 1) {
+      formattedVersion = `${parts[0]}<span class="version-suffix">_${parts.slice(1).join('_')}</span>`;
     }
 
-    return version;
+    if (isAue) {
+      return `<span style="color: red;">${formattedVersion}</span>`;
+    }
+
+    return formattedVersion;
   }
 }
 

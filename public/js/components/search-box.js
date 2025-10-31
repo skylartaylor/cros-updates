@@ -67,25 +67,26 @@ class SearchBox extends HTMLElement {
     const inputId = `${uniqueId}-input`;
     const resultsId = `${uniqueId}-results`;
 
+    // Don't wrap in extra div - apply classes directly to custom element
+    this.className = customClass;
+
     this.innerHTML = `
-      <div class="search-box-container ${customClass}">
-        <input
-          id="${inputId}"
-          type="text"
-          class="search-input"
-          autocomplete="off"
-          placeholder="${placeholder}"
-          aria-label="${placeholder}"
-          aria-autocomplete="list"
-          aria-controls="${resultsId}"
-          role="combobox"
-          aria-expanded="false" />
-        <div
-          id="${resultsId}"
-          class="search-results"
-          role="listbox"
-          aria-label="Search results">
-        </div>
+      <input
+        id="${inputId}"
+        type="text"
+        class="search-input"
+        autocomplete="off"
+        placeholder="${placeholder}"
+        aria-label="${placeholder}"
+        aria-autocomplete="list"
+        aria-controls="${resultsId}"
+        role="combobox"
+        aria-expanded="false" />
+      <div
+        id="${resultsId}"
+        class="search-results"
+        role="listbox"
+        aria-label="Search results">
       </div>
     `;
 
