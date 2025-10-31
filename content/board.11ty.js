@@ -101,59 +101,12 @@ export function render(data) {
           </div>
         </div>
         <div class="recoveryLink">
-          <div class="recoveryDropdown">
-              <div class="recoveryWrapper${hasAnyRecoveries ? '' : ' no-recoveries'}">
-                ${hasAnyRecoveries
-                  ? `<a class="recoveryBtn deviceHeaderBtn" href="${latestRecoveryURL}">&#x2B07; Recovery (${latestRecoveryVersion})</a>`
-                  : `<span class="recoveryBtn deviceHeaderBtn disabled">No Recoveries</span>`
-                }
-                <button class="dropdownToggleBtn" aria-label="Show older recovery versions">▼</button>
-              </div>
-                <div class="dropdownContent">
-                  ${(() => {
-                    if (!hasAnyRecoveries) {
-                      return `<div class="no-recoveries-message">No recovery images available for this board.</div>`;
-                    }
-
-                    const recoveries = firstDevice.recoveries;
-                    if (!recoveries) {
-                      // Fallback to original pushRecoveries format
-                      return Object.entries(firstDevice.pushRecoveries || {})
-                        .sort((a, b) => Number(b[0]) - Number(a[0]))
-                        .map(([version, url]) => `<a href="${url}">Chrome OS ${version}</a>`)
-                        .join("");
-                    }
-
-                    let dropdownHTML = '';
-
-                    // Define channel order and labels
-                    const channels = [
-                      { key: 'stable', label: 'Stable', class: 'stable' },
-                      { key: 'beta', label: 'Beta', class: 'beta' },
-                      { key: 'ltc', label: 'LTC', class: 'ltc' },
-                      { key: 'ltr', label: 'LTS', class: 'ltr' }
-                    ];
-
-                    channels.forEach(channel => {
-                      const channelRecoveries = recoveries[channel.key] || [];
-                      if (channelRecoveries.length > 0) {
-                        dropdownHTML += `<div class="recovery-channel-section">`;
-                        dropdownHTML += `<div class="recovery-channel-header ${channel.class}">${channel.label}</div>`;
-
-                        channelRecoveries.forEach(recovery => {
-                          const version = recovery.chromeVersion || recovery.version;
-                          const displayName = `Chrome OS <strong>${version}</strong>`;
-                          dropdownHTML += `<a href="${recovery.url}" class="recovery-link ${channel.class}">${displayName}</a>`;
-                        });
-
-                        dropdownHTML += `</div>`;
-                      }
-                    });
-
-                    return dropdownHTML;
-                  })()}
-                </div>
-              </div>
+          <recovery-dropdown
+            data-recoveries='${JSON.stringify(firstDevice.recoveries || {})}'
+            data-latest-version="${latestRecoveryVersion}"
+            data-latest-url="${latestRecoveryURL}"
+            data-format="device">
+          </recovery-dropdown>
         </div>
       </Header>
       <div class="boardPageBody">

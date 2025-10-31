@@ -53,97 +53,35 @@ export function render(data) {
                     <h2 class="mainBoard"><span>Board:</span> reven</h2>
                 </div>
               </div>
-              <div class="recoveryDropdown">
-              <div class="recoveryWrapper">
-                <a class="recoveryBtn deviceHeaderBtn" href="${latestRecoveryURL}" target="_blank" rel="noopener">
-                  &#x2B07; Recovery (${latestRecoveryVersion})
-                </a>
-                <button class="dropdownToggleBtn" aria-label="Show more recovery versions">▼</button>
-              </div>
-                <div class="dropdownContent">
-                  ${(() => {
-                    if (!recoveryData || recoveryData.length === 0) {
-                      return `<div class="no-recoveries-message">No recovery images available.</div>`;
-                    }
-                    
-                    // Group recoveries by channel
-                    const channelGroups = {
-                      stable: [],
-                      beta: [],
-                      ltc: [],
-                      ltr: []
-                    };
-                    
-                    recoveryData.forEach(recovery => {
-                      const channel = (recovery.channel || '').toLowerCase();
-                      if (channelGroups[channel]) {
-                        channelGroups[channel].push(recovery);
-                      } else {
-                        // Default to stable if no channel specified
-                        channelGroups.stable.push(recovery);
-                      }
-                    });
-                    
-                    let dropdownHTML = '';
-                    
-                    // Define channel order and labels
-                    const channels = [
-                      { key: 'stable', label: 'Stable', class: 'stable' },
-                      { key: 'beta', label: 'Beta', class: 'beta' },
-                      { key: 'ltc', label: 'LTC', class: 'ltc' },
-                      { key: 'ltr', label: 'LTS', class: 'ltr' }
-                    ];
-                    
-                    channels.forEach(channel => {
-                      const channelRecoveries = channelGroups[channel.key] || [];
-                      if (channelRecoveries.length > 0) {
-                        // Sort by version (newest first)
-                        const sorted = channelRecoveries.sort((a, b) => {
-                          const aVer = parseInt(a.chrome_version.split('.')[0]);
-                          const bVer = parseInt(b.chrome_version.split('.')[0]);
-                          return bVer - aVer;
-                        });
-                        
-                        dropdownHTML += `<div class="recovery-channel-section">`;
-                        dropdownHTML += `<div class="recovery-channel-header ${channel.class}">${channel.label}</div>`;
-                        
-                        sorted.forEach(recovery => {
-                          const majorVersion = recovery.chrome_version.split('.')[0];
-                          const displayName = `Chrome OS <strong>${majorVersion}</strong>`;
-                          dropdownHTML += `<a href="${recovery.url}" class="recovery-link ${channel.class}" target="_blank" rel="noopener">${displayName}</a>`;
-                        });
-                        
-                        dropdownHTML += `</div>`;
-                      }
-                    });
-                    
-                    return dropdownHTML;
-                  })()}
-                </div>
-              </div>
+              <recovery-dropdown
+                data-recoveries='${JSON.stringify(recoveryData || [])}'
+                data-latest-version="${latestRecoveryVersion}"
+                data-latest-url="${latestRecoveryURL}"
+                data-format="flex">
+              </recovery-dropdown>
             </Header>
             <Body class="versionBody">
                 <div class="versionCardContainer">
-                    <div class="versionCard stable">
-                        <h1>Stable</h1>
-                        <h2>${formatVersion(revenData.servingStable?.chromeVersion) || "Unavailable"}</h2>
-                        <h3><span>Platform:</span>${revenData.servingStable?.version || "Unavailable"}</h3>
-                    </div>
-                    <div class="versionCard beta">
-                        <h1>Beta</h1>
-                        <h2>${formatVersion(revenData.servingBeta?.chromeVersion) || "Unavailable"}</h2>
-                        <h3><span>Platform:</span>${revenData.servingBeta?.version || "Unavailable"}</h3>
-                    </div>
-                    <div class="versionCard dev">
-                        <h1>Dev</h1>
-                        <h2>${formatVersion(revenData.servingDev?.chromeVersion) || "Unavailable"}</h2>
-                        <h3><span>Platform:</span>${revenData.servingDev?.version || "Unavailable"}</h3>
-                    </div>
-                    <div class="versionCard canary">
-                        <h1>Canary</h1>
-                        <h2>${formatVersion(revenData.servingCanary?.chromeVersion) || "Unavailable"}</h2>
-                        <h3><span>Platform:</span>${revenData.servingCanary?.version || "Unavailable"}</h3>
-                    </div>
+                    <version-card
+                        channel="stable"
+                        chrome-version="${revenData.servingStable?.chromeVersion || 'Unavailable'}"
+                        platform-version="${revenData.servingStable?.version || 'Unavailable'}">
+                    </version-card>
+                    <version-card
+                        channel="beta"
+                        chrome-version="${revenData.servingBeta?.chromeVersion || 'Unavailable'}"
+                        platform-version="${revenData.servingBeta?.version || 'Unavailable'}">
+                    </version-card>
+                    <version-card
+                        channel="dev"
+                        chrome-version="${revenData.servingDev?.chromeVersion || 'Unavailable'}"
+                        platform-version="${revenData.servingDev?.version || 'Unavailable'}">
+                    </version-card>
+                    <version-card
+                        channel="canary"
+                        chrome-version="${revenData.servingCanary?.chromeVersion || 'Unavailable'}"
+                        platform-version="${revenData.servingCanary?.version || 'Unavailable'}">
+                    </version-card>
                 </div>
             </Body>
         </Section>
