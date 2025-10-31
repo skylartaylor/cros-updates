@@ -7,6 +7,7 @@ This document shows practical examples of how to use the web components in the C
 1. **`<recovery-dropdown>`** - Recovery images dropdown with channel grouping
 2. **`<version-card>`** - Chrome OS version display cards
 3. **`<modal-dialog>`** - Accessible modal dialogs
+4. **`<search-box>`** - Device/board search with auto-complete
 
 ---
 
@@ -363,6 +364,223 @@ document.querySelector('#confirmNo').addEventListener('click', () => {
 
 ---
 
+## Search Box Component
+
+### Homepage Search (Auto-focus only if no pinned devices)
+
+```html
+<search-box
+  placeholder="Search devices, boards, or brands..."
+  auto-show-results="true"
+  auto-focus-unless-pinned="true">
+</search-box>
+```
+
+**Behavior:**
+- Shows all results when focused
+- Auto-focuses ONLY if there are no pinned devices in localStorage
+- Displays device/board tags in results
+
+### Header Search (Only show results when typing)
+
+```html
+<search-box
+  placeholder="Search..."
+  auto-show-results="false"
+  custom-class="header-search">
+</search-box>
+```
+
+**Behavior:**
+- Results only appear when user types
+- No auto-focus
+- Compact styling via `header-search` class
+
+### Search Page (Always auto-focus)
+
+```html
+<search-box
+  placeholder="Find your device..."
+  auto-show-results="true"
+  auto-focus="true">
+</search-box>
+```
+
+**Behavior:**
+- Always auto-focuses on page load
+- Shows all results on focus
+
+### Configuration Options
+
+```html
+<search-box
+  placeholder="Custom placeholder text"
+  search-index-url="/custom-search.json"
+  auto-show-results="true"
+  auto-focus="false"
+  auto-focus-unless-pinned="false"
+  custom-class="my-search"
+  debounce-delay="300">
+</search-box>
+```
+
+**Attributes:**
+
+| Attribute | Type | Default | Description |
+|-----------|------|---------|-------------|
+| `placeholder` | string | `"Search..."` | Placeholder text for input |
+| `search-index-url` | string | `"/search.json"` | URL to fetch search index |
+| `auto-show-results` | boolean | `"true"` | Show all results on focus |
+| `auto-focus` | boolean | `"false"` | Auto-focus on mount |
+| `auto-focus-unless-pinned` | boolean | `"false"` | Only focus if no pinned devices |
+| `custom-class` | string | `""` | Additional CSS class |
+| `debounce-delay` | number | `"150"` | Debounce delay in ms |
+
+### Events
+
+```javascript
+const searchBox = document.querySelector('search-box');
+
+// Fired when search index is loaded
+searchBox.addEventListener('search-initialized', (e) => {
+  console.log('Search ready:', e.detail.searchInstance);
+});
+
+// Fired when user types
+searchBox.addEventListener('search-query', (e) => {
+  console.log('User searched for:', e.detail.query);
+  // Track analytics, etc.
+});
+```
+
+### Programmatic Control
+
+```javascript
+const searchBox = document.querySelector('search-box');
+
+// Focus the search input
+searchBox.focus();
+
+// Clear search and hide results
+searchBox.clear();
+
+// Show/hide results manually
+searchBox.showResults();
+searchBox.hideResults();
+
+// Access underlying DeviceSearch instance for advanced usage
+const deviceSearch = searchBox.getSearchInstance();
+```
+
+### Styling
+
+```css
+/* Target the search box container */
+search-box .search-box-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Style the input */
+search-box .search-input {
+  padding: 12px 16px;
+  font-size: 16px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+}
+
+search-box .search-input:focus {
+  border-color: #4285f4;
+  outline: none;
+}
+
+/* Style the results dropdown */
+search-box .search-results {
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  max-height: 400px;
+  overflow-y: auto;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Custom class for header search */
+search-box.header-search .search-input {
+  font-size: 14px;
+  padding: 8px 12px;
+}
+
+/* Result items */
+search-box .result-item {
+  display: block;
+  padding: 12px 16px;
+  text-decoration: none;
+  color: inherit;
+}
+
+search-box .result-item:hover,
+search-box .result-item.selected {
+  background: #f5f5f5;
+}
+
+search-box .result-tag {
+  display: inline-block;
+  padding: 2px 8px;
+  background: #e8f0fe;
+  color: #1967d2;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 500;
+}
+```
+
+### Migration Example
+
+**Before (index.11ty.cjs):**
+```javascript
+// ~30 lines of setup code
+<div class="search-container">
+  <input id="search-input" type="text" placeholder="Search devices, boards, or brands..." />
+  <div id="search-results"></div>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const searchInput = document.getElementById("search-input");
+    const resultsContainer = document.getElementById("search-results");
+
+    const search = new DeviceSearch();
+    search.initialize(searchInput, resultsContainer);
+
+    // Only auto-focus search if there are no pinned devices
+    const pinnedDevices = JSON.parse(localStorage.getItem('pinnedDevices') || '[]');
+    if (pinnedDevices.length === 0) {
+      searchInput.focus();
+    }
+  });
+</script>
+```
+
+**After:**
+```html
+<!-- Just one line! -->
+<search-box
+  placeholder="Search devices, boards, or brands..."
+  auto-show-results="true"
+  auto-focus-unless-pinned="true">
+</search-box>
+```
+
+**Benefits:**
+- ✅ ~25 lines of code eliminated
+- ✅ Declarative configuration via attributes
+- ✅ No manual DOM querying needed
+- ✅ No duplicate setup code across pages
+- ✅ Same functionality, cleaner code
+
+---
+
 ## Loading Components
 
 ### In 11ty Layout Template
@@ -378,10 +596,14 @@ Add to your `_includes/layout.njk` or similar layout file:
 <body>
   {{ content | safe }}
 
+  <!-- Load DeviceSearch class first (required by search-box) -->
+  <script src="/_includes/search.js"></script>
+
   <!-- Load components before your main app.js -->
   <script src="/public/js/components/recovery-dropdown.js"></script>
   <script src="/public/js/components/version-card.js"></script>
   <script src="/public/js/components/modal-dialog.js"></script>
+  <script src="/public/js/components/search-box.js"></script>
 
   <!-- Then load main application -->
   <script src="/public/js/app.js"></script>

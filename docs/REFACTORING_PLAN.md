@@ -37,6 +37,18 @@ This document outlines the plan to refactor duplicated code in the CrOS Updates 
 
 **Savings:** ~150 lines of duplicate modal logic
 
+### 4. Search Box ✅ Bonus
+**Files affected:** 3 files with duplicate setup code
+- `content/index.11ty.cjs` (lines 105-159)
+- `content/search.11ty.cjs` (lines 29)
+- `_includes/base.njk` (lines 100-130)
+
+**Component:** `<search-box>`
+
+**Important:** Must preserve auto-focus-unless-pinned behavior for homepage
+
+**Savings:** ~50-75 lines of duplicate setup code
+
 ---
 
 ## Implementation Plan
@@ -342,13 +354,14 @@ To preserve context-specific styling, the `<version-card>` component will suppor
 
 ## Benefits After Refactoring
 
-1. **Code Reduction:** ~350 lines of duplicate code removed
+1. **Code Reduction:** ~400-425 lines of duplicate code removed
 2. **Maintainability:** Single source of truth for each component
 3. **Consistency:** Same UI/UX across all pages
 4. **Testability:** Components can be tested in isolation
 5. **Reusability:** Easy to add components to new pages
 6. **Accessibility:** Centralized a11y improvements benefit all usages
 7. **Performance:** Potentially faster (less code to parse)
+8. **Declarative API:** Configuration through HTML attributes instead of imperative JS
 
 ---
 
