@@ -2491,11 +2491,20 @@
   },
   {
     "Codename": "nirva",
-    "Stable": "16433.48.0<br>142.0.7444.181",
+    "Stable": "16404.61.0<br>141.0.7390.135",
     "Beta": "16463.28.0<br>143.0.7499.46",
-    "Dev": "16487.0.0<br>144.0.7531.0_pre1546105",
+    "Dev": "No Update",
     "Canary": "16502.0.0<br>144.0.7552.0_pre1551373",
-    "Brand names": "Asus_CX1505CTAZ",
+    "Brand names": "Acer Chromebook Spin 311 (ROA733T/ROA733TN)",
+    "isAue": false
+  },
+  {
+    "Codename": "craaskyu2",
+    "Stable": "16404.61.0<br>141.0.7390.135",
+    "Beta": "16463.28.0<br>143.0.7499.46",
+    "Dev": "No Update",
+    "Canary": "16502.0.0<br>144.0.7552.0_pre1551373",
+    "Brand names": "Acer Chromebook Spin 311 (ROA733T/ROA733TN)",
     "isAue": false
   },
   {
