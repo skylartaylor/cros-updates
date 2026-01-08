@@ -2778,12 +2778,30 @@
     "isAue": false
   },
   {
+    "Codename": "pujjolo",
+    "Stable": "16463.51.0<br>143.0.7499.150",
+    "Beta": "16503.38.0<br>144.0.7559.50",
+    "Dev": "16538.0.0<br>145.0.7606.0_pre1563017",
+    "Canary": "16546.0.0<br>145.0.7618.0_pre1564595",
+    "Brand names": "Lenovo Chromebook 500e 2-in-1 Gen 5",
+    "isAue": false
+  },
+  {
     "Codename": "pujjoniru",
     "Stable": "16463.51.0<br>143.0.7499.150",
     "Beta": "16503.38.0<br>144.0.7559.50",
     "Dev": "16538.0.0<br>145.0.7606.0_pre1563017",
     "Canary": "16546.0.0<br>145.0.7618.0_pre1564595",
     "Brand names": "Lenovo Chromebook 2-in-1 14ITN10, Lenovo Chromebook Plus 2-in-1 14ITN10",
+    "isAue": false
+  },
+  {
+    "Codename": "pujjoquince",
+    "Stable": "16463.51.0<br>143.0.7499.150",
+    "Beta": "16503.38.0<br>144.0.7559.50",
+    "Dev": "16538.0.0<br>145.0.7606.0_pre1563017",
+    "Canary": "16546.0.0<br>145.0.7618.0_pre1564595",
+    "Brand names": "Lenovo Chromebook (15”, 10), Lenovo Chromebook Plus (15”, 10)",
     "isAue": false
   },
   {
