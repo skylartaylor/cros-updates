@@ -4009,6 +4009,15 @@
     "isAue": false
   },
   {
+    "Codename": "obiwan",
+    "Stable": "16503.60.0<br>144.0.7559.108",
+    "Beta": "16552.18.0<br>145.0.7632.25",
+    "Dev": "16552.12.0<br>145.0.7632.19",
+    "Canary": "16568.0.0<br>146.0.7649.0_pre1572540",
+    "Brand names": "Lenovo Chromebook 100e Gen 5",
+    "isAue": false
+  },
+  {
     "Codename": "snappy",
     "Stable": "No Update",
     "Beta": "16552.18.0<br>145.0.7632.25",
