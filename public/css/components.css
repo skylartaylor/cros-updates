@@ -8,16 +8,16 @@ version-card {
 }
 
 recovery-dropdown {
-    display: contents;
+    display: block;
 }
 
 /* Additional search styling for component classes */
 .search-input {
     width: 100%;
-    padding: 12px 16px;
-    font-size: 16px;
+    padding: var(--spacing-2) var(--spacing-3);
+    font-size: 1rem;
     border: 2px solid hsl(from var(--color-accent) h s l / 0.3);
-    border-radius: 8px;
+    border-radius: 0.5em;
     outline: none;
     background: var(--color-page);
     color: var(--color-text);
@@ -450,34 +450,70 @@ header.main {
     flex: 1;
 }
 
+.header-search-container .search-input {
+    flex: 1;
+    padding: var(--spacing-1) var(--spacing-3);
+    font-size: 0.95rem;
+    min-height: auto;
+}
+
+.header-search-container .search-results {
+    position: fixed;
+    top: calc(var(--spacing-8) * 2 + var(--spacing-4) * 2 + 2em);
+    left: var(--spacing-4);
+    right: var(--spacing-4);
+}
+
+@media screen and (min-width: 800px) {
+    .header-search-container .search-input {
+        min-width: 450px;
+    }
+
+    .header-search-container .search-results {
+        position: absolute;
+        top: calc(100% + var(--spacing-2));
+        width: 550px;
+        left: auto;
+        right: 0;
+    }
+}
+
+@media screen and (max-width: 799px) and (min-width: 641px) {
+    .header-search-container .search-input {
+        min-width: 280px;
+        max-width: 400px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .header-search-container .search-input {
+        min-width: 0;
+        width: 100%;
+        font-size: 0.9rem;
+    }
+
+    .header-search-container {
+        gap: var(--spacing-2);
+    }
+
+    .header-search-container .search-results {
+        left: var(--spacing-2);
+        right: var(--spacing-2);
+        max-width: calc(100vw - var(--spacing-4));
+    }
+
+    .header-search-toggle,
+    .header-search-close {
+        padding: var(--spacing-1);
+    }
+}
+
 #header-nav.search-active .header-nav-links {
     display: none;
 }
 
 #header-nav.search-active .header-search-container {
     display: flex;
-}
-
-#header-search-input {
-    flex: 1;
-    padding: var(--spacing-2) var(--spacing-3);
-    font-size: 1rem;
-    font-family: var(--font-family);
-    border: 2px solid hsl(from var(--color-accent) h s l / 0.3);
-    border-radius: 0.5em;
-    outline: none;
-    background: var(--color-page);
-    color: var(--color-text);
-    transition: border-color 0.2s;
-    &:focus {
-        border-color: var(--color-accent);
-    }
-}
-
-@media screen and (min-width: 800px) {
-    #header-search-input {
-        min-width: 400px;
-    }
 }
 
 .header-search-close {
@@ -560,7 +596,7 @@ header.main {
     #header-search-results {
         position: absolute;
         top: calc(100% + var(--spacing-2));
-        width: 500px;
+        width: 550px;
         left: auto;
         right: 0;
     }
@@ -2476,7 +2512,19 @@ details.recoveryDropdown[open] .dropdownContent { display: block; }
         flex-direction: column;
         margin: 0 var(--spacing-4);
         a h1 { font-size: var(--fontSize-4); }
-        nav { margin: var(--spacing-2) 0 0 0; }
+        nav {
+            margin: var(--spacing-2) 0 0 0;
+            width: 100%;
+        }
+    }
+
+    .header-search-container {
+        width: 100%;
+    }
+
+    .header-nav-links {
+        width: 100%;
+        justify-content: center;
     }
     main { padding: 0; }
     footer { margin: var(--spacing-4); }

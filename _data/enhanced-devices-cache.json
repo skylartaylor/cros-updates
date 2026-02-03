@@ -1,5 +1,5 @@
 {
-  "timestamp": 1760565192226,
+  "timestamp": 1761880158277,
   "data": {
     "asuka": {
       "android_app_support": true,
@@ -124,7 +124,7 @@
       "is_chromebook_plus_device": false,
       "kernel_version": "5.15.180",
       "eol_reached": false,
-      "hardware_id": "TENTACRUEL-VAFHNNNN",
+      "hardware_id": "TENTACOOL-ZLJENNNN",
       "architecture": null
     },
     "dedede": {
@@ -142,7 +142,7 @@
       "is_chromebook_plus_device": false,
       "kernel_version": "5.15.180",
       "eol_reached": false,
-      "hardware_id": "DRALLION360-NNNN",
+      "hardware_id": "DRALLION-NNNN",
       "architecture": null
     },
     "elm": {
@@ -169,7 +169,7 @@
       "is_chromebook_plus_device": false,
       "kernel_version": "5.4.290",
       "eol_reached": false,
-      "hardware_id": "FIZZ NNNN",
+      "hardware_id": "SION NNNN",
       "architecture": null
     },
     "geralt": {
@@ -178,7 +178,7 @@
       "is_chromebook_plus_device": false,
       "kernel_version": "6.1.135",
       "eol_reached": false,
-      "hardware_id": "CIRI-LDPJNNNN",
+      "hardware_id": "CIRI-RKMZNNNN",
       "architecture": null
     },
     "grunt": {
@@ -187,7 +187,7 @@
       "is_chromebook_plus_device": false,
       "kernel_version": "5.10.236",
       "eol_reached": false,
-      "hardware_id": "TREEYA360 3*",
+      "hardware_id": "KASUMI|NNNN",
       "architecture": null
     },
     "guado": {
@@ -205,7 +205,7 @@
       "is_chromebook_plus_device": false,
       "kernel_version": "6.6.88",
       "eol_reached": false,
-      "hardware_id": "NIPPERKIN-NNNN",
+      "hardware_id": "NIPPERKIN|NNNN",
       "architecture": null
     },
     "hana": {
@@ -223,7 +223,7 @@
       "is_chromebook_plus_device": false,
       "kernel_version": "5.15.180",
       "eol_reached": false,
-      "hardware_id": "AKEMI NNNN",
+      "hardware_id": "HELIOS-NNNN",
       "architecture": null
     },
     "jacuzzi": {
@@ -259,7 +259,7 @@
       "is_chromebook_plus_device": false,
       "kernel_version": "5.10.236",
       "eol_reached": false,
-      "hardware_id": "KODAMANNNN",
+      "hardware_id": "KRANE-ZDKS NNNN",
       "architecture": null
     },
     "lars": {
@@ -277,7 +277,7 @@
       "is_chromebook_plus_device": false,
       "kernel_version": "5.4.290",
       "eol_reached": false,
-      "hardware_id": "AKALI NNNN",
+      "hardware_id": "VAYNE NNNN",
       "architecture": null
     },
     "nautilus": {
@@ -286,7 +286,7 @@
       "is_chromebook_plus_device": false,
       "kernel_version": "6.6.76",
       "eol_reached": false,
-      "hardware_id": "NAUTILUS E4Q-N2H-F4UNNNN",
+      "hardware_id": "NAUTILUS B3K-K4U-D2KNNNN",
       "architecture": null
     },
     "nirva": {
@@ -322,7 +322,7 @@
       "is_chromebook_plus_device": false,
       "kernel_version": "5.15.180",
       "eol_reached": false,
-      "hardware_id": "FLEEX NNNN",
+      "hardware_id": "BOBBA360 DNNNN",
       "architecture": null
     },
     "puff": {
@@ -331,7 +331,7 @@
       "is_chromebook_plus_device": false,
       "kernel_version": "5.15.180",
       "eol_reached": false,
-      "hardware_id": "DUFFY-NNNN",
+      "hardware_id": "KAISANNNN",
       "architecture": null
     },
     "pyro": {
@@ -376,7 +376,7 @@
       "is_chromebook_plus_device": false,
       "kernel_version": "6.6.88",
       "eol_reached": false,
-      "hardware_id": "SCREEBO-DNHE ?NNNN",
+      "hardware_id": "SCREEBO-DNHE FNNNN",
       "architecture": null
     },
     "rikku": {
@@ -403,7 +403,7 @@
       "is_chromebook_plus_device": false,
       "kernel_version": "5.10.236",
       "eol_reached": false,
-      "hardware_id": "ARCADA-NNNN",
+      "hardware_id": "SARIEN-NNNN",
       "architecture": null
     },
     "scarlet": {
@@ -484,7 +484,7 @@
       "is_chromebook_plus_device": false,
       "kernel_version": "6.6.88",
       "eol_reached": false,
-      "hardware_id": "LAZOR NNNN",
+      "hardware_id": "POMPOM NNNN",
       "architecture": null
     },
     "volteer": {
@@ -500,9 +500,9 @@
       "android_app_support": true,
       "android_version": "Android 13",
       "is_chromebook_plus_device": false,
-      "kernel_version": "5.4.292",
+      "kernel_version": "6.6.88",
       "eol_reached": false,
-      "hardware_id": "MORPHIUS|NNNN",
+      "hardware_id": "MORPHIUS-NNNN",
       "architecture": null
     }
   }

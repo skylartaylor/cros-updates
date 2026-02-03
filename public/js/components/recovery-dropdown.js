@@ -20,9 +20,27 @@
  *   - show-button-only: If present, only shows the recovery button without dropdown
  */
 class RecoveryDropdown extends HTMLElement {
+  constructor() {
+    super();
+    // Store bound handlers for cleanup
+    this.handleClickOutside = null;
+    this.handleButtonClick = null;
+    this.handleKeydown = null;
+  }
+
   connectedCallback() {
-    this.render();
-    this.setupEventListeners();
+    try {
+      this.render();
+      // Use setTimeout to ensure DOM is fully rendered before setting up listeners
+      setTimeout(() => this.setupEventListeners(), 0);
+    } catch (error) {
+      console.error('Recovery dropdown error in connectedCallback:', error);
+    }
+  }
+
+  disconnectedCallback() {
+    // Clean up event listeners
+    this.removeEventListeners();
   }
 
   render() {
@@ -204,17 +222,22 @@ class RecoveryDropdown extends HTMLElement {
     const button = this.querySelector('.dropdownToggleBtn');
     if (!button) return;
 
-    button.addEventListener('click', (e) => {
+    // Remove any existing listeners first
+    this.removeEventListeners();
+
+    // Create bound handlers
+    this.handleButtonClick = (e) => {
+      e.preventDefault();
       e.stopPropagation();
       const content = this.querySelector('.dropdownContent');
-      const isExpanded = button.getAttribute('aria-expanded') === 'true';
+      if (!content) return;
 
+      const isExpanded = button.getAttribute('aria-expanded') === 'true';
       button.setAttribute('aria-expanded', !isExpanded);
       content.classList.toggle('show');
-    });
+    };
 
-    // Close on click outside
-    document.addEventListener('click', (e) => {
+    this.handleClickOutside = (e) => {
       if (!this.contains(e.target)) {
         const button = this.querySelector('.dropdownToggleBtn');
         const content = this.querySelector('.dropdownContent');
@@ -223,17 +246,37 @@ class RecoveryDropdown extends HTMLElement {
           content.classList.remove('show');
         }
       }
-    });
+    };
 
-    // Keyboard support
-    button.addEventListener('keydown', (e) => {
+    this.handleKeydown = (e) => {
       if (e.key === 'Escape') {
         const content = this.querySelector('.dropdownContent');
-        button.setAttribute('aria-expanded', 'false');
-        content.classList.remove('show');
-        button.focus();
+        if (content) {
+          button.setAttribute('aria-expanded', 'false');
+          content.classList.remove('show');
+          button.focus();
+        }
       }
-    });
+    };
+
+    // Attach listeners
+    button.addEventListener('click', this.handleButtonClick);
+    button.addEventListener('keydown', this.handleKeydown);
+    document.addEventListener('click', this.handleClickOutside);
+  }
+
+  removeEventListeners() {
+    const button = this.querySelector('.dropdownToggleBtn');
+
+    if (button && this.handleButtonClick) {
+      button.removeEventListener('click', this.handleButtonClick);
+    }
+    if (button && this.handleKeydown) {
+      button.removeEventListener('keydown', this.handleKeydown);
+    }
+    if (this.handleClickOutside) {
+      document.removeEventListener('click', this.handleClickOutside);
+    }
   }
 }
 

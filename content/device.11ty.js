@@ -127,7 +127,6 @@ export function render(data) {
                 </div>
                 <h2 class="brandNames">${brandNamesText}</h2>
               </div>
-              <div class="recoveryDropdown">
               <div class="recoveryWrapper${hasAnyRecoveries ? '' : ' no-recoveries'}">
                 <button class="pin-device-btn deviceHeaderBtn" data-device="${deviceKey}" aria-label="Pin device to homepage">
                   <svg class="pin-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -141,8 +140,6 @@ export function render(data) {
                   data-latest-url="${latestRecoveryURL}"
                   data-format="device">
                 </recovery-dropdown>
-                <button class="dropdownToggleBtn" aria-label="Show older recovery versions">▼</button>
-              </div>
               </div>
             </Header>
             <Body class="versionBody">
