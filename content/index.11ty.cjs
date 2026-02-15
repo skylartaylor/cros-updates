@@ -27,9 +27,6 @@ module.exports = {
   render(data) {
     return `
       <Section class="homePage">
-        <header>
-          <h1>Welcome to the new cros.tech! <button id="new-features-btn" class="new-features-btn"><strong>Learn about the New Features ⮕</strong></button></h1>
-        </header>
         <div class="homePageContent">
           <h2>Find Your Chrome OS Device</h2>
           <p>Browse versions, updates, and recovery images</p>
@@ -39,43 +36,6 @@ module.exports = {
           </div>
         </div>
       </Section>
-
-      <!-- New Features Modal -->
-      <div id="new-features-modal" class="modal">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h2>What's New on cros.tech</h2>
-            <button class="modal-close" aria-label="Close">&times;</button>
-          </div>
-          <div class="modal-body features-modal-body">
-            <h3 class="features-section-title">Enhanced User Experience</h3>
-            <ul class="features-list">
-              <li><strong>Pin Your Devices:</strong> Save your favorite devices to the homepage for quick access</li>
-              <li><strong>Improved Search:</strong> Faster, more accurate search across devices, boards, and brands</li>
-              <li><strong>Responsive Design:</strong> Optimized for mobile, tablet, and desktop viewing</li>
-              <li><strong>Dark Mode:</strong> Automatic theme switching based on your system preferences</li>
-            </ul>
-
-            <h3 class="features-section-title">Better Data & Navigation</h3>
-            <ul class="features-list">
-              <li><strong>Enhanced All Devices Table:</strong> Customizable columns with version shading, extended metadata (architecture, kernel versions), and visual indicators</li>
-              <li><strong>More Recovery Version Options:</strong> Access to recovery images across multiple Chrome OS versions and channels</li>
-              <li><strong>Chrome OS Flex Support:</strong> Dedicated page for Flex updates</li>
-            </ul>
-
-            <h3 class="features-section-title">Accessibility Improvements</h3>
-            <ul class="features-list">
-              <li><strong>WCAG 2.2 Compliant:</strong> Enhanced contrast and keyboard navigation</li>
-              <li><strong>Screen Reader Support:</strong> Improved experience for assistive technologies</li>
-              <li><strong>Focus Indicators:</strong> Clear visual feedback for keyboard navigation</li>
-            </ul>
-
-            <p class="features-footer">
-              <strong>Questions or feedback?</strong> <a href="mailto:hi@skylar.cc?subject=Chrome OS Updates Feedback">Get in touch</a>
-            </p>
-          </div>
-        </div>
-      </div>
 
       <!-- Pinned Devices Container -->
       <Section id="pinned-devices-container" class="pinned-devices">
@@ -104,31 +64,6 @@ module.exports = {
 
           const search = new DeviceSearch();
           search.initialize(searchInput, resultsContainer);
-
-          // New Features Modal
-          const newFeaturesBtn = document.getElementById("new-features-btn");
-          const newFeaturesModal = document.getElementById("new-features-modal");
-          const modalClose = newFeaturesModal.querySelector(".modal-close");
-
-          newFeaturesBtn.addEventListener("click", () => {
-            newFeaturesModal.classList.add("show");
-          });
-
-          modalClose.addEventListener("click", () => {
-            newFeaturesModal.classList.remove("show");
-          });
-
-          newFeaturesModal.addEventListener("click", (e) => {
-            if (e.target === newFeaturesModal) {
-              newFeaturesModal.classList.remove("show");
-            }
-          });
-
-          document.addEventListener("keydown", (e) => {
-            if (e.key === "Escape" && newFeaturesModal.classList.contains("show")) {
-              newFeaturesModal.classList.remove("show");
-            }
-          });
 
           // Only auto-focus search if there are no pinned devices
           const pinnedDevices = JSON.parse(localStorage.getItem('pinnedDevices') || '[]');
