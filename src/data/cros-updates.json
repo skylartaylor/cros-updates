@@ -4045,6 +4045,15 @@
     "isAue": false
   },
   {
+    "Codename": "quigon",
+    "Stable": "16503.76.0<br>144.0.7559.221",
+    "Beta": "16581.17.0<br>146.0.7680.22",
+    "Dev": "16581.13.0<br>146.0.7680.17",
+    "Canary": "16597.0.0<br>147.0.7697.0_pre1587393",
+    "Brand names": "Lenovo Chromebook m (14\", 11)",
+    "isAue": false
+  },
+  {
     "Codename": "snappy",
     "Stable": "No Update",
     "Beta": "16581.17.0<br>146.0.7680.22",
