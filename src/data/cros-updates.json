@@ -1845,7 +1845,7 @@
     "Codename": "hana",
     "Stable": "No Update",
     "Beta": "16581.17.0<br>146.0.7680.22",
-    "Dev": "16581.13.0<br>146.0.7680.17",
+    "Dev": "16602.0.0<br>147.0.7710.0_pre1591974",
     "Canary": "16603.0.0<br>147.0.7710.0_pre1591974",
     "Brand names": "Poin2 Chromebook 14",
     "isAue": false
@@ -1854,7 +1854,7 @@
     "Codename": "birch",
     "Stable": "No Update",
     "Beta": "16581.17.0<br>146.0.7680.22",
-    "Dev": "16581.13.0<br>146.0.7680.17",
+    "Dev": "16602.0.0<br>147.0.7710.0_pre1591974",
     "Canary": "16603.0.0<br>147.0.7710.0_pre1591974",
     "Brand names": "Poin2 Chromebook 14",
     "isAue": false
@@ -1863,7 +1863,7 @@
     "Codename": "maple",
     "Stable": "No Update",
     "Beta": "16581.17.0<br>146.0.7680.22",
-    "Dev": "16581.13.0<br>146.0.7680.17",
+    "Dev": "16602.0.0<br>147.0.7710.0_pre1591974",
     "Canary": "16603.0.0<br>147.0.7710.0_pre1591974",
     "Brand names": "Lenovo Ideapad C330 Chromebook",
     "isAue": false
@@ -1872,7 +1872,7 @@
     "Codename": "maple14",
     "Stable": "No Update",
     "Beta": "16581.17.0<br>146.0.7680.22",
-    "Dev": "16581.13.0<br>146.0.7680.17",
+    "Dev": "16602.0.0<br>147.0.7710.0_pre1591974",
     "Canary": "16603.0.0<br>147.0.7710.0_pre1591974",
     "Brand names": "Lenovo Ideapad S330 Chromebook",
     "isAue": false
@@ -1881,7 +1881,7 @@
     "Codename": "sycamore",
     "Stable": "No Update",
     "Beta": "16581.17.0<br>146.0.7680.22",
-    "Dev": "16581.13.0<br>146.0.7680.17",
+    "Dev": "16602.0.0<br>147.0.7710.0_pre1591974",
     "Canary": "16603.0.0<br>147.0.7710.0_pre1591974",
     "Brand names": "Lenovo 100e Chromebook 2nd Gen MTK",
     "isAue": false
@@ -1890,7 +1890,7 @@
     "Codename": "sycamore360",
     "Stable": "No Update",
     "Beta": "16581.17.0<br>146.0.7680.22",
-    "Dev": "16581.13.0<br>146.0.7680.17",
+    "Dev": "16602.0.0<br>147.0.7710.0_pre1591974",
     "Canary": "16603.0.0<br>147.0.7710.0_pre1591974",
     "Brand names": "Lenovo 300e Chromebook 2nd Gen MTK",
     "isAue": false
@@ -1899,7 +1899,7 @@
     "Codename": "telesu",
     "Stable": "No Update",
     "Beta": "16581.17.0<br>146.0.7680.22",
-    "Dev": "16581.13.0<br>146.0.7680.17",
+    "Dev": "16602.0.0<br>147.0.7710.0_pre1591974",
     "Canary": "16603.0.0<br>147.0.7710.0_pre1591974",
     "Brand names": "ASUS Chromebook C202XA / C203XA",
     "isAue": false
@@ -3736,7 +3736,7 @@
     "Codename": "reef",
     "Stable": "No Update",
     "Beta": "16581.17.0<br>146.0.7680.22",
-    "Dev": "16581.13.0<br>146.0.7680.17",
+    "Dev": "16602.0.0<br>147.0.7710.0_pre1591974",
     "Canary": "16603.0.0<br>147.0.7710.0_pre1591974",
     "Brand names": "ASUS Chromebook Flip C213",
     "isAue": false
@@ -3745,7 +3745,7 @@
     "Codename": "basking",
     "Stable": "No Update",
     "Beta": "16581.17.0<br>146.0.7680.22",
-    "Dev": "16581.13.0<br>146.0.7680.17",
+    "Dev": "16602.0.0<br>147.0.7710.0_pre1591974",
     "Canary": "16603.0.0<br>147.0.7710.0_pre1591974",
     "Brand names": "ASUS Chromebook Flip C213",
     "isAue": false
@@ -3754,7 +3754,7 @@
     "Codename": "electro",
     "Stable": "No Update",
     "Beta": "16581.17.0<br>146.0.7680.22",
-    "Dev": "16581.13.0<br>146.0.7680.17",
+    "Dev": "16602.0.0<br>147.0.7710.0_pre1591974",
     "Canary": "16603.0.0<br>147.0.7710.0_pre1591974",
     "Brand names": "Acer Chromebook Spin 11 (R751T / CP511)",
     "isAue": false
@@ -4036,6 +4036,24 @@
     "isAue": false
   },
   {
+    "Codename": "baze",
+    "Stable": "16552.47.0<br>145.0.7632.154",
+    "Beta": "16581.17.0<br>146.0.7680.22",
+    "Dev": "16602.0.0<br>147.0.7710.0_pre1591974",
+    "Canary": "16603.0.0<br>147.0.7710.0_pre1591974",
+    "Brand names": "Acer Chromebook Spin 311(R725T/R725T-TCO)",
+    "isAue": false
+  },
+  {
+    "Codename": "jye",
+    "Stable": "16552.47.0<br>145.0.7632.154",
+    "Beta": "16581.17.0<br>146.0.7680.22",
+    "Dev": "16602.0.0<br>147.0.7710.0_pre1591974",
+    "Canary": "16603.0.0<br>147.0.7710.0_pre1591974",
+    "Brand names": "Acer Chromebook 311(C725/C725T/C725-TCO/C725T-TCO)",
+    "isAue": false
+  },
+  {
     "Codename": "obiwan",
     "Stable": "16552.47.0<br>145.0.7632.154",
     "Beta": "16581.17.0<br>146.0.7680.22",
@@ -4054,10 +4072,19 @@
     "isAue": false
   },
   {
+    "Codename": "shaak",
+    "Stable": "16552.47.0<br>145.0.7632.154",
+    "Beta": "16581.17.0<br>146.0.7680.22",
+    "Dev": "16602.0.0<br>147.0.7710.0_pre1591974",
+    "Canary": "16603.0.0<br>147.0.7710.0_pre1591974",
+    "Brand names": "Acer Chromebook 315(CB315-8H, CB315-8HT)",
+    "isAue": false
+  },
+  {
     "Codename": "snappy",
     "Stable": "No Update",
     "Beta": "16581.17.0<br>146.0.7680.22",
-    "Dev": "16581.13.0<br>146.0.7680.17",
+    "Dev": "16602.0.0<br>147.0.7710.0_pre1591974",
     "Canary": "16603.0.0<br>147.0.7710.0_pre1591974",
     "Brand names": "HP Chromebook 11 G6 EE / Chromebook 11a",
     "isAue": false
@@ -4066,7 +4093,7 @@
     "Codename": "alan",
     "Stable": "No Update",
     "Beta": "16581.17.0<br>146.0.7680.22",
-    "Dev": "16581.13.0<br>146.0.7680.17",
+    "Dev": "16602.0.0<br>147.0.7710.0_pre1591974",
     "Canary": "16603.0.0<br>147.0.7710.0_pre1591974",
     "Brand names": "HP Chromebook 11 G6 EE / Chromebook 11a",
     "isAue": false
