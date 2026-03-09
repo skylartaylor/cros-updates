@@ -2751,6 +2751,24 @@
     "isAue": false
   },
   {
+    "Codename": "kaladin",
+    "Stable": "16552.53.0<br>145.0.7632.165",
+    "Beta": "16581.24.0<br>146.0.7680.60",
+    "Dev": "16602.0.0<br>147.0.7710.0_pre1591974",
+    "Canary": "16608.0.0<br>147.0.7719.0_pre1594445",
+    "Brand names": "HP Chromebook Plus x360 14 inch 14c-ce0xxx, HP Chromebook x360 14 inch 14b-ce0xxx",
+    "isAue": false
+  },
+  {
+    "Codename": "kelsier",
+    "Stable": "16503.76.0<br>144.0.7559.221",
+    "Beta": "16581.24.0<br>146.0.7680.60",
+    "Dev": "16602.0.0<br>147.0.7710.0_pre1591974",
+    "Canary": "16608.0.0<br>147.0.7719.0_pre1594445",
+    "Brand names": "HP Chromebook 14 inch 14a-nk0xxx, HP Chromebook Plus 14 inch 14c-na0xxx",
+    "isAue": false
+  },
+  {
     "Codename": "meliks",
     "Stable": "16552.53.0<br>145.0.7632.165",
     "Beta": "16581.24.0<br>146.0.7680.60",
