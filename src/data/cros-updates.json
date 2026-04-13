@@ -4108,6 +4108,15 @@
     "isAue": false
   },
   {
+    "Codename": "yoda",
+    "Stable": "16581.54.0<br>146.0.7680.184",
+    "Beta": "16610.28.0<br>147.0.7727.85",
+    "Dev": "16640.2.0<br>148.0.7778.6",
+    "Canary": "16646.0.0<br>149.0.7784.0_pre1612599",
+    "Brand names": "Lenovo Chromebook 500e 2-in-1 Gen 5 (MTK)",
+    "isAue": false
+  },
+  {
     "Codename": "snappy",
     "Stable": "No Update",
     "Beta": "16610.28.0<br>147.0.7727.85",
