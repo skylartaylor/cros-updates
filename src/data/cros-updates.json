@@ -4090,6 +4090,15 @@
     "isAue": false
   },
   {
+    "Codename": "grogu",
+    "Stable": "16610.57.0<br>147.0.7727.147",
+    "Beta": "16640.29.0<br>148.0.7778.158",
+    "Dev": "16663.0.0<br>149.0.7816.0_pre1622228",
+    "Canary": "16671.0.0<br>150.0.7830.0_pre1626253",
+    "Brand names": "Acer Chromebook 314 (CBOA314-2H/CBOA314-2HT | C925/C925T)",
+    "isAue": false
+  },
+  {
     "Codename": "jye",
     "Stable": "16610.57.0<br>147.0.7727.147",
     "Beta": "16640.29.0<br>148.0.7778.158",
@@ -4132,6 +4141,15 @@
     "Dev": "16663.0.0<br>149.0.7816.0_pre1622228",
     "Canary": "16671.0.0<br>150.0.7830.0_pre1626253",
     "Brand names": "Acer Chromebook 315(CB315-8H, CB315-8HT)",
+    "isAue": false
+  },
+  {
+    "Codename": "starros",
+    "Stable": "16610.57.0<br>147.0.7727.147",
+    "Beta": "16640.29.0<br>148.0.7778.158",
+    "Dev": "16663.0.0<br>149.0.7816.0_pre1622228",
+    "Canary": "16671.0.0<br>150.0.7830.0_pre1626253",
+    "Brand names": "Acer Chromebook 311 (CBOA311-2H/CBOA311-2HT)",
     "isAue": false
   },
   {
