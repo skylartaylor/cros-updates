@@ -4144,6 +4144,15 @@
     "isAue": false
   },
   {
+    "Codename": "sidious",
+    "Stable": "16610.57.0<br>147.0.7727.147",
+    "Beta": "16640.37.0<br>148.0.7778.171",
+    "Dev": "16667.12.0<br>149.0.7827.15",
+    "Canary": "16681.0.0<br>150.0.7842.0_pre1631357",
+    "Brand names": "Dell Chromebook 14 C1426M",
+    "isAue": false
+  },
+  {
     "Codename": "starros",
     "Stable": "16610.57.0<br>147.0.7727.147",
     "Beta": "16640.37.0<br>148.0.7778.171",
@@ -4159,6 +4168,24 @@
     "Dev": "16667.12.0<br>149.0.7827.15",
     "Canary": "16681.0.0<br>150.0.7842.0_pre1631357",
     "Brand names": "ASUS Chromebook CM14(CM1405CM4A) / ASUS Chromebook CM14(CM1406CM4A)/ ASUS Chromebook CL14(CL1405CM4A) / ASUS Chromebook CL14(CL1406CM4A), Chromebook CM14 (CM1406) / ASUS Chromebook Enterprise CM14 (CM1406) / ASUS Chromebook CL14 (CM1406) / ASUS Chromebook Enterprise CL14 (CM1406)",
+    "isAue": false
+  },
+  {
+    "Codename": "vader",
+    "Stable": "16610.57.0<br>147.0.7727.147",
+    "Beta": "16640.37.0<br>148.0.7778.171",
+    "Dev": "16667.12.0<br>149.0.7827.15",
+    "Canary": "16681.0.0<br>150.0.7842.0_pre1631357",
+    "Brand names": "Dell Chromebook 11 C1126M",
+    "isAue": false
+  },
+  {
+    "Codename": "vader360",
+    "Stable": "16610.57.0<br>147.0.7727.147",
+    "Beta": "16640.37.0<br>148.0.7778.171",
+    "Dev": "16667.12.0<br>149.0.7827.15",
+    "Canary": "16681.0.0<br>150.0.7842.0_pre1631357",
+    "Brand names": "Dell Chromebook 11 C1126M 2-in-1",
     "isAue": false
   },
   {
