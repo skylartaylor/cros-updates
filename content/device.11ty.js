@@ -111,18 +111,20 @@ export function render(data) {
     brandNamesClass = 'brand-names-medium';
   }
 
+  const architecture = Object.values(deviceData.brandNameToFormattedDeviceMap || {})[0]?.architecture;
+
   return `
         <div data-device-key="${deviceKey}"></div>
-        <Section class="devicePage ${deviceData.isAue ? "isAue" : ""} ${brandNamesClass}">
+        <section class="devicePage ${deviceData.isAue ? "isAue" : ""} ${brandNamesClass}">
             <div class="aueWarning">
               <h1>This device has reached end of life, and will not receive further updates.  <a href="https://support.google.com/chrome/a/answer/6220366?sjid=16139853356254607673-NA">Learn more ⮕</a></h1>
             </div>
-            <Header>
+            <header>
               <div class="deviceInfo">
                 <h1>${deviceKey}</h1>
                 <div class="deviceTags">
                     ${deviceData.mainBoard && deviceData.mainBoard !== deviceKey ? `<a href="/board/${deviceData.mainBoard}"><h2 class="mainBoard"><span>Board:</span> ${deviceData.mainBoard}</h2></a>` : ``}
-                    <h2 class="mainBoard">${Object.values(deviceData.brandNameToFormattedDeviceMap)[0].architecture}</h2>
+                    ${architecture ? `<h2 class="mainBoard">${architecture}</h2>` : ``}
                     ${generateCapabilityBadges(enhancedData)}
                 </div>
                 <h2 class="brandNames">${brandNamesText}</h2>
@@ -186,8 +188,8 @@ ${hasAnyRecoveries
                   })()}
                 </div>
               </div>
-            </Header>
-            <Body class="versionBody">
+            </header>
+            <div class="versionBody">
                 <div class="versionCardContainer">
                     <div class="versionCard stable">
                         <h1>Stable</h1>
@@ -210,8 +212,8 @@ ${hasAnyRecoveries
                         <h3><span>Platform:</span>${deviceData.servingCanary?.version || "Unavailable"}</h3>
                     </div>
                 </div>
-            </Body>
-        </Section>
-<script src="/public/js/app.js"></script>
+            </div>
+        </section>
+<script src="/public/js/app.js?v=${data.assetVersion}"></script>
     `;
 }

@@ -5,8 +5,15 @@ on:
     - cron: "*/15 * * * *"
   push:
     paths:
-      - ".github/*"
+      - ".github/**"
   workflow_dispatch:  # Allow manual trigger
+
+permissions:
+  contents: write
+
+concurrency:
+  group: "scrape"
+  cancel-in-progress: true
 
 jobs:
   scrape:
@@ -40,6 +47,10 @@ jobs:
         env:
           CI: true
 
+      - name: Refresh enhanced device data
+        continue-on-error: true
+        run: node scripts/refresh-enhanced-devices.mjs
+
       - name: Check for changes
         id: git-check
         run: |
@@ -56,7 +67,7 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add src/data/cros-updates.json src/data/cros-updates.csv
+          git add src/data/cros-updates.json src/data/cros-updates.csv _data/enhanced-devices-cache.json
           git commit -m "Update cros-updates data $(date -u +'%Y-%m-%d %H:%M:%S UTC')" || {
             echo "::error title=Commit Failed::Unable to commit changes"
             exit 1

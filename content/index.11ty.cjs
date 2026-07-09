@@ -26,7 +26,7 @@ module.exports = {
 
   render(data) {
     return `
-      <Section class="homePage">
+      <section class="homePage">
         <div class="homePageContent">
           <h2>Find Your Chrome OS Device</h2>
           <p>Browse versions, updates, and recovery images</p>
@@ -35,10 +35,10 @@ module.exports = {
             <div id="search-results" aria-live="polite"></div>
           </div>
         </div>
-      </Section>
+      </section>
 
       <!-- Pinned Devices Container -->
-      <Section id="pinned-devices-container" class="pinned-devices">
+      <section id="pinned-devices-container" class="pinned-devices">
         <header>
           <h2>Pinned Devices</h2>
         </header>
@@ -52,7 +52,7 @@ module.exports = {
             <p>Pin devices to quickly access their update information.<br>Visit any device page and click the pin button.</p>
           </div>
         </div>
-      </Section>
+      </section>
 
       <script>
         ${searchJs}
@@ -69,79 +69,6 @@ module.exports = {
           const pinnedDevices = JSON.parse(localStorage.getItem('pinnedDevices') || '[]');
           if (pinnedDevices.length === 0) {
             searchInput.focus();
-          }
-
-          // Also initialize header search on homepage
-          const headerNav = document.getElementById("header-nav");
-          const headerSearchToggle = document.getElementById("header-search-toggle");
-          const headerSearchInput = document.getElementById("header-search-input");
-          const headerSearchResults = document.getElementById("header-search-results");
-          const headerSearchClose = document.getElementById("header-search-close");
-
-          if (headerSearchInput && headerSearchResults) {
-            // Initialize header search
-            const headerSearch = new DeviceSearch({
-              renderResult: function(result) {
-                const isDeviceKeyMatch = result.matchSource === 'key' && result.type === 'device';
-                const tag = isDeviceKeyMatch
-                  ? '<span class="result-tag">Device</span>'
-                  : (result.type === 'board' ? '<span class="result-tag">Board</span>' : '');
-
-                return '<a href="/' + result.type + '/' + result.key + '" class="result-item"><h2>' + result.displayName + ' ' + tag + '</h2></a>';
-              }
-            });
-
-            headerSearch.initialize(headerSearchInput, headerSearchResults);
-
-            // Override showAllResults to do nothing
-            headerSearch.showAllResults = () => {};
-
-            // Only show results when there's text
-            const originalHandleInput = headerSearch.handleInput.bind(headerSearch);
-            headerSearch.handleInput = function() {
-              const query = headerSearchInput.value.toLowerCase().trim();
-              if (!query) {
-                headerSearchResults.classList.remove('show');
-                return;
-              }
-              originalHandleInput();
-            };
-
-            // Toggle search box
-            headerSearchToggle.addEventListener("click", (e) => {
-              e.stopPropagation();
-              headerNav.classList.add("search-active");
-              setTimeout(() => headerSearchInput.focus(), 10);
-            });
-
-            // Close search
-            const closeSearch = () => {
-              headerNav.classList.remove("search-active");
-              headerSearchInput.value = "";
-              headerSearchResults.classList.remove("show");
-            };
-
-            headerSearchClose.addEventListener("click", closeSearch);
-
-            // Close on escape
-            document.addEventListener("keydown", (e) => {
-              if (e.key === "Escape" && headerNav.classList.contains("search-active")) {
-                closeSearch();
-              }
-            });
-
-            // Close when clicking outside
-            document.addEventListener("click", (e) => {
-              const headerSearchContainer = document.getElementById("header-search-container");
-              if (
-                headerNav.classList.contains("search-active") &&
-                !headerSearchContainer.contains(e.target) &&
-                e.target !== headerSearchToggle &&
-                !headerSearchToggle.contains(e.target)
-              ) {
-                closeSearch();
-              }
-            });
           }
         });
       </script>

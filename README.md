@@ -77,10 +77,12 @@ npm run debug
 ## Data Updates
 
 Chrome OS version data is automatically updated every 15 minutes via GitHub Actions:
-1. Workflow runs scraper script (`scripts/scrape.js`)
+1. Workflow runs scraper script (`scripts/scrape.cjs`)
 2. Fetches latest data from Chromium Dashboard API
 3. Commits updated data files if changes detected
 4. Netlify automatically rebuilds and deploys
+
+The committed `src/data` files also feed an external Discord bot and trigger Netlify rebuilds, while the Eleventy site build itself fetches the live Chromium Dashboard and recovery APIs directly.
 
 ## Contributing
 

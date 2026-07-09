@@ -1,10 +1,3 @@
-const path = require('path');
-const fs = require('fs');
-
-// Read the search.js file content at build time
-const searchJsPath = path.join(__dirname, '../_includes/search.js');
-const searchJs = fs.readFileSync(searchJsPath, 'utf8');
-
 module.exports = {
   data: {
     layout: "base.njk",
@@ -20,8 +13,6 @@ module.exports = {
           <div id="search-results" aria-live="polite"></div>
         </div>
         <script>
-          ${searchJs}
-
           document.addEventListener("DOMContentLoaded", () => {
             const searchInput = document.getElementById("search-input");
             const resultsContainer = document.getElementById("search-results");

@@ -92,8 +92,8 @@ export function render(data) {
     .join("");
 
   return `
-    <Section class="boardPage">
-      <Header>
+    <section class="boardPage">
+      <header>
         <div class="boardInfo">
           <div>
             <h1>${boardKey}</h1>
@@ -155,13 +155,13 @@ export function render(data) {
                 </div>
               </div>
         </div>
-      </Header>
+      </header>
       <div class="boardPageBody">
         <div class="board-devices-grid">
           ${deviceList}
         </div>
       </div>
-    </Section>
-    <script src="/public/js/app.js"></script>
+    </section>
+    <script src="/public/js/app.js?v=${data.assetVersion}"></script>
   `;
 }

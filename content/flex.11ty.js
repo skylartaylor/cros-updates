@@ -1,3 +1,5 @@
+import { compareChromeOsVersionsDesc } from "../lib/recovery-processor.js";
+
 export function data() {
   return {
     layout: "base.njk",
@@ -48,22 +50,18 @@ export function render(data) {
     if (!Array.isArray(recoveries) || recoveries.length === 0) return null;
     
     // Sort by version number (newest first)
-    const sorted = [...recoveries].sort((a, b) => {
-      const aVer = parseInt(a.version.split('.')[0]);
-      const bVer = parseInt(b.version.split('.')[0]);
-      return bVer - aVer;
-    });
-    
+    const sorted = [...recoveries].sort((a, b) => compareChromeOsVersionsDesc(a.version, b.version));
+
     return sorted[0];
   }
 
   const latestRecovery = getLatestRecovery(channelGroups.stable) || getLatestRecovery(recoveryData);
-  const latestRecoveryVersion = latestRecovery ? latestRecovery.chrome_version.split('.')[0] : "N/A";
+  const latestRecoveryVersion = latestRecovery ? (latestRecovery.chrome_version || latestRecovery.version || "").split('.')[0] : "N/A";
   const latestRecoveryURL = latestRecovery ? latestRecovery.url : "#";
 
   return `
-        <Section class="devicePage flexPage">
-            <Header>
+        <section class="devicePage flexPage">
+            <header>
               <div class="deviceInfo">
                 <h1>Chrome OS Flex</h1>
                 <div class="deviceTags">
@@ -100,17 +98,13 @@ export function render(data) {
                       const channelRecoveries = channelGroups[channel.key] || [];
                       if (channelRecoveries.length > 0) {
                         // Sort by version (newest first)
-                        const sorted = channelRecoveries.sort((a, b) => {
-                          const aVer = parseInt(a.chrome_version.split('.')[0]);
-                          const bVer = parseInt(b.chrome_version.split('.')[0]);
-                          return bVer - aVer;
-                        });
-                        
+                        const sorted = channelRecoveries.sort((a, b) => compareChromeOsVersionsDesc(a.version, b.version));
+
                         dropdownHTML += `<div class="recovery-channel-section">`;
                         dropdownHTML += `<div class="recovery-channel-header ${channel.class}">${channel.label}</div>`;
-                        
+
                         sorted.forEach(recovery => {
-                          const majorVersion = recovery.chrome_version.split('.')[0];
+                          const majorVersion = (recovery.chrome_version || recovery.version || "").split('.')[0];
                           const displayName = `Chrome OS <strong>${majorVersion}</strong>`;
                           dropdownHTML += `<a href="${recovery.url}" class="recovery-link ${channel.class}" target="_blank" rel="noopener">${displayName}</a>`;
                         });
@@ -123,8 +117,8 @@ export function render(data) {
                   })()}
                 </div>
               </div>
-            </Header>
-            <Body class="versionBody">
+            </header>
+            <div class="versionBody">
                 <div class="versionCardContainer">
                     <div class="versionCard stable">
                         <h1>Stable</h1>
@@ -147,8 +141,8 @@ export function render(data) {
                         <h3><span>Platform:</span>${revenData.servingCanary?.version || "Unavailable"}</h3>
                     </div>
                 </div>
-            </Body>
-        </Section>
-<script src="/public/js/app.js"></script>
+            </div>
+        </section>
+<script src="/public/js/app.js?v=${data.assetVersion}"></script>
     `;
 }

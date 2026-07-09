@@ -5,7 +5,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>{{ title or metadata.title }}</title>
 		<meta name="description" content="{{ description or metadata.description }}">
-		<meta property="og:image" content="{{ metadata.url }}img/social-image.png" >
+		<meta property="og:image" content="{{ metadata.url }}android-icon-192x192.png">
+		<meta property="og:title" content="{{ title or metadata.title }}">
+		<meta property="og:description" content="{{ description or metadata.description }}">
+		<meta property="og:url" content="{{ metadata.domain }}{{ page.url }}">
+		<meta property="og:site_name" content="{{ metadata.title }}">
+		<meta property="og:type" content="website">
+		<meta name="twitter:card" content="summary">
 
 		{#- Favicons and app icons #}
 		<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
@@ -26,9 +32,6 @@
 		<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 		<meta name="theme-color" content="#FF3C00">
 
-		{#- Atom and JSON feeds included by default #}
-		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
-		<link rel="alternate" href="/feed/feed.json" type="application/json" title="{{ metadata.title }}">
 		<meta name="generator" content="{{ eleventy.generator }}">
 
 		{%- css %}* { box-sizing: border-box; }{% endcss %}

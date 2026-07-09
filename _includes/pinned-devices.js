@@ -4,40 +4,55 @@ class PinnedDevicesManager {
     this.container = document.getElementById('pinned-devices-container');
     this.grid = document.getElementById('pinned-devices-grid');
     this.devicesData = null;
+    this.devicesDataPromise = null;
     this.pinnedDevices = [];
     this.deviceChannelSettings = {};
     this.originalPlaceholder = null;
   }
 
   async initialize() {
-    // Load device data
-    try {
-      const response = await fetch('/devices-data.json');
-      this.devicesData = await response.json();
-    } catch (error) {
-      console.error('Failed to load device data:', error);
-      return;
-    }
-
     // Store reference to original placeholder before replacing it
     this.originalPlaceholder = this.grid.querySelector('.pinned-devices-placeholder')?.cloneNode(true);
-    
+
     // Load settings from localStorage
     this.loadSettings();
-    
+
     // Setup event listeners
     this.setupEventListeners();
-    
+
+    // Only fetch the (large) device data when there are pinned devices to render
+    if (this.pinnedDevices.length > 0) {
+      await this.ensureDevicesData();
+    }
+
     // Initial render
     this.renderPinnedDevices();
-    
+
     // Listen for storage changes (from other tabs/windows)
-    window.addEventListener('storage', (e) => {
+    window.addEventListener('storage', async (e) => {
       if (e.key === 'pinnedDevices') {
         this.loadSettings();
+        if (this.pinnedDevices.length > 0) {
+          await this.ensureDevicesData();
+        }
         this.renderPinnedDevices();
       }
     });
+  }
+
+  async ensureDevicesData() {
+    if (!this.devicesDataPromise) {
+      this.devicesDataPromise = fetch('/devices-data.json')
+        .then(response => response.json())
+        .then(data => {
+          this.devicesData = data;
+        })
+        .catch(error => {
+          console.error('Failed to load device data:', error);
+          this.devicesDataPromise = null;
+        });
+    }
+    return this.devicesDataPromise;
   }
 
   loadSettings() {
@@ -287,8 +302,6 @@ class PinnedDevicesManager {
   }
 
   renderPinnedDevices() {
-    if (!this.devicesData) return;
-
     if (this.pinnedDevices.length === 0) {
       // Restore the original placeholder by clearing and re-adding it
       this.grid.innerHTML = '';
@@ -298,6 +311,8 @@ class PinnedDevicesManager {
       this.grid.classList.add('loaded');
       return;
     }
+
+    if (!this.devicesData) return;
 
     // Replace placeholder with pinned device cards
     this.grid.innerHTML = '';

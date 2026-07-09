@@ -1,11 +1,14 @@
 import pluginBundle from "@11ty/eleventy-plugin-bundle";
 import enhancedDevicesLoader from "./_data/enhanced-devices.js";
+import metadata from "./_data/metadata.js";
 import { generateDataHash, loadCache, saveCache } from "./lib/cache.js";
 import { fetchJSON } from "./lib/fetcher.js";
 import { processBoardsAndDevices, categorizeBoards } from "./lib/board-device-processor.js";
 import { processRecoveryData } from "./lib/recovery-processor.js";
 import { minify as minifyHTML } from "html-minifier-terser";
 import { minify as minifyJS } from "terser";
+import fs from "fs";
+import crypto from "crypto";
 
 const isProduction = process.env.NODE_ENV === "production";
 
@@ -103,6 +106,13 @@ export default async function (eleventyConfig) {
   eleventyConfig.addWatchTarget("public/css");
   eleventyConfig.addWatchTarget("public/js");
 
+  const assetVersion = crypto
+    .createHash("md5")
+    .update(fs.readFileSync("public/js/app.js"))
+    .digest("hex")
+    .substring(0, 8);
+  eleventyConfig.addGlobalData("assetVersion", assetVersion);
+
   const EMPTY_DATA = { devices: {}, boards: {}, singleDeviceBoards: {} };
 
   // Fetch ChromeOS data
@@ -119,6 +129,9 @@ export default async function (eleventyConfig) {
 
       if (!servingBuilds || !servingBuilds.builds) {
         console.error("No builds found in the response");
+        if (isProduction) {
+          throw new Error("No builds found in the response");
+        }
         return EMPTY_DATA;
       }
 
@@ -185,9 +198,16 @@ export default async function (eleventyConfig) {
       return finalData;
     } catch (error) {
       console.error("Unexpected error in fetching builds:", error);
+      if (isProduction) {
+        throw new Error(`Unexpected error in fetching builds: ${error.message}`);
+      }
       return EMPTY_DATA;
     }
   });
+
+  // Site metadata (dir.data resolves relative to dir.input, so root _data
+  // files must be registered explicitly)
+  eleventyConfig.addGlobalData("metadata", metadata);
 
   // Add enhanced device capabilities data
   eleventyConfig.addGlobalData("enhancedDevices", enhancedDevicesLoader);
@@ -206,12 +226,22 @@ export default async function (eleventyConfig) {
         )
       ]);
 
+      if (!versionData || !recoveryData) {
+        console.error("Flex data fetch returned null");
+        if (isProduction) {
+          throw new Error("Flex data fetch returned null");
+        }
+      }
+
       return {
         versions: versionData || {},
         recoveries: recoveryData || [],
       };
     } catch (error) {
       console.error("Error fetching Flex data:", error);
+      if (isProduction) {
+        throw new Error(`Error fetching Flex data: ${error.message}`);
+      }
       return {
         versions: {},
         recoveries: [],

@@ -194,7 +194,7 @@ export function render(data) {
       </div>
 
     <div class="tablePageWrapper">
-      <Section class="tablePage">
+      <section class="tablePage">
 
       <table>
         <thead>
@@ -253,7 +253,7 @@ export function render(data) {
                                 const enhancedData = data.enhancedDevices?.[boardName] || {};
                                 return enhancedData.kernel_version || "N/A";
                               })()}</td>
-                              <td class="architecture">${Object.values(deviceData.brandNameToFormattedDeviceMap)[0]?.architecture || "N/A"}</td>
+                              <td class="architecture">${Object.values(deviceData.brandNameToFormattedDeviceMap || {})[0]?.architecture || "N/A"}</td>
                               <td class="recovery">
                                 ${(() => {
                                   const hasRecoveries = deviceData.recoveries && (
@@ -280,8 +280,8 @@ export function render(data) {
         </tbody>
       </table>
 
-      <script src="/public/js/app.js"></script>
-      </Section>
+      <script src="/public/js/app.js?v=${data.assetVersion}"></script>
+      </section>
     </div>
   `;
 }

@@ -1,6 +1,5 @@
 import fs from 'fs';
 import path from 'path';
-import fetch from 'node-fetch';
 
 const CACHE_FILE = '_data/enhanced-devices-cache.json';
 const CACHE_DURATION = 24 * 60 * 60 * 1000; // 24 hours in milliseconds
@@ -100,40 +99,41 @@ export default async function() {
     console.error('Error fetching crosBuilds data:', error);
   }
   
-  // Fallback to known boards if API fails
-  if (allBoards.length === 0) {
-    console.log('Falling back to known boards list');
-    allBoards = [
-      'brya', 'volteer', 'dedede', 'hatch', 'octopus', 'coral', 'atlas', 
-      'nocturne', 'eve', 'fizz', 'poppy', 'reef', 'gru', 'kevin', 'oak',
-      'braswell', 'baytrail', 'auron', 'buddy', 'butterfly', 'link', 'lumpy'
-    ];
-  }
-  
   const enhancedData = {};
   const batchSize = 10; // Increased batch size for better performance
-  
-  for (let i = 0; i < allBoards.length; i += batchSize) {
-    const batch = allBoards.slice(i, i + batchSize);
-    const promises = batch.map(board => fetchDeviceData(board));
-    const results = await Promise.all(promises);
-    
-    results.forEach((data, index) => {
-      if (data) {
-        enhancedData[batch[index]] = data;
+
+  if (allBoards.length > 0) {
+    for (let i = 0; i < allBoards.length; i += batchSize) {
+      const batch = allBoards.slice(i, i + batchSize);
+      const promises = batch.map(board => fetchDeviceData(board));
+      const results = await Promise.all(promises);
+
+      results.forEach((data, index) => {
+        if (data) {
+          enhancedData[batch[index]] = data;
+        }
+      });
+
+      // Small delay between batches to be respectful to the server
+      if (i + batchSize < allBoards.length) {
+        await new Promise(resolve => setTimeout(resolve, 50));
       }
-    });
-    
-    // Small delay between batches to be respectful to the server
-    if (i + batchSize < allBoards.length) {
-      await new Promise(resolve => setTimeout(resolve, 50));
     }
   }
-  
+
+  if (Object.keys(enhancedData).length === 0) {
+    if (Object.keys(cached.data).length > 0) {
+      console.warn('Refresh failed, using stale cached enhanced device data');
+      return cached.data;
+    }
+    console.warn('Refresh failed and no cache available, returning empty enhanced device data');
+    return {};
+  }
+
   console.log(`Successfully loaded enhanced data for ${Object.keys(enhancedData).length} boards`);
-  
+
   // Save the fetched data
   await saveCachedData(enhancedData);
-  
+
   return enhancedData;
 }
