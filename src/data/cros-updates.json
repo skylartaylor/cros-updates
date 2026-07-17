@@ -198,6 +198,15 @@
     "isAue": false
   },
   {
+    "Codename": "kulnex",
+    "Stable": "16700.46.0<br>150.0.7871.150",
+    "Beta": "16733.19.0<br>151.0.7922.23",
+    "Dev": "16752.0.0<br>152.0.7949.0_pre1661206",
+    "Canary": "16753.0.0<br>152.0.7950.0_pre1661750",
+    "Brand names": "CN67-S2",
+    "isAue": false
+  },
+  {
     "Codename": "lisbon",
     "Stable": "16700.46.0<br>150.0.7871.150",
     "Beta": "16733.19.0<br>151.0.7922.23",
@@ -222,6 +231,15 @@
     "Dev": "16752.0.0<br>152.0.7949.0_pre1661206",
     "Canary": "16753.0.0<br>152.0.7950.0_pre1661750",
     "Brand names": "Acer Chromebox CXI6",
+    "isAue": false
+  },
+  {
+    "Codename": "moxoe",
+    "Stable": "16700.46.0<br>150.0.7871.150",
+    "Beta": "16733.19.0<br>151.0.7922.23",
+    "Dev": "16752.0.0<br>152.0.7949.0_pre1661206",
+    "Canary": "16753.0.0<br>152.0.7950.0_pre1661750",
+    "Brand names": "Acer Chromebox CXI6+, CBC Gen4",
     "isAue": false
   },
   {
