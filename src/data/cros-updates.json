@@ -227,7 +227,7 @@
   {
     "Codename": "moxie",
     "Stable": "16700.46.0<br>150.0.7871.150",
-    "Beta": "16733.19.0<br>151.0.7922.23",
+    "Beta": "16733.26.0<br>151.0.7922.42",
     "Dev": "16752.0.0<br>152.0.7949.0_pre1661206",
     "Canary": "16758.0.0<br>152.0.7961.0_pre1664471",
     "Brand names": "Acer Chromebox CXI6",
@@ -425,7 +425,7 @@
   {
     "Codename": "redrix",
     "Stable": "16700.46.0<br>150.0.7871.150",
-    "Beta": "16733.19.0<br>151.0.7922.23",
+    "Beta": "16733.26.0<br>151.0.7922.42",
     "Dev": "16752.0.0<br>152.0.7949.0_pre1661206",
     "Canary": "16758.0.0<br>152.0.7961.0_pre1664471",
     "Brand names": "HP Elite Dragonfly Chromebook",
@@ -808,7 +808,7 @@
   {
     "Codename": "santa",
     "Stable": "No Update",
-    "Beta": "16733.19.0<br>151.0.7922.23",
+    "Beta": "16733.26.0<br>151.0.7922.42",
     "Dev": "16752.0.0<br>152.0.7949.0_pre1661206",
     "Canary": "16758.0.0<br>152.0.7961.0_pre1664471",
     "Brand names": "Acer Chromebook 11 (CB311-8H, CB311-8HT)",
@@ -1173,7 +1173,7 @@
   {
     "Codename": "drawlat",
     "Stable": "16667.62.0<br>149.0.7827.238",
-    "Beta": "16733.19.0<br>151.0.7922.23",
+    "Beta": "16733.26.0<br>151.0.7922.42",
     "Dev": "16733.12.0<br>151.0.7922.14",
     "Canary": "16758.0.0<br>152.0.7961.0_pre1664471",
     "Brand names": "HP Chromebook 11 G9 EE",
@@ -1254,7 +1254,7 @@
   {
     "Codename": "galtic360",
     "Stable": "16700.46.0<br>150.0.7871.150",
-    "Beta": "16733.19.0<br>151.0.7922.23",
+    "Beta": "16733.26.0<br>151.0.7922.42",
     "Dev": "16752.0.0<br>152.0.7949.0_pre1661206",
     "Canary": "16758.0.0<br>152.0.7961.0_pre1664471",
     "Brand names": "CX1400FKA",
@@ -1640,7 +1640,7 @@
   {
     "Codename": "sion",
     "Stable": "No Update",
-    "Beta": "16733.19.0<br>151.0.7922.23",
+    "Beta": "16733.26.0<br>151.0.7922.42",
     "Dev": "16752.0.0<br>152.0.7949.0_pre1661206",
     "Canary": "16758.0.0<br>152.0.7961.0_pre1664471",
     "Brand names": "Acer Chromebox CXI3",
@@ -1844,7 +1844,7 @@
   {
     "Codename": "guybrush",
     "Stable": "16700.46.0<br>150.0.7871.150",
-    "Beta": "16733.19.0<br>151.0.7922.23",
+    "Beta": "No Update",
     "Dev": "16752.0.0<br>152.0.7949.0_pre1661206",
     "Canary": "16758.0.0<br>152.0.7961.0_pre1664471",
     "Brand names": "Acer Chromebook Spin 514 [CP514-3H, CP514-3HH, CP514-3WH]",
@@ -1853,7 +1853,7 @@
   {
     "Codename": "dewatt",
     "Stable": "16700.46.0<br>150.0.7871.150",
-    "Beta": "16733.19.0<br>151.0.7922.23",
+    "Beta": "No Update",
     "Dev": "16752.0.0<br>152.0.7949.0_pre1661206",
     "Canary": "16758.0.0<br>152.0.7961.0_pre1664471",
     "Brand names": "Acer Chromebook Spin 514 [CP514-3H, CP514-3HH, CP514-3WH]",
@@ -1979,7 +1979,7 @@
   {
     "Codename": "jinlon",
     "Stable": "16700.46.0<br>150.0.7871.150",
-    "Beta": "16733.19.0<br>151.0.7922.23",
+    "Beta": "16733.26.0<br>151.0.7922.42",
     "Dev": "16752.0.0<br>152.0.7949.0_pre1661206",
     "Canary": "16758.0.0<br>152.0.7961.0_pre1664471",
     "Brand names": "Chromebook x360 13c-ca0/Elite c1030/Elite c1030 Enterprise",
@@ -2428,7 +2428,7 @@
   {
     "Codename": "nami",
     "Stable": "No Update",
-    "Beta": "16733.19.0<br>151.0.7922.23",
+    "Beta": "16733.26.0<br>151.0.7922.42",
     "Dev": "16752.0.0<br>152.0.7949.0_pre1661206",
     "Canary": "16758.0.0<br>152.0.7961.0_pre1664471",
     "Brand names": "Acer Chromebook 13 (CB713-1W)",
@@ -2437,7 +2437,7 @@
   {
     "Codename": "akali",
     "Stable": "No Update",
-    "Beta": "16733.19.0<br>151.0.7922.23",
+    "Beta": "16733.26.0<br>151.0.7922.42",
     "Dev": "16752.0.0<br>152.0.7949.0_pre1661206",
     "Canary": "16758.0.0<br>152.0.7961.0_pre1664471",
     "Brand names": "Acer Chromebook 13 (CB713-1W)",
@@ -2455,7 +2455,7 @@
   {
     "Codename": "bard",
     "Stable": "No Update",
-    "Beta": "16733.19.0<br>151.0.7922.23",
+    "Beta": "16733.26.0<br>151.0.7922.42",
     "Dev": "16752.0.0<br>152.0.7949.0_pre1661206",
     "Canary": "16758.0.0<br>152.0.7961.0_pre1664471",
     "Brand names": "Acer Chromebook 715 (CB715-1W / CB715-1WT)",
@@ -3379,7 +3379,7 @@
   {
     "Codename": "garfour",
     "Stable": "16700.46.0<br>150.0.7871.150",
-    "Beta": "16733.19.0<br>151.0.7922.23",
+    "Beta": "16733.26.0<br>151.0.7922.42",
     "Dev": "16752.0.0<br>152.0.7949.0_pre1661206",
     "Canary": "16758.0.0<br>152.0.7961.0_pre1664471",
     "Brand names": "CTL Chromebook NL81/NL81T, Multilaser Chromebook M14C-PC918",
@@ -3496,7 +3496,7 @@
   {
     "Codename": "vorticon",
     "Stable": "16700.46.0<br>150.0.7871.150",
-    "Beta": "16733.19.0<br>151.0.7922.23",
+    "Beta": "16733.26.0<br>151.0.7922.42",
     "Dev": "16752.0.0<br>152.0.7949.0_pre1661206",
     "Canary": "16758.0.0<br>152.0.7961.0_pre1664471",
     "Brand names": "Chromebook 11 G8 EE",
@@ -3534,7 +3534,7 @@
   {
     "Codename": "ovis",
     "Stable": "16700.46.0<br>150.0.7871.150",
-    "Beta": "16733.19.0<br>151.0.7922.23",
+    "Beta": "16733.26.0<br>151.0.7922.42",
     "Dev": "16752.0.0<br>152.0.7949.0_pre1661206",
     "Canary": "16757.0.0<br>152.0.7959.0_pre1664372",
     "Brand names": "HP Dimension",
@@ -3543,7 +3543,7 @@
   {
     "Codename": "deku",
     "Stable": "16700.46.0<br>150.0.7871.150",
-    "Beta": "16733.19.0<br>151.0.7922.23",
+    "Beta": "16733.26.0<br>151.0.7922.42",
     "Dev": "16752.0.0<br>152.0.7949.0_pre1661206",
     "Canary": "16757.0.0<br>152.0.7959.0_pre1664372",
     "Brand names": "HP Dimension",
@@ -3938,7 +3938,7 @@
   {
     "Codename": "sand",
     "Stable": "No Update",
-    "Beta": "16733.19.0<br>151.0.7922.23",
+    "Beta": "16733.26.0<br>151.0.7922.42",
     "Dev": "16752.0.0<br>152.0.7949.0_pre1661206",
     "Canary": "16758.0.0<br>152.0.7961.0_pre1664471",
     "Brand names": "Acer Chromebook 15 (CB515-1H, CB515-1HT)",
@@ -4536,7 +4536,7 @@
   {
     "Codename": "limozeen",
     "Stable": "16700.46.0<br>150.0.7871.150",
-    "Beta": "16733.19.0<br>151.0.7922.23",
+    "Beta": "16733.26.0<br>151.0.7922.42",
     "Dev": "16752.0.0<br>152.0.7949.0_pre1661206",
     "Canary": "16758.0.0<br>152.0.7961.0_pre1664471",
     "Brand names": "Acer Chromebook 511 (C741L/C741LT)",
@@ -5053,7 +5053,7 @@
   {
     "Codename": "morphius",
     "Stable": "16700.46.0<br>150.0.7871.150",
-    "Beta": "16733.19.0<br>151.0.7922.23",
+    "Beta": "16733.26.0<br>151.0.7922.42",
     "Dev": "16752.0.0<br>152.0.7949.0_pre1661206",
     "Canary": "16758.0.0<br>152.0.7961.0_pre1664471",
     "Brand names": "Lenovo ThinkPad C13 Yoga Chromebook / Lenovo ThinkPad C13 Yoga Chromebook Enterprise",
