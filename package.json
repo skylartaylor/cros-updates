@@ -18,7 +18,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy": "^3.1.2",
     "@11tyrocks/eleventy-plugin-lightningcss": "^1.5.0",
     "browserslist": "^4.26.3",
     "clean-css": "^5.3.3",
