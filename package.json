@@ -11,7 +11,7 @@
     "debug": "DEBUG=Eleventy* eleventy",
     "clean": "rm -rf _site",
     "scrape": "node scripts/scrape.cjs",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --test test/*.test.js"
   },
   "keywords": [],
   "author": "",

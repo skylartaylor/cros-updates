@@ -12,6 +12,23 @@ export function render(data) {
   const flexData = data.flexData || {};
   const versionData = flexData.versions || {};
   const recoveryData = flexData.recoveries || [];
+
+  const channelGroups = {
+    stable: [],
+    beta: [],
+    dev: [],
+    canary: [],
+    ltc: [],
+    ltr: [],
+    other: []
+  };
+  if (Array.isArray(recoveryData)) {
+    recoveryData.forEach(recovery => {
+      const channel = (recovery.channel || '').toLowerCase();
+      const group = Object.hasOwn(channelGroups, channel) ? channel : 'other';
+      channelGroups[group].push(recovery);
+    });
+  }
   
   // Get reven board data from Flex version data
   const revenData = versionData.builds?.reven || {};
@@ -31,7 +48,7 @@ export function render(data) {
     if (!Array.isArray(recoveries) || recoveries.length === 0) return null;
     
     // Sort by version number (newest first)
-    const sorted = recoveries.sort((a, b) => {
+    const sorted = [...recoveries].sort((a, b) => {
       const aVer = parseInt(a.version.split('.')[0]);
       const bVer = parseInt(b.version.split('.')[0]);
       return bVer - aVer;
@@ -40,7 +57,7 @@ export function render(data) {
     return sorted[0];
   }
 
-  const latestRecovery = getLatestRecovery(recoveryData);
+  const latestRecovery = getLatestRecovery(channelGroups.stable) || getLatestRecovery(recoveryData);
   const latestRecoveryVersion = latestRecovery ? latestRecovery.chrome_version.split('.')[0] : "N/A";
   const latestRecoveryURL = latestRecovery ? latestRecovery.url : "#";
 
@@ -66,32 +83,17 @@ export function render(data) {
                       return `<div class="no-recoveries-message">No recovery images available.</div>`;
                     }
                     
-                    // Group recoveries by channel
-                    const channelGroups = {
-                      stable: [],
-                      beta: [],
-                      ltc: [],
-                      ltr: []
-                    };
-                    
-                    recoveryData.forEach(recovery => {
-                      const channel = (recovery.channel || '').toLowerCase();
-                      if (channelGroups[channel]) {
-                        channelGroups[channel].push(recovery);
-                      } else {
-                        // Default to stable if no channel specified
-                        channelGroups.stable.push(recovery);
-                      }
-                    });
-                    
                     let dropdownHTML = '';
                     
                     // Define channel order and labels
                     const channels = [
                       { key: 'stable', label: 'Stable', class: 'stable' },
                       { key: 'beta', label: 'Beta', class: 'beta' },
+                      { key: 'dev', label: 'Dev', class: 'dev' },
+                      { key: 'canary', label: 'Canary', class: 'canary' },
                       { key: 'ltc', label: 'LTC', class: 'ltc' },
-                      { key: 'ltr', label: 'LTS', class: 'ltr' }
+                      { key: 'ltr', label: 'LTS', class: 'ltr' },
+                      { key: 'other', label: 'Other', class: 'other' }
                     ];
                     
                     channels.forEach(channel => {
