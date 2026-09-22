@@ -4144,12 +4144,39 @@
     "isAue": false
   },
   {
+    "Codename": "jaina",
+    "Stable": "16765.49.0<br>152.0.7977.129",
+    "Beta": "16805.16.0<br>154.0.8037.40",
+    "Dev": "16820.2.0<br>155.0.8059.0",
+    "Canary": "16828.0.0<br>156.0.8067.0_pre1700958",
+    "Brand names": "HP Fortis Flip G2m 11 Chromebook / HP Fortis Flip G2m 11 Chromebook Enterprise",
+    "isAue": false
+  },
+  {
     "Codename": "jye",
     "Stable": "16765.49.0<br>152.0.7977.129",
     "Beta": "16805.16.0<br>154.0.8037.40",
     "Dev": "16820.2.0<br>155.0.8059.0",
     "Canary": "16828.0.0<br>156.0.8067.0_pre1700958",
     "Brand names": "Acer Chromebook 311(C725/C725T/C725-TCO/C725T-TCO)",
+    "isAue": false
+  },
+  {
+    "Codename": "kylo",
+    "Stable": "16765.49.0<br>152.0.7977.129",
+    "Beta": "16805.16.0<br>154.0.8037.40",
+    "Dev": "16820.2.0<br>155.0.8059.0",
+    "Canary": "16828.0.0<br>156.0.8067.0_pre1700958",
+    "Brand names": "HP Fortis G2m 11 Chromebook / HP Fortis G2m 11 Chromebook Enterprise",
+    "isAue": false
+  },
+  {
+    "Codename": "leia",
+    "Stable": "16765.49.0<br>152.0.7977.129",
+    "Beta": "16805.16.0<br>154.0.8037.40",
+    "Dev": "16820.2.0<br>155.0.8059.0",
+    "Canary": "16828.0.0<br>156.0.8067.0_pre1700958",
+    "Brand names": "HP Fortis G2m 14 Chromebook / HP Fortis G2m 14 Chromebook Enterprise",
     "isAue": false
   },
   {
