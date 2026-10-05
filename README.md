@@ -21,6 +21,7 @@ All Chrome OS version and device data is sourced directly from Google's official
 - **Version Data:** [Chromium Dashboard API](https://chromiumdash.appspot.com/cros/fetch_serving_builds)
 - **Recovery Images:** [Google Chrome OS Recovery](https://dl.google.com/dl/edgedl/chromeos/recovery/)
 - **Chrome OS Flex:** [Flex Recovery Data](https://dl.google.com/dl/edgedl/chromeos/recovery/cloudready_recovery2.json)
+- **Googlebooks:** [Googlebook Recovery Catalog](https://dl.google.com/dl/edgedl/device/recovery/production_recovery.json) — recovery builds and official downloads, separate from ChromeOS serving versions.
 - **Device Metadata:** [ChromeOS Update Directory](https://github.com/jay0lee/chromeos-update-directory) - Enhanced device capabilities, kernel versions, architecture, and hardware information. (Thanks jay0lee!)
 
 Data is automatically updated every 15 minutes via GitHub Actions (see `.github/workflows/scrape.yml`).
@@ -83,6 +84,19 @@ Chrome OS version data is automatically updated every 15 minutes via GitHub Acti
 4. Netlify automatically rebuilds and deploys
 
 The committed `src/data` files also feed an external Discord bot and trigger Netlify rebuilds, while the Eleventy site build itself fetches the live Chromium Dashboard and recovery APIs directly.
+
+Googlebooks have a directory at `/googlebooks/` and device pages at `/googlebook/<codename>/`.
+Their catalog is fetched at build time and validated by `lib/googlebook.js`; an invalid or
+unavailable catalog fails the build rather than publishing missing device pages. The scraper
+also tracks `src/data/googlebook-recovery.json` so Googlebook-only changes trigger rebuilds.
+The legacy ChromeOS JSON/CSV formats remain compatible with the Discord bot.
+
+Search entries carry a `platform` and can supply their own `url`. Pinned Googlebooks use
+`googlebook:<codename>` IDs and recovery metadata rather than ChromeOS channel versions.
+Recovery channels and build identifiers are preserved from the source; they are not treated
+as live OTA versions. The catalog's download size is a placeholder (`zipfilesize: 1`), so the
+build asks each recovery download for its real size and publish date; if that request fails the
+page simply leaves them out.
 
 ## Contributing
 

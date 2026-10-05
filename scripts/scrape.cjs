@@ -11,6 +11,11 @@ async function scrape() {
         }
         const json = await response.json();
         const data = json.builds;
+        const { GOOGLEBOOK_CATALOG_URL, processGooglebookCatalog } = await import('../lib/googlebook.js');
+        const googlebookResponse = await fetch(GOOGLEBOOK_CATALOG_URL, { signal: AbortSignal.timeout(20000) });
+        if (!googlebookResponse.ok) throw new Error(`Googlebook catalog: ${googlebookResponse.status}`);
+        const googlebookCatalog = await googlebookResponse.json();
+        processGooglebookCatalog(googlebookCatalog); // Validate before replacing the tracked snapshot.
         const crosUpdatesData = [];
 
         function formatVersionString(version) {
@@ -107,7 +112,8 @@ async function scrape() {
         // Write both files in parallel using promises
         await Promise.all([
             fs.writeFile('./src/data/cros-updates.json', JSON.stringify(crosUpdatesData, null, 2)),
-            fs.writeFile('./src/data/cros-updates.csv', csv)
+            fs.writeFile('./src/data/cros-updates.csv', csv),
+            fs.writeFile('./src/data/googlebook-recovery.json', JSON.stringify(googlebookCatalog, null, 2) + '\n')
         ]);
 
         console.log('✓ Successfully scraped and saved data');

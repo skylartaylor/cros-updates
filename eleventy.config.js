@@ -1,5 +1,6 @@
 import pluginBundle from "@11ty/eleventy-plugin-bundle";
 import enhancedDevicesLoader from "./_data/enhanced-devices.js";
+import googlebooksLoader from "./_data/googlebooks.js";
 import metadata from "./_data/metadata.js";
 import { generateDataHash, loadCache, saveCache } from "./lib/cache.js";
 import { fetchJSON } from "./lib/fetcher.js";
@@ -211,6 +212,7 @@ export default async function (eleventyConfig) {
 
   // Add enhanced device capabilities data
   eleventyConfig.addGlobalData("enhancedDevices", enhancedDevicesLoader);
+  eleventyConfig.addGlobalData("googlebooks", googlebooksLoader);
 
   // Fetch Chrome OS Flex data
   eleventyConfig.addGlobalData("flexData", async () => {

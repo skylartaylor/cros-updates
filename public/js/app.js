@@ -318,6 +318,8 @@ function initPinDevice() {
     const isPinned = pinnedDevices.includes(deviceKey);
     
     pinBtn.classList.toggle('pinned', isPinned);
+    pinBtn.setAttribute('aria-pressed', String(isPinned));
+    pinBtn.setAttribute('aria-label', isPinned ? 'Unpin device from homepage' : 'Pin device to homepage');
     pinBtn.querySelector('.pin-text').textContent = isPinned ? 'Unpin' : 'Pin';
   }
 

@@ -110,6 +110,14 @@ class DeviceSearch {
   }
 
   processDeviceItem(item, query, results) {
+    if (item.platform === 'googlebook') {
+      const name = item.brandNames[0];
+      if (`${name} ${item.key} googlebook`.toLowerCase().includes(query)) {
+        results.push({ ...item, displayName: name,
+          matchType: item.key === query ? 'exact' : 'partial', matchSource: item.key === query ? 'key' : 'brand' });
+      }
+      return;
+    }
     // Search brandNames
     if (item.brandNames) {
       item.brandNames.forEach(brandName => {
@@ -169,14 +177,17 @@ class DeviceSearch {
   }
 
   defaultResultTemplate(result) {
+    const escape = value => String(value).replace(/[&<>"']/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[char]);
     const isDeviceKeyMatch = result.matchSource === 'key' && result.type === 'device';
-    const tag = isDeviceKeyMatch
+    const tag = result.platform === 'googlebook'
+      ? '<span class="result-tag result-tag-googlebook">Googlebook</span>'
+      : isDeviceKeyMatch
       ? `<span class="result-tag">Device</span>`
       : (result.type === 'board' ? `<span class="result-tag">Board</span>` : '');
 
     return `
-      <a href="/${result.type}/${result.key}" class="result-item">
-        <h2>${result.displayName} ${tag}</h2>
+      <a href="${escape(result.url || `/${result.type}/${result.key}`)}" class="result-item">
+        <h2>${escape(result.displayName)} ${tag}</h2>
       </a>
     `;
   }
@@ -230,6 +241,9 @@ class DeviceSearch {
 
   showAllResults(alphabetizeAll = true) {
     const allResults = this.searchIndex.flatMap(item => {
+      if (item.platform === 'googlebook') {
+        return [{ ...item, displayName: item.brandNames[0], matchSource: 'brand' }];
+      }
       if (item.type === "device" && item.brandNames) {
         const brands = item.brandNames.map(brandName => ({
           ...item,

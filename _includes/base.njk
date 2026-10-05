@@ -37,6 +37,7 @@
 		{%- css %}* { box-sizing: border-box; }{% endcss %}
 		{%- css %}{% include "public/css/index.css" %}{% endcss %}
 		{%- css %}{% include "public/css/components.css" %}{% endcss %}
+		{%- css %}{% include "public/css/googlebooks.css" %}{% endcss %}
 
 		{#- Render the CSS bundle using Inlined CSS (for the fastest site performance in production) #}
 		<style>{% getBundle "css" %}</style>		{#- <link rel="stylesheet" href="{% getBundleFileUrl "css" %}"> #}
@@ -50,6 +51,7 @@
 				<div class="header-nav-links" id="header-nav-links">
 					<a href="/versions">Versions</a>
 					<a href="/table">All Devices</a>
+					<a href="/googlebooks/"{% if googlebookPage %} aria-current="{{ 'page' if page.url == '/googlebooks/' else 'true' }}"{% endif %}>Googlebook</a>
 					<a href="/flex">Flex</a>
 					<button class="header-search-toggle" id="header-search-toggle" aria-label="Search">
 						<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -100,20 +102,7 @@
 				const headerSearchClose = document.getElementById("header-search-close");
 
 				// Initialize header search with custom options to prevent auto-show
-				const headerSearch = new DeviceSearch({
-					renderResult: function(result) {
-						const isDeviceKeyMatch = result.matchSource === 'key' && result.type === 'device';
-						const tag = isDeviceKeyMatch
-							? `<span class="result-tag">Device</span>`
-							: (result.type === 'board' ? `<span class="result-tag">Board</span>` : '');
-
-						return `
-							<a href="/${result.type}/${result.key}" class="result-item">
-								<h2>${result.displayName} ${tag}</h2>
-							</a>
-						`;
-					}
-				});
+				const headerSearch = new DeviceSearch();
 
 				headerSearch.initialize(headerSearchInput, headerSearchResults);
 

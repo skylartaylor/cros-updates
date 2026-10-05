@@ -1,3 +1,5 @@
+import { osVersion } from '../lib/googlebook.js';
+
 export function data() {
   return {
     permalink: "/devices-data.json",
@@ -10,6 +12,7 @@ export function render(data) {
   Object.entries(data.crosBuilds.devices).forEach(([deviceKey, deviceData]) => {
     devices[deviceKey] = {
       key: deviceKey,
+      platform: 'chromeos',
       brandNames: deviceData.brandNames,
       mainBoard: deviceData.mainBoard,
       isAue: deviceData.isAue || false,
@@ -35,6 +38,18 @@ export function render(data) {
       }
     };
   });
+
+  for (const device of data.googlebooks || []) {
+    devices[device.id] = {
+      key: device.id, platform: device.platform, name: device.name,
+      codename: device.codename, url: device.url,
+      recovery: {
+        build: device.latestRecovery.build, version: osVersion(device.latestRecovery.build),
+        channel: device.latestRecovery.channel,
+        url: device.latestRecovery.url,
+      },
+    };
+  }
   
   return JSON.stringify(devices, null, 2);
 }

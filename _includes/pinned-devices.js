@@ -152,6 +152,7 @@ class PinnedDevicesManager {
   createDeviceCard(deviceKey) {
     const device = this.devicesData[deviceKey];
     if (!device) return null;
+    if (device.platform === 'googlebook') return this.createGooglebookCard(device);
 
     const deviceChannels = this.deviceChannelSettings[deviceKey] || {
       stable: true,
@@ -284,6 +285,48 @@ class PinnedDevicesManager {
       this.unpinDevice(deviceKey);
     });
 
+    return card;
+  }
+
+  createGooglebookCard(device) {
+    const el = (tag, className, text) => {
+      const node = document.createElement(tag);
+      if (className) node.className = className;
+      if (text) node.textContent = text;
+      return node;
+    };
+    const { channel, build, version: osVersion, url } = device.recovery;
+    const card = el('div', 'pinned-device-card gb-pinned-card');
+    card.dataset.device = device.key;
+
+    const header = el('div', 'pinned-device-header');
+    const heading = el('h3');
+    const link = el('a', '', device.name);
+    link.href = device.url;
+    heading.append(link);
+    const unpin = el('button', 'unpin-btn');
+    unpin.setAttribute('aria-label', `Unpin ${device.name}`);
+    unpin.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke-width="2" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>';
+    unpin.addEventListener('click', () => this.unpinDevice(device.key));
+    header.append(heading, unpin);
+
+    const label = el('div', 'gb-pinned-label');
+    label.innerHTML = '<span class="gb-glowbar" aria-hidden="true"><i></i><i></i><i></i><i></i></span>';
+    label.append(el('span', '', 'Googlebook'), el('span', 'gb-pinned-codename', device.codename));
+
+    // Stable is the norm, so the row only names the channel when it is something else.
+    const row = el('div', 'version-row');
+    const version = el('span', 'version-number', osVersion || build);
+    const named = channel !== 'stable' && channel !== 'unknown';
+    row.append(el('span', `channel-name${named ? ` ${channel}` : ''}`, named ? channel : 'Recovery'), version);
+    const list = el('div', 'version-list');
+    list.append(row);
+
+    const download = el('a', 'gb-pinned-download');
+    download.href = url;
+    download.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m-5-5 5 5 5-5M5 16v4h14v-4"/></svg>';
+    download.append('Download recovery');
+    card.append(header, label, list, download);
     return card;
   }
 
