@@ -1,5 +1,5 @@
 {
-  "timestamp": 1791244081228,
+  "timestamp": 1791330642109,
   "data": {
     "asuka": {
       "android_app_support": true,
@@ -158,7 +158,7 @@
       "android_app_support": true,
       "android_version": "Android 13",
       "is_chromebook_plus_device": false,
-      "kernel_version": "6.6.99",
+      "kernel_version": "6.6.119",
       "eol_reached": false,
       "hardware_id": "EVE NNNN",
       "architecture": null
@@ -167,9 +167,9 @@
       "android_app_support": true,
       "android_version": "Android 13",
       "is_chromebook_plus_device": false,
-      "kernel_version": "5.4.293",
+      "kernel_version": "5.4.302",
       "eol_reached": false,
-      "hardware_id": "WUKONG BJHNNNN",
+      "hardware_id": "KENCH NNNN",
       "architecture": null
     },
     "geralt": {
@@ -311,9 +311,9 @@
       "android_app_support": true,
       "android_version": "Android 13",
       "is_chromebook_plus_device": false,
-      "kernel_version": "6.6.141",
+      "kernel_version": "6.6.143",
       "eol_reached": false,
-      "hardware_id": "CRAASKBOWL-GSKTNNNN",
+      "hardware_id": "CRAASKVIN-HOWANNNN",
       "architecture": null
     },
     "nocturne": {
