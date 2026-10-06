@@ -100,10 +100,11 @@ export default async function (eleventyConfig) {
   // Copy static assets and watch for changes
   eleventyConfig.addPassthroughCopy("public/css");
   eleventyConfig.addPassthroughCopy("public/js");
-  eleventyConfig.addPassthroughCopy("public/*.png");
-  eleventyConfig.addPassthroughCopy("public/*.ico");
-  eleventyConfig.addPassthroughCopy("public/*.xml");
-  eleventyConfig.addPassthroughCopy("public/manifest.json");
+  // Icons, the manifest and the sharing image are referenced from the site root
+  eleventyConfig.addPassthroughCopy({ "public/*.png": "/" });
+  eleventyConfig.addPassthroughCopy({ "public/*.ico": "/" });
+  eleventyConfig.addPassthroughCopy({ "public/*.xml": "/" });
+  eleventyConfig.addPassthroughCopy({ "public/manifest.json": "manifest.json" });
   eleventyConfig.addWatchTarget("public/css");
   eleventyConfig.addWatchTarget("public/js");
 

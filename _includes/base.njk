@@ -5,13 +5,16 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>{{ title or metadata.title }}</title>
 		<meta name="description" content="{{ description or metadata.description }}">
-		<meta property="og:image" content="{{ metadata.url }}android-icon-192x192.png">
+		<meta property="og:image" content="{{ metadata.url }}og-image.png">
+		<meta property="og:image:width" content="1200">
+		<meta property="og:image:height" content="630">
+		<meta property="og:image:alt" content="cros.tech">
 		<meta property="og:title" content="{{ title or metadata.title }}">
 		<meta property="og:description" content="{{ description or metadata.description }}">
 		<meta property="og:url" content="{{ metadata.domain }}{{ page.url }}">
 		<meta property="og:site_name" content="{{ metadata.title }}">
 		<meta property="og:type" content="website">
-		<meta name="twitter:card" content="summary">
+		<meta name="twitter:card" content="summary_large_image">
 
 		{#- Favicons and app icons #}
 		<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
