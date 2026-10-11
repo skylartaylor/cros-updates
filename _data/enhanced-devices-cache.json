@@ -1,5 +1,5 @@
 {
-  "timestamp": 1791595231335,
+  "timestamp": 1791681944023,
   "data": {
     "asuka": {
       "android_app_support": true,
@@ -104,7 +104,7 @@
       "android_app_support": true,
       "android_version": "Android 13",
       "is_chromebook_plus_device": false,
-      "kernel_version": "5.10.257",
+      "kernel_version": "5.10.259",
       "eol_reached": false,
       "hardware_id": "TOMATO-LYVNNNNN",
       "architecture": null
@@ -178,7 +178,7 @@
       "is_chromebook_plus_device": false,
       "kernel_version": "6.1.176",
       "eol_reached": false,
-      "hardware_id": "CIRI-RKMZNNNN",
+      "hardware_id": "CIRI-LDPJNNNN",
       "architecture": null
     },
     "grunt": {
@@ -187,7 +187,7 @@
       "is_chromebook_plus_device": false,
       "kernel_version": "5.10.237",
       "eol_reached": false,
-      "hardware_id": "TREEYA360-TZIV O*",
+      "hardware_id": "BARLA-NNNN",
       "architecture": null
     },
     "guado": {
@@ -205,7 +205,7 @@
       "is_chromebook_plus_device": false,
       "kernel_version": "6.6.143",
       "eol_reached": false,
-      "hardware_id": "NIPPERKIN NNNN",
+      "hardware_id": "NIPPERKIN|NNNN",
       "architecture": null
     },
     "hana": {
