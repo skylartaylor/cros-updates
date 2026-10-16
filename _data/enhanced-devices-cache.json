@@ -1,5 +1,5 @@
 {
-  "timestamp": 1792045649866,
+  "timestamp": 1792149868234,
   "data": {
     "asuka": {
       "android_app_support": true,
@@ -205,7 +205,7 @@
       "is_chromebook_plus_device": false,
       "kernel_version": "6.6.143",
       "eol_reached": false,
-      "hardware_id": "NIPPERKIN|NNNN",
+      "hardware_id": "NIPPERKIN NNNN",
       "architecture": null
     },
     "hana": {
