@@ -5,17 +5,17 @@
     "file": "recovery.zip",
     "filesize": 19069493760,
     "manufacturer": "Asus",
-    "md5": "38873eac8ff5b060baf229b7bcf7ec05",
+    "md5": "4e2274e3737b331c9c0633bd693a7142",
     "model": "ASUS Googlebook 14",
     "name": "ASUS Googlebook 14",
-    "url": "https://dl.google.com/device/recovery/lapis-user/16452207/recovery.zip",
+    "url": "https://dl.google.com/device/recovery/lapis-user/16658739/recovery.zip",
     "zipfilesize": 1,
     "buildexploreruri": "",
-    "buildidentifier": "16452207_CL3B.260622.271.R1",
+    "buildidentifier": "16658739_CL3B.260622.276.R4",
     "target": "lapis-user",
     "branch": "arsp-26Q3-desktop-release",
-    "dateupdated": "2026-10-05",
-    "previousVersionGeneration": 1788908184965351
+    "dateupdated": "2026-10-22",
+    "previousVersionGeneration": 1792703260605761
   },
   {
     "channel": "STABLE",
@@ -41,17 +41,17 @@
     "file": "recovery.zip",
     "filesize": 19069493760,
     "manufacturer": "Acer",
-    "md5": "e025f213660ddbafe0f1f33c5a2a34bc",
+    "md5": "c67e543ab8fc9fd58f98c5760b527616",
     "model": "Acer Googlebook 14",
     "name": "Acer Googlebook 14",
-    "url": "https://dl.google.com/device/recovery/moonstone-user/16452207/recovery.zip",
+    "url": "https://dl.google.com/device/recovery/moonstone-user/16658739/recovery.zip",
     "zipfilesize": 1,
     "buildexploreruri": "",
-    "buildidentifier": "16452207_CL3B.260622.271.R1",
+    "buildidentifier": "16658739_CL3B.260622.276.R4",
     "target": "moonstone-user",
     "branch": "arsp-26Q3-desktop-release",
-    "dateupdated": "2026-10-05",
-    "previousVersionGeneration": 1788908184965351
+    "dateupdated": "2026-10-22",
+    "previousVersionGeneration": 1792703260605761
   },
   {
     "channel": "STABLE",
@@ -77,16 +77,16 @@
     "file": "recovery.zip",
     "filesize": 19069493760,
     "manufacturer": "Lenovo",
-    "md5": "0567fe2ed0dd1c1753b383a6b3dbfe81",
+    "md5": "5553d230921a101317957cae8743f23d",
     "model": "Lenovo Googlebook 15",
     "name": "Lenovo Googlebook 15",
-    "url": "https://dl.google.com/device/recovery/ruby-user/16452207/recovery.zip",
+    "url": "https://dl.google.com/device/recovery/ruby-user/16658739/recovery.zip",
     "zipfilesize": 1,
     "buildexploreruri": "",
-    "buildidentifier": "16452207_CL3B.260622.271.R1",
+    "buildidentifier": "16658739_CL3B.260622.276.R4",
     "target": "ruby-user",
     "branch": "arsp-26Q3-desktop-release",
-    "dateupdated": "2026-10-05",
-    "previousVersionGeneration": 1788908184965351
+    "dateupdated": "2026-10-22",
+    "previousVersionGeneration": 1792703260605761
   }
 ]
