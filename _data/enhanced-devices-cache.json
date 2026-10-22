@@ -1,5 +1,5 @@
 {
-  "timestamp": 1792609675704,
+  "timestamp": 1792696152102,
   "data": {
     "asuka": {
       "android_app_support": true,
@@ -266,7 +266,7 @@
       "android_app_support": true,
       "android_version": "Android 13",
       "is_chromebook_plus_device": false,
-      "kernel_version": "5.10.259",
+      "kernel_version": "5.10.262",
       "eol_reached": false,
       "hardware_id": "KRANE-ZDKS NNNN",
       "architecture": null
