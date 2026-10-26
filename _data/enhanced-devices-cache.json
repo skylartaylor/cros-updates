@@ -1,5 +1,5 @@
 {
-  "timestamp": 1792956023284,
+  "timestamp": 1793042786478,
   "data": {
     "asuka": {
       "android_app_support": true,
@@ -311,7 +311,7 @@
       "android_app_support": true,
       "android_version": "Android 13",
       "is_chromebook_plus_device": false,
-      "kernel_version": "6.6.143",
+      "kernel_version": "6.6.147",
       "eol_reached": false,
       "hardware_id": "CRAASKBOWL-GSKTNNNN",
       "architecture": null
