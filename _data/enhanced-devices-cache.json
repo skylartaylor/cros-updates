@@ -1,5 +1,5 @@
 {
-  "timestamp": 1793129651286,
+  "timestamp": 1793216072559,
   "data": {
     "asuka": {
       "android_app_support": true,
@@ -266,9 +266,9 @@
       "android_app_support": true,
       "android_version": "Android 13",
       "is_chromebook_plus_device": false,
-      "kernel_version": "5.10.262",
+      "kernel_version": "5.10.259",
       "eol_reached": false,
-      "hardware_id": "KRANE-ZDKS NNNN",
+      "hardware_id": "KODAMANNNN",
       "architecture": null
     },
     "lars": {
@@ -286,7 +286,7 @@
       "is_chromebook_plus_device": false,
       "kernel_version": "5.4.302",
       "eol_reached": false,
-      "hardware_id": "PANTHEON C4NNNN",
+      "hardware_id": "EKKO NNNN",
       "architecture": null
     },
     "nautilus": {
@@ -295,7 +295,7 @@
       "is_chromebook_plus_device": false,
       "kernel_version": "6.6.119",
       "eol_reached": false,
-      "hardware_id": "NAUTILUS F9V-W4R-Y3NNNNN",
+      "hardware_id": "NAUTILUS L4D-K5U-M5CNNNN",
       "architecture": null
     },
     "nirva": {
@@ -358,7 +358,7 @@
       "is_chromebook_plus_device": false,
       "kernel_version": "5.10.237",
       "eol_reached": false,
-      "hardware_id": "LEONA NNNN",
+      "hardware_id": "SHYVANA >AX-zFz-Kc--F73",
       "architecture": null
     },
     "rauru": {
@@ -412,7 +412,7 @@
       "is_chromebook_plus_device": false,
       "kernel_version": "5.10.237",
       "eol_reached": false,
-      "hardware_id": "SARIEN-NNNN",
+      "hardware_id": "ARCADA-NNNN",
       "architecture": null
     },
     "scarlet": {
