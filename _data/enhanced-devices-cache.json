@@ -1,5 +1,5 @@
 {
-  "timestamp": 1793216072559,
+  "timestamp": 1793302482403,
   "data": {
     "asuka": {
       "android_app_support": true,
@@ -133,7 +133,7 @@
       "is_chromebook_plus_device": false,
       "kernel_version": "6.1.180",
       "eol_reached": false,
-      "hardware_id": "DRAWLAT-EKWLNNNN",
+      "hardware_id": "DRAWCIA-CFULNNNN",
       "architecture": null
     },
     "drallion": {
@@ -205,7 +205,7 @@
       "is_chromebook_plus_device": false,
       "kernel_version": "6.6.147",
       "eol_reached": false,
-      "hardware_id": "NIPPERKIN|NNNN",
+      "hardware_id": "NIPPERKIN-NNNN",
       "architecture": null
     },
     "hana": {
@@ -223,7 +223,7 @@
       "is_chromebook_plus_device": false,
       "kernel_version": "5.15.213",
       "eol_reached": false,
-      "hardware_id": "AKEMI NNNN",
+      "hardware_id": "KINDRED NNNN",
       "architecture": null
     },
     "jacuzzi": {
@@ -266,9 +266,9 @@
       "android_app_support": true,
       "android_version": "Android 13",
       "is_chromebook_plus_device": false,
-      "kernel_version": "5.10.259",
+      "kernel_version": "5.10.262",
       "eol_reached": false,
-      "hardware_id": "KODAMANNNN",
+      "hardware_id": "KRANE-ZDKS NNNN",
       "architecture": null
     },
     "lars": {
@@ -331,7 +331,7 @@
       "is_chromebook_plus_device": false,
       "kernel_version": "5.15.213",
       "eol_reached": false,
-      "hardware_id": "GARG360 oSC-op0-Hmb-CRV-NNNN",
+      "hardware_id": "PHASER NNNN",
       "architecture": null
     },
     "puff": {
@@ -385,7 +385,7 @@
       "is_chromebook_plus_device": false,
       "kernel_version": "6.6.147",
       "eol_reached": false,
-      "hardware_id": "SCREEBO-DNHE ENNNN",
+      "hardware_id": "SCREEBO-DNHE +NNNN",
       "architecture": null
     },
     "rikku": {
@@ -439,7 +439,7 @@
       "is_chromebook_plus_device": false,
       "kernel_version": "6.6.147",
       "eol_reached": false,
-      "hardware_id": "FROSTFLOW-INHJNNNN",
+      "hardware_id": "WHITERUN-WPKTNNNN",
       "architecture": null
     },
     "skywalker": {
@@ -511,7 +511,7 @@
       "is_chromebook_plus_device": false,
       "kernel_version": "6.12.100",
       "eol_reached": false,
-      "hardware_id": "DELBIN-XHVINNNN",
+      "hardware_id": "VOXEL-GFMQNNNN",
       "architecture": null
     },
     "zork": {
