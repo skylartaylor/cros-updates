@@ -1,5 +1,5 @@
 {
-  "timestamp": 1793999153307,
+  "timestamp": 1794086276043,
   "data": {
     "asuka": {
       "android_app_support": true,
@@ -142,7 +142,7 @@
       "is_chromebook_plus_device": false,
       "kernel_version": "5.15.213",
       "eol_reached": false,
-      "hardware_id": "DRALLION360-NNNN",
+      "hardware_id": "DRALLION-NNNN",
       "architecture": null
     },
     "elm": {
@@ -178,7 +178,7 @@
       "is_chromebook_plus_device": false,
       "kernel_version": "6.1.180",
       "eol_reached": false,
-      "hardware_id": "CIRI-LDPJNNNN",
+      "hardware_id": "CIRI-RKMZNNNN",
       "architecture": null
     },
     "grunt": {
