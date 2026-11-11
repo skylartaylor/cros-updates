@@ -52,10 +52,10 @@
 			<a href="/"><h1>Chrome OS Updates</h1></a>
 			<nav id="header-nav">
 				<div class="header-nav-links" id="header-nav-links">
-					<a href="/versions">Versions</a>
-					<a href="/table">All Devices</a>
-					<a href="/googlebooks/"{% if googlebookPage %} aria-current="{{ 'page' if page.url == '/googlebooks/' else 'true' }}"{% endif %}>Googlebook</a>
-					<a href="/flex">Flex</a>
+					<a href="/versions/"{% if page.url == '/versions/' %} aria-current="page"{% endif %}>Versions</a>
+					<a href="/table/"{% if page.url == '/table/' %} aria-current="page"{% endif %}>All Devices</a>
+					<a href="/googlebooks/"{% if googlebookPage %} aria-current="{{ 'page' if page.url == '/googlebooks/' else 'true' }}"{% endif %}>Googlebooks</a>
+					<a href="/flex/"{% if page.url == '/flex/' %} aria-current="page"{% endif %}>Flex</a>
 					<button class="header-search-toggle" id="header-search-toggle" aria-label="Search">
 						<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
 							<circle cx="11" cy="11" r="8"></circle>
@@ -83,7 +83,9 @@
 		</main>
 
 		<footer>
-			<p>Made with <span>♥</span> by <a href="https://skylar.cc">Skylar</a> using <a href="https://www.11ty.dev">11ty</a>. Data courtesy of <a href="https://chromiumdash.appspot.com/serving-builds?deviceCategory=Chrome%20OS">Google</a>, no affiliation. <a href="https://github.com/skylartaylor/cros-updates"><span>Source on </span>Github</a>.</p>
+			<p>Made with <span>♥</span> by <a href="https://skylar.cc">Skylar</a>. <a href="https://github.com/sponsors/skylartaylor"><span>Help </span>support me!</a></p>
+			<p>Made with <a href="https://www.11ty.dev">11ty</a>. <a href="https://github.com/skylartaylor/cros-updates"><span>Source on </span>GitHub</a>.</p>
+			<p>Data courtesy of <a href="https://chromiumdash.appspot.com/serving-builds?deviceCategory=Chrome%20OS">Google</a>, no affiliation.</p>
 		</footer>
 
 		<!-- Header Search Initialization -->

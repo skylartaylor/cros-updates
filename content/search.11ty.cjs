@@ -1,16 +1,19 @@
 module.exports = {
   data: {
     layout: "base.njk",
+    title: "Search - Chrome OS Updates",
     permalink: "/search/index.html",
   },
 
   render(data) {
     return `
-      <section class="search-page">
-        <h1>Search</h1>
-        <div class="search-container">
-          <input id="search-input" type="text" placeholder="Search Devices..." aria-label="Search" />
-          <div id="search-results" aria-live="polite"></div>
+      <section class="homePage">
+        <div class="homePageContent">
+          <h2>Search</h2>
+          <div class="search-container">
+            <input id="search-input" type="text" autocomplete="off" placeholder="Search by Device, Board, Codename, or Brand..." aria-label="Search" />
+            <div id="search-results" aria-live="polite"></div>
+          </div>
         </div>
         <script>
           document.addEventListener("DOMContentLoaded", () => {

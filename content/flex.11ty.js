@@ -123,22 +123,22 @@ export function render(data) {
                     <div class="versionCard stable">
                         <h1>Stable</h1>
                         <h2>${formatVersion(revenData.servingStable?.chromeVersion) || "Unavailable"}</h2>
-                        <h3><span>Platform:</span>${revenData.servingStable?.version || "Unavailable"}</h3>
+                        <h3><span>Platform:</span> ${revenData.servingStable?.version || "Unavailable"}</h3>
                     </div>
                     <div class="versionCard beta">
                         <h1>Beta</h1>
                         <h2>${formatVersion(revenData.servingBeta?.chromeVersion) || "Unavailable"}</h2>
-                        <h3><span>Platform:</span>${revenData.servingBeta?.version || "Unavailable"}</h3>
+                        <h3><span>Platform:</span> ${revenData.servingBeta?.version || "Unavailable"}</h3>
                     </div>
                     <div class="versionCard dev">
                         <h1>Dev</h1>
                         <h2>${formatVersion(revenData.servingDev?.chromeVersion) || "Unavailable"}</h2>
-                        <h3><span>Platform:</span>${revenData.servingDev?.version || "Unavailable"}</h3>
+                        <h3><span>Platform:</span> ${revenData.servingDev?.version || "Unavailable"}</h3>
                     </div>
                     <div class="versionCard canary">
                         <h1>Canary</h1>
                         <h2>${formatVersion(revenData.servingCanary?.chromeVersion) || "Unavailable"}</h2>
-                        <h3><span>Platform:</span>${revenData.servingCanary?.version || "Unavailable"}</h3>
+                        <h3><span>Platform:</span> ${revenData.servingCanary?.version || "Unavailable"}</h3>
                     </div>
                 </div>
             </div>

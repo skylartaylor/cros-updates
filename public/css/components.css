@@ -29,7 +29,7 @@
 }
 .mainBoard.capability-eol {
     background-color: #ffa726;
-    color: var(--color-heading-text);
+    color: var(--color-onyx);
 }
 
 /* VERSION DISPLAY */
@@ -229,10 +229,18 @@
     &.is-aue {
         background: var(--color-background-contrast);
         .pinned-device-header h3 a {
-            color: var(--color-text);
+            color: var(--color-heading-text);
             &:hover {
                 color: var(--color-teal);
             }
+        }
+        .version-row {
+            background: rgba(0, 0, 0, 0.3);
+            padding: var(--spacing-1) var(--spacing-2);
+            border-radius: 0.25em;
+        }
+        .version-number {
+            color: var(--color-heading-text);
         }
     }
 }
@@ -376,6 +384,10 @@ header.main {
     display: flex;
     gap: var(--spacing-6);
     align-items: center;
+    a[aria-current] {
+        text-decoration: underline;
+        text-underline-offset: 5px;
+    }
 }
 
 .header-search-toggle {
@@ -520,10 +532,8 @@ header.main {
 
 /* FOOTER STYLES */
 footer {
-    background: var(--color-card);
     margin: var(--spacing-6) var(--spacing-10);
-    border-radius: 0.5em;
-    padding: var(--spacing-4) var(--spacing-4);
+    padding: var(--spacing-4);
     color: var(--color-text);
     font-family: var(--font-family);
     letter-spacing: 0.025em;
@@ -531,6 +541,10 @@ footer {
     p {
         font-size: var(--fontSize-1);
         text-align: center;
+        margin: 0;
+    }
+    p + p {
+        margin-top: var(--spacing-1);
     }
     span {
         color: var(--color-accent);
@@ -717,6 +731,8 @@ Section.boardPage {
                 text-transform: none;
             }
             a {
+                color: var(--color-heading-text);
+                text-decoration: underline;
                 margin-left: var(--spacing-1);
                 transition: ease-in-out 0.25s color;
                 &:hover {
@@ -1183,6 +1199,7 @@ main .tableHeaderContainer {
 #search-input {
     width: 100%;
     padding: 12px 16px;
+    font-family: var(--font-family);
     font-size: 16px;
     border: 2px solid hsl(from var(--color-accent) h s l / 0.3);
     border-radius: 8px;
@@ -1419,6 +1436,7 @@ header.versions {
     transition: background 0.2s ease-in-out, color 0.2s ease-in-out;
     border-radius: 5px;
     text-align: center;
+    font-family: var(--font-family);
     font-size: var(--fontSize-2);
     padding: var(--spacing-2) var(--spacing-4);
     font-weight: 400;
@@ -1598,11 +1616,14 @@ details.recoveryDropdown[open] .dropdownContent { display: block; }
     color: var(--color-heading-text);
 }
 .recovery-link {
-    padding: var(--spacing-2) var(--spacing-6) !important;
+    padding: var(--spacing-2) var(--spacing-6);
     font-size: var(--fontSize-1);
     text-transform: none;
     font-weight: 400;
     &:hover { background-color: rgba(249, 115, 22, 0.1); }
+}
+.dropdownContent a.recovery-link {
+    padding: var(--spacing-2) var(--spacing-6);
 }
 .no-recoveries-message {
     padding: var(--spacing-4);
@@ -1714,7 +1735,7 @@ details.recoveryDropdown[open] .dropdownContent { display: block; }
         font-size: 1.5em;
         font-weight: 600;
         letter-spacing: 0.025em;
-        color: var(--color-text);
+        color: var(--color-heading-text);
     }
 }
 .modal-close {
@@ -1898,8 +1919,6 @@ details.recoveryDropdown[open] .dropdownContent { display: block; }
 
 /* CHROME OS FLEX PAGE */
 .flexPage {
-    margin: 0 auto;
-    padding: var(--spacing-4);
     .deviceInfo h1 {
         margin-top: 0;
         margin-bottom: 0;
@@ -1934,7 +1953,7 @@ details.recoveryDropdown[open] .dropdownContent { display: block; }
         margin: var(--spacing-1) 0;
         background: var(--color-button);
         border-radius: 4px;
-        color: var(--color-text);
+        color: var(--color-button-text);
         text-decoration: none;
         transition: all 0.2s ease;
         &:hover {
@@ -2131,7 +2150,7 @@ details.recoveryDropdown[open] .dropdownContent { display: block; }
         padding: var(--spacing-2) var(--spacing-6);
     }
     .devicePage header {
-        padding: var(--spacing-4) 0;
+        padding: var(--spacing-4) var(--spacing-6);
         h1 { font-size: var(--fontSize-4); }
         h2 { font-size: var(--fontSize-3); }
     }
@@ -2151,7 +2170,7 @@ details.recoveryDropdown[open] .dropdownContent { display: block; }
     .versionCardContainer {
         grid-template-columns: repeat(2, 1fr);
         gap: var(--spacing-4);
-        margin: var(--spacing-4) 0;
+        margin: var(--spacing-4);
     }
     .versionCard {
         margin: 0;
@@ -2173,6 +2192,20 @@ details.recoveryDropdown[open] .dropdownContent { display: block; }
     /* Tablet: 2 columns for board devices grid */
     .board-devices-grid {
         grid-template-columns: repeat(2, 1fr);
+    }
+    .pinned-devices {
+        margin: var(--spacing-4) var(--spacing-6);
+    }
+    .versions-container {
+        margin: var(--spacing-6);
+    }
+    main .tableHeaderContainer {
+        margin-left: var(--spacing-6);
+        margin-right: var(--spacing-6);
+    }
+    .tablePageWrapper {
+        margin-left: var(--spacing-6);
+        margin-right: var(--spacing-6);
     }
 }
 @media screen and (min-width: 60em) {
@@ -2239,6 +2272,14 @@ details.recoveryDropdown[open] .dropdownContent { display: block; }
         a h1 { font-size: var(--fontSize-4); }
         nav { margin: var(--spacing-2) 0 0 0; }
     }
+    .header-nav-links {
+        gap: 12px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    header.main nav a {
+        font-size: var(--fontSize-1);
+    }
     main { padding: 0; }
     footer { margin: var(--spacing-4); }
     section.homePage {
@@ -2265,7 +2306,6 @@ details.recoveryDropdown[open] .dropdownContent { display: block; }
             align-self: center;
             text-align: center;
         }
-        .recoveryLink { display: none; }
         .recoveryDropdown {
             display: flex;
             justify-content: center;
@@ -2331,11 +2371,26 @@ details.recoveryDropdown[open] .dropdownContent { display: block; }
             span {
                 font-size: 0.7em;
                 display: inline-block;
+                margin-right: var(--spacing-1);
             }
         }
     }
     section.boardPage { padding: var(--spacing-2) 0; }
-    .boardPage header .recoveryLink { display: none; }
+    .boardPage header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: var(--spacing-4);
+    }
+    .boardPage .boardInfo {
+        align-items: center;
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .boardPage .recoveryDropdown {
+        display: flex;
+        justify-content: center;
+    }
     .boardPage .deviceInfo {
         h1 { font-size: var(--fontSize-4); }
         h3 { font-size: var(--fontSize-2); }
@@ -2383,7 +2438,7 @@ details.recoveryDropdown[open] .dropdownContent { display: block; }
         span { display: block; }
     }
     .tablePage {
-        margin: var(--spacing-4);
+        margin: 0;
         padding: var(--spacing-2) var(--spacing-4);
     }
     .pinned-devices { margin: var(--spacing-4); }

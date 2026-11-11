@@ -117,7 +117,6 @@
 
 /* Shared site chrome */
 .result-tag-googlebook { background: #111 !important; }
-.header-nav-links a[aria-current] { text-decoration: underline; text-underline-offset: 5px; }
 
 /* Pinned card on the homepage */
 .gb-pinned-card { display: flex; flex-direction: column; }
@@ -139,8 +138,6 @@
   .gb-list-labels, .gb-device-row { padding-left: var(--spacing-5); padding-right: var(--spacing-5); }
 }
 @media (max-width: 600px) {
-  .header-nav-links { gap: 12px; flex-wrap: wrap; justify-content: center; }
-  header.main nav a { font-size: 12px; }
   .gb-page { padding: var(--spacing-4); }
   .gb-hero, .gb-device-hero { padding: var(--spacing-6); }
   .gb-hero h1, .gb-device-hero h1 { font-size: var(--fontSize-4); }

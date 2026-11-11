@@ -7,7 +7,7 @@
 
 /*custom spacing and typography*/
 :root {
-  --maxWidth-none: "none";
+  --maxWidth-none: none;
   --maxWidth-xs: 20rem;
   --maxWidth-sm: 24rem;
   --maxWidth-md: 28rem;
@@ -16,9 +16,9 @@
   --maxWidth-2xl: 42rem;
   --maxWidth-3xl: 48rem;
   --maxWidth-4xl: 56rem;
-  --maxWidth-full: "100%";
+  --maxWidth-full: 100%;
   --maxWidth-wrapper: var(--maxWidth-3xl);
-  --spacing-px: "1px";
+  --spacing-px: 1px;
   --spacing-0: 0;
   --spacing-1: 0.25rem;
   --spacing-2: 0.5rem;
@@ -44,7 +44,7 @@
     "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono",
     "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L",
     "Courier New", Courier, monospace;
-  --font-body: var(--fontFamily-serif);
+  --font-body: var(--fontFamily-sans);
   --font-heading: var(--fontFamily-sans);
   --font-ui: var(--fontFamily-sans);
   --font-mono: var(--fontFamily-monospace);

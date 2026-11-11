@@ -175,11 +175,11 @@ module.exports = class Versions {
                         ${generateSidebar()}
                     </div>
                 </aside>
-                <main class="version-content">
+                <div class="version-content">
                     <div id="device-list">
                         ${generateDeviceLists()}
                     </div>
-                </main>
+                </div>
             </div>
 
             <script>

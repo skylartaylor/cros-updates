@@ -29,7 +29,7 @@ module.exports = {
       <section class="homePage">
         <div class="homePageContent">
           <h2>Find Your Device</h2>
-          <p>ChromeOS updates and Googlebook recovery images</p>
+          <p>Chrome OS updates and Googlebook recovery images</p>
           <div class="search-container">
             <input id="search-input" type="text" autocomplete="off" placeholder="Search by Device, Board, Codename, or Brand..." aria-label="Search" />
             <div id="search-results" aria-live="polite"></div>

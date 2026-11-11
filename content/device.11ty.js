@@ -154,7 +154,7 @@ ${hasAnyRecoveries
                       // Fallback to original pushRecoveries format
                       return Object.entries(deviceData.pushRecoveries || {})
                         .sort((a, b) => Number(b[0]) - Number(a[0]))
-                        .map(([version, url]) => `<a href="${url}">Chrome OS ${version}</a>`)
+                        .map(([version, url]) => `<a href="${url}" class="recovery-link stable">Chrome OS ${version}</a>`)
                         .join("");
                     }
                     
@@ -194,22 +194,22 @@ ${hasAnyRecoveries
                     <div class="versionCard stable">
                         <h1>Stable</h1>
                         <h2>${formatVersion(deviceData.servingStable?.chromeVersion) || "Unavailable"}</h2>
-                        <h3><span>Platform:</span>${deviceData.servingStable?.version || "Unavailable"}</h3>
+                        <h3><span>Platform:</span> ${deviceData.servingStable?.version || "Unavailable"}</h3>
                     </div>
                     <div class="versionCard beta">
                         <h1>Beta</h1>
                         <h2>${formatVersion(deviceData.servingBeta?.chromeVersion) || "Unavailable"}</h2>
-                        <h3><span>Platform:</span>${deviceData.servingBeta?.version || "Unavailable"}</h3>
+                        <h3><span>Platform:</span> ${deviceData.servingBeta?.version || "Unavailable"}</h3>
                     </div>
                     <div class="versionCard dev">
                         <h1>Dev</h1>
                         <h2>${formatVersion(deviceData.servingDev?.chromeVersion) || "Unavailable"}</h2>
-                        <h3><span>Platform:</span>${deviceData.servingDev?.version || "Unavailable"}</h3>
+                        <h3><span>Platform:</span> ${deviceData.servingDev?.version || "Unavailable"}</h3>
                     </div>
                     <div class="versionCard canary">
                         <h1>Canary</h1>
                         <h2>${formatVersion(deviceData.servingCanary?.chromeVersion) || "Unavailable"}</h2>
-                        <h3><span>Platform:</span>${deviceData.servingCanary?.version || "Unavailable"}</h3>
+                        <h3><span>Platform:</span> ${deviceData.servingCanary?.version || "Unavailable"}</h3>
                     </div>
                 </div>
             </div>

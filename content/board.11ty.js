@@ -120,7 +120,7 @@ export function render(data) {
                       // Fallback to original pushRecoveries format
                       return Object.entries(firstDevice.pushRecoveries || {})
                         .sort((a, b) => Number(b[0]) - Number(a[0]))
-                        .map(([version, url]) => `<a href="${url}">Chrome OS ${version}</a>`)
+                        .map(([version, url]) => `<a href="${url}" class="recovery-link stable">Chrome OS ${version}</a>`)
                         .join("");
                     }
 
