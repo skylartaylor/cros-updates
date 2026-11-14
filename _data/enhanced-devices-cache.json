@@ -1,5 +1,5 @@
 {
-  "timestamp": 1794608297261,
+  "timestamp": 1794695601646,
   "data": {
     "asuka": {
       "android_app_support": true,
@@ -124,7 +124,7 @@
       "is_chromebook_plus_device": false,
       "kernel_version": "5.15.213",
       "eol_reached": false,
-      "hardware_id": "TENTACRUEL-VAFHNNNN",
+      "hardware_id": "TENTACOOL-ZLJENNNN",
       "architecture": null
     },
     "dedede": {
@@ -133,7 +133,7 @@
       "is_chromebook_plus_device": false,
       "kernel_version": "6.1.180",
       "eol_reached": false,
-      "hardware_id": "DRAWMAN-RHDNNNNN",
+      "hardware_id": "DRAWCIA-CFULNNNN",
       "architecture": null
     },
     "drallion": {
@@ -178,7 +178,7 @@
       "is_chromebook_plus_device": false,
       "kernel_version": "6.1.180",
       "eol_reached": false,
-      "hardware_id": "CIRI-RKMZNNNN",
+      "hardware_id": "CIRI-LDPJNNNN",
       "architecture": null
     },
     "grunt": {
@@ -205,7 +205,7 @@
       "is_chromebook_plus_device": false,
       "kernel_version": "6.6.147",
       "eol_reached": false,
-      "hardware_id": "NIPPERKIN-NNNN",
+      "hardware_id": "NIPPERKIN NNNN",
       "architecture": null
     },
     "hana": {
@@ -223,7 +223,7 @@
       "is_chromebook_plus_device": false,
       "kernel_version": "5.15.213",
       "eol_reached": false,
-      "hardware_id": "KINDRED NNNN",
+      "hardware_id": "HELIOS-NNNN",
       "architecture": null
     },
     "jacuzzi": {
@@ -286,7 +286,7 @@
       "is_chromebook_plus_device": false,
       "kernel_version": "5.4.302",
       "eol_reached": false,
-      "hardware_id": "EKKO NNNN",
+      "hardware_id": "PANTHEON BLNNNN",
       "architecture": null
     },
     "nautilus": {
@@ -295,7 +295,7 @@
       "is_chromebook_plus_device": false,
       "kernel_version": "6.6.119",
       "eol_reached": false,
-      "hardware_id": "NAUTILUS L4D-K5U-M5CNNNN",
+      "hardware_id": "NAUTILUS A3D-S9N-Z8KNNNN",
       "architecture": null
     },
     "nirva": {
@@ -331,7 +331,7 @@
       "is_chromebook_plus_device": false,
       "kernel_version": "5.15.213",
       "eol_reached": false,
-      "hardware_id": "SPARKY360 NNNN",
+      "hardware_id": "DROID NNNN",
       "architecture": null
     },
     "puff": {
@@ -340,7 +340,7 @@
       "is_chromebook_plus_device": false,
       "kernel_version": "5.15.213",
       "eol_reached": false,
-      "hardware_id": "KAISANNNN",
+      "hardware_id": "DUFFY-NNNN",
       "architecture": null
     },
     "pyro": {
@@ -358,7 +358,7 @@
       "is_chromebook_plus_device": false,
       "kernel_version": "5.10.237",
       "eol_reached": false,
-      "hardware_id": "SHYVANA >AX-zFz-Kc--F73",
+      "hardware_id": "SHYVANA \u000bO -WbB-N,w-K)7",
       "architecture": null
     },
     "rauru": {
@@ -385,7 +385,7 @@
       "is_chromebook_plus_device": false,
       "kernel_version": "6.6.147",
       "eol_reached": false,
-      "hardware_id": "SCREEBO-DNHE cNNNN",
+      "hardware_id": "SCREEBO-DNHE tNNNN",
       "architecture": null
     },
     "rikku": {
@@ -439,7 +439,7 @@
       "is_chromebook_plus_device": false,
       "kernel_version": "6.6.147",
       "eol_reached": false,
-      "hardware_id": "WHITERUN-WPKTNNNN",
+      "hardware_id": "FROSTFLOW-INHJNNNN",
       "architecture": null
     },
     "skywalker": {
@@ -511,7 +511,7 @@
       "is_chromebook_plus_device": false,
       "kernel_version": "6.12.100",
       "eol_reached": false,
-      "hardware_id": "DELBIN-XHVINNNN",
+      "hardware_id": "VOXEL-GFMQNNNN",
       "architecture": null
     },
     "zork": {
@@ -520,7 +520,7 @@
       "is_chromebook_plus_device": false,
       "kernel_version": "6.6.147",
       "eol_reached": false,
-      "hardware_id": "MORPHIUS|NNNN",
+      "hardware_id": "MORPHIUS NNNN",
       "architecture": null
     }
   }
