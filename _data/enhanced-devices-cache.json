@@ -1,5 +1,5 @@
 {
-  "timestamp": 1795043199983,
+  "timestamp": 1795130305537,
   "data": {
     "asuka": {
       "android_app_support": true,
@@ -124,7 +124,7 @@
       "is_chromebook_plus_device": false,
       "kernel_version": "5.15.213",
       "eol_reached": false,
-      "hardware_id": "TENTACOOL-ZLJENNNN",
+      "hardware_id": "TENTACRUEL-VAFHNNNN",
       "architecture": null
     },
     "dedede": {
@@ -142,7 +142,7 @@
       "is_chromebook_plus_device": false,
       "kernel_version": "5.15.213",
       "eol_reached": false,
-      "hardware_id": "DRALLION-NNNN",
+      "hardware_id": "DRALLION360-NNNN",
       "architecture": null
     },
     "elm": {
@@ -178,7 +178,7 @@
       "is_chromebook_plus_device": false,
       "kernel_version": "6.1.180",
       "eol_reached": false,
-      "hardware_id": "CIRI-LDPJNNNN",
+      "hardware_id": "CIRI-RKMZNNNN",
       "architecture": null
     },
     "grunt": {
@@ -205,7 +205,7 @@
       "is_chromebook_plus_device": false,
       "kernel_version": "6.6.147",
       "eol_reached": false,
-      "hardware_id": "NIPPERKIN NNNN",
+      "hardware_id": "NIPPERKIN|NNNN",
       "architecture": null
     },
     "hana": {
